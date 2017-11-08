@@ -1,0 +1,123 @@
+	Scrooge Coin Instance 1490379604751 
+
+Config Values:
+	 ubiers = users
+	 timer = 15s
+	 verbose = false
+	 newtxs = blocks/newtxs
+	 rejects = blocks/rejects
+	 ledge = blocks/ledger
+	 utxos = blocks/utxos
+	 pubkey = keys/public.key
+	 ubi = 100
+	 who = conf/paycoins.conf
+	 pubhash = QSoT0u9VlnrL4wq2pppy+jB4lEbYJ7xeWnE1VKzgVic=
+	 pubder = MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCrtJSkjl+P06RUIACreJe7RTL5kBKUbYR+KNrvCbmjyKhvHbSWtLNAqrIHKyrcL0reeXfFS6IzFSxHsbr00b1t315IFxVuVADfnavZicTezMFyEapCDPDvJLxXeSPoXJ6hyxOB8SgeJ9Ted3HhNss4iUjs1pC1W85KKPuePFK4owIDAQAB
+	 privkey = keys/private.key
+
+Load Ledger:
+Txs in Ledger after Load:  3
+
+Register UBI Recipients:
+	 wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+	 XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+	 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+	 /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+	 tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+	 vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+	 uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+	 jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+
+CoinBase has 1 coins.
+[ OwnerOut
+Id/Seq: 1490379360804/8 Denom: 999200 OwnerOut: QSoT0u9VlnrL4wq2pppy+jB4lEbYJ7xeWnE1VKzgVic=
+ ]
+Distribute UBI Payments of 100 per recipient to 8 recipients.
+PayCoins
+    Tid: 1490379604753
+    Ttyp: PayCoins
+
+[ OwnerIn 
+Id/Seq: 1490379360804/8 Denom: 999200 OwnerIn : QSoT0u9VlnrL4wq2pppy+jB4lEbYJ7xeWnE1VKzgVic=
+ ]
+
+[ OwnerOut 
+Id/Seq: 1490379604753/0 Denom: 100 OwnerOut : wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+Id/Seq: 1490379604753/1 Denom: 100 OwnerOut : XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+Id/Seq: 1490379604753/2 Denom: 100 OwnerOut : 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+Id/Seq: 1490379604753/3 Denom: 100 OwnerOut : /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+Id/Seq: 1490379604753/4 Denom: 100 OwnerOut : tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+Id/Seq: 1490379604753/5 Denom: 100 OwnerOut : vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+Id/Seq: 1490379604753/6 Denom: 100 OwnerOut : uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+Id/Seq: 1490379604753/7 Denom: 100 OwnerOut : jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+Id/Seq: 1490379604753/8 Denom: 998400 OwnerOut : QSoT0u9VlnrL4wq2pppy+jB4lEbYJ7xeWnE1VKzgVic=
+ ]
+    Tsig:  Z0vumpBv1VI4QAueyHp4vpiIiCWy48llAunt8jnapQMY3EFAyoF3FYSTWCora/zaEFpIueoLCzgDFx2C014DkSaVpLmfMx1yu4x0YxPIAMzVyMI0pvs7TmhLeLqdr/OdA2PTorSyLiEBrFrqZECtSo9hpCbMVUIfR+QtZNHz1GY=
+Adding 1 new transactions to ledger (3)
+Txs in Ledger after UBI:  4
+Store the UTXOS.
+Store the Blockchain.
+4 transactions stored.
+
+Load Blockchain:
+Txs in Ledger after Load:  4
+No New Transactions.
+Store the Blockchain.
+Store the Rejects.
+Store the UTXOS.
+4 transactions stored.
+0 transactions rejected.
+
+Load Blockchain:
+Txs in Ledger after Load:  4
+No New Transactions.
+Store the Blockchain.
+Store the Rejects.
+Store the UTXOS.
+4 transactions stored.
+0 transactions rejected.
+
+Load Blockchain:
+Txs in Ledger after Load:  4
+No New Transactions.
+Store the Blockchain.
+Store the Rejects.
+Store the UTXOS.
+4 transactions stored.
+0 transactions rejected.
+
+Load Blockchain:
+Txs in Ledger after Load:  4
+No New Transactions.
+Store the Blockchain.
+Store the Rejects.
+Store the UTXOS.
+4 transactions stored.
+0 transactions rejected.
+
+Load Blockchain:
+Txs in Ledger after Load:  4
+No New Transactions.
+Store the Blockchain.
+Store the Rejects.
+Store the UTXOS.
+4 transactions stored.
+0 transactions rejected.
+
+Load Blockchain:
+Txs in Ledger after Load:  4
+No New Transactions.
+Store the Blockchain.
+Store the Rejects.
+Store the UTXOS.
+4 transactions stored.
+0 transactions rejected.
+
+Load Blockchain:
+Txs in Ledger after Load:  4
+No New Transactions.
+Store the Blockchain.
+Store the Rejects.
+Store the UTXOS.
+4 transactions stored.
+0 transactions rejected.

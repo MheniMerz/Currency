@@ -1,0 +1,2788 @@
+	Scrooge Coin Instance 1494626769148 
+
+Config Values:
+	 ubiers = users
+	 newtxs = blocks/newtxs
+	 pubkey = keys/public.key
+	 utxos = blocks/utxos
+	 pubder = MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCrtJSkjl+P06RUIACreJe7RTL5kBKUbYR+KNrvCbmjyKhvHbSWtLNAqrIHKyrcL0reeXfFS6IzFSxHsbr00b1t315IFxVuVADfnavZicTezMFyEapCDPDvJLxXeSPoXJ6hyxOB8SgeJ9Ted3HhNss4iUjs1pC1W85KKPuePFK4owIDAQAB
+	 ubi = 100
+	 rejects = blocks/rejects
+	 verbose = false
+	 privkey = keys/private.key
+	 pubhash = QSoT0u9VlnrL4wq2pppy+jB4lEbYJ7xeWnE1VKzgVic=
+	 timer = 30s
+	 ledge = blocks/ledger
+	 who = conf/paycoins.conf
+
+Load Ledger:
+Txs in Ledger after Load:  4
+
+Register UBI Recipients:
+	 wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+	 XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+	 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+	 /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+	 tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+	 vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+	 uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+	 jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+
+CoinBase has 1 coins.
+[    OwnerOut: Id/Seq: 1494626645653/8 Denom: 998400: QSoT0u9VlnrL4wq2pppy+jB4lEbYJ7xeWnE1VKzgVic=
+OwnerOut Total: 998400
+Distribute UBI Payments of 100 per recipient to 8 recipients.
+PayCoins: 1494626769150: PayCoins
+[    OwnerIn : Id/Seq: 1494626645653/8 Denom: 998400: QSoT0u9VlnrL4wq2pppy+jB4lEbYJ7xeWnE1VKzgVic=
+OwnerIn  Total: 998400
+[    OwnerOut : Id/Seq: 1494626769150/0 Denom: 100: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+   OwnerOut : Id/Seq: 1494626769150/1 Denom: 100: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+   OwnerOut : Id/Seq: 1494626769150/2 Denom: 100: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+   OwnerOut : Id/Seq: 1494626769150/3 Denom: 100: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   OwnerOut : Id/Seq: 1494626769150/4 Denom: 100: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+   OwnerOut : Id/Seq: 1494626769150/5 Denom: 100: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerOut : Id/Seq: 1494626769150/6 Denom: 100: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerOut : Id/Seq: 1494626769150/7 Denom: 100: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+   OwnerOut : Id/Seq: 1494626769150/8 Denom: 997600: QSoT0u9VlnrL4wq2pppy+jB4lEbYJ7xeWnE1VKzgVic=
+OwnerOut  Total: 998400
+Tsig[:20]:  FUgad+Kb6k9AOtgrLlqc
+Adding 1 new transactions to ledger (4)
+Txs in Ledger after UBI:  5
+Store the UTXOS.
+Store the Blockchain.
+5 transactions stored.
+
+Load Blockchain:
+Txs in Ledger after Load:  5
+16 New Transactions in.
+
+NEW TRANSACTION:: 1494626720863: PayCoins
+[    OwnerIn : Id/Seq: 1494626645488/7 Denom: 100: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+OwnerIn  Total: 100
+[    OwnerOut : Id/Seq: 1494626720863/0 Denom: 93: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+   OwnerOut : Id/Seq: 1494626720863/1 Denom: 7: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+OwnerOut  Total: 100
+Tsig[:20]:  N0Czvt4VEdw8IYTWq/B0
+[    SUSPECTINPUTS: Id/Seq: 1494626645488/7 Denom: 100: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCllyPLTZap6VSUG+CRLRvJGY/D06JtbiLGvnS5Z4V7iDHNFw7x2mZbW2igLWqJzIZmAZz8U6U62IZxAcZCEviqKbkpol+U5aUllGIBVrh6GJXJcItXp4CzejOeAUFSr1FWy1hJlXLlIeLsi41VkYFbL/bxCfViZEjq2rqxEE4jowIDAQAB
+SUSPECTINPUTS Total: 100
+1494626720863: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494626721375: PayCoins
+[    OwnerIn : Id/Seq: 1494626645488/6 Denom: 100: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerIn : Id/Seq: 1494626645653/1 Denom: 100: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerIn  Total: 200
+[    OwnerOut : Id/Seq: 1494626721375/0 Denom: 148: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+   OwnerOut : Id/Seq: 1494626721375/1 Denom: 52: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerOut  Total: 200
+Tsig[:20]:  mZTWkYWUhV+RrWyx2BjA
+[    SUSPECTINPUTS: Id/Seq: 1494626645488/6 Denom: 100: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCh3ulGlfT6DhY7xB7pRaSeDZErGwRXui31TE7cm6zLG8EzQmgDcu6RuA9/XuL412f7+ST0nA1W5GrFWkM8qpDeBneu/wiOqbdNTd6SUi1uNL+jwjCBLHMVpjD6fkWzACyjjo/5irxIYz3q9kP8K8upjwh/WUkM5KPE0GyR+HT9dQIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494626645653/1 Denom: 100: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCh3ulGlfT6DhY7xB7pRaSeDZErGwRXui31TE7cm6zLG8EzQmgDcu6RuA9/XuL412f7+ST0nA1W5GrFWkM8qpDeBneu/wiOqbdNTd6SUi1uNL+jwjCBLHMVpjD6fkWzACyjjo/5irxIYz3q9kP8K8upjwh/WUkM5KPE0GyR+HT9dQIDAQAB
+SUSPECTINPUTS Total: 200
+1494626721375: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494626722065: PayCoins
+[    OwnerIn : Id/Seq: 1494626645488/2 Denom: 100: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+OwnerIn  Total: 100
+[    OwnerOut : Id/Seq: 1494626722065/0 Denom: 1: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   OwnerOut : Id/Seq: 1494626722065/1 Denom: 99: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+OwnerOut  Total: 100
+Tsig[:20]:  Gitqw7WLEx9rvP5zK5rh
+[    SUSPECTINPUTS: Id/Seq: 1494626645488/2 Denom: 100: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDknJU8f+BCmb9RvZK/ChvFqw4RDtLtUFdyu7FfF/33clJ8liWUNSwQp/D+xfGVYh+7/Q+pmscCcTPWrGS4s6ChVusiYt0BTyCNi48ypEqqissHjgCRNkXHcFhfSsD9kvj7HEa4iZSzNRVmjxhs8Rd/PLWkCkAPW0KW1p9rjOFgDwIDAQAB
+SUSPECTINPUTS Total: 100
+1494626722065: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494626722634: PayCoins
+[    OwnerIn : Id/Seq: 1494626645488/0 Denom: 100: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+OwnerIn  Total: 100
+[    OwnerOut : Id/Seq: 1494626722634/0 Denom: 74: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+   OwnerOut : Id/Seq: 1494626722634/1 Denom: 26: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+OwnerOut  Total: 100
+Tsig[:20]:  J/9TXbutFjfdayp6UruH
+[    SUSPECTINPUTS: Id/Seq: 1494626645488/0 Denom: 100: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCyzMq7gawMJB0+bfW7uEMTPXY2AwjfOwoECafWCGiFHa64XMMI7Kq9ignR/TpZ3HZKcTWbHWUA6cgWT5acWkHo7ZPIK3VYfBDkeFLnoq7H+B2LreOKWENDSKtto/KGK5cPf4FhBzY0GIp4Dus+yJJMvAikpQ7mCoV/k8BHjRCddwIDAQAB
+SUSPECTINPUTS Total: 100
+1494626722634: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494626723096: PayCoins
+[    OwnerIn : Id/Seq: 1494626645488/3 Denom: 100: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+OwnerIn  Total: 100
+[    OwnerOut : Id/Seq: 1494626723096/0 Denom: 67: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+   OwnerOut : Id/Seq: 1494626723096/1 Denom: 33: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+OwnerOut  Total: 100
+Tsig[:20]:  oLq9AkLEzPwhJDqrYJgt
+[    SUSPECTINPUTS: Id/Seq: 1494626645488/3 Denom: 100: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDcce9CTqGUu3E4doeY9YP9TiQ3yICbqrivzKwTk4hJjYqyIQYzdrYglwukJIk3duy3EXx87q3NxIMqHtQjWxMtxbKH9AE5XwNFuEpMEH7au7/h8lb86jIHrraEX/XWwV3XeY2BOdWS82HJ+zSH4tXRQCo0r2uq8peSqYAfxdR4XQIDAQAB
+SUSPECTINPUTS Total: 100
+1494626723096: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494626723554: PayCoins
+[    OwnerIn : Id/Seq: 1494626645488/4 Denom: 100: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+OwnerIn  Total: 100
+[    OwnerOut : Id/Seq: 1494626723554/0 Denom: 84: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerOut : Id/Seq: 1494626723554/1 Denom: 16: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+OwnerOut  Total: 100
+Tsig[:20]:  DC3IQ1zxzTsHt7lXksZC
+[    SUSPECTINPUTS: Id/Seq: 1494626645488/4 Denom: 100: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDIZxEO9zixB9BeVjAvmOrd12ImXC03JxNfhGLOHOMtYLhqFLIlKi3Uo2xo0aoqngi0b9KQiVOEWlEESEZmanlKd90ZzA9NhYFrystpi/o7CMd1hX8qrBFEzkVC2dvBxVczhvEHbJkTBR4hGplh+3xxY0cZoCifaWSWYhO9bMWnLQIDAQAB
+SUSPECTINPUTS Total: 100
+1494626723554: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494626724155: PayCoins
+[    OwnerIn : Id/Seq: 1494626645488/5 Denom: 100: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerIn  Total: 100
+[    OwnerOut : Id/Seq: 1494626724155/0 Denom: 64: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerOut : Id/Seq: 1494626724155/1 Denom: 36: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerOut  Total: 100
+Tsig[:20]:  UoW1SMc/mtukQI2G6g+2
+[    SUSPECTINPUTS: Id/Seq: 1494626645488/5 Denom: 100: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChw+/3t6K8N30eKEbYaE0ptaDqOEONobsQZ+blpwl7ADPgqS+qxi6pXt1meR8WybK/I71OZM6fhqgjr5dLK1+GF8fkeaeBbU/YGYVP2ChJ1dp/Ju7ku3KfgEYyL48d2AuwDSAyxkYyffwbGIiJg3Li+SPBvRLUigazPvPxCtlCMwIDAQAB
+SUSPECTINPUTS Total: 100
+1494626724155: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494626724673: PayCoins
+[    OwnerIn : Id/Seq: 1494626645488/1 Denom: 100: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+OwnerIn  Total: 100
+[    OwnerOut : Id/Seq: 1494626724673/0 Denom: 51: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+   OwnerOut : Id/Seq: 1494626724673/1 Denom: 49: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+OwnerOut  Total: 100
+Tsig[:20]:  OXkSparyW6yBukhbsMOT
+[    SUSPECTINPUTS: Id/Seq: 1494626645488/1 Denom: 100: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDMym0hgwRlSG8MbefoMEp31YNYMlwOg5omqfBXpmspAXCF4F8c6H2jLSsyx7NYxmMBsdvMjzGLRJvOL2Hp0x/JQpCuFA++4EpNlgKRv2FZOyGDbdZH7xeqe9Lh9ysWpmTHMEOJaGbcjxewbF1eTlnWHabgwI1rfOFn3wHt3tJYXwIDAQAB
+SUSPECTINPUTS Total: 100
+1494626724673: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494626752342: PayCoins
+[    OwnerIn : Id/Seq: 1494626645488/6 Denom: 100: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerIn : Id/Seq: 1494626645653/1 Denom: 100: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerIn  Total: 200
+[    OwnerOut : Id/Seq: 1494626752342/0 Denom: 110: qA0ne74hbr5Ou4OIas9X2/nBOX0QugSCaoC+AQggF78=
+   OwnerOut : Id/Seq: 1494626752342/1 Denom: 90: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerOut  Total: 200
+Tsig[:20]:  lfTl5QspSylwDX7W9dch
+[    SUSPECTINPUTS: Id/Seq: 1494626645488/6 Denom: 100: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCh3ulGlfT6DhY7xB7pRaSeDZErGwRXui31TE7cm6zLG8EzQmgDcu6RuA9/XuL412f7+ST0nA1W5GrFWkM8qpDeBneu/wiOqbdNTd6SUi1uNL+jwjCBLHMVpjD6fkWzACyjjo/5irxIYz3q9kP8K8upjwh/WUkM5KPE0GyR+HT9dQIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494626645653/1 Denom: 100: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCh3ulGlfT6DhY7xB7pRaSeDZErGwRXui31TE7cm6zLG8EzQmgDcu6RuA9/XuL412f7+ST0nA1W5GrFWkM8qpDeBneu/wiOqbdNTd6SUi1uNL+jwjCBLHMVpjD6fkWzACyjjo/5irxIYz3q9kP8K8upjwh/WUkM5KPE0GyR+HT9dQIDAQAB
+SUSPECTINPUTS Total: 200
+[8] REJECTED: Double Spend attempt.
+
+NEW TRANSACTION:: 1494626752911: PayCoins
+[    OwnerIn : Id/Seq: 1494626645653/2 Denom: 100: qA0ne74hbr5Ou4OIas9X2/nBOX0QugSCaoC+AQggF78=
+OwnerIn  Total: 100
+[    OwnerOut : Id/Seq: 1494626752911/0 Denom: 70: epyQjmiHR3c6yWt8ZNITXLiXcXyEkGn5IsKBcQv66ak=
+   OwnerOut : Id/Seq: 1494626752911/1 Denom: 30: qA0ne74hbr5Ou4OIas9X2/nBOX0QugSCaoC+AQggF78=
+OwnerOut  Total: 100
+Tsig[:20]:  K/cW+vVO6va3cHPdxGld
+[    SUSPECTINPUTS: Id/Seq: 1494626645653/2 Denom: 100: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDVtKbk5cwP7eHVmqSwyYbsF76bzO/cXMHnDbuqWhWsEkEpJmTZs8rCdCJrHZ5CcAGuH6B8JAL5gMM0tb32afINwXDVOe8bWjcqSaIvtTOI3Ku8ZoIU1cnXhAmTIu8/0584/MZZ+7jbsrIVBG+4yJIpOSZqawzJY73rX67ydDsI0wIDAQAB
+SUSPECTINPUTS Total: 100
+1494626752911: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494626753432: PayCoins
+[    OwnerIn : Id/Seq: 1494626645653/4 Denom: 100: wLCpd1qHSgFP58JxC59PKzBI7RafSfgvEuF4PYy+bs0=
+OwnerIn  Total: 100
+[    OwnerOut : Id/Seq: 1494626753432/0 Denom: 68: guTo1yR4xVsqhOpLw4GOwEcO3Hiqe+eirHDDUPhcmjo=
+   OwnerOut : Id/Seq: 1494626753432/1 Denom: 32: wLCpd1qHSgFP58JxC59PKzBI7RafSfgvEuF4PYy+bs0=
+OwnerOut  Total: 100
+Tsig[:20]:  mPk2MZl4mweYCkMcA5K5
+[    SUSPECTINPUTS: Id/Seq: 1494626645653/4 Denom: 100: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCgv2whMNi2oP1v0o9Uqd/ZgyEdJE4IuEuKnuB+t/okNAgmt3vC1A8kTLzP4fJyPLF0b5EEGmdHQe+yYcQEUPuvzgXvkVjzjtHydHOkPhs4/Y63KAw7xxb2ni+CgkiS4W7s49iTtY4AmTj7dvBVAELOPOPuPoZyqYnb4TaoJ+MqKQIDAQAB
+SUSPECTINPUTS Total: 100
+1494626753432: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494626754025: PayCoins
+[    OwnerIn : Id/Seq: 1494626645653/3 Denom: 100: epyQjmiHR3c6yWt8ZNITXLiXcXyEkGn5IsKBcQv66ak=
+OwnerIn  Total: 100
+[    OwnerOut : Id/Seq: 1494626754025/0 Denom: 40: wLCpd1qHSgFP58JxC59PKzBI7RafSfgvEuF4PYy+bs0=
+   OwnerOut : Id/Seq: 1494626754025/1 Denom: 60: epyQjmiHR3c6yWt8ZNITXLiXcXyEkGn5IsKBcQv66ak=
+OwnerOut  Total: 100
+Tsig[:20]:  EnBhpW9wFFWpk84sfsLN
+[    SUSPECTINPUTS: Id/Seq: 1494626645653/3 Denom: 100: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDseroYCgOjLS2F7WslRFGoxOV3JNn3Jmwnhko/MvflshrH+RCwJRLJEDduA9Xts+86ePVeVfZZN37O6wKs8na4+8+76n4Q6pxp23o1wImWGYvboizSxHOEbNnEBENjL61szUqnEdVKX0tiEuHz1w3SRvOt6/vZ/U2AoZrSw4JgjQIDAQAB
+SUSPECTINPUTS Total: 100
+1494626754025: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494626754692: PayCoins
+[    OwnerIn : Id/Seq: 1494626645653/6 Denom: 100: wxMOMbGxGbxY+rzepMvQS8cDZQto4fGPhC8ztjsCRS8=
+OwnerIn  Total: 100
+[    OwnerOut : Id/Seq: 1494626754692/0 Denom: 87: giWrBi7/e9ldmlp+AFagTBa1dVoMtTZ3FmDnh8Tkkx0=
+   OwnerOut : Id/Seq: 1494626754692/1 Denom: 13: wxMOMbGxGbxY+rzepMvQS8cDZQto4fGPhC8ztjsCRS8=
+OwnerOut  Total: 100
+Tsig[:20]:  leLdyKZs6zQYuysCupHh
+[    SUSPECTINPUTS: Id/Seq: 1494626645653/6 Denom: 100: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDpD9rIYjtTXm2uWtTsxVfZne9+z8V9v6EDKRxjioKTO7XCUyRxIUDcWajIZQD2uekd8KVnUqxmmFiHDDe7g0UwGDoQ57GtT4K7CwXlmWWvw1v9Gi3EcBfO8oXcKDdK2+omLNA0K3yvBLaqDxPAb7iA1Zx1LuuhBB5bd3HYlOU+2wIDAQAB
+SUSPECTINPUTS Total: 100
+1494626754692: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494626755162: PayCoins
+[    OwnerIn : Id/Seq: 1494626645653/7 Denom: 100: giWrBi7/e9ldmlp+AFagTBa1dVoMtTZ3FmDnh8Tkkx0=
+OwnerIn  Total: 100
+[    OwnerOut : Id/Seq: 1494626755162/0 Denom: 93: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerOut : Id/Seq: 1494626755162/1 Denom: 7: giWrBi7/e9ldmlp+AFagTBa1dVoMtTZ3FmDnh8Tkkx0=
+OwnerOut  Total: 100
+Tsig[:20]:  CyLHHSSD8AYZH5yJ79hq
+[    SUSPECTINPUTS: Id/Seq: 1494626645653/7 Denom: 100: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCWYeG/8dspk3s/Fv1BLCP9Ie0v1BzutHmOSOZDq3iJg9cb6SxaJJID2KM3ZE6utKPSKp20B3/PtSytrS6nw8ftvN+BoY7lTQAnh/Bk4qgTOTnEByFL2kK0hoM7chyTTFCR6t01j3OBAWqYnHJ8dU7ccdN1gbzzahHmFtjK0pCoeQIDAQAB
+SUSPECTINPUTS Total: 100
+1494626755162: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494626755609: PayCoins
+[    OwnerIn : Id/Seq: 1494626645653/5 Denom: 100: guTo1yR4xVsqhOpLw4GOwEcO3Hiqe+eirHDDUPhcmjo=
+OwnerIn  Total: 100
+[    OwnerOut : Id/Seq: 1494626755609/0 Denom: 57: wxMOMbGxGbxY+rzepMvQS8cDZQto4fGPhC8ztjsCRS8=
+   OwnerOut : Id/Seq: 1494626755609/1 Denom: 43: guTo1yR4xVsqhOpLw4GOwEcO3Hiqe+eirHDDUPhcmjo=
+OwnerOut  Total: 100
+Tsig[:20]:  1mC+0KD/f+982fbACruv
+[    SUSPECTINPUTS: Id/Seq: 1494626645653/5 Denom: 100: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDlNE7zpRS6qAaUG79i97BUM319Dof/L8HbE3twSV7IrzN/60w1FvSOGlJkLhAz6z258ikhO16ZrOUMQirqa+EOPNGPk3D39ZHTDLjtddnLcg16jZjRQ1+UPLlq2ni6bNV1mPHV4rPe0tTsnGocgtOqyHoTc3XPAeSrWfMmItXkEwIDAQAB
+SUSPECTINPUTS Total: 100
+1494626755609: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494626756082: PayCoins
+[    OwnerIn : Id/Seq: 1494626645488/5 Denom: 100: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerIn  Total: 100
+[    OwnerOut : Id/Seq: 1494626756082/0 Denom: 32: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerOut : Id/Seq: 1494626756082/1 Denom: 68: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerOut  Total: 100
+Tsig[:20]:  F25eQg6EdfUo4bNC+Sfs
+[    SUSPECTINPUTS: Id/Seq: 1494626645488/5 Denom: 100: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChw+/3t6K8N30eKEbYaE0ptaDqOEONobsQZ+blpwl7ADPgqS+qxi6pXt1meR8WybK/I71OZM6fhqgjr5dLK1+GF8fkeaeBbU/YGYVP2ChJ1dp/Ju7ku3KfgEYyL48d2AuwDSAyxkYyffwbGIiJg3Li+SPBvRLUigazPvPxCtlCMwIDAQAB
+SUSPECTINPUTS Total: 100
+[15] REJECTED: Double Spend attempt.
+PNTs: 16 Txs In, 14 Good, 2 Bad.
+NEW IN:: 1494626720863: PayCoins
+[    OwnerIn : Id/Seq: 1494626645488/7 Denom: 100: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+OwnerIn  Total: 100
+[    OwnerOut : Id/Seq: 1494626720863/0 Denom: 93: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+   OwnerOut : Id/Seq: 1494626720863/1 Denom: 7: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+OwnerOut  Total: 100
+Tsig[:20]:  N0Czvt4VEdw8IYTWq/B0
+[0] 6 Txs in Ledger after PNT, 2 in rejects.
+NEW IN:: 1494626721375: PayCoins
+[    OwnerIn : Id/Seq: 1494626645488/6 Denom: 100: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerIn : Id/Seq: 1494626645653/1 Denom: 100: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerIn  Total: 200
+[    OwnerOut : Id/Seq: 1494626721375/0 Denom: 148: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+   OwnerOut : Id/Seq: 1494626721375/1 Denom: 52: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerOut  Total: 200
+Tsig[:20]:  mZTWkYWUhV+RrWyx2BjA
+[1] 7 Txs in Ledger after PNT, 2 in rejects.
+NEW IN:: 1494626722065: PayCoins
+[    OwnerIn : Id/Seq: 1494626645488/2 Denom: 100: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+OwnerIn  Total: 100
+[    OwnerOut : Id/Seq: 1494626722065/0 Denom: 1: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   OwnerOut : Id/Seq: 1494626722065/1 Denom: 99: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+OwnerOut  Total: 100
+Tsig[:20]:  Gitqw7WLEx9rvP5zK5rh
+[2] 8 Txs in Ledger after PNT, 2 in rejects.
+NEW IN:: 1494626722634: PayCoins
+[    OwnerIn : Id/Seq: 1494626645488/0 Denom: 100: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+OwnerIn  Total: 100
+[    OwnerOut : Id/Seq: 1494626722634/0 Denom: 74: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+   OwnerOut : Id/Seq: 1494626722634/1 Denom: 26: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+OwnerOut  Total: 100
+Tsig[:20]:  J/9TXbutFjfdayp6UruH
+[3] 9 Txs in Ledger after PNT, 2 in rejects.
+NEW IN:: 1494626723096: PayCoins
+[    OwnerIn : Id/Seq: 1494626645488/3 Denom: 100: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+OwnerIn  Total: 100
+[    OwnerOut : Id/Seq: 1494626723096/0 Denom: 67: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+   OwnerOut : Id/Seq: 1494626723096/1 Denom: 33: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+OwnerOut  Total: 100
+Tsig[:20]:  oLq9AkLEzPwhJDqrYJgt
+[4] 10 Txs in Ledger after PNT, 2 in rejects.
+NEW IN:: 1494626723554: PayCoins
+[    OwnerIn : Id/Seq: 1494626645488/4 Denom: 100: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+OwnerIn  Total: 100
+[    OwnerOut : Id/Seq: 1494626723554/0 Denom: 84: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerOut : Id/Seq: 1494626723554/1 Denom: 16: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+OwnerOut  Total: 100
+Tsig[:20]:  DC3IQ1zxzTsHt7lXksZC
+[5] 11 Txs in Ledger after PNT, 2 in rejects.
+NEW IN:: 1494626724155: PayCoins
+[    OwnerIn : Id/Seq: 1494626645488/5 Denom: 100: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerIn  Total: 100
+[    OwnerOut : Id/Seq: 1494626724155/0 Denom: 64: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerOut : Id/Seq: 1494626724155/1 Denom: 36: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerOut  Total: 100
+Tsig[:20]:  UoW1SMc/mtukQI2G6g+2
+[6] 12 Txs in Ledger after PNT, 2 in rejects.
+NEW IN:: 1494626724673: PayCoins
+[    OwnerIn : Id/Seq: 1494626645488/1 Denom: 100: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+OwnerIn  Total: 100
+[    OwnerOut : Id/Seq: 1494626724673/0 Denom: 51: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+   OwnerOut : Id/Seq: 1494626724673/1 Denom: 49: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+OwnerOut  Total: 100
+Tsig[:20]:  OXkSparyW6yBukhbsMOT
+[7] 13 Txs in Ledger after PNT, 2 in rejects.
+NEW IN:: 1494626752911: PayCoins
+[    OwnerIn : Id/Seq: 1494626645653/2 Denom: 100: qA0ne74hbr5Ou4OIas9X2/nBOX0QugSCaoC+AQggF78=
+OwnerIn  Total: 100
+[    OwnerOut : Id/Seq: 1494626752911/0 Denom: 70: epyQjmiHR3c6yWt8ZNITXLiXcXyEkGn5IsKBcQv66ak=
+   OwnerOut : Id/Seq: 1494626752911/1 Denom: 30: qA0ne74hbr5Ou4OIas9X2/nBOX0QugSCaoC+AQggF78=
+OwnerOut  Total: 100
+Tsig[:20]:  K/cW+vVO6va3cHPdxGld
+[8] 14 Txs in Ledger after PNT, 2 in rejects.
+NEW IN:: 1494626753432: PayCoins
+[    OwnerIn : Id/Seq: 1494626645653/4 Denom: 100: wLCpd1qHSgFP58JxC59PKzBI7RafSfgvEuF4PYy+bs0=
+OwnerIn  Total: 100
+[    OwnerOut : Id/Seq: 1494626753432/0 Denom: 68: guTo1yR4xVsqhOpLw4GOwEcO3Hiqe+eirHDDUPhcmjo=
+   OwnerOut : Id/Seq: 1494626753432/1 Denom: 32: wLCpd1qHSgFP58JxC59PKzBI7RafSfgvEuF4PYy+bs0=
+OwnerOut  Total: 100
+Tsig[:20]:  mPk2MZl4mweYCkMcA5K5
+[9] 15 Txs in Ledger after PNT, 2 in rejects.
+NEW IN:: 1494626754025: PayCoins
+[    OwnerIn : Id/Seq: 1494626645653/3 Denom: 100: epyQjmiHR3c6yWt8ZNITXLiXcXyEkGn5IsKBcQv66ak=
+OwnerIn  Total: 100
+[    OwnerOut : Id/Seq: 1494626754025/0 Denom: 40: wLCpd1qHSgFP58JxC59PKzBI7RafSfgvEuF4PYy+bs0=
+   OwnerOut : Id/Seq: 1494626754025/1 Denom: 60: epyQjmiHR3c6yWt8ZNITXLiXcXyEkGn5IsKBcQv66ak=
+OwnerOut  Total: 100
+Tsig[:20]:  EnBhpW9wFFWpk84sfsLN
+[10] 16 Txs in Ledger after PNT, 2 in rejects.
+NEW IN:: 1494626754692: PayCoins
+[    OwnerIn : Id/Seq: 1494626645653/6 Denom: 100: wxMOMbGxGbxY+rzepMvQS8cDZQto4fGPhC8ztjsCRS8=
+OwnerIn  Total: 100
+[    OwnerOut : Id/Seq: 1494626754692/0 Denom: 87: giWrBi7/e9ldmlp+AFagTBa1dVoMtTZ3FmDnh8Tkkx0=
+   OwnerOut : Id/Seq: 1494626754692/1 Denom: 13: wxMOMbGxGbxY+rzepMvQS8cDZQto4fGPhC8ztjsCRS8=
+OwnerOut  Total: 100
+Tsig[:20]:  leLdyKZs6zQYuysCupHh
+[11] 17 Txs in Ledger after PNT, 2 in rejects.
+NEW IN:: 1494626755162: PayCoins
+[    OwnerIn : Id/Seq: 1494626645653/7 Denom: 100: giWrBi7/e9ldmlp+AFagTBa1dVoMtTZ3FmDnh8Tkkx0=
+OwnerIn  Total: 100
+[    OwnerOut : Id/Seq: 1494626755162/0 Denom: 93: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerOut : Id/Seq: 1494626755162/1 Denom: 7: giWrBi7/e9ldmlp+AFagTBa1dVoMtTZ3FmDnh8Tkkx0=
+OwnerOut  Total: 100
+Tsig[:20]:  CyLHHSSD8AYZH5yJ79hq
+[12] 18 Txs in Ledger after PNT, 2 in rejects.
+NEW IN:: 1494626755609: PayCoins
+[    OwnerIn : Id/Seq: 1494626645653/5 Denom: 100: guTo1yR4xVsqhOpLw4GOwEcO3Hiqe+eirHDDUPhcmjo=
+OwnerIn  Total: 100
+[    OwnerOut : Id/Seq: 1494626755609/0 Denom: 57: wxMOMbGxGbxY+rzepMvQS8cDZQto4fGPhC8ztjsCRS8=
+   OwnerOut : Id/Seq: 1494626755609/1 Denom: 43: guTo1yR4xVsqhOpLw4GOwEcO3Hiqe+eirHDDUPhcmjo=
+OwnerOut  Total: 100
+Tsig[:20]:  1mC+0KD/f+982fbACruv
+[13] 19 Txs in Ledger after PNT, 2 in rejects.
+Store the Blockchain.
+Store the Rejects.
+Store the UTXOS.
+19 transactions stored.
+2 transactions rejected.
+newtxs file deleted.
+
+Load Blockchain:
+Txs in Ledger after Load:  19
+No New Transactions.
+Store the Blockchain.
+Store the Rejects.
+Store the UTXOS.
+19 transactions stored.
+0 transactions rejected.
+
+Load Blockchain:
+Txs in Ledger after Load:  19
+8 New Transactions in.
+
+NEW TRANSACTION:: 1494626805463: PayCoins
+[    OwnerIn : Id/Seq: 1494626769150/7 Denom: 100: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+OwnerIn  Total: 100
+[    OwnerOut : Id/Seq: 1494626805463/0 Denom: 35: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+   OwnerOut : Id/Seq: 1494626805463/1 Denom: 65: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+OwnerOut  Total: 100
+Tsig[:20]:  Pp/UZl2XtfpghZ0Q+Q3o
+[    SUSPECTINPUTS: Id/Seq: 1494626769150/7 Denom: 100: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCllyPLTZap6VSUG+CRLRvJGY/D06JtbiLGvnS5Z4V7iDHNFw7x2mZbW2igLWqJzIZmAZz8U6U62IZxAcZCEviqKbkpol+U5aUllGIBVrh6GJXJcItXp4CzejOeAUFSr1FWy1hJlXLlIeLsi41VkYFbL/bxCfViZEjq2rqxEE4jowIDAQAB
+SUSPECTINPUTS Total: 100
+1494626805463: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494626805903: PayCoins
+[    OwnerIn : Id/Seq: 1494626769150/6 Denom: 100: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerIn : Id/Seq: 1494626721375/1 Denom: 52: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerIn : Id/Seq: 1494626724155/0 Denom: 64: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerIn  Total: 216
+[    OwnerOut : Id/Seq: 1494626805903/0 Denom: 183: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+   OwnerOut : Id/Seq: 1494626805903/1 Denom: 33: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerOut  Total: 216
+Tsig[:20]:  PnZ9niO8Q9y1x4mKZdg8
+[    SUSPECTINPUTS: Id/Seq: 1494626769150/6 Denom: 100: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCh3ulGlfT6DhY7xB7pRaSeDZErGwRXui31TE7cm6zLG8EzQmgDcu6RuA9/XuL412f7+ST0nA1W5GrFWkM8qpDeBneu/wiOqbdNTd6SUi1uNL+jwjCBLHMVpjD6fkWzACyjjo/5irxIYz3q9kP8K8upjwh/WUkM5KPE0GyR+HT9dQIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494626721375/1 Denom: 52: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCh3ulGlfT6DhY7xB7pRaSeDZErGwRXui31TE7cm6zLG8EzQmgDcu6RuA9/XuL412f7+ST0nA1W5GrFWkM8qpDeBneu/wiOqbdNTd6SUi1uNL+jwjCBLHMVpjD6fkWzACyjjo/5irxIYz3q9kP8K8upjwh/WUkM5KPE0GyR+HT9dQIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494626724155/0 Denom: 64: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCh3ulGlfT6DhY7xB7pRaSeDZErGwRXui31TE7cm6zLG8EzQmgDcu6RuA9/XuL412f7+ST0nA1W5GrFWkM8qpDeBneu/wiOqbdNTd6SUi1uNL+jwjCBLHMVpjD6fkWzACyjjo/5irxIYz3q9kP8K8upjwh/WUkM5KPE0GyR+HT9dQIDAQAB
+SUSPECTINPUTS Total: 216
+1494626805903: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494626806397: PayCoins
+[    OwnerIn : Id/Seq: 1494626769150/2 Denom: 100: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+   OwnerIn : Id/Seq: 1494626722065/1 Denom: 99: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+   OwnerIn : Id/Seq: 1494626724673/0 Denom: 51: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+OwnerIn  Total: 250
+[    OwnerOut : Id/Seq: 1494626806397/0 Denom: 222: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+   OwnerOut : Id/Seq: 1494626806397/1 Denom: 28: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+OwnerOut  Total: 250
+Tsig[:20]:  BRg86WQFj3qcklptKm0S
+[    SUSPECTINPUTS: Id/Seq: 1494626769150/2 Denom: 100: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDknJU8f+BCmb9RvZK/ChvFqw4RDtLtUFdyu7FfF/33clJ8liWUNSwQp/D+xfGVYh+7/Q+pmscCcTPWrGS4s6ChVusiYt0BTyCNi48ypEqqissHjgCRNkXHcFhfSsD9kvj7HEa4iZSzNRVmjxhs8Rd/PLWkCkAPW0KW1p9rjOFgDwIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494626722065/1 Denom: 99: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDknJU8f+BCmb9RvZK/ChvFqw4RDtLtUFdyu7FfF/33clJ8liWUNSwQp/D+xfGVYh+7/Q+pmscCcTPWrGS4s6ChVusiYt0BTyCNi48ypEqqissHjgCRNkXHcFhfSsD9kvj7HEa4iZSzNRVmjxhs8Rd/PLWkCkAPW0KW1p9rjOFgDwIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494626724673/0 Denom: 51: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDknJU8f+BCmb9RvZK/ChvFqw4RDtLtUFdyu7FfF/33clJ8liWUNSwQp/D+xfGVYh+7/Q+pmscCcTPWrGS4s6ChVusiYt0BTyCNi48ypEqqissHjgCRNkXHcFhfSsD9kvj7HEa4iZSzNRVmjxhs8Rd/PLWkCkAPW0KW1p9rjOFgDwIDAQAB
+SUSPECTINPUTS Total: 250
+1494626806397: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494626807079: PayCoins
+[    OwnerIn : Id/Seq: 1494626769150/0 Denom: 100: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+   OwnerIn : Id/Seq: 1494626720863/0 Denom: 93: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+   OwnerIn : Id/Seq: 1494626722634/1 Denom: 26: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+OwnerIn  Total: 219
+[    OwnerOut : Id/Seq: 1494626807079/0 Denom: 146: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+   OwnerOut : Id/Seq: 1494626807079/1 Denom: 73: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+OwnerOut  Total: 219
+Tsig[:20]:  g03Xw8JcLc/b15vkY8pN
+[    SUSPECTINPUTS: Id/Seq: 1494626769150/0 Denom: 100: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCyzMq7gawMJB0+bfW7uEMTPXY2AwjfOwoECafWCGiFHa64XMMI7Kq9ignR/TpZ3HZKcTWbHWUA6cgWT5acWkHo7ZPIK3VYfBDkeFLnoq7H+B2LreOKWENDSKtto/KGK5cPf4FhBzY0GIp4Dus+yJJMvAikpQ7mCoV/k8BHjRCddwIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494626720863/0 Denom: 93: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCyzMq7gawMJB0+bfW7uEMTPXY2AwjfOwoECafWCGiFHa64XMMI7Kq9ignR/TpZ3HZKcTWbHWUA6cgWT5acWkHo7ZPIK3VYfBDkeFLnoq7H+B2LreOKWENDSKtto/KGK5cPf4FhBzY0GIp4Dus+yJJMvAikpQ7mCoV/k8BHjRCddwIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494626722634/1 Denom: 26: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCyzMq7gawMJB0+bfW7uEMTPXY2AwjfOwoECafWCGiFHa64XMMI7Kq9ignR/TpZ3HZKcTWbHWUA6cgWT5acWkHo7ZPIK3VYfBDkeFLnoq7H+B2LreOKWENDSKtto/KGK5cPf4FhBzY0GIp4Dus+yJJMvAikpQ7mCoV/k8BHjRCddwIDAQAB
+SUSPECTINPUTS Total: 219
+1494626807079: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494626807627: PayCoins
+[    OwnerIn : Id/Seq: 1494626769150/3 Denom: 100: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+OwnerIn  Total: 100
+[    OwnerOut : Id/Seq: 1494626807627/0 Denom: 75: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerOut : Id/Seq: 1494626807627/1 Denom: 25: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+OwnerOut  Total: 100
+Tsig[:20]:  qKmkiKpHJRfdkZfdJinE
+[    SUSPECTINPUTS: Id/Seq: 1494626769150/3 Denom: 100: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDcce9CTqGUu3E4doeY9YP9TiQ3yICbqrivzKwTk4hJjYqyIQYzdrYglwukJIk3duy3EXx87q3NxIMqHtQjWxMtxbKH9AE5XwNFuEpMEH7au7/h8lb86jIHrraEX/XWwV3XeY2BOdWS82HJ+zSH4tXRQCo0r2uq8peSqYAfxdR4XQIDAQAB
+SUSPECTINPUTS Total: 100
+1494626807627: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494626808289: PayCoins
+[    OwnerIn : Id/Seq: 1494626769150/4 Denom: 100: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+   OwnerIn : Id/Seq: 1494626723096/0 Denom: 67: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+   OwnerIn : Id/Seq: 1494626723554/1 Denom: 16: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+OwnerIn  Total: 183
+[    OwnerOut : Id/Seq: 1494626808289/0 Denom: 144: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerOut : Id/Seq: 1494626808289/1 Denom: 39: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+OwnerOut  Total: 183
+Tsig[:20]:  O8+pLDQKY5bj+jL+6/RY
+[    SUSPECTINPUTS: Id/Seq: 1494626769150/4 Denom: 100: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDIZxEO9zixB9BeVjAvmOrd12ImXC03JxNfhGLOHOMtYLhqFLIlKi3Uo2xo0aoqngi0b9KQiVOEWlEESEZmanlKd90ZzA9NhYFrystpi/o7CMd1hX8qrBFEzkVC2dvBxVczhvEHbJkTBR4hGplh+3xxY0cZoCifaWSWYhO9bMWnLQIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494626723096/0 Denom: 67: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDIZxEO9zixB9BeVjAvmOrd12ImXC03JxNfhGLOHOMtYLhqFLIlKi3Uo2xo0aoqngi0b9KQiVOEWlEESEZmanlKd90ZzA9NhYFrystpi/o7CMd1hX8qrBFEzkVC2dvBxVczhvEHbJkTBR4hGplh+3xxY0cZoCifaWSWYhO9bMWnLQIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494626723554/1 Denom: 16: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDIZxEO9zixB9BeVjAvmOrd12ImXC03JxNfhGLOHOMtYLhqFLIlKi3Uo2xo0aoqngi0b9KQiVOEWlEESEZmanlKd90ZzA9NhYFrystpi/o7CMd1hX8qrBFEzkVC2dvBxVczhvEHbJkTBR4hGplh+3xxY0cZoCifaWSWYhO9bMWnLQIDAQAB
+SUSPECTINPUTS Total: 183
+1494626808289: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494626808913: PayCoins
+[    OwnerIn : Id/Seq: 1494626645653/0 Denom: 100: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerIn : Id/Seq: 1494626769150/5 Denom: 100: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerIn : Id/Seq: 1494626723554/0 Denom: 84: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerIn : Id/Seq: 1494626724155/1 Denom: 36: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerIn : Id/Seq: 1494626755162/0 Denom: 93: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerIn  Total: 413
+[    OwnerOut : Id/Seq: 1494626808913/0 Denom: 132: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+   OwnerOut : Id/Seq: 1494626808913/1 Denom: 281: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerOut  Total: 413
+Tsig[:20]:  ZxFxt3UpnjU0TjKgQVTa
+[    SUSPECTINPUTS: Id/Seq: 1494626645653/0 Denom: 100: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChw+/3t6K8N30eKEbYaE0ptaDqOEONobsQZ+blpwl7ADPgqS+qxi6pXt1meR8WybK/I71OZM6fhqgjr5dLK1+GF8fkeaeBbU/YGYVP2ChJ1dp/Ju7ku3KfgEYyL48d2AuwDSAyxkYyffwbGIiJg3Li+SPBvRLUigazPvPxCtlCMwIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494626769150/5 Denom: 100: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChw+/3t6K8N30eKEbYaE0ptaDqOEONobsQZ+blpwl7ADPgqS+qxi6pXt1meR8WybK/I71OZM6fhqgjr5dLK1+GF8fkeaeBbU/YGYVP2ChJ1dp/Ju7ku3KfgEYyL48d2AuwDSAyxkYyffwbGIiJg3Li+SPBvRLUigazPvPxCtlCMwIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494626723554/0 Denom: 84: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChw+/3t6K8N30eKEbYaE0ptaDqOEONobsQZ+blpwl7ADPgqS+qxi6pXt1meR8WybK/I71OZM6fhqgjr5dLK1+GF8fkeaeBbU/YGYVP2ChJ1dp/Ju7ku3KfgEYyL48d2AuwDSAyxkYyffwbGIiJg3Li+SPBvRLUigazPvPxCtlCMwIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494626724155/1 Denom: 36: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChw+/3t6K8N30eKEbYaE0ptaDqOEONobsQZ+blpwl7ADPgqS+qxi6pXt1meR8WybK/I71OZM6fhqgjr5dLK1+GF8fkeaeBbU/YGYVP2ChJ1dp/Ju7ku3KfgEYyL48d2AuwDSAyxkYyffwbGIiJg3Li+SPBvRLUigazPvPxCtlCMwIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494626755162/0 Denom: 93: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChw+/3t6K8N30eKEbYaE0ptaDqOEONobsQZ+blpwl7ADPgqS+qxi6pXt1meR8WybK/I71OZM6fhqgjr5dLK1+GF8fkeaeBbU/YGYVP2ChJ1dp/Ju7ku3KfgEYyL48d2AuwDSAyxkYyffwbGIiJg3Li+SPBvRLUigazPvPxCtlCMwIDAQAB
+SUSPECTINPUTS Total: 413
+1494626808913: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494626809549: PayCoins
+[    OwnerIn : Id/Seq: 1494626769150/1 Denom: 100: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+OwnerIn  Total: 100
+[    OwnerOut : Id/Seq: 1494626809549/0 Denom: 31: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   OwnerOut : Id/Seq: 1494626809549/1 Denom: 69: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+OwnerOut  Total: 100
+Tsig[:20]:  mgI8EqcIkNSE4fzSN5Ml
+[    SUSPECTINPUTS: Id/Seq: 1494626769150/1 Denom: 100: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDMym0hgwRlSG8MbefoMEp31YNYMlwOg5omqfBXpmspAXCF4F8c6H2jLSsyx7NYxmMBsdvMjzGLRJvOL2Hp0x/JQpCuFA++4EpNlgKRv2FZOyGDbdZH7xeqe9Lh9ysWpmTHMEOJaGbcjxewbF1eTlnWHabgwI1rfOFn3wHt3tJYXwIDAQAB
+SUSPECTINPUTS Total: 100
+1494626809549: All good coins in the input.
+
+PNTs: 8 Txs In, 8 Good, 0 Bad.
+NEW IN:: 1494626805463: PayCoins
+[    OwnerIn : Id/Seq: 1494626769150/7 Denom: 100: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+OwnerIn  Total: 100
+[    OwnerOut : Id/Seq: 1494626805463/0 Denom: 35: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+   OwnerOut : Id/Seq: 1494626805463/1 Denom: 65: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+OwnerOut  Total: 100
+Tsig[:20]:  Pp/UZl2XtfpghZ0Q+Q3o
+[0] 20 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494626805903: PayCoins
+[    OwnerIn : Id/Seq: 1494626769150/6 Denom: 100: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerIn : Id/Seq: 1494626721375/1 Denom: 52: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerIn : Id/Seq: 1494626724155/0 Denom: 64: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerIn  Total: 216
+[    OwnerOut : Id/Seq: 1494626805903/0 Denom: 183: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+   OwnerOut : Id/Seq: 1494626805903/1 Denom: 33: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerOut  Total: 216
+Tsig[:20]:  PnZ9niO8Q9y1x4mKZdg8
+[1] 21 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494626806397: PayCoins
+[    OwnerIn : Id/Seq: 1494626769150/2 Denom: 100: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+   OwnerIn : Id/Seq: 1494626722065/1 Denom: 99: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+   OwnerIn : Id/Seq: 1494626724673/0 Denom: 51: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+OwnerIn  Total: 250
+[    OwnerOut : Id/Seq: 1494626806397/0 Denom: 222: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+   OwnerOut : Id/Seq: 1494626806397/1 Denom: 28: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+OwnerOut  Total: 250
+Tsig[:20]:  BRg86WQFj3qcklptKm0S
+[2] 22 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494626807079: PayCoins
+[    OwnerIn : Id/Seq: 1494626769150/0 Denom: 100: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+   OwnerIn : Id/Seq: 1494626720863/0 Denom: 93: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+   OwnerIn : Id/Seq: 1494626722634/1 Denom: 26: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+OwnerIn  Total: 219
+[    OwnerOut : Id/Seq: 1494626807079/0 Denom: 146: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+   OwnerOut : Id/Seq: 1494626807079/1 Denom: 73: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+OwnerOut  Total: 219
+Tsig[:20]:  g03Xw8JcLc/b15vkY8pN
+[3] 23 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494626807627: PayCoins
+[    OwnerIn : Id/Seq: 1494626769150/3 Denom: 100: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+OwnerIn  Total: 100
+[    OwnerOut : Id/Seq: 1494626807627/0 Denom: 75: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerOut : Id/Seq: 1494626807627/1 Denom: 25: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+OwnerOut  Total: 100
+Tsig[:20]:  qKmkiKpHJRfdkZfdJinE
+[4] 24 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494626808289: PayCoins
+[    OwnerIn : Id/Seq: 1494626769150/4 Denom: 100: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+   OwnerIn : Id/Seq: 1494626723096/0 Denom: 67: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+   OwnerIn : Id/Seq: 1494626723554/1 Denom: 16: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+OwnerIn  Total: 183
+[    OwnerOut : Id/Seq: 1494626808289/0 Denom: 144: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerOut : Id/Seq: 1494626808289/1 Denom: 39: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+OwnerOut  Total: 183
+Tsig[:20]:  O8+pLDQKY5bj+jL+6/RY
+[5] 25 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494626808913: PayCoins
+[    OwnerIn : Id/Seq: 1494626645653/0 Denom: 100: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerIn : Id/Seq: 1494626769150/5 Denom: 100: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerIn : Id/Seq: 1494626723554/0 Denom: 84: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerIn : Id/Seq: 1494626724155/1 Denom: 36: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerIn : Id/Seq: 1494626755162/0 Denom: 93: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerIn  Total: 413
+[    OwnerOut : Id/Seq: 1494626808913/0 Denom: 132: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+   OwnerOut : Id/Seq: 1494626808913/1 Denom: 281: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerOut  Total: 413
+Tsig[:20]:  ZxFxt3UpnjU0TjKgQVTa
+[6] 26 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494626809549: PayCoins
+[    OwnerIn : Id/Seq: 1494626769150/1 Denom: 100: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+OwnerIn  Total: 100
+[    OwnerOut : Id/Seq: 1494626809549/0 Denom: 31: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   OwnerOut : Id/Seq: 1494626809549/1 Denom: 69: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+OwnerOut  Total: 100
+Tsig[:20]:  mgI8EqcIkNSE4fzSN5Ml
+[7] 27 Txs in Ledger after PNT, 0 in rejects.
+Store the Blockchain.
+Store the Rejects.
+Store the UTXOS.
+27 transactions stored.
+0 transactions rejected.
+newtxs file deleted.
+
+Load Blockchain:
+Txs in Ledger after Load:  27
+8 New Transactions in.
+
+NEW TRANSACTION:: 1494626836846: PayCoins
+[    OwnerIn : Id/Seq: 1494626808289/0 Denom: 144: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerIn  Total: 144
+[    OwnerOut : Id/Seq: 1494626836846/0 Denom: 106: epyQjmiHR3c6yWt8ZNITXLiXcXyEkGn5IsKBcQv66ak=
+   OwnerOut : Id/Seq: 1494626836846/1 Denom: 38: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerOut  Total: 144
+Tsig[:20]:  J+WQIE2QF9fRRWEyGekl
+[    SUSPECTINPUTS: Id/Seq: 1494626808289/0 Denom: 144: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCh3ulGlfT6DhY7xB7pRaSeDZErGwRXui31TE7cm6zLG8EzQmgDcu6RuA9/XuL412f7+ST0nA1W5GrFWkM8qpDeBneu/wiOqbdNTd6SUi1uNL+jwjCBLHMVpjD6fkWzACyjjo/5irxIYz3q9kP8K8upjwh/WUkM5KPE0GyR+HT9dQIDAQAB
+SUSPECTINPUTS Total: 144
+1494626836846: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494626837676: PayCoins
+[    OwnerIn : Id/Seq: 1494626752911/1 Denom: 30: qA0ne74hbr5Ou4OIas9X2/nBOX0QugSCaoC+AQggF78=
+OwnerIn  Total: 30
+[    OwnerOut : Id/Seq: 1494626837676/0 Denom: 24: wLCpd1qHSgFP58JxC59PKzBI7RafSfgvEuF4PYy+bs0=
+   OwnerOut : Id/Seq: 1494626837676/1 Denom: 6: qA0ne74hbr5Ou4OIas9X2/nBOX0QugSCaoC+AQggF78=
+OwnerOut  Total: 30
+Tsig[:20]:  cOe37ax0HjZPoKpOK9eE
+[    SUSPECTINPUTS: Id/Seq: 1494626752911/1 Denom: 30: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDVtKbk5cwP7eHVmqSwyYbsF76bzO/cXMHnDbuqWhWsEkEpJmTZs8rCdCJrHZ5CcAGuH6B8JAL5gMM0tb32afINwXDVOe8bWjcqSaIvtTOI3Ku8ZoIU1cnXhAmTIu8/0584/MZZ+7jbsrIVBG+4yJIpOSZqawzJY73rX67ydDsI0wIDAQAB
+SUSPECTINPUTS Total: 30
+1494626837676: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494626838478: PayCoins
+[    OwnerIn : Id/Seq: 1494626753432/1 Denom: 32: wLCpd1qHSgFP58JxC59PKzBI7RafSfgvEuF4PYy+bs0=
+   OwnerIn : Id/Seq: 1494626754025/0 Denom: 40: wLCpd1qHSgFP58JxC59PKzBI7RafSfgvEuF4PYy+bs0=
+OwnerIn  Total: 72
+[    OwnerOut : Id/Seq: 1494626838478/0 Denom: 58: wxMOMbGxGbxY+rzepMvQS8cDZQto4fGPhC8ztjsCRS8=
+   OwnerOut : Id/Seq: 1494626838478/1 Denom: 14: wLCpd1qHSgFP58JxC59PKzBI7RafSfgvEuF4PYy+bs0=
+OwnerOut  Total: 72
+Tsig[:20]:  kB2G1qQdQ/LjofY11F+T
+[    SUSPECTINPUTS: Id/Seq: 1494626753432/1 Denom: 32: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCgv2whMNi2oP1v0o9Uqd/ZgyEdJE4IuEuKnuB+t/okNAgmt3vC1A8kTLzP4fJyPLF0b5EEGmdHQe+yYcQEUPuvzgXvkVjzjtHydHOkPhs4/Y63KAw7xxb2ni+CgkiS4W7s49iTtY4AmTj7dvBVAELOPOPuPoZyqYnb4TaoJ+MqKQIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494626754025/0 Denom: 40: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCgv2whMNi2oP1v0o9Uqd/ZgyEdJE4IuEuKnuB+t/okNAgmt3vC1A8kTLzP4fJyPLF0b5EEGmdHQe+yYcQEUPuvzgXvkVjzjtHydHOkPhs4/Y63KAw7xxb2ni+CgkiS4W7s49iTtY4AmTj7dvBVAELOPOPuPoZyqYnb4TaoJ+MqKQIDAQAB
+SUSPECTINPUTS Total: 72
+1494626838478: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494626838990: PayCoins
+[    OwnerIn : Id/Seq: 1494626752911/0 Denom: 70: epyQjmiHR3c6yWt8ZNITXLiXcXyEkGn5IsKBcQv66ak=
+OwnerIn  Total: 70
+[    OwnerOut : Id/Seq: 1494626838990/0 Denom: 61: guTo1yR4xVsqhOpLw4GOwEcO3Hiqe+eirHDDUPhcmjo=
+   OwnerOut : Id/Seq: 1494626838990/1 Denom: 9: epyQjmiHR3c6yWt8ZNITXLiXcXyEkGn5IsKBcQv66ak=
+OwnerOut  Total: 70
+Tsig[:20]:  WYaak78kkrXHOt+olzQP
+[    SUSPECTINPUTS: Id/Seq: 1494626752911/0 Denom: 70: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDseroYCgOjLS2F7WslRFGoxOV3JNn3Jmwnhko/MvflshrH+RCwJRLJEDduA9Xts+86ePVeVfZZN37O6wKs8na4+8+76n4Q6pxp23o1wImWGYvboizSxHOEbNnEBENjL61szUqnEdVKX0tiEuHz1w3SRvOt6/vZ/U2AoZrSw4JgjQIDAQAB
+SUSPECTINPUTS Total: 70
+1494626838990: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494626839458: PayCoins
+[    OwnerIn : Id/Seq: 1494626755609/0 Denom: 57: wxMOMbGxGbxY+rzepMvQS8cDZQto4fGPhC8ztjsCRS8=
+OwnerIn  Total: 57
+[    OwnerOut : Id/Seq: 1494626839458/0 Denom: 32: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerOut : Id/Seq: 1494626839458/1 Denom: 25: wxMOMbGxGbxY+rzepMvQS8cDZQto4fGPhC8ztjsCRS8=
+OwnerOut  Total: 57
+Tsig[:20]:  oWVTrkcqrr1MdlYBzHOE
+[    SUSPECTINPUTS: Id/Seq: 1494626755609/0 Denom: 57: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDpD9rIYjtTXm2uWtTsxVfZne9+z8V9v6EDKRxjioKTO7XCUyRxIUDcWajIZQD2uekd8KVnUqxmmFiHDDe7g0UwGDoQ57GtT4K7CwXlmWWvw1v9Gi3EcBfO8oXcKDdK2+omLNA0K3yvBLaqDxPAb7iA1Zx1LuuhBB5bd3HYlOU+2wIDAQAB
+SUSPECTINPUTS Total: 57
+1494626839458: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494626840056: PayCoins
+[    OwnerIn : Id/Seq: 1494626754692/0 Denom: 87: giWrBi7/e9ldmlp+AFagTBa1dVoMtTZ3FmDnh8Tkkx0=
+OwnerIn  Total: 87
+[    OwnerOut : Id/Seq: 1494626840056/0 Denom: 71: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerOut : Id/Seq: 1494626840056/1 Denom: 16: giWrBi7/e9ldmlp+AFagTBa1dVoMtTZ3FmDnh8Tkkx0=
+OwnerOut  Total: 87
+Tsig[:20]:  YK2dDoSbb+HTCAI8vvPU
+[    SUSPECTINPUTS: Id/Seq: 1494626754692/0 Denom: 87: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCWYeG/8dspk3s/Fv1BLCP9Ie0v1BzutHmOSOZDq3iJg9cb6SxaJJID2KM3ZE6utKPSKp20B3/PtSytrS6nw8ftvN+BoY7lTQAnh/Bk4qgTOTnEByFL2kK0hoM7chyTTFCR6t01j3OBAWqYnHJ8dU7ccdN1gbzzahHmFtjK0pCoeQIDAQAB
+SUSPECTINPUTS Total: 87
+1494626840056: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494626840741: PayCoins
+[    OwnerIn : Id/Seq: 1494626753432/0 Denom: 68: guTo1yR4xVsqhOpLw4GOwEcO3Hiqe+eirHDDUPhcmjo=
+   OwnerIn : Id/Seq: 1494626755609/1 Denom: 43: guTo1yR4xVsqhOpLw4GOwEcO3Hiqe+eirHDDUPhcmjo=
+OwnerIn  Total: 111
+[    OwnerOut : Id/Seq: 1494626840741/0 Denom: 94: giWrBi7/e9ldmlp+AFagTBa1dVoMtTZ3FmDnh8Tkkx0=
+   OwnerOut : Id/Seq: 1494626840741/1 Denom: 17: guTo1yR4xVsqhOpLw4GOwEcO3Hiqe+eirHDDUPhcmjo=
+OwnerOut  Total: 111
+Tsig[:20]:  lJhNfTzEADqvdRkrGBAR
+[    SUSPECTINPUTS: Id/Seq: 1494626753432/0 Denom: 68: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDlNE7zpRS6qAaUG79i97BUM319Dof/L8HbE3twSV7IrzN/60w1FvSOGlJkLhAz6z258ikhO16ZrOUMQirqa+EOPNGPk3D39ZHTDLjtddnLcg16jZjRQ1+UPLlq2ni6bNV1mPHV4rPe0tTsnGocgtOqyHoTc3XPAeSrWfMmItXkEwIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494626755609/1 Denom: 43: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDlNE7zpRS6qAaUG79i97BUM319Dof/L8HbE3twSV7IrzN/60w1FvSOGlJkLhAz6z258ikhO16ZrOUMQirqa+EOPNGPk3D39ZHTDLjtddnLcg16jZjRQ1+UPLlq2ni6bNV1mPHV4rPe0tTsnGocgtOqyHoTc3XPAeSrWfMmItXkEwIDAQAB
+SUSPECTINPUTS Total: 111
+1494626840741: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494626841312: PayCoins
+[    OwnerIn : Id/Seq: 1494626808913/1 Denom: 281: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerIn  Total: 281
+[    OwnerOut : Id/Seq: 1494626841312/0 Denom: 142: qA0ne74hbr5Ou4OIas9X2/nBOX0QugSCaoC+AQggF78=
+   OwnerOut : Id/Seq: 1494626841312/1 Denom: 139: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerOut  Total: 281
+Tsig[:20]:  bNRFJEm2RtVnLBkxF6vU
+[    SUSPECTINPUTS: Id/Seq: 1494626808913/1 Denom: 281: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChw+/3t6K8N30eKEbYaE0ptaDqOEONobsQZ+blpwl7ADPgqS+qxi6pXt1meR8WybK/I71OZM6fhqgjr5dLK1+GF8fkeaeBbU/YGYVP2ChJ1dp/Ju7ku3KfgEYyL48d2AuwDSAyxkYyffwbGIiJg3Li+SPBvRLUigazPvPxCtlCMwIDAQAB
+SUSPECTINPUTS Total: 281
+1494626841312: All good coins in the input.
+
+PNTs: 8 Txs In, 8 Good, 0 Bad.
+NEW IN:: 1494626836846: PayCoins
+[    OwnerIn : Id/Seq: 1494626808289/0 Denom: 144: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerIn  Total: 144
+[    OwnerOut : Id/Seq: 1494626836846/0 Denom: 106: epyQjmiHR3c6yWt8ZNITXLiXcXyEkGn5IsKBcQv66ak=
+   OwnerOut : Id/Seq: 1494626836846/1 Denom: 38: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerOut  Total: 144
+Tsig[:20]:  J+WQIE2QF9fRRWEyGekl
+[0] 28 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494626837676: PayCoins
+[    OwnerIn : Id/Seq: 1494626752911/1 Denom: 30: qA0ne74hbr5Ou4OIas9X2/nBOX0QugSCaoC+AQggF78=
+OwnerIn  Total: 30
+[    OwnerOut : Id/Seq: 1494626837676/0 Denom: 24: wLCpd1qHSgFP58JxC59PKzBI7RafSfgvEuF4PYy+bs0=
+   OwnerOut : Id/Seq: 1494626837676/1 Denom: 6: qA0ne74hbr5Ou4OIas9X2/nBOX0QugSCaoC+AQggF78=
+OwnerOut  Total: 30
+Tsig[:20]:  cOe37ax0HjZPoKpOK9eE
+[1] 29 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494626838478: PayCoins
+[    OwnerIn : Id/Seq: 1494626753432/1 Denom: 32: wLCpd1qHSgFP58JxC59PKzBI7RafSfgvEuF4PYy+bs0=
+   OwnerIn : Id/Seq: 1494626754025/0 Denom: 40: wLCpd1qHSgFP58JxC59PKzBI7RafSfgvEuF4PYy+bs0=
+OwnerIn  Total: 72
+[    OwnerOut : Id/Seq: 1494626838478/0 Denom: 58: wxMOMbGxGbxY+rzepMvQS8cDZQto4fGPhC8ztjsCRS8=
+   OwnerOut : Id/Seq: 1494626838478/1 Denom: 14: wLCpd1qHSgFP58JxC59PKzBI7RafSfgvEuF4PYy+bs0=
+OwnerOut  Total: 72
+Tsig[:20]:  kB2G1qQdQ/LjofY11F+T
+[2] 30 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494626838990: PayCoins
+[    OwnerIn : Id/Seq: 1494626752911/0 Denom: 70: epyQjmiHR3c6yWt8ZNITXLiXcXyEkGn5IsKBcQv66ak=
+OwnerIn  Total: 70
+[    OwnerOut : Id/Seq: 1494626838990/0 Denom: 61: guTo1yR4xVsqhOpLw4GOwEcO3Hiqe+eirHDDUPhcmjo=
+   OwnerOut : Id/Seq: 1494626838990/1 Denom: 9: epyQjmiHR3c6yWt8ZNITXLiXcXyEkGn5IsKBcQv66ak=
+OwnerOut  Total: 70
+Tsig[:20]:  WYaak78kkrXHOt+olzQP
+[3] 31 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494626839458: PayCoins
+[    OwnerIn : Id/Seq: 1494626755609/0 Denom: 57: wxMOMbGxGbxY+rzepMvQS8cDZQto4fGPhC8ztjsCRS8=
+OwnerIn  Total: 57
+[    OwnerOut : Id/Seq: 1494626839458/0 Denom: 32: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerOut : Id/Seq: 1494626839458/1 Denom: 25: wxMOMbGxGbxY+rzepMvQS8cDZQto4fGPhC8ztjsCRS8=
+OwnerOut  Total: 57
+Tsig[:20]:  oWVTrkcqrr1MdlYBzHOE
+[4] 32 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494626840056: PayCoins
+[    OwnerIn : Id/Seq: 1494626754692/0 Denom: 87: giWrBi7/e9ldmlp+AFagTBa1dVoMtTZ3FmDnh8Tkkx0=
+OwnerIn  Total: 87
+[    OwnerOut : Id/Seq: 1494626840056/0 Denom: 71: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerOut : Id/Seq: 1494626840056/1 Denom: 16: giWrBi7/e9ldmlp+AFagTBa1dVoMtTZ3FmDnh8Tkkx0=
+OwnerOut  Total: 87
+Tsig[:20]:  YK2dDoSbb+HTCAI8vvPU
+[5] 33 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494626840741: PayCoins
+[    OwnerIn : Id/Seq: 1494626753432/0 Denom: 68: guTo1yR4xVsqhOpLw4GOwEcO3Hiqe+eirHDDUPhcmjo=
+   OwnerIn : Id/Seq: 1494626755609/1 Denom: 43: guTo1yR4xVsqhOpLw4GOwEcO3Hiqe+eirHDDUPhcmjo=
+OwnerIn  Total: 111
+[    OwnerOut : Id/Seq: 1494626840741/0 Denom: 94: giWrBi7/e9ldmlp+AFagTBa1dVoMtTZ3FmDnh8Tkkx0=
+   OwnerOut : Id/Seq: 1494626840741/1 Denom: 17: guTo1yR4xVsqhOpLw4GOwEcO3Hiqe+eirHDDUPhcmjo=
+OwnerOut  Total: 111
+Tsig[:20]:  lJhNfTzEADqvdRkrGBAR
+[6] 34 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494626841312: PayCoins
+[    OwnerIn : Id/Seq: 1494626808913/1 Denom: 281: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerIn  Total: 281
+[    OwnerOut : Id/Seq: 1494626841312/0 Denom: 142: qA0ne74hbr5Ou4OIas9X2/nBOX0QugSCaoC+AQggF78=
+   OwnerOut : Id/Seq: 1494626841312/1 Denom: 139: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerOut  Total: 281
+Tsig[:20]:  bNRFJEm2RtVnLBkxF6vU
+[7] 35 Txs in Ledger after PNT, 0 in rejects.
+Store the Blockchain.
+Store the Rejects.
+Store the UTXOS.
+35 transactions stored.
+0 transactions rejected.
+newtxs file deleted.
+
+Load Blockchain:
+Txs in Ledger after Load:  35
+No New Transactions.
+Store the Blockchain.
+Store the Rejects.
+Store the UTXOS.
+35 transactions stored.
+0 transactions rejected.
+
+Load Blockchain:
+Txs in Ledger after Load:  35
+8 New Transactions in.
+
+NEW TRANSACTION:: 1494626890340: PayCoins
+[    OwnerIn : Id/Seq: 1494626721375/0 Denom: 148: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+OwnerIn  Total: 148
+[    OwnerOut : Id/Seq: 1494626890340/0 Denom: 144: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+   OwnerOut : Id/Seq: 1494626890340/1 Denom: 4: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+OwnerOut  Total: 148
+Tsig[:20]:  JfLPjb04twpkRS+Yl7xF
+[    SUSPECTINPUTS: Id/Seq: 1494626721375/0 Denom: 148: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCllyPLTZap6VSUG+CRLRvJGY/D06JtbiLGvnS5Z4V7iDHNFw7x2mZbW2igLWqJzIZmAZz8U6U62IZxAcZCEviqKbkpol+U5aUllGIBVrh6GJXJcItXp4CzejOeAUFSr1FWy1hJlXLlIeLsi41VkYFbL/bxCfViZEjq2rqxEE4jowIDAQAB
+SUSPECTINPUTS Total: 148
+1494626890340: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494626890890: PayCoins
+[    OwnerIn : Id/Seq: 1494626805903/1 Denom: 33: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerIn : Id/Seq: 1494626836846/1 Denom: 38: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerIn : Id/Seq: 1494626840056/0 Denom: 71: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerIn  Total: 142
+[    OwnerOut : Id/Seq: 1494626890890/0 Denom: 133: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+   OwnerOut : Id/Seq: 1494626890890/1 Denom: 9: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerOut  Total: 142
+Tsig[:20]:  bdSCU8zr6jc60ropvZtE
+[    SUSPECTINPUTS: Id/Seq: 1494626805903/1 Denom: 33: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCh3ulGlfT6DhY7xB7pRaSeDZErGwRXui31TE7cm6zLG8EzQmgDcu6RuA9/XuL412f7+ST0nA1W5GrFWkM8qpDeBneu/wiOqbdNTd6SUi1uNL+jwjCBLHMVpjD6fkWzACyjjo/5irxIYz3q9kP8K8upjwh/WUkM5KPE0GyR+HT9dQIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494626836846/1 Denom: 38: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCh3ulGlfT6DhY7xB7pRaSeDZErGwRXui31TE7cm6zLG8EzQmgDcu6RuA9/XuL412f7+ST0nA1W5GrFWkM8qpDeBneu/wiOqbdNTd6SUi1uNL+jwjCBLHMVpjD6fkWzACyjjo/5irxIYz3q9kP8K8upjwh/WUkM5KPE0GyR+HT9dQIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494626840056/0 Denom: 71: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCh3ulGlfT6DhY7xB7pRaSeDZErGwRXui31TE7cm6zLG8EzQmgDcu6RuA9/XuL412f7+ST0nA1W5GrFWkM8qpDeBneu/wiOqbdNTd6SUi1uNL+jwjCBLHMVpjD6fkWzACyjjo/5irxIYz3q9kP8K8upjwh/WUkM5KPE0GyR+HT9dQIDAQAB
+SUSPECTINPUTS Total: 142
+1494626890890: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494626891444: PayCoins
+[    OwnerIn : Id/Seq: 1494626807079/0 Denom: 146: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+OwnerIn  Total: 146
+[    OwnerOut : Id/Seq: 1494626891444/0 Denom: 87: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerOut : Id/Seq: 1494626891444/1 Denom: 59: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+OwnerOut  Total: 146
+Tsig[:20]:  U31pdHkSqQrYGjM7Dr0k
+[    SUSPECTINPUTS: Id/Seq: 1494626807079/0 Denom: 146: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDknJU8f+BCmb9RvZK/ChvFqw4RDtLtUFdyu7FfF/33clJ8liWUNSwQp/D+xfGVYh+7/Q+pmscCcTPWrGS4s6ChVusiYt0BTyCNi48ypEqqissHjgCRNkXHcFhfSsD9kvj7HEa4iZSzNRVmjxhs8Rd/PLWkCkAPW0KW1p9rjOFgDwIDAQAB
+SUSPECTINPUTS Total: 146
+1494626891444: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494626891945: PayCoins
+[    OwnerIn : Id/Seq: 1494626805903/0 Denom: 183: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+OwnerIn  Total: 183
+[    OwnerOut : Id/Seq: 1494626891945/0 Denom: 168: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   OwnerOut : Id/Seq: 1494626891945/1 Denom: 15: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+OwnerOut  Total: 183
+Tsig[:20]:  CF/jzKg/t4o3JTKE0edA
+[    SUSPECTINPUTS: Id/Seq: 1494626805903/0 Denom: 183: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCyzMq7gawMJB0+bfW7uEMTPXY2AwjfOwoECafWCGiFHa64XMMI7Kq9ignR/TpZ3HZKcTWbHWUA6cgWT5acWkHo7ZPIK3VYfBDkeFLnoq7H+B2LreOKWENDSKtto/KGK5cPf4FhBzY0GIp4Dus+yJJMvAikpQ7mCoV/k8BHjRCddwIDAQAB
+SUSPECTINPUTS Total: 183
+1494626891945: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494626892419: PayCoins
+[    OwnerIn : Id/Seq: 1494626723096/1 Denom: 33: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+OwnerIn  Total: 33
+[    OwnerOut : Id/Seq: 1494626892419/0 Denom: 1: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerOut : Id/Seq: 1494626892419/1 Denom: 32: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+OwnerOut  Total: 33
+Tsig[:20]:  ZTzk3PGKRn9cIRCHighs
+[    SUSPECTINPUTS: Id/Seq: 1494626723096/1 Denom: 33: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDcce9CTqGUu3E4doeY9YP9TiQ3yICbqrivzKwTk4hJjYqyIQYzdrYglwukJIk3duy3EXx87q3NxIMqHtQjWxMtxbKH9AE5XwNFuEpMEH7au7/h8lb86jIHrraEX/XWwV3XeY2BOdWS82HJ+zSH4tXRQCo0r2uq8peSqYAfxdR4XQIDAQAB
+SUSPECTINPUTS Total: 33
+1494626892419: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494626892908: PayCoins
+[    OwnerIn : Id/Seq: 1494626806397/0 Denom: 222: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+OwnerIn  Total: 222
+[    OwnerOut : Id/Seq: 1494626892908/0 Denom: 10: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+   OwnerOut : Id/Seq: 1494626892908/1 Denom: 212: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+OwnerOut  Total: 222
+Tsig[:20]:  xLnQB6CVt0M62RB1UB6T
+[    SUSPECTINPUTS: Id/Seq: 1494626806397/0 Denom: 222: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDIZxEO9zixB9BeVjAvmOrd12ImXC03JxNfhGLOHOMtYLhqFLIlKi3Uo2xo0aoqngi0b9KQiVOEWlEESEZmanlKd90ZzA9NhYFrystpi/o7CMd1hX8qrBFEzkVC2dvBxVczhvEHbJkTBR4hGplh+3xxY0cZoCifaWSWYhO9bMWnLQIDAQAB
+SUSPECTINPUTS Total: 222
+1494626892908: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494626893407: PayCoins
+[    OwnerIn : Id/Seq: 1494626807627/0 Denom: 75: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerIn : Id/Seq: 1494626839458/0 Denom: 32: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerIn : Id/Seq: 1494626841312/1 Denom: 139: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerIn  Total: 246
+[    OwnerOut : Id/Seq: 1494626893407/0 Denom: 214: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+   OwnerOut : Id/Seq: 1494626893407/1 Denom: 32: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerOut  Total: 246
+Tsig[:20]:  CWp0XskNnTnUbKyDqW3a
+[    SUSPECTINPUTS: Id/Seq: 1494626807627/0 Denom: 75: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChw+/3t6K8N30eKEbYaE0ptaDqOEONobsQZ+blpwl7ADPgqS+qxi6pXt1meR8WybK/I71OZM6fhqgjr5dLK1+GF8fkeaeBbU/YGYVP2ChJ1dp/Ju7ku3KfgEYyL48d2AuwDSAyxkYyffwbGIiJg3Li+SPBvRLUigazPvPxCtlCMwIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494626839458/0 Denom: 32: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChw+/3t6K8N30eKEbYaE0ptaDqOEONobsQZ+blpwl7ADPgqS+qxi6pXt1meR8WybK/I71OZM6fhqgjr5dLK1+GF8fkeaeBbU/YGYVP2ChJ1dp/Ju7ku3KfgEYyL48d2AuwDSAyxkYyffwbGIiJg3Li+SPBvRLUigazPvPxCtlCMwIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494626841312/1 Denom: 139: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChw+/3t6K8N30eKEbYaE0ptaDqOEONobsQZ+blpwl7ADPgqS+qxi6pXt1meR8WybK/I71OZM6fhqgjr5dLK1+GF8fkeaeBbU/YGYVP2ChJ1dp/Ju7ku3KfgEYyL48d2AuwDSAyxkYyffwbGIiJg3Li+SPBvRLUigazPvPxCtlCMwIDAQAB
+SUSPECTINPUTS Total: 246
+1494626893407: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494626893890: PayCoins
+[    OwnerIn : Id/Seq: 1494626722634/0 Denom: 74: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+OwnerIn  Total: 74
+[    OwnerOut : Id/Seq: 1494626893890/0 Denom: 63: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+   OwnerOut : Id/Seq: 1494626893890/1 Denom: 11: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+OwnerOut  Total: 74
+Tsig[:20]:  WDbq+XZKGAKRHou3qzzM
+[    SUSPECTINPUTS: Id/Seq: 1494626722634/0 Denom: 74: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDMym0hgwRlSG8MbefoMEp31YNYMlwOg5omqfBXpmspAXCF4F8c6H2jLSsyx7NYxmMBsdvMjzGLRJvOL2Hp0x/JQpCuFA++4EpNlgKRv2FZOyGDbdZH7xeqe9Lh9ysWpmTHMEOJaGbcjxewbF1eTlnWHabgwI1rfOFn3wHt3tJYXwIDAQAB
+SUSPECTINPUTS Total: 74
+1494626893890: All good coins in the input.
+
+PNTs: 8 Txs In, 8 Good, 0 Bad.
+NEW IN:: 1494626890340: PayCoins
+[    OwnerIn : Id/Seq: 1494626721375/0 Denom: 148: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+OwnerIn  Total: 148
+[    OwnerOut : Id/Seq: 1494626890340/0 Denom: 144: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+   OwnerOut : Id/Seq: 1494626890340/1 Denom: 4: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+OwnerOut  Total: 148
+Tsig[:20]:  JfLPjb04twpkRS+Yl7xF
+[0] 36 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494626890890: PayCoins
+[    OwnerIn : Id/Seq: 1494626805903/1 Denom: 33: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerIn : Id/Seq: 1494626836846/1 Denom: 38: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerIn : Id/Seq: 1494626840056/0 Denom: 71: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerIn  Total: 142
+[    OwnerOut : Id/Seq: 1494626890890/0 Denom: 133: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+   OwnerOut : Id/Seq: 1494626890890/1 Denom: 9: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerOut  Total: 142
+Tsig[:20]:  bdSCU8zr6jc60ropvZtE
+[1] 37 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494626891444: PayCoins
+[    OwnerIn : Id/Seq: 1494626807079/0 Denom: 146: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+OwnerIn  Total: 146
+[    OwnerOut : Id/Seq: 1494626891444/0 Denom: 87: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerOut : Id/Seq: 1494626891444/1 Denom: 59: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+OwnerOut  Total: 146
+Tsig[:20]:  U31pdHkSqQrYGjM7Dr0k
+[2] 38 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494626891945: PayCoins
+[    OwnerIn : Id/Seq: 1494626805903/0 Denom: 183: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+OwnerIn  Total: 183
+[    OwnerOut : Id/Seq: 1494626891945/0 Denom: 168: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   OwnerOut : Id/Seq: 1494626891945/1 Denom: 15: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+OwnerOut  Total: 183
+Tsig[:20]:  CF/jzKg/t4o3JTKE0edA
+[3] 39 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494626892419: PayCoins
+[    OwnerIn : Id/Seq: 1494626723096/1 Denom: 33: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+OwnerIn  Total: 33
+[    OwnerOut : Id/Seq: 1494626892419/0 Denom: 1: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerOut : Id/Seq: 1494626892419/1 Denom: 32: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+OwnerOut  Total: 33
+Tsig[:20]:  ZTzk3PGKRn9cIRCHighs
+[4] 40 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494626892908: PayCoins
+[    OwnerIn : Id/Seq: 1494626806397/0 Denom: 222: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+OwnerIn  Total: 222
+[    OwnerOut : Id/Seq: 1494626892908/0 Denom: 10: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+   OwnerOut : Id/Seq: 1494626892908/1 Denom: 212: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+OwnerOut  Total: 222
+Tsig[:20]:  xLnQB6CVt0M62RB1UB6T
+[5] 41 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494626893407: PayCoins
+[    OwnerIn : Id/Seq: 1494626807627/0 Denom: 75: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerIn : Id/Seq: 1494626839458/0 Denom: 32: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerIn : Id/Seq: 1494626841312/1 Denom: 139: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerIn  Total: 246
+[    OwnerOut : Id/Seq: 1494626893407/0 Denom: 214: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+   OwnerOut : Id/Seq: 1494626893407/1 Denom: 32: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerOut  Total: 246
+Tsig[:20]:  CWp0XskNnTnUbKyDqW3a
+[6] 42 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494626893890: PayCoins
+[    OwnerIn : Id/Seq: 1494626722634/0 Denom: 74: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+OwnerIn  Total: 74
+[    OwnerOut : Id/Seq: 1494626893890/0 Denom: 63: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+   OwnerOut : Id/Seq: 1494626893890/1 Denom: 11: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+OwnerOut  Total: 74
+Tsig[:20]:  WDbq+XZKGAKRHou3qzzM
+[7] 43 Txs in Ledger after PNT, 0 in rejects.
+Store the Blockchain.
+Store the Rejects.
+Store the UTXOS.
+43 transactions stored.
+0 transactions rejected.
+newtxs file deleted.
+
+Load Blockchain:
+Txs in Ledger after Load:  43
+8 New Transactions in.
+
+NEW TRANSACTION:: 1494626922424: PayCoins
+[    OwnerIn : Id/Seq: 1494626890890/1 Denom: 9: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerIn  Total: 9
+[    OwnerOut : Id/Seq: 1494626922424/0 Denom: 7: wLCpd1qHSgFP58JxC59PKzBI7RafSfgvEuF4PYy+bs0=
+   OwnerOut : Id/Seq: 1494626922424/1 Denom: 2: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerOut  Total: 9
+Tsig[:20]:  BFGIK6D9qkGPvTiOr87v
+[    SUSPECTINPUTS: Id/Seq: 1494626890890/1 Denom: 9: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCh3ulGlfT6DhY7xB7pRaSeDZErGwRXui31TE7cm6zLG8EzQmgDcu6RuA9/XuL412f7+ST0nA1W5GrFWkM8qpDeBneu/wiOqbdNTd6SUi1uNL+jwjCBLHMVpjD6fkWzACyjjo/5irxIYz3q9kP8K8upjwh/WUkM5KPE0GyR+HT9dQIDAQAB
+SUSPECTINPUTS Total: 9
+1494626922424: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494626923187: PayCoins
+[    OwnerIn : Id/Seq: 1494626841312/0 Denom: 142: qA0ne74hbr5Ou4OIas9X2/nBOX0QugSCaoC+AQggF78=
+OwnerIn  Total: 142
+[    OwnerOut : Id/Seq: 1494626923187/0 Denom: 32: guTo1yR4xVsqhOpLw4GOwEcO3Hiqe+eirHDDUPhcmjo=
+   OwnerOut : Id/Seq: 1494626923187/1 Denom: 110: qA0ne74hbr5Ou4OIas9X2/nBOX0QugSCaoC+AQggF78=
+OwnerOut  Total: 142
+Tsig[:20]:  BPrH3BeX9QeCZ+kDnx0Q
+[    SUSPECTINPUTS: Id/Seq: 1494626841312/0 Denom: 142: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDVtKbk5cwP7eHVmqSwyYbsF76bzO/cXMHnDbuqWhWsEkEpJmTZs8rCdCJrHZ5CcAGuH6B8JAL5gMM0tb32afINwXDVOe8bWjcqSaIvtTOI3Ku8ZoIU1cnXhAmTIu8/0584/MZZ+7jbsrIVBG+4yJIpOSZqawzJY73rX67ydDsI0wIDAQAB
+SUSPECTINPUTS Total: 142
+1494626923187: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494626923786: PayCoins
+[    OwnerIn : Id/Seq: 1494626837676/0 Denom: 24: wLCpd1qHSgFP58JxC59PKzBI7RafSfgvEuF4PYy+bs0=
+OwnerIn  Total: 24
+[    OwnerOut : Id/Seq: 1494626923786/0 Denom: 1: giWrBi7/e9ldmlp+AFagTBa1dVoMtTZ3FmDnh8Tkkx0=
+   OwnerOut : Id/Seq: 1494626923786/1 Denom: 23: wLCpd1qHSgFP58JxC59PKzBI7RafSfgvEuF4PYy+bs0=
+OwnerOut  Total: 24
+Tsig[:20]:  haSZERSLtLZN1wTPUdH9
+[    SUSPECTINPUTS: Id/Seq: 1494626837676/0 Denom: 24: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCgv2whMNi2oP1v0o9Uqd/ZgyEdJE4IuEuKnuB+t/okNAgmt3vC1A8kTLzP4fJyPLF0b5EEGmdHQe+yYcQEUPuvzgXvkVjzjtHydHOkPhs4/Y63KAw7xxb2ni+CgkiS4W7s49iTtY4AmTj7dvBVAELOPOPuPoZyqYnb4TaoJ+MqKQIDAQAB
+SUSPECTINPUTS Total: 24
+1494626923786: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494626924495: PayCoins
+[    OwnerIn : Id/Seq: 1494626754025/1 Denom: 60: epyQjmiHR3c6yWt8ZNITXLiXcXyEkGn5IsKBcQv66ak=
+OwnerIn  Total: 60
+[    OwnerOut : Id/Seq: 1494626924495/0 Denom: 1: wxMOMbGxGbxY+rzepMvQS8cDZQto4fGPhC8ztjsCRS8=
+   OwnerOut : Id/Seq: 1494626924495/1 Denom: 59: epyQjmiHR3c6yWt8ZNITXLiXcXyEkGn5IsKBcQv66ak=
+OwnerOut  Total: 60
+Tsig[:20]:  InEx9ajjkmyekYtDY9kM
+[    SUSPECTINPUTS: Id/Seq: 1494626754025/1 Denom: 60: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDseroYCgOjLS2F7WslRFGoxOV3JNn3Jmwnhko/MvflshrH+RCwJRLJEDduA9Xts+86ePVeVfZZN37O6wKs8na4+8+76n4Q6pxp23o1wImWGYvboizSxHOEbNnEBENjL61szUqnEdVKX0tiEuHz1w3SRvOt6/vZ/U2AoZrSw4JgjQIDAQAB
+SUSPECTINPUTS Total: 60
+1494626924495: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494626925142: PayCoins
+[    OwnerIn : Id/Seq: 1494626754692/1 Denom: 13: wxMOMbGxGbxY+rzepMvQS8cDZQto4fGPhC8ztjsCRS8=
+OwnerIn  Total: 13
+[    OwnerOut : Id/Seq: 1494626925142/0 Denom: 4: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerOut : Id/Seq: 1494626925142/1 Denom: 9: wxMOMbGxGbxY+rzepMvQS8cDZQto4fGPhC8ztjsCRS8=
+OwnerOut  Total: 13
+Tsig[:20]:  Uf4Pf2+IAsvHKbkYIEKQ
+[    SUSPECTINPUTS: Id/Seq: 1494626754692/1 Denom: 13: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDpD9rIYjtTXm2uWtTsxVfZne9+z8V9v6EDKRxjioKTO7XCUyRxIUDcWajIZQD2uekd8KVnUqxmmFiHDDe7g0UwGDoQ57GtT4K7CwXlmWWvw1v9Gi3EcBfO8oXcKDdK2+omLNA0K3yvBLaqDxPAb7iA1Zx1LuuhBB5bd3HYlOU+2wIDAQAB
+SUSPECTINPUTS Total: 13
+1494626925142: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494626925832: PayCoins
+[    OwnerIn : Id/Seq: 1494626840741/0 Denom: 94: giWrBi7/e9ldmlp+AFagTBa1dVoMtTZ3FmDnh8Tkkx0=
+OwnerIn  Total: 94
+[    OwnerOut : Id/Seq: 1494626925832/0 Denom: 18: qA0ne74hbr5Ou4OIas9X2/nBOX0QugSCaoC+AQggF78=
+   OwnerOut : Id/Seq: 1494626925832/1 Denom: 76: giWrBi7/e9ldmlp+AFagTBa1dVoMtTZ3FmDnh8Tkkx0=
+OwnerOut  Total: 94
+Tsig[:20]:  EO5sa1oXLRBvEEQQfsHC
+[    SUSPECTINPUTS: Id/Seq: 1494626840741/0 Denom: 94: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCWYeG/8dspk3s/Fv1BLCP9Ie0v1BzutHmOSOZDq3iJg9cb6SxaJJID2KM3ZE6utKPSKp20B3/PtSytrS6nw8ftvN+BoY7lTQAnh/Bk4qgTOTnEByFL2kK0hoM7chyTTFCR6t01j3OBAWqYnHJ8dU7ccdN1gbzzahHmFtjK0pCoeQIDAQAB
+SUSPECTINPUTS Total: 94
+1494626925832: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494626926595: PayCoins
+[    OwnerIn : Id/Seq: 1494626838990/0 Denom: 61: guTo1yR4xVsqhOpLw4GOwEcO3Hiqe+eirHDDUPhcmjo=
+OwnerIn  Total: 61
+[    OwnerOut : Id/Seq: 1494626926595/0 Denom: 1: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerOut : Id/Seq: 1494626926595/1 Denom: 60: guTo1yR4xVsqhOpLw4GOwEcO3Hiqe+eirHDDUPhcmjo=
+OwnerOut  Total: 61
+Tsig[:20]:  BuZm4kWZ4giLV8RcDG5f
+[    SUSPECTINPUTS: Id/Seq: 1494626838990/0 Denom: 61: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDlNE7zpRS6qAaUG79i97BUM319Dof/L8HbE3twSV7IrzN/60w1FvSOGlJkLhAz6z258ikhO16ZrOUMQirqa+EOPNGPk3D39ZHTDLjtddnLcg16jZjRQ1+UPLlq2ni6bNV1mPHV4rPe0tTsnGocgtOqyHoTc3XPAeSrWfMmItXkEwIDAQAB
+SUSPECTINPUTS Total: 61
+1494626926595: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494626927291: PayCoins
+[    OwnerIn : Id/Seq: 1494626891444/0 Denom: 87: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerIn  Total: 87
+[    OwnerOut : Id/Seq: 1494626927291/0 Denom: 73: epyQjmiHR3c6yWt8ZNITXLiXcXyEkGn5IsKBcQv66ak=
+   OwnerOut : Id/Seq: 1494626927291/1 Denom: 14: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerOut  Total: 87
+Tsig[:20]:  VjPQsmjsqpnxTeZzQODZ
+[    SUSPECTINPUTS: Id/Seq: 1494626891444/0 Denom: 87: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChw+/3t6K8N30eKEbYaE0ptaDqOEONobsQZ+blpwl7ADPgqS+qxi6pXt1meR8WybK/I71OZM6fhqgjr5dLK1+GF8fkeaeBbU/YGYVP2ChJ1dp/Ju7ku3KfgEYyL48d2AuwDSAyxkYyffwbGIiJg3Li+SPBvRLUigazPvPxCtlCMwIDAQAB
+SUSPECTINPUTS Total: 87
+1494626927291: All good coins in the input.
+
+PNTs: 8 Txs In, 8 Good, 0 Bad.
+NEW IN:: 1494626922424: PayCoins
+[    OwnerIn : Id/Seq: 1494626890890/1 Denom: 9: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerIn  Total: 9
+[    OwnerOut : Id/Seq: 1494626922424/0 Denom: 7: wLCpd1qHSgFP58JxC59PKzBI7RafSfgvEuF4PYy+bs0=
+   OwnerOut : Id/Seq: 1494626922424/1 Denom: 2: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerOut  Total: 9
+Tsig[:20]:  BFGIK6D9qkGPvTiOr87v
+[0] 44 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494626923187: PayCoins
+[    OwnerIn : Id/Seq: 1494626841312/0 Denom: 142: qA0ne74hbr5Ou4OIas9X2/nBOX0QugSCaoC+AQggF78=
+OwnerIn  Total: 142
+[    OwnerOut : Id/Seq: 1494626923187/0 Denom: 32: guTo1yR4xVsqhOpLw4GOwEcO3Hiqe+eirHDDUPhcmjo=
+   OwnerOut : Id/Seq: 1494626923187/1 Denom: 110: qA0ne74hbr5Ou4OIas9X2/nBOX0QugSCaoC+AQggF78=
+OwnerOut  Total: 142
+Tsig[:20]:  BPrH3BeX9QeCZ+kDnx0Q
+[1] 45 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494626923786: PayCoins
+[    OwnerIn : Id/Seq: 1494626837676/0 Denom: 24: wLCpd1qHSgFP58JxC59PKzBI7RafSfgvEuF4PYy+bs0=
+OwnerIn  Total: 24
+[    OwnerOut : Id/Seq: 1494626923786/0 Denom: 1: giWrBi7/e9ldmlp+AFagTBa1dVoMtTZ3FmDnh8Tkkx0=
+   OwnerOut : Id/Seq: 1494626923786/1 Denom: 23: wLCpd1qHSgFP58JxC59PKzBI7RafSfgvEuF4PYy+bs0=
+OwnerOut  Total: 24
+Tsig[:20]:  haSZERSLtLZN1wTPUdH9
+[2] 46 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494626924495: PayCoins
+[    OwnerIn : Id/Seq: 1494626754025/1 Denom: 60: epyQjmiHR3c6yWt8ZNITXLiXcXyEkGn5IsKBcQv66ak=
+OwnerIn  Total: 60
+[    OwnerOut : Id/Seq: 1494626924495/0 Denom: 1: wxMOMbGxGbxY+rzepMvQS8cDZQto4fGPhC8ztjsCRS8=
+   OwnerOut : Id/Seq: 1494626924495/1 Denom: 59: epyQjmiHR3c6yWt8ZNITXLiXcXyEkGn5IsKBcQv66ak=
+OwnerOut  Total: 60
+Tsig[:20]:  InEx9ajjkmyekYtDY9kM
+[3] 47 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494626925142: PayCoins
+[    OwnerIn : Id/Seq: 1494626754692/1 Denom: 13: wxMOMbGxGbxY+rzepMvQS8cDZQto4fGPhC8ztjsCRS8=
+OwnerIn  Total: 13
+[    OwnerOut : Id/Seq: 1494626925142/0 Denom: 4: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerOut : Id/Seq: 1494626925142/1 Denom: 9: wxMOMbGxGbxY+rzepMvQS8cDZQto4fGPhC8ztjsCRS8=
+OwnerOut  Total: 13
+Tsig[:20]:  Uf4Pf2+IAsvHKbkYIEKQ
+[4] 48 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494626925832: PayCoins
+[    OwnerIn : Id/Seq: 1494626840741/0 Denom: 94: giWrBi7/e9ldmlp+AFagTBa1dVoMtTZ3FmDnh8Tkkx0=
+OwnerIn  Total: 94
+[    OwnerOut : Id/Seq: 1494626925832/0 Denom: 18: qA0ne74hbr5Ou4OIas9X2/nBOX0QugSCaoC+AQggF78=
+   OwnerOut : Id/Seq: 1494626925832/1 Denom: 76: giWrBi7/e9ldmlp+AFagTBa1dVoMtTZ3FmDnh8Tkkx0=
+OwnerOut  Total: 94
+Tsig[:20]:  EO5sa1oXLRBvEEQQfsHC
+[5] 49 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494626926595: PayCoins
+[    OwnerIn : Id/Seq: 1494626838990/0 Denom: 61: guTo1yR4xVsqhOpLw4GOwEcO3Hiqe+eirHDDUPhcmjo=
+OwnerIn  Total: 61
+[    OwnerOut : Id/Seq: 1494626926595/0 Denom: 1: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerOut : Id/Seq: 1494626926595/1 Denom: 60: guTo1yR4xVsqhOpLw4GOwEcO3Hiqe+eirHDDUPhcmjo=
+OwnerOut  Total: 61
+Tsig[:20]:  BuZm4kWZ4giLV8RcDG5f
+[6] 50 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494626927291: PayCoins
+[    OwnerIn : Id/Seq: 1494626891444/0 Denom: 87: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerIn  Total: 87
+[    OwnerOut : Id/Seq: 1494626927291/0 Denom: 73: epyQjmiHR3c6yWt8ZNITXLiXcXyEkGn5IsKBcQv66ak=
+   OwnerOut : Id/Seq: 1494626927291/1 Denom: 14: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerOut  Total: 87
+Tsig[:20]:  VjPQsmjsqpnxTeZzQODZ
+[7] 51 Txs in Ledger after PNT, 0 in rejects.
+Store the Blockchain.
+Store the Rejects.
+Store the UTXOS.
+51 transactions stored.
+0 transactions rejected.
+newtxs file deleted.
+
+Load Blockchain:
+Txs in Ledger after Load:  51
+8 New Transactions in.
+
+NEW TRANSACTION:: 1494626974609: PayCoins
+[    OwnerIn : Id/Seq: 1494626720863/1 Denom: 7: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+   OwnerIn : Id/Seq: 1494626805463/1 Denom: 65: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+   OwnerIn : Id/Seq: 1494626808913/0 Denom: 132: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+   OwnerIn : Id/Seq: 1494626890340/1 Denom: 4: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+   OwnerIn : Id/Seq: 1494626892908/0 Denom: 10: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+OwnerIn  Total: 218
+[    OwnerOut : Id/Seq: 1494626974609/0 Denom: 178: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   OwnerOut : Id/Seq: 1494626974609/1 Denom: 40: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+OwnerOut  Total: 218
+Tsig[:20]:  fYnF5X1onWUxbmDNuPMJ
+[    SUSPECTINPUTS: Id/Seq: 1494626720863/1 Denom: 7: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCllyPLTZap6VSUG+CRLRvJGY/D06JtbiLGvnS5Z4V7iDHNFw7x2mZbW2igLWqJzIZmAZz8U6U62IZxAcZCEviqKbkpol+U5aUllGIBVrh6GJXJcItXp4CzejOeAUFSr1FWy1hJlXLlIeLsi41VkYFbL/bxCfViZEjq2rqxEE4jowIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494626805463/1 Denom: 65: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCllyPLTZap6VSUG+CRLRvJGY/D06JtbiLGvnS5Z4V7iDHNFw7x2mZbW2igLWqJzIZmAZz8U6U62IZxAcZCEviqKbkpol+U5aUllGIBVrh6GJXJcItXp4CzejOeAUFSr1FWy1hJlXLlIeLsi41VkYFbL/bxCfViZEjq2rqxEE4jowIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494626808913/0 Denom: 132: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCllyPLTZap6VSUG+CRLRvJGY/D06JtbiLGvnS5Z4V7iDHNFw7x2mZbW2igLWqJzIZmAZz8U6U62IZxAcZCEviqKbkpol+U5aUllGIBVrh6GJXJcItXp4CzejOeAUFSr1FWy1hJlXLlIeLsi41VkYFbL/bxCfViZEjq2rqxEE4jowIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494626890340/1 Denom: 4: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCllyPLTZap6VSUG+CRLRvJGY/D06JtbiLGvnS5Z4V7iDHNFw7x2mZbW2igLWqJzIZmAZz8U6U62IZxAcZCEviqKbkpol+U5aUllGIBVrh6GJXJcItXp4CzejOeAUFSr1FWy1hJlXLlIeLsi41VkYFbL/bxCfViZEjq2rqxEE4jowIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494626892908/0 Denom: 10: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCllyPLTZap6VSUG+CRLRvJGY/D06JtbiLGvnS5Z4V7iDHNFw7x2mZbW2igLWqJzIZmAZz8U6U62IZxAcZCEviqKbkpol+U5aUllGIBVrh6GJXJcItXp4CzejOeAUFSr1FWy1hJlXLlIeLsi41VkYFbL/bxCfViZEjq2rqxEE4jowIDAQAB
+SUSPECTINPUTS Total: 218
+1494626974609: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494626975274: PayCoins
+[    OwnerIn : Id/Seq: 1494626892419/0 Denom: 1: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerIn : Id/Seq: 1494626922424/1 Denom: 2: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerIn : Id/Seq: 1494626925142/0 Denom: 4: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerIn  Total: 7
+[    OwnerOut : Id/Seq: 1494626975274/0 Denom: 4: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+   OwnerOut : Id/Seq: 1494626975274/1 Denom: 3: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerOut  Total: 7
+Tsig[:20]:  b/8iK/gWdibZYAiv+fKD
+[    SUSPECTINPUTS: Id/Seq: 1494626892419/0 Denom: 1: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCh3ulGlfT6DhY7xB7pRaSeDZErGwRXui31TE7cm6zLG8EzQmgDcu6RuA9/XuL412f7+ST0nA1W5GrFWkM8qpDeBneu/wiOqbdNTd6SUi1uNL+jwjCBLHMVpjD6fkWzACyjjo/5irxIYz3q9kP8K8upjwh/WUkM5KPE0GyR+HT9dQIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494626922424/1 Denom: 2: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCh3ulGlfT6DhY7xB7pRaSeDZErGwRXui31TE7cm6zLG8EzQmgDcu6RuA9/XuL412f7+ST0nA1W5GrFWkM8qpDeBneu/wiOqbdNTd6SUi1uNL+jwjCBLHMVpjD6fkWzACyjjo/5irxIYz3q9kP8K8upjwh/WUkM5KPE0GyR+HT9dQIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494626925142/0 Denom: 4: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCh3ulGlfT6DhY7xB7pRaSeDZErGwRXui31TE7cm6zLG8EzQmgDcu6RuA9/XuL412f7+ST0nA1W5GrFWkM8qpDeBneu/wiOqbdNTd6SUi1uNL+jwjCBLHMVpjD6fkWzACyjjo/5irxIYz3q9kP8K8upjwh/WUkM5KPE0GyR+HT9dQIDAQAB
+SUSPECTINPUTS Total: 7
+1494626975274: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494626975716: PayCoins
+[    OwnerIn : Id/Seq: 1494626806397/1 Denom: 28: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+OwnerIn  Total: 28
+[    OwnerOut : Id/Seq: 1494626975716/0 Denom: 4: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerOut : Id/Seq: 1494626975716/1 Denom: 24: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+OwnerOut  Total: 28
+Tsig[:20]:  eA7hFBoKjZ0WEBYGxyFZ
+[    SUSPECTINPUTS: Id/Seq: 1494626806397/1 Denom: 28: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDknJU8f+BCmb9RvZK/ChvFqw4RDtLtUFdyu7FfF/33clJ8liWUNSwQp/D+xfGVYh+7/Q+pmscCcTPWrGS4s6ChVusiYt0BTyCNi48ypEqqissHjgCRNkXHcFhfSsD9kvj7HEa4iZSzNRVmjxhs8Rd/PLWkCkAPW0KW1p9rjOFgDwIDAQAB
+SUSPECTINPUTS Total: 28
+1494626975716: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494626976552: PayCoins
+[    OwnerIn : Id/Seq: 1494626807079/1 Denom: 73: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+   OwnerIn : Id/Seq: 1494626891945/1 Denom: 15: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+   OwnerIn : Id/Seq: 1494626893407/0 Denom: 214: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+OwnerIn  Total: 302
+[    OwnerOut : Id/Seq: 1494626976552/0 Denom: 283: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+   OwnerOut : Id/Seq: 1494626976552/1 Denom: 19: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+OwnerOut  Total: 302
+Tsig[:20]:  Q7Yb+3hwyhRK/gP2aHCA
+[    SUSPECTINPUTS: Id/Seq: 1494626807079/1 Denom: 73: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCyzMq7gawMJB0+bfW7uEMTPXY2AwjfOwoECafWCGiFHa64XMMI7Kq9ignR/TpZ3HZKcTWbHWUA6cgWT5acWkHo7ZPIK3VYfBDkeFLnoq7H+B2LreOKWENDSKtto/KGK5cPf4FhBzY0GIp4Dus+yJJMvAikpQ7mCoV/k8BHjRCddwIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494626891945/1 Denom: 15: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCyzMq7gawMJB0+bfW7uEMTPXY2AwjfOwoECafWCGiFHa64XMMI7Kq9ignR/TpZ3HZKcTWbHWUA6cgWT5acWkHo7ZPIK3VYfBDkeFLnoq7H+B2LreOKWENDSKtto/KGK5cPf4FhBzY0GIp4Dus+yJJMvAikpQ7mCoV/k8BHjRCddwIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494626893407/0 Denom: 214: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCyzMq7gawMJB0+bfW7uEMTPXY2AwjfOwoECafWCGiFHa64XMMI7Kq9ignR/TpZ3HZKcTWbHWUA6cgWT5acWkHo7ZPIK3VYfBDkeFLnoq7H+B2LreOKWENDSKtto/KGK5cPf4FhBzY0GIp4Dus+yJJMvAikpQ7mCoV/k8BHjRCddwIDAQAB
+SUSPECTINPUTS Total: 302
+1494626976552: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494626977322: PayCoins
+[    OwnerIn : Id/Seq: 1494626809549/0 Denom: 31: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+OwnerIn  Total: 31
+[    OwnerOut : Id/Seq: 1494626977322/0 Denom: 25: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+   OwnerOut : Id/Seq: 1494626977322/1 Denom: 6: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+OwnerOut  Total: 31
+Tsig[:20]:  1Y20TCiInmtL41h8R+J3
+[    SUSPECTINPUTS: Id/Seq: 1494626809549/0 Denom: 31: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDcce9CTqGUu3E4doeY9YP9TiQ3yICbqrivzKwTk4hJjYqyIQYzdrYglwukJIk3duy3EXx87q3NxIMqHtQjWxMtxbKH9AE5XwNFuEpMEH7au7/h8lb86jIHrraEX/XWwV3XeY2BOdWS82HJ+zSH4tXRQCo0r2uq8peSqYAfxdR4XQIDAQAB
+SUSPECTINPUTS Total: 31
+1494626977322: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494626977789: PayCoins
+[    OwnerIn : Id/Seq: 1494626808289/1 Denom: 39: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+   OwnerIn : Id/Seq: 1494626892908/1 Denom: 212: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+   OwnerIn : Id/Seq: 1494626893890/0 Denom: 63: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+OwnerIn  Total: 314
+[    OwnerOut : Id/Seq: 1494626977789/0 Denom: 235: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+   OwnerOut : Id/Seq: 1494626977789/1 Denom: 79: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+OwnerOut  Total: 314
+Tsig[:20]:  hqqUPZ0fOMI9INZXl6ng
+[    SUSPECTINPUTS: Id/Seq: 1494626808289/1 Denom: 39: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDIZxEO9zixB9BeVjAvmOrd12ImXC03JxNfhGLOHOMtYLhqFLIlKi3Uo2xo0aoqngi0b9KQiVOEWlEESEZmanlKd90ZzA9NhYFrystpi/o7CMd1hX8qrBFEzkVC2dvBxVczhvEHbJkTBR4hGplh+3xxY0cZoCifaWSWYhO9bMWnLQIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494626892908/1 Denom: 212: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDIZxEO9zixB9BeVjAvmOrd12ImXC03JxNfhGLOHOMtYLhqFLIlKi3Uo2xo0aoqngi0b9KQiVOEWlEESEZmanlKd90ZzA9NhYFrystpi/o7CMd1hX8qrBFEzkVC2dvBxVczhvEHbJkTBR4hGplh+3xxY0cZoCifaWSWYhO9bMWnLQIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494626893890/0 Denom: 63: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDIZxEO9zixB9BeVjAvmOrd12ImXC03JxNfhGLOHOMtYLhqFLIlKi3Uo2xo0aoqngi0b9KQiVOEWlEESEZmanlKd90ZzA9NhYFrystpi/o7CMd1hX8qrBFEzkVC2dvBxVczhvEHbJkTBR4hGplh+3xxY0cZoCifaWSWYhO9bMWnLQIDAQAB
+SUSPECTINPUTS Total: 314
+1494626977789: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494626978361: PayCoins
+[    OwnerIn : Id/Seq: 1494626893407/1 Denom: 32: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerIn : Id/Seq: 1494626926595/0 Denom: 1: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerIn : Id/Seq: 1494626927291/1 Denom: 14: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerIn  Total: 47
+[    OwnerOut : Id/Seq: 1494626978361/0 Denom: 41: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+   OwnerOut : Id/Seq: 1494626978361/1 Denom: 6: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerOut  Total: 47
+Tsig[:20]:  m5RDVLyWuAs97NWHXBGm
+[    SUSPECTINPUTS: Id/Seq: 1494626893407/1 Denom: 32: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChw+/3t6K8N30eKEbYaE0ptaDqOEONobsQZ+blpwl7ADPgqS+qxi6pXt1meR8WybK/I71OZM6fhqgjr5dLK1+GF8fkeaeBbU/YGYVP2ChJ1dp/Ju7ku3KfgEYyL48d2AuwDSAyxkYyffwbGIiJg3Li+SPBvRLUigazPvPxCtlCMwIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494626926595/0 Denom: 1: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChw+/3t6K8N30eKEbYaE0ptaDqOEONobsQZ+blpwl7ADPgqS+qxi6pXt1meR8WybK/I71OZM6fhqgjr5dLK1+GF8fkeaeBbU/YGYVP2ChJ1dp/Ju7ku3KfgEYyL48d2AuwDSAyxkYyffwbGIiJg3Li+SPBvRLUigazPvPxCtlCMwIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494626927291/1 Denom: 14: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChw+/3t6K8N30eKEbYaE0ptaDqOEONobsQZ+blpwl7ADPgqS+qxi6pXt1meR8WybK/I71OZM6fhqgjr5dLK1+GF8fkeaeBbU/YGYVP2ChJ1dp/Ju7ku3KfgEYyL48d2AuwDSAyxkYyffwbGIiJg3Li+SPBvRLUigazPvPxCtlCMwIDAQAB
+SUSPECTINPUTS Total: 47
+1494626978361: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494626979028: PayCoins
+[    OwnerIn : Id/Seq: 1494626724673/1 Denom: 49: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+   OwnerIn : Id/Seq: 1494626805463/0 Denom: 35: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+   OwnerIn : Id/Seq: 1494626809549/1 Denom: 69: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+   OwnerIn : Id/Seq: 1494626890890/0 Denom: 133: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+   OwnerIn : Id/Seq: 1494626893890/1 Denom: 11: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+OwnerIn  Total: 297
+[    OwnerOut : Id/Seq: 1494626979028/0 Denom: 166: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerOut : Id/Seq: 1494626979028/1 Denom: 131: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+OwnerOut  Total: 297
+Tsig[:20]:  NTEIbc7cpBPkaJ03N/IZ
+[    SUSPECTINPUTS: Id/Seq: 1494626724673/1 Denom: 49: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDMym0hgwRlSG8MbefoMEp31YNYMlwOg5omqfBXpmspAXCF4F8c6H2jLSsyx7NYxmMBsdvMjzGLRJvOL2Hp0x/JQpCuFA++4EpNlgKRv2FZOyGDbdZH7xeqe9Lh9ysWpmTHMEOJaGbcjxewbF1eTlnWHabgwI1rfOFn3wHt3tJYXwIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494626805463/0 Denom: 35: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDMym0hgwRlSG8MbefoMEp31YNYMlwOg5omqfBXpmspAXCF4F8c6H2jLSsyx7NYxmMBsdvMjzGLRJvOL2Hp0x/JQpCuFA++4EpNlgKRv2FZOyGDbdZH7xeqe9Lh9ysWpmTHMEOJaGbcjxewbF1eTlnWHabgwI1rfOFn3wHt3tJYXwIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494626809549/1 Denom: 69: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDMym0hgwRlSG8MbefoMEp31YNYMlwOg5omqfBXpmspAXCF4F8c6H2jLSsyx7NYxmMBsdvMjzGLRJvOL2Hp0x/JQpCuFA++4EpNlgKRv2FZOyGDbdZH7xeqe9Lh9ysWpmTHMEOJaGbcjxewbF1eTlnWHabgwI1rfOFn3wHt3tJYXwIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494626890890/0 Denom: 133: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDMym0hgwRlSG8MbefoMEp31YNYMlwOg5omqfBXpmspAXCF4F8c6H2jLSsyx7NYxmMBsdvMjzGLRJvOL2Hp0x/JQpCuFA++4EpNlgKRv2FZOyGDbdZH7xeqe9Lh9ysWpmTHMEOJaGbcjxewbF1eTlnWHabgwI1rfOFn3wHt3tJYXwIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494626893890/1 Denom: 11: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDMym0hgwRlSG8MbefoMEp31YNYMlwOg5omqfBXpmspAXCF4F8c6H2jLSsyx7NYxmMBsdvMjzGLRJvOL2Hp0x/JQpCuFA++4EpNlgKRv2FZOyGDbdZH7xeqe9Lh9ysWpmTHMEOJaGbcjxewbF1eTlnWHabgwI1rfOFn3wHt3tJYXwIDAQAB
+SUSPECTINPUTS Total: 297
+1494626979028: All good coins in the input.
+
+PNTs: 8 Txs In, 8 Good, 0 Bad.
+NEW IN:: 1494626974609: PayCoins
+[    OwnerIn : Id/Seq: 1494626720863/1 Denom: 7: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+   OwnerIn : Id/Seq: 1494626805463/1 Denom: 65: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+   OwnerIn : Id/Seq: 1494626808913/0 Denom: 132: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+   OwnerIn : Id/Seq: 1494626890340/1 Denom: 4: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+   OwnerIn : Id/Seq: 1494626892908/0 Denom: 10: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+OwnerIn  Total: 218
+[    OwnerOut : Id/Seq: 1494626974609/0 Denom: 178: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   OwnerOut : Id/Seq: 1494626974609/1 Denom: 40: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+OwnerOut  Total: 218
+Tsig[:20]:  fYnF5X1onWUxbmDNuPMJ
+[0] 52 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494626975274: PayCoins
+[    OwnerIn : Id/Seq: 1494626892419/0 Denom: 1: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerIn : Id/Seq: 1494626922424/1 Denom: 2: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerIn : Id/Seq: 1494626925142/0 Denom: 4: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerIn  Total: 7
+[    OwnerOut : Id/Seq: 1494626975274/0 Denom: 4: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+   OwnerOut : Id/Seq: 1494626975274/1 Denom: 3: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerOut  Total: 7
+Tsig[:20]:  b/8iK/gWdibZYAiv+fKD
+[1] 53 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494626975716: PayCoins
+[    OwnerIn : Id/Seq: 1494626806397/1 Denom: 28: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+OwnerIn  Total: 28
+[    OwnerOut : Id/Seq: 1494626975716/0 Denom: 4: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerOut : Id/Seq: 1494626975716/1 Denom: 24: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+OwnerOut  Total: 28
+Tsig[:20]:  eA7hFBoKjZ0WEBYGxyFZ
+[2] 54 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494626976552: PayCoins
+[    OwnerIn : Id/Seq: 1494626807079/1 Denom: 73: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+   OwnerIn : Id/Seq: 1494626891945/1 Denom: 15: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+   OwnerIn : Id/Seq: 1494626893407/0 Denom: 214: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+OwnerIn  Total: 302
+[    OwnerOut : Id/Seq: 1494626976552/0 Denom: 283: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+   OwnerOut : Id/Seq: 1494626976552/1 Denom: 19: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+OwnerOut  Total: 302
+Tsig[:20]:  Q7Yb+3hwyhRK/gP2aHCA
+[3] 55 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494626977322: PayCoins
+[    OwnerIn : Id/Seq: 1494626809549/0 Denom: 31: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+OwnerIn  Total: 31
+[    OwnerOut : Id/Seq: 1494626977322/0 Denom: 25: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+   OwnerOut : Id/Seq: 1494626977322/1 Denom: 6: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+OwnerOut  Total: 31
+Tsig[:20]:  1Y20TCiInmtL41h8R+J3
+[4] 56 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494626977789: PayCoins
+[    OwnerIn : Id/Seq: 1494626808289/1 Denom: 39: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+   OwnerIn : Id/Seq: 1494626892908/1 Denom: 212: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+   OwnerIn : Id/Seq: 1494626893890/0 Denom: 63: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+OwnerIn  Total: 314
+[    OwnerOut : Id/Seq: 1494626977789/0 Denom: 235: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+   OwnerOut : Id/Seq: 1494626977789/1 Denom: 79: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+OwnerOut  Total: 314
+Tsig[:20]:  hqqUPZ0fOMI9INZXl6ng
+[5] 57 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494626978361: PayCoins
+[    OwnerIn : Id/Seq: 1494626893407/1 Denom: 32: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerIn : Id/Seq: 1494626926595/0 Denom: 1: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerIn : Id/Seq: 1494626927291/1 Denom: 14: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerIn  Total: 47
+[    OwnerOut : Id/Seq: 1494626978361/0 Denom: 41: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+   OwnerOut : Id/Seq: 1494626978361/1 Denom: 6: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerOut  Total: 47
+Tsig[:20]:  m5RDVLyWuAs97NWHXBGm
+[6] 58 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494626979028: PayCoins
+[    OwnerIn : Id/Seq: 1494626724673/1 Denom: 49: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+   OwnerIn : Id/Seq: 1494626805463/0 Denom: 35: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+   OwnerIn : Id/Seq: 1494626809549/1 Denom: 69: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+   OwnerIn : Id/Seq: 1494626890890/0 Denom: 133: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+   OwnerIn : Id/Seq: 1494626893890/1 Denom: 11: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+OwnerIn  Total: 297
+[    OwnerOut : Id/Seq: 1494626979028/0 Denom: 166: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerOut : Id/Seq: 1494626979028/1 Denom: 131: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+OwnerOut  Total: 297
+Tsig[:20]:  NTEIbc7cpBPkaJ03N/IZ
+[7] 59 Txs in Ledger after PNT, 0 in rejects.
+Store the Blockchain.
+Store the Rejects.
+Store the UTXOS.
+59 transactions stored.
+0 transactions rejected.
+newtxs file deleted.
+
+Load Blockchain:
+Txs in Ledger after Load:  59
+5 New Transactions in.
+
+NEW TRANSACTION:: 1494627008115: PayCoins
+[    OwnerIn : Id/Seq: 1494626975274/1 Denom: 3: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerIn  Total: 3
+[    OwnerOut : Id/Seq: 1494627008115/0 Denom: 1: guTo1yR4xVsqhOpLw4GOwEcO3Hiqe+eirHDDUPhcmjo=
+   OwnerOut : Id/Seq: 1494627008115/1 Denom: 2: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerOut  Total: 3
+Tsig[:20]:  nnxwkoDtliNBjRn4UJRf
+[    SUSPECTINPUTS: Id/Seq: 1494626975274/1 Denom: 3: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCh3ulGlfT6DhY7xB7pRaSeDZErGwRXui31TE7cm6zLG8EzQmgDcu6RuA9/XuL412f7+ST0nA1W5GrFWkM8qpDeBneu/wiOqbdNTd6SUi1uNL+jwjCBLHMVpjD6fkWzACyjjo/5irxIYz3q9kP8K8upjwh/WUkM5KPE0GyR+HT9dQIDAQAB
+SUSPECTINPUTS Total: 3
+1494627008115: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494627008621: PayCoins
+[    OwnerIn : Id/Seq: 1494626837676/1 Denom: 6: qA0ne74hbr5Ou4OIas9X2/nBOX0QugSCaoC+AQggF78=
+   OwnerIn : Id/Seq: 1494626923187/1 Denom: 110: qA0ne74hbr5Ou4OIas9X2/nBOX0QugSCaoC+AQggF78=
+   OwnerIn : Id/Seq: 1494626925832/0 Denom: 18: qA0ne74hbr5Ou4OIas9X2/nBOX0QugSCaoC+AQggF78=
+OwnerIn  Total: 134
+[    OwnerOut : Id/Seq: 1494627008621/0 Denom: 125: wxMOMbGxGbxY+rzepMvQS8cDZQto4fGPhC8ztjsCRS8=
+   OwnerOut : Id/Seq: 1494627008621/1 Denom: 9: qA0ne74hbr5Ou4OIas9X2/nBOX0QugSCaoC+AQggF78=
+OwnerOut  Total: 134
+Tsig[:20]:  uGAmUFEE/5AECDEDGlCa
+[    SUSPECTINPUTS: Id/Seq: 1494626837676/1 Denom: 6: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDVtKbk5cwP7eHVmqSwyYbsF76bzO/cXMHnDbuqWhWsEkEpJmTZs8rCdCJrHZ5CcAGuH6B8JAL5gMM0tb32afINwXDVOe8bWjcqSaIvtTOI3Ku8ZoIU1cnXhAmTIu8/0584/MZZ+7jbsrIVBG+4yJIpOSZqawzJY73rX67ydDsI0wIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494626923187/1 Denom: 110: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDVtKbk5cwP7eHVmqSwyYbsF76bzO/cXMHnDbuqWhWsEkEpJmTZs8rCdCJrHZ5CcAGuH6B8JAL5gMM0tb32afINwXDVOe8bWjcqSaIvtTOI3Ku8ZoIU1cnXhAmTIu8/0584/MZZ+7jbsrIVBG+4yJIpOSZqawzJY73rX67ydDsI0wIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494626925832/0 Denom: 18: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDVtKbk5cwP7eHVmqSwyYbsF76bzO/cXMHnDbuqWhWsEkEpJmTZs8rCdCJrHZ5CcAGuH6B8JAL5gMM0tb32afINwXDVOe8bWjcqSaIvtTOI3Ku8ZoIU1cnXhAmTIu8/0584/MZZ+7jbsrIVBG+4yJIpOSZqawzJY73rX67ydDsI0wIDAQAB
+SUSPECTINPUTS Total: 134
+1494627008621: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494627009124: PayCoins
+[    OwnerIn : Id/Seq: 1494626838478/1 Denom: 14: wLCpd1qHSgFP58JxC59PKzBI7RafSfgvEuF4PYy+bs0=
+   OwnerIn : Id/Seq: 1494626922424/0 Denom: 7: wLCpd1qHSgFP58JxC59PKzBI7RafSfgvEuF4PYy+bs0=
+   OwnerIn : Id/Seq: 1494626923786/1 Denom: 23: wLCpd1qHSgFP58JxC59PKzBI7RafSfgvEuF4PYy+bs0=
+OwnerIn  Total: 44
+[    OwnerOut : Id/Seq: 1494627009124/0 Denom: 23: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerOut : Id/Seq: 1494627009124/1 Denom: 21: wLCpd1qHSgFP58JxC59PKzBI7RafSfgvEuF4PYy+bs0=
+OwnerOut  Total: 44
+Tsig[:20]:  b/aoJcARemqC5BOrI6Yn
+[    SUSPECTINPUTS: Id/Seq: 1494626838478/1 Denom: 14: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCgv2whMNi2oP1v0o9Uqd/ZgyEdJE4IuEuKnuB+t/okNAgmt3vC1A8kTLzP4fJyPLF0b5EEGmdHQe+yYcQEUPuvzgXvkVjzjtHydHOkPhs4/Y63KAw7xxb2ni+CgkiS4W7s49iTtY4AmTj7dvBVAELOPOPuPoZyqYnb4TaoJ+MqKQIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494626922424/0 Denom: 7: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCgv2whMNi2oP1v0o9Uqd/ZgyEdJE4IuEuKnuB+t/okNAgmt3vC1A8kTLzP4fJyPLF0b5EEGmdHQe+yYcQEUPuvzgXvkVjzjtHydHOkPhs4/Y63KAw7xxb2ni+CgkiS4W7s49iTtY4AmTj7dvBVAELOPOPuPoZyqYnb4TaoJ+MqKQIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494626923786/1 Denom: 23: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCgv2whMNi2oP1v0o9Uqd/ZgyEdJE4IuEuKnuB+t/okNAgmt3vC1A8kTLzP4fJyPLF0b5EEGmdHQe+yYcQEUPuvzgXvkVjzjtHydHOkPhs4/Y63KAw7xxb2ni+CgkiS4W7s49iTtY4AmTj7dvBVAELOPOPuPoZyqYnb4TaoJ+MqKQIDAQAB
+SUSPECTINPUTS Total: 44
+1494627009124: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494627009584: PayCoins
+[    OwnerIn : Id/Seq: 1494626836846/0 Denom: 106: epyQjmiHR3c6yWt8ZNITXLiXcXyEkGn5IsKBcQv66ak=
+   OwnerIn : Id/Seq: 1494626838990/1 Denom: 9: epyQjmiHR3c6yWt8ZNITXLiXcXyEkGn5IsKBcQv66ak=
+   OwnerIn : Id/Seq: 1494626924495/1 Denom: 59: epyQjmiHR3c6yWt8ZNITXLiXcXyEkGn5IsKBcQv66ak=
+   OwnerIn : Id/Seq: 1494626927291/0 Denom: 73: epyQjmiHR3c6yWt8ZNITXLiXcXyEkGn5IsKBcQv66ak=
+OwnerIn  Total: 247
+[    OwnerOut : Id/Seq: 1494627009584/0 Denom: 133: giWrBi7/e9ldmlp+AFagTBa1dVoMtTZ3FmDnh8Tkkx0=
+   OwnerOut : Id/Seq: 1494627009584/1 Denom: 114: epyQjmiHR3c6yWt8ZNITXLiXcXyEkGn5IsKBcQv66ak=
+OwnerOut  Total: 247
+Tsig[:20]:  5VWjms2iV5Jk/EO+saxk
+[    SUSPECTINPUTS: Id/Seq: 1494626836846/0 Denom: 106: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDseroYCgOjLS2F7WslRFGoxOV3JNn3Jmwnhko/MvflshrH+RCwJRLJEDduA9Xts+86ePVeVfZZN37O6wKs8na4+8+76n4Q6pxp23o1wImWGYvboizSxHOEbNnEBENjL61szUqnEdVKX0tiEuHz1w3SRvOt6/vZ/U2AoZrSw4JgjQIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494626838990/1 Denom: 9: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDseroYCgOjLS2F7WslRFGoxOV3JNn3Jmwnhko/MvflshrH+RCwJRLJEDduA9Xts+86ePVeVfZZN37O6wKs8na4+8+76n4Q6pxp23o1wImWGYvboizSxHOEbNnEBENjL61szUqnEdVKX0tiEuHz1w3SRvOt6/vZ/U2AoZrSw4JgjQIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494626924495/1 Denom: 59: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDseroYCgOjLS2F7WslRFGoxOV3JNn3Jmwnhko/MvflshrH+RCwJRLJEDduA9Xts+86ePVeVfZZN37O6wKs8na4+8+76n4Q6pxp23o1wImWGYvboizSxHOEbNnEBENjL61szUqnEdVKX0tiEuHz1w3SRvOt6/vZ/U2AoZrSw4JgjQIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494626927291/0 Denom: 73: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDseroYCgOjLS2F7WslRFGoxOV3JNn3Jmwnhko/MvflshrH+RCwJRLJEDduA9Xts+86ePVeVfZZN37O6wKs8na4+8+76n4Q6pxp23o1wImWGYvboizSxHOEbNnEBENjL61szUqnEdVKX0tiEuHz1w3SRvOt6/vZ/U2AoZrSw4JgjQIDAQAB
+SUSPECTINPUTS Total: 247
+1494627009584: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494627010060: PayCoins
+[    OwnerIn : Id/Seq: 1494626838478/0 Denom: 58: wxMOMbGxGbxY+rzepMvQS8cDZQto4fGPhC8ztjsCRS8=
+OwnerIn  Total: 58
+[    OwnerOut : Id/Seq: 1494627010060/0 Denom: 26: qA0ne74hbr5Ou4OIas9X2/nBOX0QugSCaoC+AQggF78=
+   OwnerOut : Id/Seq: 1494627010060/1 Denom: 32: wxMOMbGxGbxY+rzepMvQS8cDZQto4fGPhC8ztjsCRS8=
+OwnerOut  Total: 58
+Tsig[:20]:  2JfmLKkTBt2ifayd5Rfi
+[    SUSPECTINPUTS: Id/Seq: 1494626838478/0 Denom: 58: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDpD9rIYjtTXm2uWtTsxVfZne9+z8V9v6EDKRxjioKTO7XCUyRxIUDcWajIZQD2uekd8KVnUqxmmFiHDDe7g0UwGDoQ57GtT4K7CwXlmWWvw1v9Gi3EcBfO8oXcKDdK2+omLNA0K3yvBLaqDxPAb7iA1Zx1LuuhBB5bd3HYlOU+2wIDAQAB
+SUSPECTINPUTS Total: 58
+1494627010060: All good coins in the input.
+
+PNTs: 5 Txs In, 5 Good, 0 Bad.
+NEW IN:: 1494627008115: PayCoins
+[    OwnerIn : Id/Seq: 1494626975274/1 Denom: 3: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerIn  Total: 3
+[    OwnerOut : Id/Seq: 1494627008115/0 Denom: 1: guTo1yR4xVsqhOpLw4GOwEcO3Hiqe+eirHDDUPhcmjo=
+   OwnerOut : Id/Seq: 1494627008115/1 Denom: 2: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerOut  Total: 3
+Tsig[:20]:  nnxwkoDtliNBjRn4UJRf
+[0] 60 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494627008621: PayCoins
+[    OwnerIn : Id/Seq: 1494626837676/1 Denom: 6: qA0ne74hbr5Ou4OIas9X2/nBOX0QugSCaoC+AQggF78=
+   OwnerIn : Id/Seq: 1494626923187/1 Denom: 110: qA0ne74hbr5Ou4OIas9X2/nBOX0QugSCaoC+AQggF78=
+   OwnerIn : Id/Seq: 1494626925832/0 Denom: 18: qA0ne74hbr5Ou4OIas9X2/nBOX0QugSCaoC+AQggF78=
+OwnerIn  Total: 134
+[    OwnerOut : Id/Seq: 1494627008621/0 Denom: 125: wxMOMbGxGbxY+rzepMvQS8cDZQto4fGPhC8ztjsCRS8=
+   OwnerOut : Id/Seq: 1494627008621/1 Denom: 9: qA0ne74hbr5Ou4OIas9X2/nBOX0QugSCaoC+AQggF78=
+OwnerOut  Total: 134
+Tsig[:20]:  uGAmUFEE/5AECDEDGlCa
+[1] 61 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494627009124: PayCoins
+[    OwnerIn : Id/Seq: 1494626838478/1 Denom: 14: wLCpd1qHSgFP58JxC59PKzBI7RafSfgvEuF4PYy+bs0=
+   OwnerIn : Id/Seq: 1494626922424/0 Denom: 7: wLCpd1qHSgFP58JxC59PKzBI7RafSfgvEuF4PYy+bs0=
+   OwnerIn : Id/Seq: 1494626923786/1 Denom: 23: wLCpd1qHSgFP58JxC59PKzBI7RafSfgvEuF4PYy+bs0=
+OwnerIn  Total: 44
+[    OwnerOut : Id/Seq: 1494627009124/0 Denom: 23: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerOut : Id/Seq: 1494627009124/1 Denom: 21: wLCpd1qHSgFP58JxC59PKzBI7RafSfgvEuF4PYy+bs0=
+OwnerOut  Total: 44
+Tsig[:20]:  b/aoJcARemqC5BOrI6Yn
+[2] 62 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494627009584: PayCoins
+[    OwnerIn : Id/Seq: 1494626836846/0 Denom: 106: epyQjmiHR3c6yWt8ZNITXLiXcXyEkGn5IsKBcQv66ak=
+   OwnerIn : Id/Seq: 1494626838990/1 Denom: 9: epyQjmiHR3c6yWt8ZNITXLiXcXyEkGn5IsKBcQv66ak=
+   OwnerIn : Id/Seq: 1494626924495/1 Denom: 59: epyQjmiHR3c6yWt8ZNITXLiXcXyEkGn5IsKBcQv66ak=
+   OwnerIn : Id/Seq: 1494626927291/0 Denom: 73: epyQjmiHR3c6yWt8ZNITXLiXcXyEkGn5IsKBcQv66ak=
+OwnerIn  Total: 247
+[    OwnerOut : Id/Seq: 1494627009584/0 Denom: 133: giWrBi7/e9ldmlp+AFagTBa1dVoMtTZ3FmDnh8Tkkx0=
+   OwnerOut : Id/Seq: 1494627009584/1 Denom: 114: epyQjmiHR3c6yWt8ZNITXLiXcXyEkGn5IsKBcQv66ak=
+OwnerOut  Total: 247
+Tsig[:20]:  5VWjms2iV5Jk/EO+saxk
+[3] 63 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494627010060: PayCoins
+[    OwnerIn : Id/Seq: 1494626838478/0 Denom: 58: wxMOMbGxGbxY+rzepMvQS8cDZQto4fGPhC8ztjsCRS8=
+OwnerIn  Total: 58
+[    OwnerOut : Id/Seq: 1494627010060/0 Denom: 26: qA0ne74hbr5Ou4OIas9X2/nBOX0QugSCaoC+AQggF78=
+   OwnerOut : Id/Seq: 1494627010060/1 Denom: 32: wxMOMbGxGbxY+rzepMvQS8cDZQto4fGPhC8ztjsCRS8=
+OwnerOut  Total: 58
+Tsig[:20]:  2JfmLKkTBt2ifayd5Rfi
+[4] 64 Txs in Ledger after PNT, 0 in rejects.
+Store the Blockchain.
+Store the Rejects.
+Store the UTXOS.
+64 transactions stored.
+0 transactions rejected.
+newtxs file deleted.
+
+Load Blockchain:
+Txs in Ledger after Load:  64
+3 New Transactions in.
+
+NEW TRANSACTION:: 1494627010595: PayCoins
+[    OwnerIn : Id/Seq: 1494626925832/1 Denom: 76: giWrBi7/e9ldmlp+AFagTBa1dVoMtTZ3FmDnh8Tkkx0=
+OwnerIn  Total: 76
+[    OwnerOut : Id/Seq: 1494627010595/0 Denom: 41: epyQjmiHR3c6yWt8ZNITXLiXcXyEkGn5IsKBcQv66ak=
+   OwnerOut : Id/Seq: 1494627010595/1 Denom: 35: giWrBi7/e9ldmlp+AFagTBa1dVoMtTZ3FmDnh8Tkkx0=
+OwnerOut  Total: 76
+Tsig[:20]:  G5BNkJOKjAt7L51ZRoM0
+[    SUSPECTINPUTS: Id/Seq: 1494626925832/1 Denom: 76: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCWYeG/8dspk3s/Fv1BLCP9Ie0v1BzutHmOSOZDq3iJg9cb6SxaJJID2KM3ZE6utKPSKp20B3/PtSytrS6nw8ftvN+BoY7lTQAnh/Bk4qgTOTnEByFL2kK0hoM7chyTTFCR6t01j3OBAWqYnHJ8dU7ccdN1gbzzahHmFtjK0pCoeQIDAQAB
+SUSPECTINPUTS Total: 76
+1494627010595: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494627011436: PayCoins
+[    OwnerIn : Id/Seq: 1494626840741/1 Denom: 17: guTo1yR4xVsqhOpLw4GOwEcO3Hiqe+eirHDDUPhcmjo=
+   OwnerIn : Id/Seq: 1494626923187/0 Denom: 32: guTo1yR4xVsqhOpLw4GOwEcO3Hiqe+eirHDDUPhcmjo=
+   OwnerIn : Id/Seq: 1494626926595/1 Denom: 60: guTo1yR4xVsqhOpLw4GOwEcO3Hiqe+eirHDDUPhcmjo=
+   OwnerIn : Id/Seq: 1494627008115/0 Denom: 1: guTo1yR4xVsqhOpLw4GOwEcO3Hiqe+eirHDDUPhcmjo=
+OwnerIn  Total: 110
+[    OwnerOut : Id/Seq: 1494627011436/0 Denom: 61: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerOut : Id/Seq: 1494627011436/1 Denom: 49: guTo1yR4xVsqhOpLw4GOwEcO3Hiqe+eirHDDUPhcmjo=
+OwnerOut  Total: 110
+Tsig[:20]:  ue36zBiChFTl4PQC54vr
+[    SUSPECTINPUTS: Id/Seq: 1494626840741/1 Denom: 17: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDlNE7zpRS6qAaUG79i97BUM319Dof/L8HbE3twSV7IrzN/60w1FvSOGlJkLhAz6z258ikhO16ZrOUMQirqa+EOPNGPk3D39ZHTDLjtddnLcg16jZjRQ1+UPLlq2ni6bNV1mPHV4rPe0tTsnGocgtOqyHoTc3XPAeSrWfMmItXkEwIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494626923187/0 Denom: 32: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDlNE7zpRS6qAaUG79i97BUM319Dof/L8HbE3twSV7IrzN/60w1FvSOGlJkLhAz6z258ikhO16ZrOUMQirqa+EOPNGPk3D39ZHTDLjtddnLcg16jZjRQ1+UPLlq2ni6bNV1mPHV4rPe0tTsnGocgtOqyHoTc3XPAeSrWfMmItXkEwIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494626926595/1 Denom: 60: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDlNE7zpRS6qAaUG79i97BUM319Dof/L8HbE3twSV7IrzN/60w1FvSOGlJkLhAz6z258ikhO16ZrOUMQirqa+EOPNGPk3D39ZHTDLjtddnLcg16jZjRQ1+UPLlq2ni6bNV1mPHV4rPe0tTsnGocgtOqyHoTc3XPAeSrWfMmItXkEwIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494627008115/0 Denom: 1: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDlNE7zpRS6qAaUG79i97BUM319Dof/L8HbE3twSV7IrzN/60w1FvSOGlJkLhAz6z258ikhO16ZrOUMQirqa+EOPNGPk3D39ZHTDLjtddnLcg16jZjRQ1+UPLlq2ni6bNV1mPHV4rPe0tTsnGocgtOqyHoTc3XPAeSrWfMmItXkEwIDAQAB
+SUSPECTINPUTS Total: 110
+1494627011436: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494627012101: PayCoins
+[    OwnerIn : Id/Seq: 1494626978361/1 Denom: 6: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerIn : Id/Seq: 1494626979028/0 Denom: 166: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerIn : Id/Seq: 1494627009124/0 Denom: 23: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerIn  Total: 195
+[    OwnerOut : Id/Seq: 1494627012101/0 Denom: 173: wLCpd1qHSgFP58JxC59PKzBI7RafSfgvEuF4PYy+bs0=
+   OwnerOut : Id/Seq: 1494627012101/1 Denom: 22: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerOut  Total: 195
+Tsig[:20]:  IOV0bsh7ps6OUPwAiCnM
+[    SUSPECTINPUTS: Id/Seq: 1494626978361/1 Denom: 6: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChw+/3t6K8N30eKEbYaE0ptaDqOEONobsQZ+blpwl7ADPgqS+qxi6pXt1meR8WybK/I71OZM6fhqgjr5dLK1+GF8fkeaeBbU/YGYVP2ChJ1dp/Ju7ku3KfgEYyL48d2AuwDSAyxkYyffwbGIiJg3Li+SPBvRLUigazPvPxCtlCMwIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494626979028/0 Denom: 166: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChw+/3t6K8N30eKEbYaE0ptaDqOEONobsQZ+blpwl7ADPgqS+qxi6pXt1meR8WybK/I71OZM6fhqgjr5dLK1+GF8fkeaeBbU/YGYVP2ChJ1dp/Ju7ku3KfgEYyL48d2AuwDSAyxkYyffwbGIiJg3Li+SPBvRLUigazPvPxCtlCMwIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494627009124/0 Denom: 23: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChw+/3t6K8N30eKEbYaE0ptaDqOEONobsQZ+blpwl7ADPgqS+qxi6pXt1meR8WybK/I71OZM6fhqgjr5dLK1+GF8fkeaeBbU/YGYVP2ChJ1dp/Ju7ku3KfgEYyL48d2AuwDSAyxkYyffwbGIiJg3Li+SPBvRLUigazPvPxCtlCMwIDAQAB
+SUSPECTINPUTS Total: 195
+1494627012101: All good coins in the input.
+
+PNTs: 3 Txs In, 3 Good, 0 Bad.
+NEW IN:: 1494627010595: PayCoins
+[    OwnerIn : Id/Seq: 1494626925832/1 Denom: 76: giWrBi7/e9ldmlp+AFagTBa1dVoMtTZ3FmDnh8Tkkx0=
+OwnerIn  Total: 76
+[    OwnerOut : Id/Seq: 1494627010595/0 Denom: 41: epyQjmiHR3c6yWt8ZNITXLiXcXyEkGn5IsKBcQv66ak=
+   OwnerOut : Id/Seq: 1494627010595/1 Denom: 35: giWrBi7/e9ldmlp+AFagTBa1dVoMtTZ3FmDnh8Tkkx0=
+OwnerOut  Total: 76
+Tsig[:20]:  G5BNkJOKjAt7L51ZRoM0
+[0] 65 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494627011436: PayCoins
+[    OwnerIn : Id/Seq: 1494626840741/1 Denom: 17: guTo1yR4xVsqhOpLw4GOwEcO3Hiqe+eirHDDUPhcmjo=
+   OwnerIn : Id/Seq: 1494626923187/0 Denom: 32: guTo1yR4xVsqhOpLw4GOwEcO3Hiqe+eirHDDUPhcmjo=
+   OwnerIn : Id/Seq: 1494626926595/1 Denom: 60: guTo1yR4xVsqhOpLw4GOwEcO3Hiqe+eirHDDUPhcmjo=
+   OwnerIn : Id/Seq: 1494627008115/0 Denom: 1: guTo1yR4xVsqhOpLw4GOwEcO3Hiqe+eirHDDUPhcmjo=
+OwnerIn  Total: 110
+[    OwnerOut : Id/Seq: 1494627011436/0 Denom: 61: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerOut : Id/Seq: 1494627011436/1 Denom: 49: guTo1yR4xVsqhOpLw4GOwEcO3Hiqe+eirHDDUPhcmjo=
+OwnerOut  Total: 110
+Tsig[:20]:  ue36zBiChFTl4PQC54vr
+[1] 66 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494627012101: PayCoins
+[    OwnerIn : Id/Seq: 1494626978361/1 Denom: 6: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerIn : Id/Seq: 1494626979028/0 Denom: 166: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerIn : Id/Seq: 1494627009124/0 Denom: 23: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerIn  Total: 195
+[    OwnerOut : Id/Seq: 1494627012101/0 Denom: 173: wLCpd1qHSgFP58JxC59PKzBI7RafSfgvEuF4PYy+bs0=
+   OwnerOut : Id/Seq: 1494627012101/1 Denom: 22: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerOut  Total: 195
+Tsig[:20]:  IOV0bsh7ps6OUPwAiCnM
+[2] 67 Txs in Ledger after PNT, 0 in rejects.
+Store the Blockchain.
+Store the Rejects.
+Store the UTXOS.
+67 transactions stored.
+0 transactions rejected.
+newtxs file deleted.
+
+Load Blockchain:
+Txs in Ledger after Load:  67
+8 New Transactions in.
+
+NEW TRANSACTION:: 1494627060018: PayCoins
+[    OwnerIn : Id/Seq: 1494626974609/1 Denom: 40: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+OwnerIn  Total: 40
+[    OwnerOut : Id/Seq: 1494627060018/0 Denom: 6: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+   OwnerOut : Id/Seq: 1494627060018/1 Denom: 34: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+OwnerOut  Total: 40
+Tsig[:20]:  ZSTFDQWJXhr27H9QBsIA
+[    SUSPECTINPUTS: Id/Seq: 1494626974609/1 Denom: 40: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCllyPLTZap6VSUG+CRLRvJGY/D06JtbiLGvnS5Z4V7iDHNFw7x2mZbW2igLWqJzIZmAZz8U6U62IZxAcZCEviqKbkpol+U5aUllGIBVrh6GJXJcItXp4CzejOeAUFSr1FWy1hJlXLlIeLsi41VkYFbL/bxCfViZEjq2rqxEE4jowIDAQAB
+SUSPECTINPUTS Total: 40
+1494627060018: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494627060680: PayCoins
+[    OwnerIn : Id/Seq: 1494627011436/0 Denom: 61: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerIn  Total: 61
+[    OwnerOut : Id/Seq: 1494627060680/0 Denom: 12: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   OwnerOut : Id/Seq: 1494627060680/1 Denom: 49: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerOut  Total: 61
+Tsig[:20]:  VRmVv2uFPLY3kTi85rH3
+[    SUSPECTINPUTS: Id/Seq: 1494627011436/0 Denom: 61: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCh3ulGlfT6DhY7xB7pRaSeDZErGwRXui31TE7cm6zLG8EzQmgDcu6RuA9/XuL412f7+ST0nA1W5GrFWkM8qpDeBneu/wiOqbdNTd6SUi1uNL+jwjCBLHMVpjD6fkWzACyjjo/5irxIYz3q9kP8K8upjwh/WUkM5KPE0GyR+HT9dQIDAQAB
+SUSPECTINPUTS Total: 61
+1494627060680: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494627061225: PayCoins
+[    OwnerIn : Id/Seq: 1494626890340/0 Denom: 144: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+   OwnerIn : Id/Seq: 1494626891444/1 Denom: 59: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+   OwnerIn : Id/Seq: 1494626975274/0 Denom: 4: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+   OwnerIn : Id/Seq: 1494626975716/1 Denom: 24: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+OwnerIn  Total: 231
+[    OwnerOut : Id/Seq: 1494627061225/0 Denom: 221: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+   OwnerOut : Id/Seq: 1494627061225/1 Denom: 10: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+OwnerOut  Total: 231
+Tsig[:20]:  EGsPYlnIwDZDeSXPyfwq
+[    SUSPECTINPUTS: Id/Seq: 1494626890340/0 Denom: 144: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDknJU8f+BCmb9RvZK/ChvFqw4RDtLtUFdyu7FfF/33clJ8liWUNSwQp/D+xfGVYh+7/Q+pmscCcTPWrGS4s6ChVusiYt0BTyCNi48ypEqqissHjgCRNkXHcFhfSsD9kvj7HEa4iZSzNRVmjxhs8Rd/PLWkCkAPW0KW1p9rjOFgDwIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494626891444/1 Denom: 59: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDknJU8f+BCmb9RvZK/ChvFqw4RDtLtUFdyu7FfF/33clJ8liWUNSwQp/D+xfGVYh+7/Q+pmscCcTPWrGS4s6ChVusiYt0BTyCNi48ypEqqissHjgCRNkXHcFhfSsD9kvj7HEa4iZSzNRVmjxhs8Rd/PLWkCkAPW0KW1p9rjOFgDwIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494626975274/0 Denom: 4: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDknJU8f+BCmb9RvZK/ChvFqw4RDtLtUFdyu7FfF/33clJ8liWUNSwQp/D+xfGVYh+7/Q+pmscCcTPWrGS4s6ChVusiYt0BTyCNi48ypEqqissHjgCRNkXHcFhfSsD9kvj7HEa4iZSzNRVmjxhs8Rd/PLWkCkAPW0KW1p9rjOFgDwIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494626975716/1 Denom: 24: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDknJU8f+BCmb9RvZK/ChvFqw4RDtLtUFdyu7FfF/33clJ8liWUNSwQp/D+xfGVYh+7/Q+pmscCcTPWrGS4s6ChVusiYt0BTyCNi48ypEqqissHjgCRNkXHcFhfSsD9kvj7HEa4iZSzNRVmjxhs8Rd/PLWkCkAPW0KW1p9rjOFgDwIDAQAB
+SUSPECTINPUTS Total: 231
+1494627061225: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494627061715: PayCoins
+[    OwnerIn : Id/Seq: 1494626977789/0 Denom: 235: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+OwnerIn  Total: 235
+[    OwnerOut : Id/Seq: 1494627061715/0 Denom: 152: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerOut : Id/Seq: 1494627061715/1 Denom: 83: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+OwnerOut  Total: 235
+Tsig[:20]:  c1JT+0WJtG0D2uB4Sjgk
+[    SUSPECTINPUTS: Id/Seq: 1494626977789/0 Denom: 235: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCyzMq7gawMJB0+bfW7uEMTPXY2AwjfOwoECafWCGiFHa64XMMI7Kq9ignR/TpZ3HZKcTWbHWUA6cgWT5acWkHo7ZPIK3VYfBDkeFLnoq7H+B2LreOKWENDSKtto/KGK5cPf4FhBzY0GIp4Dus+yJJMvAikpQ7mCoV/k8BHjRCddwIDAQAB
+SUSPECTINPUTS Total: 235
+1494627061715: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494627062312: PayCoins
+[    OwnerIn : Id/Seq: 1494626891945/0 Denom: 168: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+OwnerIn  Total: 168
+[    OwnerOut : Id/Seq: 1494627062312/0 Denom: 102: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+   OwnerOut : Id/Seq: 1494627062312/1 Denom: 66: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+OwnerOut  Total: 168
+Tsig[:20]:  tvov5ccc6EsL01gXZnt4
+[    SUSPECTINPUTS: Id/Seq: 1494626891945/0 Denom: 168: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDcce9CTqGUu3E4doeY9YP9TiQ3yICbqrivzKwTk4hJjYqyIQYzdrYglwukJIk3duy3EXx87q3NxIMqHtQjWxMtxbKH9AE5XwNFuEpMEH7au7/h8lb86jIHrraEX/XWwV3XeY2BOdWS82HJ+zSH4tXRQCo0r2uq8peSqYAfxdR4XQIDAQAB
+SUSPECTINPUTS Total: 168
+1494627062312: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494627063054: PayCoins
+[    OwnerIn : Id/Seq: 1494626976552/0 Denom: 283: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+OwnerIn  Total: 283
+[    OwnerOut : Id/Seq: 1494627063054/0 Denom: 65: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+   OwnerOut : Id/Seq: 1494627063054/1 Denom: 218: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+OwnerOut  Total: 283
+Tsig[:20]:  moZCl9xzZj9cI/laAQdr
+[    SUSPECTINPUTS: Id/Seq: 1494626976552/0 Denom: 283: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDIZxEO9zixB9BeVjAvmOrd12ImXC03JxNfhGLOHOMtYLhqFLIlKi3Uo2xo0aoqngi0b9KQiVOEWlEESEZmanlKd90ZzA9NhYFrystpi/o7CMd1hX8qrBFEzkVC2dvBxVczhvEHbJkTBR4hGplh+3xxY0cZoCifaWSWYhO9bMWnLQIDAQAB
+SUSPECTINPUTS Total: 283
+1494627063054: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494627063655: PayCoins
+[    OwnerIn : Id/Seq: 1494627012101/1 Denom: 22: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerIn  Total: 22
+[    OwnerOut : Id/Seq: 1494627063655/0 Denom: 17: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+   OwnerOut : Id/Seq: 1494627063655/1 Denom: 5: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerOut  Total: 22
+Tsig[:20]:  WAHZ3Vx96yMTkQKkEsol
+[    SUSPECTINPUTS: Id/Seq: 1494627012101/1 Denom: 22: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChw+/3t6K8N30eKEbYaE0ptaDqOEONobsQZ+blpwl7ADPgqS+qxi6pXt1meR8WybK/I71OZM6fhqgjr5dLK1+GF8fkeaeBbU/YGYVP2ChJ1dp/Ju7ku3KfgEYyL48d2AuwDSAyxkYyffwbGIiJg3Li+SPBvRLUigazPvPxCtlCMwIDAQAB
+SUSPECTINPUTS Total: 22
+1494627063655: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494627064295: PayCoins
+[    OwnerIn : Id/Seq: 1494626979028/1 Denom: 131: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+OwnerIn  Total: 131
+[    OwnerOut : Id/Seq: 1494627064295/0 Denom: 43: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerOut : Id/Seq: 1494627064295/1 Denom: 88: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+OwnerOut  Total: 131
+Tsig[:20]:  o8Gb+5Gn6MukePBJZxmC
+[    SUSPECTINPUTS: Id/Seq: 1494626979028/1 Denom: 131: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDMym0hgwRlSG8MbefoMEp31YNYMlwOg5omqfBXpmspAXCF4F8c6H2jLSsyx7NYxmMBsdvMjzGLRJvOL2Hp0x/JQpCuFA++4EpNlgKRv2FZOyGDbdZH7xeqe9Lh9ysWpmTHMEOJaGbcjxewbF1eTlnWHabgwI1rfOFn3wHt3tJYXwIDAQAB
+SUSPECTINPUTS Total: 131
+1494627064295: All good coins in the input.
+
+PNTs: 8 Txs In, 8 Good, 0 Bad.
+NEW IN:: 1494627060018: PayCoins
+[    OwnerIn : Id/Seq: 1494626974609/1 Denom: 40: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+OwnerIn  Total: 40
+[    OwnerOut : Id/Seq: 1494627060018/0 Denom: 6: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+   OwnerOut : Id/Seq: 1494627060018/1 Denom: 34: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+OwnerOut  Total: 40
+Tsig[:20]:  ZSTFDQWJXhr27H9QBsIA
+[0] 68 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494627060680: PayCoins
+[    OwnerIn : Id/Seq: 1494627011436/0 Denom: 61: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerIn  Total: 61
+[    OwnerOut : Id/Seq: 1494627060680/0 Denom: 12: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   OwnerOut : Id/Seq: 1494627060680/1 Denom: 49: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerOut  Total: 61
+Tsig[:20]:  VRmVv2uFPLY3kTi85rH3
+[1] 69 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494627061225: PayCoins
+[    OwnerIn : Id/Seq: 1494626890340/0 Denom: 144: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+   OwnerIn : Id/Seq: 1494626891444/1 Denom: 59: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+   OwnerIn : Id/Seq: 1494626975274/0 Denom: 4: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+   OwnerIn : Id/Seq: 1494626975716/1 Denom: 24: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+OwnerIn  Total: 231
+[    OwnerOut : Id/Seq: 1494627061225/0 Denom: 221: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+   OwnerOut : Id/Seq: 1494627061225/1 Denom: 10: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+OwnerOut  Total: 231
+Tsig[:20]:  EGsPYlnIwDZDeSXPyfwq
+[2] 70 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494627061715: PayCoins
+[    OwnerIn : Id/Seq: 1494626977789/0 Denom: 235: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+OwnerIn  Total: 235
+[    OwnerOut : Id/Seq: 1494627061715/0 Denom: 152: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerOut : Id/Seq: 1494627061715/1 Denom: 83: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+OwnerOut  Total: 235
+Tsig[:20]:  c1JT+0WJtG0D2uB4Sjgk
+[3] 71 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494627062312: PayCoins
+[    OwnerIn : Id/Seq: 1494626891945/0 Denom: 168: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+OwnerIn  Total: 168
+[    OwnerOut : Id/Seq: 1494627062312/0 Denom: 102: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+   OwnerOut : Id/Seq: 1494627062312/1 Denom: 66: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+OwnerOut  Total: 168
+Tsig[:20]:  tvov5ccc6EsL01gXZnt4
+[4] 72 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494627063054: PayCoins
+[    OwnerIn : Id/Seq: 1494626976552/0 Denom: 283: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+OwnerIn  Total: 283
+[    OwnerOut : Id/Seq: 1494627063054/0 Denom: 65: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+   OwnerOut : Id/Seq: 1494627063054/1 Denom: 218: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+OwnerOut  Total: 283
+Tsig[:20]:  moZCl9xzZj9cI/laAQdr
+[5] 73 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494627063655: PayCoins
+[    OwnerIn : Id/Seq: 1494627012101/1 Denom: 22: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerIn  Total: 22
+[    OwnerOut : Id/Seq: 1494627063655/0 Denom: 17: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+   OwnerOut : Id/Seq: 1494627063655/1 Denom: 5: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerOut  Total: 22
+Tsig[:20]:  WAHZ3Vx96yMTkQKkEsol
+[6] 74 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494627064295: PayCoins
+[    OwnerIn : Id/Seq: 1494626979028/1 Denom: 131: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+OwnerIn  Total: 131
+[    OwnerOut : Id/Seq: 1494627064295/0 Denom: 43: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerOut : Id/Seq: 1494627064295/1 Denom: 88: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+OwnerOut  Total: 131
+Tsig[:20]:  o8Gb+5Gn6MukePBJZxmC
+[7] 75 Txs in Ledger after PNT, 0 in rejects.
+Store the Blockchain.
+Store the Rejects.
+Store the UTXOS.
+75 transactions stored.
+0 transactions rejected.
+newtxs file deleted.
+
+Load Blockchain:
+Txs in Ledger after Load:  75
+8 New Transactions in.
+
+NEW TRANSACTION:: 1494627093280: PayCoins
+[    OwnerIn : Id/Seq: 1494627060680/1 Denom: 49: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerIn  Total: 49
+[    OwnerOut : Id/Seq: 1494627093280/0 Denom: 14: wxMOMbGxGbxY+rzepMvQS8cDZQto4fGPhC8ztjsCRS8=
+   OwnerOut : Id/Seq: 1494627093280/1 Denom: 35: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerOut  Total: 49
+Tsig[:20]:  hQ4LPCh0E7J3a3rxh/UJ
+[    SUSPECTINPUTS: Id/Seq: 1494627060680/1 Denom: 49: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCh3ulGlfT6DhY7xB7pRaSeDZErGwRXui31TE7cm6zLG8EzQmgDcu6RuA9/XuL412f7+ST0nA1W5GrFWkM8qpDeBneu/wiOqbdNTd6SUi1uNL+jwjCBLHMVpjD6fkWzACyjjo/5irxIYz3q9kP8K8upjwh/WUkM5KPE0GyR+HT9dQIDAQAB
+SUSPECTINPUTS Total: 49
+1494627093280: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494627094100: PayCoins
+[    OwnerIn : Id/Seq: 1494627010060/0 Denom: 26: qA0ne74hbr5Ou4OIas9X2/nBOX0QugSCaoC+AQggF78=
+OwnerIn  Total: 26
+[    OwnerOut : Id/Seq: 1494627094100/0 Denom: 22: giWrBi7/e9ldmlp+AFagTBa1dVoMtTZ3FmDnh8Tkkx0=
+   OwnerOut : Id/Seq: 1494627094100/1 Denom: 4: qA0ne74hbr5Ou4OIas9X2/nBOX0QugSCaoC+AQggF78=
+OwnerOut  Total: 26
+Tsig[:20]:  O3ZFwfgoHyRgHYew06+A
+[    SUSPECTINPUTS: Id/Seq: 1494627010060/0 Denom: 26: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDVtKbk5cwP7eHVmqSwyYbsF76bzO/cXMHnDbuqWhWsEkEpJmTZs8rCdCJrHZ5CcAGuH6B8JAL5gMM0tb32afINwXDVOe8bWjcqSaIvtTOI3Ku8ZoIU1cnXhAmTIu8/0584/MZZ+7jbsrIVBG+4yJIpOSZqawzJY73rX67ydDsI0wIDAQAB
+SUSPECTINPUTS Total: 26
+1494627094100: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494627094719: PayCoins
+[    OwnerIn : Id/Seq: 1494627012101/0 Denom: 173: wLCpd1qHSgFP58JxC59PKzBI7RafSfgvEuF4PYy+bs0=
+OwnerIn  Total: 173
+[    OwnerOut : Id/Seq: 1494627094719/0 Denom: 25: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerOut : Id/Seq: 1494627094719/1 Denom: 148: wLCpd1qHSgFP58JxC59PKzBI7RafSfgvEuF4PYy+bs0=
+OwnerOut  Total: 173
+Tsig[:20]:  hJQx75jiEECvzQjdssqF
+[    SUSPECTINPUTS: Id/Seq: 1494627012101/0 Denom: 173: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCgv2whMNi2oP1v0o9Uqd/ZgyEdJE4IuEuKnuB+t/okNAgmt3vC1A8kTLzP4fJyPLF0b5EEGmdHQe+yYcQEUPuvzgXvkVjzjtHydHOkPhs4/Y63KAw7xxb2ni+CgkiS4W7s49iTtY4AmTj7dvBVAELOPOPuPoZyqYnb4TaoJ+MqKQIDAQAB
+SUSPECTINPUTS Total: 173
+1494627094719: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494627095353: PayCoins
+[    OwnerIn : Id/Seq: 1494627009584/1 Denom: 114: epyQjmiHR3c6yWt8ZNITXLiXcXyEkGn5IsKBcQv66ak=
+OwnerIn  Total: 114
+[    OwnerOut : Id/Seq: 1494627095353/0 Denom: 69: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerOut : Id/Seq: 1494627095353/1 Denom: 45: epyQjmiHR3c6yWt8ZNITXLiXcXyEkGn5IsKBcQv66ak=
+OwnerOut  Total: 114
+Tsig[:20]:  X5Axnr6ru5oF24QIlhJO
+[    SUSPECTINPUTS: Id/Seq: 1494627009584/1 Denom: 114: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDseroYCgOjLS2F7WslRFGoxOV3JNn3Jmwnhko/MvflshrH+RCwJRLJEDduA9Xts+86ePVeVfZZN37O6wKs8na4+8+76n4Q6pxp23o1wImWGYvboizSxHOEbNnEBENjL61szUqnEdVKX0tiEuHz1w3SRvOt6/vZ/U2AoZrSw4JgjQIDAQAB
+SUSPECTINPUTS Total: 114
+1494627095353: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494627095917: PayCoins
+[    OwnerIn : Id/Seq: 1494626839458/1 Denom: 25: wxMOMbGxGbxY+rzepMvQS8cDZQto4fGPhC8ztjsCRS8=
+OwnerIn  Total: 25
+[    OwnerOut : Id/Seq: 1494627095917/0 Denom: 24: epyQjmiHR3c6yWt8ZNITXLiXcXyEkGn5IsKBcQv66ak=
+   OwnerOut : Id/Seq: 1494627095917/1 Denom: 1: wxMOMbGxGbxY+rzepMvQS8cDZQto4fGPhC8ztjsCRS8=
+OwnerOut  Total: 25
+Tsig[:20]:  1m10FASK5lIftb1EZ2Lu
+[    SUSPECTINPUTS: Id/Seq: 1494626839458/1 Denom: 25: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDpD9rIYjtTXm2uWtTsxVfZne9+z8V9v6EDKRxjioKTO7XCUyRxIUDcWajIZQD2uekd8KVnUqxmmFiHDDe7g0UwGDoQ57GtT4K7CwXlmWWvw1v9Gi3EcBfO8oXcKDdK2+omLNA0K3yvBLaqDxPAb7iA1Zx1LuuhBB5bd3HYlOU+2wIDAQAB
+SUSPECTINPUTS Total: 25
+1494627095917: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494627096478: PayCoins
+[    OwnerIn : Id/Seq: 1494626755162/1 Denom: 7: giWrBi7/e9ldmlp+AFagTBa1dVoMtTZ3FmDnh8Tkkx0=
+   OwnerIn : Id/Seq: 1494626840056/1 Denom: 16: giWrBi7/e9ldmlp+AFagTBa1dVoMtTZ3FmDnh8Tkkx0=
+   OwnerIn : Id/Seq: 1494626923786/0 Denom: 1: giWrBi7/e9ldmlp+AFagTBa1dVoMtTZ3FmDnh8Tkkx0=
+   OwnerIn : Id/Seq: 1494627009584/0 Denom: 133: giWrBi7/e9ldmlp+AFagTBa1dVoMtTZ3FmDnh8Tkkx0=
+   OwnerIn : Id/Seq: 1494627010595/1 Denom: 35: giWrBi7/e9ldmlp+AFagTBa1dVoMtTZ3FmDnh8Tkkx0=
+OwnerIn  Total: 192
+[    OwnerOut : Id/Seq: 1494627096478/0 Denom: 168: wLCpd1qHSgFP58JxC59PKzBI7RafSfgvEuF4PYy+bs0=
+   OwnerOut : Id/Seq: 1494627096478/1 Denom: 24: giWrBi7/e9ldmlp+AFagTBa1dVoMtTZ3FmDnh8Tkkx0=
+OwnerOut  Total: 192
+Tsig[:20]:  Sg/3BP+9N0rTJ03c9D13
+[    SUSPECTINPUTS: Id/Seq: 1494626755162/1 Denom: 7: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCWYeG/8dspk3s/Fv1BLCP9Ie0v1BzutHmOSOZDq3iJg9cb6SxaJJID2KM3ZE6utKPSKp20B3/PtSytrS6nw8ftvN+BoY7lTQAnh/Bk4qgTOTnEByFL2kK0hoM7chyTTFCR6t01j3OBAWqYnHJ8dU7ccdN1gbzzahHmFtjK0pCoeQIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494626840056/1 Denom: 16: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCWYeG/8dspk3s/Fv1BLCP9Ie0v1BzutHmOSOZDq3iJg9cb6SxaJJID2KM3ZE6utKPSKp20B3/PtSytrS6nw8ftvN+BoY7lTQAnh/Bk4qgTOTnEByFL2kK0hoM7chyTTFCR6t01j3OBAWqYnHJ8dU7ccdN1gbzzahHmFtjK0pCoeQIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494626923786/0 Denom: 1: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCWYeG/8dspk3s/Fv1BLCP9Ie0v1BzutHmOSOZDq3iJg9cb6SxaJJID2KM3ZE6utKPSKp20B3/PtSytrS6nw8ftvN+BoY7lTQAnh/Bk4qgTOTnEByFL2kK0hoM7chyTTFCR6t01j3OBAWqYnHJ8dU7ccdN1gbzzahHmFtjK0pCoeQIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494627009584/0 Denom: 133: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCWYeG/8dspk3s/Fv1BLCP9Ie0v1BzutHmOSOZDq3iJg9cb6SxaJJID2KM3ZE6utKPSKp20B3/PtSytrS6nw8ftvN+BoY7lTQAnh/Bk4qgTOTnEByFL2kK0hoM7chyTTFCR6t01j3OBAWqYnHJ8dU7ccdN1gbzzahHmFtjK0pCoeQIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494627010595/1 Denom: 35: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCWYeG/8dspk3s/Fv1BLCP9Ie0v1BzutHmOSOZDq3iJg9cb6SxaJJID2KM3ZE6utKPSKp20B3/PtSytrS6nw8ftvN+BoY7lTQAnh/Bk4qgTOTnEByFL2kK0hoM7chyTTFCR6t01j3OBAWqYnHJ8dU7ccdN1gbzzahHmFtjK0pCoeQIDAQAB
+SUSPECTINPUTS Total: 192
+1494627096478: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494627097099: PayCoins
+[    OwnerIn : Id/Seq: 1494627011436/1 Denom: 49: guTo1yR4xVsqhOpLw4GOwEcO3Hiqe+eirHDDUPhcmjo=
+OwnerIn  Total: 49
+[    OwnerOut : Id/Seq: 1494627097099/0 Denom: 43: qA0ne74hbr5Ou4OIas9X2/nBOX0QugSCaoC+AQggF78=
+   OwnerOut : Id/Seq: 1494627097099/1 Denom: 6: guTo1yR4xVsqhOpLw4GOwEcO3Hiqe+eirHDDUPhcmjo=
+OwnerOut  Total: 49
+Tsig[:20]:  jGSXzNVhuMNsSDCqqoXe
+[    SUSPECTINPUTS: Id/Seq: 1494627011436/1 Denom: 49: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDlNE7zpRS6qAaUG79i97BUM319Dof/L8HbE3twSV7IrzN/60w1FvSOGlJkLhAz6z258ikhO16ZrOUMQirqa+EOPNGPk3D39ZHTDLjtddnLcg16jZjRQ1+UPLlq2ni6bNV1mPHV4rPe0tTsnGocgtOqyHoTc3XPAeSrWfMmItXkEwIDAQAB
+SUSPECTINPUTS Total: 49
+1494627097099: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494627097691: PayCoins
+[    OwnerIn : Id/Seq: 1494627061715/0 Denom: 152: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerIn  Total: 152
+[    OwnerOut : Id/Seq: 1494627097691/0 Denom: 20: guTo1yR4xVsqhOpLw4GOwEcO3Hiqe+eirHDDUPhcmjo=
+   OwnerOut : Id/Seq: 1494627097691/1 Denom: 132: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerOut  Total: 152
+Tsig[:20]:  aYNs3lMOmqQz4XYez79q
+[    SUSPECTINPUTS: Id/Seq: 1494627061715/0 Denom: 152: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChw+/3t6K8N30eKEbYaE0ptaDqOEONobsQZ+blpwl7ADPgqS+qxi6pXt1meR8WybK/I71OZM6fhqgjr5dLK1+GF8fkeaeBbU/YGYVP2ChJ1dp/Ju7ku3KfgEYyL48d2AuwDSAyxkYyffwbGIiJg3Li+SPBvRLUigazPvPxCtlCMwIDAQAB
+SUSPECTINPUTS Total: 152
+1494627097691: All good coins in the input.
+
+PNTs: 8 Txs In, 8 Good, 0 Bad.
+NEW IN:: 1494627093280: PayCoins
+[    OwnerIn : Id/Seq: 1494627060680/1 Denom: 49: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerIn  Total: 49
+[    OwnerOut : Id/Seq: 1494627093280/0 Denom: 14: wxMOMbGxGbxY+rzepMvQS8cDZQto4fGPhC8ztjsCRS8=
+   OwnerOut : Id/Seq: 1494627093280/1 Denom: 35: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerOut  Total: 49
+Tsig[:20]:  hQ4LPCh0E7J3a3rxh/UJ
+[0] 76 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494627094100: PayCoins
+[    OwnerIn : Id/Seq: 1494627010060/0 Denom: 26: qA0ne74hbr5Ou4OIas9X2/nBOX0QugSCaoC+AQggF78=
+OwnerIn  Total: 26
+[    OwnerOut : Id/Seq: 1494627094100/0 Denom: 22: giWrBi7/e9ldmlp+AFagTBa1dVoMtTZ3FmDnh8Tkkx0=
+   OwnerOut : Id/Seq: 1494627094100/1 Denom: 4: qA0ne74hbr5Ou4OIas9X2/nBOX0QugSCaoC+AQggF78=
+OwnerOut  Total: 26
+Tsig[:20]:  O3ZFwfgoHyRgHYew06+A
+[1] 77 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494627094719: PayCoins
+[    OwnerIn : Id/Seq: 1494627012101/0 Denom: 173: wLCpd1qHSgFP58JxC59PKzBI7RafSfgvEuF4PYy+bs0=
+OwnerIn  Total: 173
+[    OwnerOut : Id/Seq: 1494627094719/0 Denom: 25: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerOut : Id/Seq: 1494627094719/1 Denom: 148: wLCpd1qHSgFP58JxC59PKzBI7RafSfgvEuF4PYy+bs0=
+OwnerOut  Total: 173
+Tsig[:20]:  hJQx75jiEECvzQjdssqF
+[2] 78 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494627095353: PayCoins
+[    OwnerIn : Id/Seq: 1494627009584/1 Denom: 114: epyQjmiHR3c6yWt8ZNITXLiXcXyEkGn5IsKBcQv66ak=
+OwnerIn  Total: 114
+[    OwnerOut : Id/Seq: 1494627095353/0 Denom: 69: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerOut : Id/Seq: 1494627095353/1 Denom: 45: epyQjmiHR3c6yWt8ZNITXLiXcXyEkGn5IsKBcQv66ak=
+OwnerOut  Total: 114
+Tsig[:20]:  X5Axnr6ru5oF24QIlhJO
+[3] 79 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494627095917: PayCoins
+[    OwnerIn : Id/Seq: 1494626839458/1 Denom: 25: wxMOMbGxGbxY+rzepMvQS8cDZQto4fGPhC8ztjsCRS8=
+OwnerIn  Total: 25
+[    OwnerOut : Id/Seq: 1494627095917/0 Denom: 24: epyQjmiHR3c6yWt8ZNITXLiXcXyEkGn5IsKBcQv66ak=
+   OwnerOut : Id/Seq: 1494627095917/1 Denom: 1: wxMOMbGxGbxY+rzepMvQS8cDZQto4fGPhC8ztjsCRS8=
+OwnerOut  Total: 25
+Tsig[:20]:  1m10FASK5lIftb1EZ2Lu
+[4] 80 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494627096478: PayCoins
+[    OwnerIn : Id/Seq: 1494626755162/1 Denom: 7: giWrBi7/e9ldmlp+AFagTBa1dVoMtTZ3FmDnh8Tkkx0=
+   OwnerIn : Id/Seq: 1494626840056/1 Denom: 16: giWrBi7/e9ldmlp+AFagTBa1dVoMtTZ3FmDnh8Tkkx0=
+   OwnerIn : Id/Seq: 1494626923786/0 Denom: 1: giWrBi7/e9ldmlp+AFagTBa1dVoMtTZ3FmDnh8Tkkx0=
+   OwnerIn : Id/Seq: 1494627009584/0 Denom: 133: giWrBi7/e9ldmlp+AFagTBa1dVoMtTZ3FmDnh8Tkkx0=
+   OwnerIn : Id/Seq: 1494627010595/1 Denom: 35: giWrBi7/e9ldmlp+AFagTBa1dVoMtTZ3FmDnh8Tkkx0=
+OwnerIn  Total: 192
+[    OwnerOut : Id/Seq: 1494627096478/0 Denom: 168: wLCpd1qHSgFP58JxC59PKzBI7RafSfgvEuF4PYy+bs0=
+   OwnerOut : Id/Seq: 1494627096478/1 Denom: 24: giWrBi7/e9ldmlp+AFagTBa1dVoMtTZ3FmDnh8Tkkx0=
+OwnerOut  Total: 192
+Tsig[:20]:  Sg/3BP+9N0rTJ03c9D13
+[5] 81 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494627097099: PayCoins
+[    OwnerIn : Id/Seq: 1494627011436/1 Denom: 49: guTo1yR4xVsqhOpLw4GOwEcO3Hiqe+eirHDDUPhcmjo=
+OwnerIn  Total: 49
+[    OwnerOut : Id/Seq: 1494627097099/0 Denom: 43: qA0ne74hbr5Ou4OIas9X2/nBOX0QugSCaoC+AQggF78=
+   OwnerOut : Id/Seq: 1494627097099/1 Denom: 6: guTo1yR4xVsqhOpLw4GOwEcO3Hiqe+eirHDDUPhcmjo=
+OwnerOut  Total: 49
+Tsig[:20]:  jGSXzNVhuMNsSDCqqoXe
+[6] 82 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494627097691: PayCoins
+[    OwnerIn : Id/Seq: 1494627061715/0 Denom: 152: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerIn  Total: 152
+[    OwnerOut : Id/Seq: 1494627097691/0 Denom: 20: guTo1yR4xVsqhOpLw4GOwEcO3Hiqe+eirHDDUPhcmjo=
+   OwnerOut : Id/Seq: 1494627097691/1 Denom: 132: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerOut  Total: 152
+Tsig[:20]:  aYNs3lMOmqQz4XYez79q
+[7] 83 Txs in Ledger after PNT, 0 in rejects.
+Store the Blockchain.
+Store the Rejects.
+Store the UTXOS.
+83 transactions stored.
+0 transactions rejected.
+newtxs file deleted.
+
+Load Blockchain:
+Txs in Ledger after Load:  83
+No New Transactions.
+Store the Blockchain.
+Store the Rejects.
+Store the UTXOS.
+83 transactions stored.
+0 transactions rejected.
+
+Load Blockchain:
+Txs in Ledger after Load:  83
+8 New Transactions in.
+
+NEW TRANSACTION:: 1494627145293: PayCoins
+[    OwnerIn : Id/Seq: 1494627061225/0 Denom: 221: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+OwnerIn  Total: 221
+[    OwnerOut : Id/Seq: 1494627145293/0 Denom: 44: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerOut : Id/Seq: 1494627145293/1 Denom: 177: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+OwnerOut  Total: 221
+Tsig[:20]:  johnf6ABsccWkPg7x1ja
+[    SUSPECTINPUTS: Id/Seq: 1494627061225/0 Denom: 221: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCllyPLTZap6VSUG+CRLRvJGY/D06JtbiLGvnS5Z4V7iDHNFw7x2mZbW2igLWqJzIZmAZz8U6U62IZxAcZCEviqKbkpol+U5aUllGIBVrh6GJXJcItXp4CzejOeAUFSr1FWy1hJlXLlIeLsi41VkYFbL/bxCfViZEjq2rqxEE4jowIDAQAB
+SUSPECTINPUTS Total: 221
+1494627145293: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494627146078: PayCoins
+[    OwnerIn : Id/Seq: 1494626975716/0 Denom: 4: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerIn : Id/Seq: 1494627008115/1 Denom: 2: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerIn : Id/Seq: 1494627064295/0 Denom: 43: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerIn : Id/Seq: 1494627093280/1 Denom: 35: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerIn : Id/Seq: 1494627094719/0 Denom: 25: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerIn  Total: 109
+[    OwnerOut : Id/Seq: 1494627146078/0 Denom: 75: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+   OwnerOut : Id/Seq: 1494627146078/1 Denom: 34: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerOut  Total: 109
+Tsig[:20]:  DHUGP+BlG6uekXFGBrMM
+[    SUSPECTINPUTS: Id/Seq: 1494626975716/0 Denom: 4: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCh3ulGlfT6DhY7xB7pRaSeDZErGwRXui31TE7cm6zLG8EzQmgDcu6RuA9/XuL412f7+ST0nA1W5GrFWkM8qpDeBneu/wiOqbdNTd6SUi1uNL+jwjCBLHMVpjD6fkWzACyjjo/5irxIYz3q9kP8K8upjwh/WUkM5KPE0GyR+HT9dQIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494627008115/1 Denom: 2: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCh3ulGlfT6DhY7xB7pRaSeDZErGwRXui31TE7cm6zLG8EzQmgDcu6RuA9/XuL412f7+ST0nA1W5GrFWkM8qpDeBneu/wiOqbdNTd6SUi1uNL+jwjCBLHMVpjD6fkWzACyjjo/5irxIYz3q9kP8K8upjwh/WUkM5KPE0GyR+HT9dQIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494627064295/0 Denom: 43: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCh3ulGlfT6DhY7xB7pRaSeDZErGwRXui31TE7cm6zLG8EzQmgDcu6RuA9/XuL412f7+ST0nA1W5GrFWkM8qpDeBneu/wiOqbdNTd6SUi1uNL+jwjCBLHMVpjD6fkWzACyjjo/5irxIYz3q9kP8K8upjwh/WUkM5KPE0GyR+HT9dQIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494627093280/1 Denom: 35: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCh3ulGlfT6DhY7xB7pRaSeDZErGwRXui31TE7cm6zLG8EzQmgDcu6RuA9/XuL412f7+ST0nA1W5GrFWkM8qpDeBneu/wiOqbdNTd6SUi1uNL+jwjCBLHMVpjD6fkWzACyjjo/5irxIYz3q9kP8K8upjwh/WUkM5KPE0GyR+HT9dQIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494627094719/0 Denom: 25: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCh3ulGlfT6DhY7xB7pRaSeDZErGwRXui31TE7cm6zLG8EzQmgDcu6RuA9/XuL412f7+ST0nA1W5GrFWkM8qpDeBneu/wiOqbdNTd6SUi1uNL+jwjCBLHMVpjD6fkWzACyjjo/5irxIYz3q9kP8K8upjwh/WUkM5KPE0GyR+HT9dQIDAQAB
+SUSPECTINPUTS Total: 109
+1494627146078: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494627146667: PayCoins
+[    OwnerIn : Id/Seq: 1494627063655/0 Denom: 17: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+OwnerIn  Total: 17
+[    OwnerOut : Id/Seq: 1494627146667/0 Denom: 13: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+   OwnerOut : Id/Seq: 1494627146667/1 Denom: 4: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+OwnerOut  Total: 17
+Tsig[:20]:  Ot8d8Qr0SA1mpDTSviSD
+[    SUSPECTINPUTS: Id/Seq: 1494627063655/0 Denom: 17: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDknJU8f+BCmb9RvZK/ChvFqw4RDtLtUFdyu7FfF/33clJ8liWUNSwQp/D+xfGVYh+7/Q+pmscCcTPWrGS4s6ChVusiYt0BTyCNi48ypEqqissHjgCRNkXHcFhfSsD9kvj7HEa4iZSzNRVmjxhs8Rd/PLWkCkAPW0KW1p9rjOFgDwIDAQAB
+SUSPECTINPUTS Total: 17
+1494627146667: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494627147181: PayCoins
+[    OwnerIn : Id/Seq: 1494626976552/1 Denom: 19: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+   OwnerIn : Id/Seq: 1494627061715/1 Denom: 83: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+   OwnerIn : Id/Seq: 1494627062312/0 Denom: 102: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+OwnerIn  Total: 204
+[    OwnerOut : Id/Seq: 1494627147181/0 Denom: 134: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerOut : Id/Seq: 1494627147181/1 Denom: 70: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+OwnerOut  Total: 204
+Tsig[:20]:  Y1e6+pZqOgGn3CHVJjLZ
+[    SUSPECTINPUTS: Id/Seq: 1494626976552/1 Denom: 19: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCyzMq7gawMJB0+bfW7uEMTPXY2AwjfOwoECafWCGiFHa64XMMI7Kq9ignR/TpZ3HZKcTWbHWUA6cgWT5acWkHo7ZPIK3VYfBDkeFLnoq7H+B2LreOKWENDSKtto/KGK5cPf4FhBzY0GIp4Dus+yJJMvAikpQ7mCoV/k8BHjRCddwIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494627061715/1 Denom: 83: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCyzMq7gawMJB0+bfW7uEMTPXY2AwjfOwoECafWCGiFHa64XMMI7Kq9ignR/TpZ3HZKcTWbHWUA6cgWT5acWkHo7ZPIK3VYfBDkeFLnoq7H+B2LreOKWENDSKtto/KGK5cPf4FhBzY0GIp4Dus+yJJMvAikpQ7mCoV/k8BHjRCddwIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494627062312/0 Denom: 102: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCyzMq7gawMJB0+bfW7uEMTPXY2AwjfOwoECafWCGiFHa64XMMI7Kq9ignR/TpZ3HZKcTWbHWUA6cgWT5acWkHo7ZPIK3VYfBDkeFLnoq7H+B2LreOKWENDSKtto/KGK5cPf4FhBzY0GIp4Dus+yJJMvAikpQ7mCoV/k8BHjRCddwIDAQAB
+SUSPECTINPUTS Total: 204
+1494627147181: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494627147681: PayCoins
+[    OwnerIn : Id/Seq: 1494626974609/0 Denom: 178: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+OwnerIn  Total: 178
+[    OwnerOut : Id/Seq: 1494627147681/0 Denom: 147: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+   OwnerOut : Id/Seq: 1494627147681/1 Denom: 31: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+OwnerOut  Total: 178
+Tsig[:20]:  DMjt5LwP0p1VkLYu4nH0
+[    SUSPECTINPUTS: Id/Seq: 1494626974609/0 Denom: 178: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDcce9CTqGUu3E4doeY9YP9TiQ3yICbqrivzKwTk4hJjYqyIQYzdrYglwukJIk3duy3EXx87q3NxIMqHtQjWxMtxbKH9AE5XwNFuEpMEH7au7/h8lb86jIHrraEX/XWwV3XeY2BOdWS82HJ+zSH4tXRQCo0r2uq8peSqYAfxdR4XQIDAQAB
+SUSPECTINPUTS Total: 178
+1494627147681: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494627148229: PayCoins
+[    OwnerIn : Id/Seq: 1494626977789/1 Denom: 79: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+OwnerIn  Total: 79
+[    OwnerOut : Id/Seq: 1494627148229/0 Denom: 30: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+   OwnerOut : Id/Seq: 1494627148229/1 Denom: 49: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+OwnerOut  Total: 79
+Tsig[:20]:  ukpo2oEJjWZL9EXP+1ah
+[    SUSPECTINPUTS: Id/Seq: 1494626977789/1 Denom: 79: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDIZxEO9zixB9BeVjAvmOrd12ImXC03JxNfhGLOHOMtYLhqFLIlKi3Uo2xo0aoqngi0b9KQiVOEWlEESEZmanlKd90ZzA9NhYFrystpi/o7CMd1hX8qrBFEzkVC2dvBxVczhvEHbJkTBR4hGplh+3xxY0cZoCifaWSWYhO9bMWnLQIDAQAB
+SUSPECTINPUTS Total: 79
+1494627148229: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494627148833: PayCoins
+[    OwnerIn : Id/Seq: 1494627063655/1 Denom: 5: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerIn : Id/Seq: 1494627095353/0 Denom: 69: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerIn : Id/Seq: 1494627097691/1 Denom: 132: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerIn  Total: 206
+[    OwnerOut : Id/Seq: 1494627148833/0 Denom: 191: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   OwnerOut : Id/Seq: 1494627148833/1 Denom: 15: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerOut  Total: 206
+Tsig[:20]:  JxS/12p9TLjlS3lXNz5s
+[    SUSPECTINPUTS: Id/Seq: 1494627063655/1 Denom: 5: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChw+/3t6K8N30eKEbYaE0ptaDqOEONobsQZ+blpwl7ADPgqS+qxi6pXt1meR8WybK/I71OZM6fhqgjr5dLK1+GF8fkeaeBbU/YGYVP2ChJ1dp/Ju7ku3KfgEYyL48d2AuwDSAyxkYyffwbGIiJg3Li+SPBvRLUigazPvPxCtlCMwIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494627095353/0 Denom: 69: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChw+/3t6K8N30eKEbYaE0ptaDqOEONobsQZ+blpwl7ADPgqS+qxi6pXt1meR8WybK/I71OZM6fhqgjr5dLK1+GF8fkeaeBbU/YGYVP2ChJ1dp/Ju7ku3KfgEYyL48d2AuwDSAyxkYyffwbGIiJg3Li+SPBvRLUigazPvPxCtlCMwIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494627097691/1 Denom: 132: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChw+/3t6K8N30eKEbYaE0ptaDqOEONobsQZ+blpwl7ADPgqS+qxi6pXt1meR8WybK/I71OZM6fhqgjr5dLK1+GF8fkeaeBbU/YGYVP2ChJ1dp/Ju7ku3KfgEYyL48d2AuwDSAyxkYyffwbGIiJg3Li+SPBvRLUigazPvPxCtlCMwIDAQAB
+SUSPECTINPUTS Total: 206
+1494627148833: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494627149354: PayCoins
+[    OwnerIn : Id/Seq: 1494627064295/1 Denom: 88: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+OwnerIn  Total: 88
+[    OwnerOut : Id/Seq: 1494627149354/0 Denom: 73: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+   OwnerOut : Id/Seq: 1494627149354/1 Denom: 15: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+OwnerOut  Total: 88
+Tsig[:20]:  Jo6pE8DnqaJ4vj2vHX2g
+[    SUSPECTINPUTS: Id/Seq: 1494627064295/1 Denom: 88: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDMym0hgwRlSG8MbefoMEp31YNYMlwOg5omqfBXpmspAXCF4F8c6H2jLSsyx7NYxmMBsdvMjzGLRJvOL2Hp0x/JQpCuFA++4EpNlgKRv2FZOyGDbdZH7xeqe9Lh9ysWpmTHMEOJaGbcjxewbF1eTlnWHabgwI1rfOFn3wHt3tJYXwIDAQAB
+SUSPECTINPUTS Total: 88
+1494627149354: All good coins in the input.
+
+PNTs: 8 Txs In, 8 Good, 0 Bad.
+NEW IN:: 1494627145293: PayCoins
+[    OwnerIn : Id/Seq: 1494627061225/0 Denom: 221: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+OwnerIn  Total: 221
+[    OwnerOut : Id/Seq: 1494627145293/0 Denom: 44: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerOut : Id/Seq: 1494627145293/1 Denom: 177: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+OwnerOut  Total: 221
+Tsig[:20]:  johnf6ABsccWkPg7x1ja
+[0] 84 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494627146078: PayCoins
+[    OwnerIn : Id/Seq: 1494626975716/0 Denom: 4: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerIn : Id/Seq: 1494627008115/1 Denom: 2: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerIn : Id/Seq: 1494627064295/0 Denom: 43: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerIn : Id/Seq: 1494627093280/1 Denom: 35: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerIn : Id/Seq: 1494627094719/0 Denom: 25: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerIn  Total: 109
+[    OwnerOut : Id/Seq: 1494627146078/0 Denom: 75: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+   OwnerOut : Id/Seq: 1494627146078/1 Denom: 34: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerOut  Total: 109
+Tsig[:20]:  DHUGP+BlG6uekXFGBrMM
+[1] 85 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494627146667: PayCoins
+[    OwnerIn : Id/Seq: 1494627063655/0 Denom: 17: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+OwnerIn  Total: 17
+[    OwnerOut : Id/Seq: 1494627146667/0 Denom: 13: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+   OwnerOut : Id/Seq: 1494627146667/1 Denom: 4: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+OwnerOut  Total: 17
+Tsig[:20]:  Ot8d8Qr0SA1mpDTSviSD
+[2] 86 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494627147181: PayCoins
+[    OwnerIn : Id/Seq: 1494626976552/1 Denom: 19: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+   OwnerIn : Id/Seq: 1494627061715/1 Denom: 83: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+   OwnerIn : Id/Seq: 1494627062312/0 Denom: 102: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+OwnerIn  Total: 204
+[    OwnerOut : Id/Seq: 1494627147181/0 Denom: 134: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerOut : Id/Seq: 1494627147181/1 Denom: 70: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+OwnerOut  Total: 204
+Tsig[:20]:  Y1e6+pZqOgGn3CHVJjLZ
+[3] 87 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494627147681: PayCoins
+[    OwnerIn : Id/Seq: 1494626974609/0 Denom: 178: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+OwnerIn  Total: 178
+[    OwnerOut : Id/Seq: 1494627147681/0 Denom: 147: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+   OwnerOut : Id/Seq: 1494627147681/1 Denom: 31: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+OwnerOut  Total: 178
+Tsig[:20]:  DMjt5LwP0p1VkLYu4nH0
+[4] 88 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494627148229: PayCoins
+[    OwnerIn : Id/Seq: 1494626977789/1 Denom: 79: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+OwnerIn  Total: 79
+[    OwnerOut : Id/Seq: 1494627148229/0 Denom: 30: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+   OwnerOut : Id/Seq: 1494627148229/1 Denom: 49: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+OwnerOut  Total: 79
+Tsig[:20]:  ukpo2oEJjWZL9EXP+1ah
+[5] 89 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494627148833: PayCoins
+[    OwnerIn : Id/Seq: 1494627063655/1 Denom: 5: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerIn : Id/Seq: 1494627095353/0 Denom: 69: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerIn : Id/Seq: 1494627097691/1 Denom: 132: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerIn  Total: 206
+[    OwnerOut : Id/Seq: 1494627148833/0 Denom: 191: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   OwnerOut : Id/Seq: 1494627148833/1 Denom: 15: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerOut  Total: 206
+Tsig[:20]:  JxS/12p9TLjlS3lXNz5s
+[6] 90 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494627149354: PayCoins
+[    OwnerIn : Id/Seq: 1494627064295/1 Denom: 88: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+OwnerIn  Total: 88
+[    OwnerOut : Id/Seq: 1494627149354/0 Denom: 73: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+   OwnerOut : Id/Seq: 1494627149354/1 Denom: 15: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+OwnerOut  Total: 88
+Tsig[:20]:  Jo6pE8DnqaJ4vj2vHX2g
+[7] 91 Txs in Ledger after PNT, 0 in rejects.
+Store the Blockchain.
+Store the Rejects.
+Store the UTXOS.
+91 transactions stored.
+0 transactions rejected.
+newtxs file deleted.
+
+Load Blockchain:
+Txs in Ledger after Load:  91
+8 New Transactions in.
+
+NEW TRANSACTION:: 1494627178564: PayCoins
+[    OwnerIn : Id/Seq: 1494627146078/1 Denom: 34: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerIn : Id/Seq: 1494627147181/0 Denom: 134: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerIn  Total: 168
+[    OwnerOut : Id/Seq: 1494627178564/0 Denom: 162: giWrBi7/e9ldmlp+AFagTBa1dVoMtTZ3FmDnh8Tkkx0=
+   OwnerOut : Id/Seq: 1494627178564/1 Denom: 6: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerOut  Total: 168
+Tsig[:20]:  VuG6/3V+UHanNhT+8Gxb
+[    SUSPECTINPUTS: Id/Seq: 1494627146078/1 Denom: 34: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCh3ulGlfT6DhY7xB7pRaSeDZErGwRXui31TE7cm6zLG8EzQmgDcu6RuA9/XuL412f7+ST0nA1W5GrFWkM8qpDeBneu/wiOqbdNTd6SUi1uNL+jwjCBLHMVpjD6fkWzACyjjo/5irxIYz3q9kP8K8upjwh/WUkM5KPE0GyR+HT9dQIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494627147181/0 Denom: 134: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCh3ulGlfT6DhY7xB7pRaSeDZErGwRXui31TE7cm6zLG8EzQmgDcu6RuA9/XuL412f7+ST0nA1W5GrFWkM8qpDeBneu/wiOqbdNTd6SUi1uNL+jwjCBLHMVpjD6fkWzACyjjo/5irxIYz3q9kP8K8upjwh/WUkM5KPE0GyR+HT9dQIDAQAB
+SUSPECTINPUTS Total: 168
+1494627178564: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494627179085: PayCoins
+[    OwnerIn : Id/Seq: 1494627097099/0 Denom: 43: qA0ne74hbr5Ou4OIas9X2/nBOX0QugSCaoC+AQggF78=
+OwnerIn  Total: 43
+[    OwnerOut : Id/Seq: 1494627179085/0 Denom: 30: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerOut : Id/Seq: 1494627179085/1 Denom: 13: qA0ne74hbr5Ou4OIas9X2/nBOX0QugSCaoC+AQggF78=
+OwnerOut  Total: 43
+Tsig[:20]:  mprO73wkCTqir8w8sL3N
+[    SUSPECTINPUTS: Id/Seq: 1494627097099/0 Denom: 43: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDVtKbk5cwP7eHVmqSwyYbsF76bzO/cXMHnDbuqWhWsEkEpJmTZs8rCdCJrHZ5CcAGuH6B8JAL5gMM0tb32afINwXDVOe8bWjcqSaIvtTOI3Ku8ZoIU1cnXhAmTIu8/0584/MZZ+7jbsrIVBG+4yJIpOSZqawzJY73rX67ydDsI0wIDAQAB
+SUSPECTINPUTS Total: 43
+1494627179085: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494627179573: PayCoins
+[    OwnerIn : Id/Seq: 1494627009124/1 Denom: 21: wLCpd1qHSgFP58JxC59PKzBI7RafSfgvEuF4PYy+bs0=
+   OwnerIn : Id/Seq: 1494627094719/1 Denom: 148: wLCpd1qHSgFP58JxC59PKzBI7RafSfgvEuF4PYy+bs0=
+   OwnerIn : Id/Seq: 1494627096478/0 Denom: 168: wLCpd1qHSgFP58JxC59PKzBI7RafSfgvEuF4PYy+bs0=
+OwnerIn  Total: 337
+[    OwnerOut : Id/Seq: 1494627179573/0 Denom: 303: qA0ne74hbr5Ou4OIas9X2/nBOX0QugSCaoC+AQggF78=
+   OwnerOut : Id/Seq: 1494627179573/1 Denom: 34: wLCpd1qHSgFP58JxC59PKzBI7RafSfgvEuF4PYy+bs0=
+OwnerOut  Total: 337
+Tsig[:20]:  fb5lJqWZPTTnj7uoqjDE
+[    SUSPECTINPUTS: Id/Seq: 1494627009124/1 Denom: 21: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCgv2whMNi2oP1v0o9Uqd/ZgyEdJE4IuEuKnuB+t/okNAgmt3vC1A8kTLzP4fJyPLF0b5EEGmdHQe+yYcQEUPuvzgXvkVjzjtHydHOkPhs4/Y63KAw7xxb2ni+CgkiS4W7s49iTtY4AmTj7dvBVAELOPOPuPoZyqYnb4TaoJ+MqKQIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494627094719/1 Denom: 148: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCgv2whMNi2oP1v0o9Uqd/ZgyEdJE4IuEuKnuB+t/okNAgmt3vC1A8kTLzP4fJyPLF0b5EEGmdHQe+yYcQEUPuvzgXvkVjzjtHydHOkPhs4/Y63KAw7xxb2ni+CgkiS4W7s49iTtY4AmTj7dvBVAELOPOPuPoZyqYnb4TaoJ+MqKQIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494627096478/0 Denom: 168: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCgv2whMNi2oP1v0o9Uqd/ZgyEdJE4IuEuKnuB+t/okNAgmt3vC1A8kTLzP4fJyPLF0b5EEGmdHQe+yYcQEUPuvzgXvkVjzjtHydHOkPhs4/Y63KAw7xxb2ni+CgkiS4W7s49iTtY4AmTj7dvBVAELOPOPuPoZyqYnb4TaoJ+MqKQIDAQAB
+SUSPECTINPUTS Total: 337
+1494627179573: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494627180072: PayCoins
+[    OwnerIn : Id/Seq: 1494627010595/0 Denom: 41: epyQjmiHR3c6yWt8ZNITXLiXcXyEkGn5IsKBcQv66ak=
+OwnerIn  Total: 41
+[    OwnerOut : Id/Seq: 1494627180072/0 Denom: 1: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerOut : Id/Seq: 1494627180072/1 Denom: 40: epyQjmiHR3c6yWt8ZNITXLiXcXyEkGn5IsKBcQv66ak=
+OwnerOut  Total: 41
+Tsig[:20]:  zSq8UuWqWjTOmNftB6pY
+[    SUSPECTINPUTS: Id/Seq: 1494627010595/0 Denom: 41: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDseroYCgOjLS2F7WslRFGoxOV3JNn3Jmwnhko/MvflshrH+RCwJRLJEDduA9Xts+86ePVeVfZZN37O6wKs8na4+8+76n4Q6pxp23o1wImWGYvboizSxHOEbNnEBENjL61szUqnEdVKX0tiEuHz1w3SRvOt6/vZ/U2AoZrSw4JgjQIDAQAB
+SUSPECTINPUTS Total: 41
+1494627180072: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494627180655: PayCoins
+[    OwnerIn : Id/Seq: 1494627008621/0 Denom: 125: wxMOMbGxGbxY+rzepMvQS8cDZQto4fGPhC8ztjsCRS8=
+OwnerIn  Total: 125
+[    OwnerOut : Id/Seq: 1494627180655/0 Denom: 65: wLCpd1qHSgFP58JxC59PKzBI7RafSfgvEuF4PYy+bs0=
+   OwnerOut : Id/Seq: 1494627180655/1 Denom: 60: wxMOMbGxGbxY+rzepMvQS8cDZQto4fGPhC8ztjsCRS8=
+OwnerOut  Total: 125
+Tsig[:20]:  vnHE1B1sDYcBu5aC267J
+[    SUSPECTINPUTS: Id/Seq: 1494627008621/0 Denom: 125: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDpD9rIYjtTXm2uWtTsxVfZne9+z8V9v6EDKRxjioKTO7XCUyRxIUDcWajIZQD2uekd8KVnUqxmmFiHDDe7g0UwGDoQ57GtT4K7CwXlmWWvw1v9Gi3EcBfO8oXcKDdK2+omLNA0K3yvBLaqDxPAb7iA1Zx1LuuhBB5bd3HYlOU+2wIDAQAB
+SUSPECTINPUTS Total: 125
+1494627180655: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494627181189: PayCoins
+[    OwnerIn : Id/Seq: 1494627094100/0 Denom: 22: giWrBi7/e9ldmlp+AFagTBa1dVoMtTZ3FmDnh8Tkkx0=
+OwnerIn  Total: 22
+[    OwnerOut : Id/Seq: 1494627181189/0 Denom: 19: guTo1yR4xVsqhOpLw4GOwEcO3Hiqe+eirHDDUPhcmjo=
+   OwnerOut : Id/Seq: 1494627181189/1 Denom: 3: giWrBi7/e9ldmlp+AFagTBa1dVoMtTZ3FmDnh8Tkkx0=
+OwnerOut  Total: 22
+Tsig[:20]:  QkQdsuJaOR7xyvGRvWs4
+[    SUSPECTINPUTS: Id/Seq: 1494627094100/0 Denom: 22: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCWYeG/8dspk3s/Fv1BLCP9Ie0v1BzutHmOSOZDq3iJg9cb6SxaJJID2KM3ZE6utKPSKp20B3/PtSytrS6nw8ftvN+BoY7lTQAnh/Bk4qgTOTnEByFL2kK0hoM7chyTTFCR6t01j3OBAWqYnHJ8dU7ccdN1gbzzahHmFtjK0pCoeQIDAQAB
+SUSPECTINPUTS Total: 22
+1494627181189: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494627181724: PayCoins
+[    OwnerIn : Id/Seq: 1494627097691/0 Denom: 20: guTo1yR4xVsqhOpLw4GOwEcO3Hiqe+eirHDDUPhcmjo=
+OwnerIn  Total: 20
+[    OwnerOut : Id/Seq: 1494627181724/0 Denom: 19: epyQjmiHR3c6yWt8ZNITXLiXcXyEkGn5IsKBcQv66ak=
+   OwnerOut : Id/Seq: 1494627181724/1 Denom: 1: guTo1yR4xVsqhOpLw4GOwEcO3Hiqe+eirHDDUPhcmjo=
+OwnerOut  Total: 20
+Tsig[:20]:  yyl/w2pz44IXryaokRMz
+[    SUSPECTINPUTS: Id/Seq: 1494627097691/0 Denom: 20: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDlNE7zpRS6qAaUG79i97BUM319Dof/L8HbE3twSV7IrzN/60w1FvSOGlJkLhAz6z258ikhO16ZrOUMQirqa+EOPNGPk3D39ZHTDLjtddnLcg16jZjRQ1+UPLlq2ni6bNV1mPHV4rPe0tTsnGocgtOqyHoTc3XPAeSrWfMmItXkEwIDAQAB
+SUSPECTINPUTS Total: 20
+1494627181724: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494627182303: PayCoins
+[    OwnerIn : Id/Seq: 1494627145293/0 Denom: 44: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerIn  Total: 44
+[    OwnerOut : Id/Seq: 1494627182303/0 Denom: 42: wxMOMbGxGbxY+rzepMvQS8cDZQto4fGPhC8ztjsCRS8=
+   OwnerOut : Id/Seq: 1494627182303/1 Denom: 2: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerOut  Total: 44
+Tsig[:20]:  DaOoKH8D3gciqg0ab93K
+[    SUSPECTINPUTS: Id/Seq: 1494627145293/0 Denom: 44: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChw+/3t6K8N30eKEbYaE0ptaDqOEONobsQZ+blpwl7ADPgqS+qxi6pXt1meR8WybK/I71OZM6fhqgjr5dLK1+GF8fkeaeBbU/YGYVP2ChJ1dp/Ju7ku3KfgEYyL48d2AuwDSAyxkYyffwbGIiJg3Li+SPBvRLUigazPvPxCtlCMwIDAQAB
+SUSPECTINPUTS Total: 44
+1494627182303: All good coins in the input.
+
+PNTs: 8 Txs In, 8 Good, 0 Bad.
+NEW IN:: 1494627178564: PayCoins
+[    OwnerIn : Id/Seq: 1494627146078/1 Denom: 34: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerIn : Id/Seq: 1494627147181/0 Denom: 134: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerIn  Total: 168
+[    OwnerOut : Id/Seq: 1494627178564/0 Denom: 162: giWrBi7/e9ldmlp+AFagTBa1dVoMtTZ3FmDnh8Tkkx0=
+   OwnerOut : Id/Seq: 1494627178564/1 Denom: 6: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerOut  Total: 168
+Tsig[:20]:  VuG6/3V+UHanNhT+8Gxb
+[0] 92 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494627179085: PayCoins
+[    OwnerIn : Id/Seq: 1494627097099/0 Denom: 43: qA0ne74hbr5Ou4OIas9X2/nBOX0QugSCaoC+AQggF78=
+OwnerIn  Total: 43
+[    OwnerOut : Id/Seq: 1494627179085/0 Denom: 30: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerOut : Id/Seq: 1494627179085/1 Denom: 13: qA0ne74hbr5Ou4OIas9X2/nBOX0QugSCaoC+AQggF78=
+OwnerOut  Total: 43
+Tsig[:20]:  mprO73wkCTqir8w8sL3N
+[1] 93 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494627179573: PayCoins
+[    OwnerIn : Id/Seq: 1494627009124/1 Denom: 21: wLCpd1qHSgFP58JxC59PKzBI7RafSfgvEuF4PYy+bs0=
+   OwnerIn : Id/Seq: 1494627094719/1 Denom: 148: wLCpd1qHSgFP58JxC59PKzBI7RafSfgvEuF4PYy+bs0=
+   OwnerIn : Id/Seq: 1494627096478/0 Denom: 168: wLCpd1qHSgFP58JxC59PKzBI7RafSfgvEuF4PYy+bs0=
+OwnerIn  Total: 337
+[    OwnerOut : Id/Seq: 1494627179573/0 Denom: 303: qA0ne74hbr5Ou4OIas9X2/nBOX0QugSCaoC+AQggF78=
+   OwnerOut : Id/Seq: 1494627179573/1 Denom: 34: wLCpd1qHSgFP58JxC59PKzBI7RafSfgvEuF4PYy+bs0=
+OwnerOut  Total: 337
+Tsig[:20]:  fb5lJqWZPTTnj7uoqjDE
+[2] 94 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494627180072: PayCoins
+[    OwnerIn : Id/Seq: 1494627010595/0 Denom: 41: epyQjmiHR3c6yWt8ZNITXLiXcXyEkGn5IsKBcQv66ak=
+OwnerIn  Total: 41
+[    OwnerOut : Id/Seq: 1494627180072/0 Denom: 1: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerOut : Id/Seq: 1494627180072/1 Denom: 40: epyQjmiHR3c6yWt8ZNITXLiXcXyEkGn5IsKBcQv66ak=
+OwnerOut  Total: 41
+Tsig[:20]:  zSq8UuWqWjTOmNftB6pY
+[3] 95 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494627180655: PayCoins
+[    OwnerIn : Id/Seq: 1494627008621/0 Denom: 125: wxMOMbGxGbxY+rzepMvQS8cDZQto4fGPhC8ztjsCRS8=
+OwnerIn  Total: 125
+[    OwnerOut : Id/Seq: 1494627180655/0 Denom: 65: wLCpd1qHSgFP58JxC59PKzBI7RafSfgvEuF4PYy+bs0=
+   OwnerOut : Id/Seq: 1494627180655/1 Denom: 60: wxMOMbGxGbxY+rzepMvQS8cDZQto4fGPhC8ztjsCRS8=
+OwnerOut  Total: 125
+Tsig[:20]:  vnHE1B1sDYcBu5aC267J
+[4] 96 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494627181189: PayCoins
+[    OwnerIn : Id/Seq: 1494627094100/0 Denom: 22: giWrBi7/e9ldmlp+AFagTBa1dVoMtTZ3FmDnh8Tkkx0=
+OwnerIn  Total: 22
+[    OwnerOut : Id/Seq: 1494627181189/0 Denom: 19: guTo1yR4xVsqhOpLw4GOwEcO3Hiqe+eirHDDUPhcmjo=
+   OwnerOut : Id/Seq: 1494627181189/1 Denom: 3: giWrBi7/e9ldmlp+AFagTBa1dVoMtTZ3FmDnh8Tkkx0=
+OwnerOut  Total: 22
+Tsig[:20]:  QkQdsuJaOR7xyvGRvWs4
+[5] 97 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494627181724: PayCoins
+[    OwnerIn : Id/Seq: 1494627097691/0 Denom: 20: guTo1yR4xVsqhOpLw4GOwEcO3Hiqe+eirHDDUPhcmjo=
+OwnerIn  Total: 20
+[    OwnerOut : Id/Seq: 1494627181724/0 Denom: 19: epyQjmiHR3c6yWt8ZNITXLiXcXyEkGn5IsKBcQv66ak=
+   OwnerOut : Id/Seq: 1494627181724/1 Denom: 1: guTo1yR4xVsqhOpLw4GOwEcO3Hiqe+eirHDDUPhcmjo=
+OwnerOut  Total: 20
+Tsig[:20]:  yyl/w2pz44IXryaokRMz
+[6] 98 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494627182303: PayCoins
+[    OwnerIn : Id/Seq: 1494627145293/0 Denom: 44: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerIn  Total: 44
+[    OwnerOut : Id/Seq: 1494627182303/0 Denom: 42: wxMOMbGxGbxY+rzepMvQS8cDZQto4fGPhC8ztjsCRS8=
+   OwnerOut : Id/Seq: 1494627182303/1 Denom: 2: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerOut  Total: 44
+Tsig[:20]:  DaOoKH8D3gciqg0ab93K
+[7] 99 Txs in Ledger after PNT, 0 in rejects.
+Store the Blockchain.
+Store the Rejects.
+Store the UTXOS.
+99 transactions stored.
+0 transactions rejected.
+newtxs file deleted.
+
+Load Blockchain:
+Txs in Ledger after Load:  99
+No New Transactions.
+Store the Blockchain.
+Store the Rejects.
+Store the UTXOS.
+99 transactions stored.
+0 transactions rejected.
+
+Load Blockchain:
+Txs in Ledger after Load:  99
+8 New Transactions in.
+
+NEW TRANSACTION:: 1494627230282: PayCoins
+[    OwnerIn : Id/Seq: 1494626977322/0 Denom: 25: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+OwnerIn  Total: 25
+[    OwnerOut : Id/Seq: 1494627230282/0 Denom: 3: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerOut : Id/Seq: 1494627230282/1 Denom: 22: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+OwnerOut  Total: 25
+Tsig[:20]:  SX4ZScwNiSyERJ8w/2YR
+[    SUSPECTINPUTS: Id/Seq: 1494626977322/0 Denom: 25: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCllyPLTZap6VSUG+CRLRvJGY/D06JtbiLGvnS5Z4V7iDHNFw7x2mZbW2igLWqJzIZmAZz8U6U62IZxAcZCEviqKbkpol+U5aUllGIBVrh6GJXJcItXp4CzejOeAUFSr1FWy1hJlXLlIeLsi41VkYFbL/bxCfViZEjq2rqxEE4jowIDAQAB
+SUSPECTINPUTS Total: 25
+1494627230282: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494627230902: PayCoins
+[    OwnerIn : Id/Seq: 1494627178564/1 Denom: 6: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerIn  Total: 6
+[    OwnerOut : Id/Seq: 1494627230902/0 Denom: 2: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerOut : Id/Seq: 1494627230902/1 Denom: 4: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerOut  Total: 6
+Tsig[:20]:  X1mW/ngEMr6LZrC6JAZb
+[    SUSPECTINPUTS: Id/Seq: 1494627178564/1 Denom: 6: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCh3ulGlfT6DhY7xB7pRaSeDZErGwRXui31TE7cm6zLG8EzQmgDcu6RuA9/XuL412f7+ST0nA1W5GrFWkM8qpDeBneu/wiOqbdNTd6SUi1uNL+jwjCBLHMVpjD6fkWzACyjjo/5irxIYz3q9kP8K8upjwh/WUkM5KPE0GyR+HT9dQIDAQAB
+SUSPECTINPUTS Total: 6
+1494627230902: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494627231725: PayCoins
+[    OwnerIn : Id/Seq: 1494627148229/0 Denom: 30: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+OwnerIn  Total: 30
+[    OwnerOut : Id/Seq: 1494627231725/0 Denom: 12: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+   OwnerOut : Id/Seq: 1494627231725/1 Denom: 18: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+OwnerOut  Total: 30
+Tsig[:20]:  TKUkvIcpE+WWIYAq3nXs
+[    SUSPECTINPUTS: Id/Seq: 1494627148229/0 Denom: 30: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDknJU8f+BCmb9RvZK/ChvFqw4RDtLtUFdyu7FfF/33clJ8liWUNSwQp/D+xfGVYh+7/Q+pmscCcTPWrGS4s6ChVusiYt0BTyCNi48ypEqqissHjgCRNkXHcFhfSsD9kvj7HEa4iZSzNRVmjxhs8Rd/PLWkCkAPW0KW1p9rjOFgDwIDAQAB
+SUSPECTINPUTS Total: 30
+1494627231725: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494627232440: PayCoins
+[    OwnerIn : Id/Seq: 1494627147181/1 Denom: 70: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+OwnerIn  Total: 70
+[    OwnerOut : Id/Seq: 1494627232440/0 Denom: 68: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+   OwnerOut : Id/Seq: 1494627232440/1 Denom: 2: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+OwnerOut  Total: 70
+Tsig[:20]:  YwBbhsPHrgjceHEPzm9F
+[    SUSPECTINPUTS: Id/Seq: 1494627147181/1 Denom: 70: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCyzMq7gawMJB0+bfW7uEMTPXY2AwjfOwoECafWCGiFHa64XMMI7Kq9ignR/TpZ3HZKcTWbHWUA6cgWT5acWkHo7ZPIK3VYfBDkeFLnoq7H+B2LreOKWENDSKtto/KGK5cPf4FhBzY0GIp4Dus+yJJMvAikpQ7mCoV/k8BHjRCddwIDAQAB
+SUSPECTINPUTS Total: 70
+1494627232440: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494627233096: PayCoins
+[    OwnerIn : Id/Seq: 1494626722065/0 Denom: 1: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   OwnerIn : Id/Seq: 1494626807627/1 Denom: 25: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   OwnerIn : Id/Seq: 1494626892419/1 Denom: 32: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   OwnerIn : Id/Seq: 1494626977322/1 Denom: 6: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   OwnerIn : Id/Seq: 1494627060680/0 Denom: 12: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   OwnerIn : Id/Seq: 1494627062312/1 Denom: 66: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   OwnerIn : Id/Seq: 1494627147681/1 Denom: 31: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   OwnerIn : Id/Seq: 1494627148833/0 Denom: 191: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+OwnerIn  Total: 364
+[    OwnerOut : Id/Seq: 1494627233096/0 Denom: 240: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+   OwnerOut : Id/Seq: 1494627233096/1 Denom: 124: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+OwnerOut  Total: 364
+Tsig[:20]:  h/xDIG2f+so7h7cILt57
+[    SUSPECTINPUTS: Id/Seq: 1494626722065/0 Denom: 1: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDcce9CTqGUu3E4doeY9YP9TiQ3yICbqrivzKwTk4hJjYqyIQYzdrYglwukJIk3duy3EXx87q3NxIMqHtQjWxMtxbKH9AE5XwNFuEpMEH7au7/h8lb86jIHrraEX/XWwV3XeY2BOdWS82HJ+zSH4tXRQCo0r2uq8peSqYAfxdR4XQIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494626807627/1 Denom: 25: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDcce9CTqGUu3E4doeY9YP9TiQ3yICbqrivzKwTk4hJjYqyIQYzdrYglwukJIk3duy3EXx87q3NxIMqHtQjWxMtxbKH9AE5XwNFuEpMEH7au7/h8lb86jIHrraEX/XWwV3XeY2BOdWS82HJ+zSH4tXRQCo0r2uq8peSqYAfxdR4XQIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494626892419/1 Denom: 32: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDcce9CTqGUu3E4doeY9YP9TiQ3yICbqrivzKwTk4hJjYqyIQYzdrYglwukJIk3duy3EXx87q3NxIMqHtQjWxMtxbKH9AE5XwNFuEpMEH7au7/h8lb86jIHrraEX/XWwV3XeY2BOdWS82HJ+zSH4tXRQCo0r2uq8peSqYAfxdR4XQIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494626977322/1 Denom: 6: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDcce9CTqGUu3E4doeY9YP9TiQ3yICbqrivzKwTk4hJjYqyIQYzdrYglwukJIk3duy3EXx87q3NxIMqHtQjWxMtxbKH9AE5XwNFuEpMEH7au7/h8lb86jIHrraEX/XWwV3XeY2BOdWS82HJ+zSH4tXRQCo0r2uq8peSqYAfxdR4XQIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494627060680/0 Denom: 12: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDcce9CTqGUu3E4doeY9YP9TiQ3yICbqrivzKwTk4hJjYqyIQYzdrYglwukJIk3duy3EXx87q3NxIMqHtQjWxMtxbKH9AE5XwNFuEpMEH7au7/h8lb86jIHrraEX/XWwV3XeY2BOdWS82HJ+zSH4tXRQCo0r2uq8peSqYAfxdR4XQIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494627062312/1 Denom: 66: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDcce9CTqGUu3E4doeY9YP9TiQ3yICbqrivzKwTk4hJjYqyIQYzdrYglwukJIk3duy3EXx87q3NxIMqHtQjWxMtxbKH9AE5XwNFuEpMEH7au7/h8lb86jIHrraEX/XWwV3XeY2BOdWS82HJ+zSH4tXRQCo0r2uq8peSqYAfxdR4XQIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494627147681/1 Denom: 31: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDcce9CTqGUu3E4doeY9YP9TiQ3yICbqrivzKwTk4hJjYqyIQYzdrYglwukJIk3duy3EXx87q3NxIMqHtQjWxMtxbKH9AE5XwNFuEpMEH7au7/h8lb86jIHrraEX/XWwV3XeY2BOdWS82HJ+zSH4tXRQCo0r2uq8peSqYAfxdR4XQIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494627148833/0 Denom: 191: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDcce9CTqGUu3E4doeY9YP9TiQ3yICbqrivzKwTk4hJjYqyIQYzdrYglwukJIk3duy3EXx87q3NxIMqHtQjWxMtxbKH9AE5XwNFuEpMEH7au7/h8lb86jIHrraEX/XWwV3XeY2BOdWS82HJ+zSH4tXRQCo0r2uq8peSqYAfxdR4XQIDAQAB
+SUSPECTINPUTS Total: 364
+1494627233096: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494627233804: PayCoins
+[    OwnerIn : Id/Seq: 1494627063054/1 Denom: 218: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+OwnerIn  Total: 218
+[    OwnerOut : Id/Seq: 1494627233804/0 Denom: 90: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   OwnerOut : Id/Seq: 1494627233804/1 Denom: 128: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+OwnerOut  Total: 218
+Tsig[:20]:  ixATmVjWhca5MWEeTNxE
+[    SUSPECTINPUTS: Id/Seq: 1494627063054/1 Denom: 218: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDIZxEO9zixB9BeVjAvmOrd12ImXC03JxNfhGLOHOMtYLhqFLIlKi3Uo2xo0aoqngi0b9KQiVOEWlEESEZmanlKd90ZzA9NhYFrystpi/o7CMd1hX8qrBFEzkVC2dvBxVczhvEHbJkTBR4hGplh+3xxY0cZoCifaWSWYhO9bMWnLQIDAQAB
+SUSPECTINPUTS Total: 218
+1494627233804: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494627234444: PayCoins
+[    OwnerIn : Id/Seq: 1494627179085/0 Denom: 30: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerIn  Total: 30
+[    OwnerOut : Id/Seq: 1494627234444/0 Denom: 25: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+   OwnerOut : Id/Seq: 1494627234444/1 Denom: 5: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerOut  Total: 30
+Tsig[:20]:  PITr0kWnbEhj36RAxD9M
+[    SUSPECTINPUTS: Id/Seq: 1494627179085/0 Denom: 30: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChw+/3t6K8N30eKEbYaE0ptaDqOEONobsQZ+blpwl7ADPgqS+qxi6pXt1meR8WybK/I71OZM6fhqgjr5dLK1+GF8fkeaeBbU/YGYVP2ChJ1dp/Ju7ku3KfgEYyL48d2AuwDSAyxkYyffwbGIiJg3Li+SPBvRLUigazPvPxCtlCMwIDAQAB
+SUSPECTINPUTS Total: 30
+1494627234444: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494627235090: PayCoins
+[    OwnerIn : Id/Seq: 1494626978361/0 Denom: 41: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+   OwnerIn : Id/Seq: 1494627063054/0 Denom: 65: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+   OwnerIn : Id/Seq: 1494627147681/0 Denom: 147: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+   OwnerIn : Id/Seq: 1494627149354/1 Denom: 15: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+OwnerIn  Total: 268
+[    OwnerOut : Id/Seq: 1494627235090/0 Denom: 187: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+   OwnerOut : Id/Seq: 1494627235090/1 Denom: 81: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+OwnerOut  Total: 268
+Tsig[:20]:  BLncImwLcCCHvVa6KjKu
+[    SUSPECTINPUTS: Id/Seq: 1494626978361/0 Denom: 41: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDMym0hgwRlSG8MbefoMEp31YNYMlwOg5omqfBXpmspAXCF4F8c6H2jLSsyx7NYxmMBsdvMjzGLRJvOL2Hp0x/JQpCuFA++4EpNlgKRv2FZOyGDbdZH7xeqe9Lh9ysWpmTHMEOJaGbcjxewbF1eTlnWHabgwI1rfOFn3wHt3tJYXwIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494627063054/0 Denom: 65: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDMym0hgwRlSG8MbefoMEp31YNYMlwOg5omqfBXpmspAXCF4F8c6H2jLSsyx7NYxmMBsdvMjzGLRJvOL2Hp0x/JQpCuFA++4EpNlgKRv2FZOyGDbdZH7xeqe9Lh9ysWpmTHMEOJaGbcjxewbF1eTlnWHabgwI1rfOFn3wHt3tJYXwIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494627147681/0 Denom: 147: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDMym0hgwRlSG8MbefoMEp31YNYMlwOg5omqfBXpmspAXCF4F8c6H2jLSsyx7NYxmMBsdvMjzGLRJvOL2Hp0x/JQpCuFA++4EpNlgKRv2FZOyGDbdZH7xeqe9Lh9ysWpmTHMEOJaGbcjxewbF1eTlnWHabgwI1rfOFn3wHt3tJYXwIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494627149354/1 Denom: 15: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDMym0hgwRlSG8MbefoMEp31YNYMlwOg5omqfBXpmspAXCF4F8c6H2jLSsyx7NYxmMBsdvMjzGLRJvOL2Hp0x/JQpCuFA++4EpNlgKRv2FZOyGDbdZH7xeqe9Lh9ysWpmTHMEOJaGbcjxewbF1eTlnWHabgwI1rfOFn3wHt3tJYXwIDAQAB
+SUSPECTINPUTS Total: 268
+1494627235090: All good coins in the input.
+
+PNTs: 8 Txs In, 8 Good, 0 Bad.
+NEW IN:: 1494627230282: PayCoins
+[    OwnerIn : Id/Seq: 1494626977322/0 Denom: 25: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+OwnerIn  Total: 25
+[    OwnerOut : Id/Seq: 1494627230282/0 Denom: 3: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerOut : Id/Seq: 1494627230282/1 Denom: 22: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+OwnerOut  Total: 25
+Tsig[:20]:  SX4ZScwNiSyERJ8w/2YR
+[0] 100 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494627230902: PayCoins
+[    OwnerIn : Id/Seq: 1494627178564/1 Denom: 6: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerIn  Total: 6
+[    OwnerOut : Id/Seq: 1494627230902/0 Denom: 2: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerOut : Id/Seq: 1494627230902/1 Denom: 4: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerOut  Total: 6
+Tsig[:20]:  X1mW/ngEMr6LZrC6JAZb
+[1] 101 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494627231725: PayCoins
+[    OwnerIn : Id/Seq: 1494627148229/0 Denom: 30: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+OwnerIn  Total: 30
+[    OwnerOut : Id/Seq: 1494627231725/0 Denom: 12: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+   OwnerOut : Id/Seq: 1494627231725/1 Denom: 18: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+OwnerOut  Total: 30
+Tsig[:20]:  TKUkvIcpE+WWIYAq3nXs
+[2] 102 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494627232440: PayCoins
+[    OwnerIn : Id/Seq: 1494627147181/1 Denom: 70: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+OwnerIn  Total: 70
+[    OwnerOut : Id/Seq: 1494627232440/0 Denom: 68: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+   OwnerOut : Id/Seq: 1494627232440/1 Denom: 2: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+OwnerOut  Total: 70
+Tsig[:20]:  YwBbhsPHrgjceHEPzm9F
+[3] 103 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494627233096: PayCoins
+[    OwnerIn : Id/Seq: 1494626722065/0 Denom: 1: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   OwnerIn : Id/Seq: 1494626807627/1 Denom: 25: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   OwnerIn : Id/Seq: 1494626892419/1 Denom: 32: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   OwnerIn : Id/Seq: 1494626977322/1 Denom: 6: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   OwnerIn : Id/Seq: 1494627060680/0 Denom: 12: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   OwnerIn : Id/Seq: 1494627062312/1 Denom: 66: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   OwnerIn : Id/Seq: 1494627147681/1 Denom: 31: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   OwnerIn : Id/Seq: 1494627148833/0 Denom: 191: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+OwnerIn  Total: 364
+[    OwnerOut : Id/Seq: 1494627233096/0 Denom: 240: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+   OwnerOut : Id/Seq: 1494627233096/1 Denom: 124: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+OwnerOut  Total: 364
+Tsig[:20]:  h/xDIG2f+so7h7cILt57
+[4] 104 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494627233804: PayCoins
+[    OwnerIn : Id/Seq: 1494627063054/1 Denom: 218: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+OwnerIn  Total: 218
+[    OwnerOut : Id/Seq: 1494627233804/0 Denom: 90: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   OwnerOut : Id/Seq: 1494627233804/1 Denom: 128: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+OwnerOut  Total: 218
+Tsig[:20]:  ixATmVjWhca5MWEeTNxE
+[5] 105 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494627234444: PayCoins
+[    OwnerIn : Id/Seq: 1494627179085/0 Denom: 30: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerIn  Total: 30
+[    OwnerOut : Id/Seq: 1494627234444/0 Denom: 25: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+   OwnerOut : Id/Seq: 1494627234444/1 Denom: 5: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerOut  Total: 30
+Tsig[:20]:  PITr0kWnbEhj36RAxD9M
+[6] 106 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494627235090: PayCoins
+[    OwnerIn : Id/Seq: 1494626978361/0 Denom: 41: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+   OwnerIn : Id/Seq: 1494627063054/0 Denom: 65: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+   OwnerIn : Id/Seq: 1494627147681/0 Denom: 147: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+   OwnerIn : Id/Seq: 1494627149354/1 Denom: 15: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+OwnerIn  Total: 268
+[    OwnerOut : Id/Seq: 1494627235090/0 Denom: 187: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+   OwnerOut : Id/Seq: 1494627235090/1 Denom: 81: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+OwnerOut  Total: 268
+Tsig[:20]:  BLncImwLcCCHvVa6KjKu
+[7] 107 Txs in Ledger after PNT, 0 in rejects.
+Store the Blockchain.
+Store the Rejects.
+Store the UTXOS.
+107 transactions stored.
+0 transactions rejected.
+newtxs file deleted.
+
+Load Blockchain:
+Txs in Ledger after Load:  107
+8 New Transactions in.
+
+NEW TRANSACTION:: 1494627263265: PayCoins
+[    OwnerIn : Id/Seq: 1494627230282/0 Denom: 3: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerIn  Total: 3
+[    OwnerOut : Id/Seq: 1494627263265/0 Denom: 1: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerOut : Id/Seq: 1494627263265/1 Denom: 2: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerOut  Total: 3
+Tsig[:20]:  aV8ygz/fuQRIXztbSlkq
+[    SUSPECTINPUTS: Id/Seq: 1494627230282/0 Denom: 3: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCh3ulGlfT6DhY7xB7pRaSeDZErGwRXui31TE7cm6zLG8EzQmgDcu6RuA9/XuL412f7+ST0nA1W5GrFWkM8qpDeBneu/wiOqbdNTd6SUi1uNL+jwjCBLHMVpjD6fkWzACyjjo/5irxIYz3q9kP8K8upjwh/WUkM5KPE0GyR+HT9dQIDAQAB
+SUSPECTINPUTS Total: 3
+1494627263265: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494627263996: PayCoins
+[    OwnerIn : Id/Seq: 1494627179573/0 Denom: 303: qA0ne74hbr5Ou4OIas9X2/nBOX0QugSCaoC+AQggF78=
+OwnerIn  Total: 303
+[    OwnerOut : Id/Seq: 1494627263996/0 Denom: 246: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerOut : Id/Seq: 1494627263996/1 Denom: 57: qA0ne74hbr5Ou4OIas9X2/nBOX0QugSCaoC+AQggF78=
+OwnerOut  Total: 303
+Tsig[:20]:  qZG5ji+TRlSgQeQErvMw
+[    SUSPECTINPUTS: Id/Seq: 1494627179573/0 Denom: 303: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDVtKbk5cwP7eHVmqSwyYbsF76bzO/cXMHnDbuqWhWsEkEpJmTZs8rCdCJrHZ5CcAGuH6B8JAL5gMM0tb32afINwXDVOe8bWjcqSaIvtTOI3Ku8ZoIU1cnXhAmTIu8/0584/MZZ+7jbsrIVBG+4yJIpOSZqawzJY73rX67ydDsI0wIDAQAB
+SUSPECTINPUTS Total: 303
+1494627263996: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494627264663: PayCoins
+[    OwnerIn : Id/Seq: 1494627179573/1 Denom: 34: wLCpd1qHSgFP58JxC59PKzBI7RafSfgvEuF4PYy+bs0=
+   OwnerIn : Id/Seq: 1494627180655/0 Denom: 65: wLCpd1qHSgFP58JxC59PKzBI7RafSfgvEuF4PYy+bs0=
+OwnerIn  Total: 99
+[    OwnerOut : Id/Seq: 1494627264663/0 Denom: 74: epyQjmiHR3c6yWt8ZNITXLiXcXyEkGn5IsKBcQv66ak=
+   OwnerOut : Id/Seq: 1494627264663/1 Denom: 25: wLCpd1qHSgFP58JxC59PKzBI7RafSfgvEuF4PYy+bs0=
+OwnerOut  Total: 99
+Tsig[:20]:  J0Si7dEqHABn+dH4l57q
+[    SUSPECTINPUTS: Id/Seq: 1494627179573/1 Denom: 34: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCgv2whMNi2oP1v0o9Uqd/ZgyEdJE4IuEuKnuB+t/okNAgmt3vC1A8kTLzP4fJyPLF0b5EEGmdHQe+yYcQEUPuvzgXvkVjzjtHydHOkPhs4/Y63KAw7xxb2ni+CgkiS4W7s49iTtY4AmTj7dvBVAELOPOPuPoZyqYnb4TaoJ+MqKQIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494627180655/0 Denom: 65: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCgv2whMNi2oP1v0o9Uqd/ZgyEdJE4IuEuKnuB+t/okNAgmt3vC1A8kTLzP4fJyPLF0b5EEGmdHQe+yYcQEUPuvzgXvkVjzjtHydHOkPhs4/Y63KAw7xxb2ni+CgkiS4W7s49iTtY4AmTj7dvBVAELOPOPuPoZyqYnb4TaoJ+MqKQIDAQAB
+SUSPECTINPUTS Total: 99
+1494627264663: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494627265351: PayCoins
+[    OwnerIn : Id/Seq: 1494627095353/1 Denom: 45: epyQjmiHR3c6yWt8ZNITXLiXcXyEkGn5IsKBcQv66ak=
+OwnerIn  Total: 45
+[    OwnerOut : Id/Seq: 1494627265351/0 Denom: 16: qA0ne74hbr5Ou4OIas9X2/nBOX0QugSCaoC+AQggF78=
+   OwnerOut : Id/Seq: 1494627265351/1 Denom: 29: epyQjmiHR3c6yWt8ZNITXLiXcXyEkGn5IsKBcQv66ak=
+OwnerOut  Total: 45
+Tsig[:20]:  QfLbrvNuu5Sku3jY1vmx
+[    SUSPECTINPUTS: Id/Seq: 1494627095353/1 Denom: 45: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDseroYCgOjLS2F7WslRFGoxOV3JNn3Jmwnhko/MvflshrH+RCwJRLJEDduA9Xts+86ePVeVfZZN37O6wKs8na4+8+76n4Q6pxp23o1wImWGYvboizSxHOEbNnEBENjL61szUqnEdVKX0tiEuHz1w3SRvOt6/vZ/U2AoZrSw4JgjQIDAQAB
+SUSPECTINPUTS Total: 45
+1494627265351: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494627266028: PayCoins
+[    OwnerIn : Id/Seq: 1494626924495/0 Denom: 1: wxMOMbGxGbxY+rzepMvQS8cDZQto4fGPhC8ztjsCRS8=
+   OwnerIn : Id/Seq: 1494626925142/1 Denom: 9: wxMOMbGxGbxY+rzepMvQS8cDZQto4fGPhC8ztjsCRS8=
+   OwnerIn : Id/Seq: 1494627010060/1 Denom: 32: wxMOMbGxGbxY+rzepMvQS8cDZQto4fGPhC8ztjsCRS8=
+   OwnerIn : Id/Seq: 1494627093280/0 Denom: 14: wxMOMbGxGbxY+rzepMvQS8cDZQto4fGPhC8ztjsCRS8=
+   OwnerIn : Id/Seq: 1494627095917/1 Denom: 1: wxMOMbGxGbxY+rzepMvQS8cDZQto4fGPhC8ztjsCRS8=
+   OwnerIn : Id/Seq: 1494627180655/1 Denom: 60: wxMOMbGxGbxY+rzepMvQS8cDZQto4fGPhC8ztjsCRS8=
+   OwnerIn : Id/Seq: 1494627182303/0 Denom: 42: wxMOMbGxGbxY+rzepMvQS8cDZQto4fGPhC8ztjsCRS8=
+OwnerIn  Total: 159
+[    OwnerOut : Id/Seq: 1494627266028/0 Denom: 147: guTo1yR4xVsqhOpLw4GOwEcO3Hiqe+eirHDDUPhcmjo=
+   OwnerOut : Id/Seq: 1494627266028/1 Denom: 12: wxMOMbGxGbxY+rzepMvQS8cDZQto4fGPhC8ztjsCRS8=
+OwnerOut  Total: 159
+Tsig[:20]:  sEgvvIU3d+HIg/h7RVUH
+[    SUSPECTINPUTS: Id/Seq: 1494626924495/0 Denom: 1: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDpD9rIYjtTXm2uWtTsxVfZne9+z8V9v6EDKRxjioKTO7XCUyRxIUDcWajIZQD2uekd8KVnUqxmmFiHDDe7g0UwGDoQ57GtT4K7CwXlmWWvw1v9Gi3EcBfO8oXcKDdK2+omLNA0K3yvBLaqDxPAb7iA1Zx1LuuhBB5bd3HYlOU+2wIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494626925142/1 Denom: 9: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDpD9rIYjtTXm2uWtTsxVfZne9+z8V9v6EDKRxjioKTO7XCUyRxIUDcWajIZQD2uekd8KVnUqxmmFiHDDe7g0UwGDoQ57GtT4K7CwXlmWWvw1v9Gi3EcBfO8oXcKDdK2+omLNA0K3yvBLaqDxPAb7iA1Zx1LuuhBB5bd3HYlOU+2wIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494627010060/1 Denom: 32: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDpD9rIYjtTXm2uWtTsxVfZne9+z8V9v6EDKRxjioKTO7XCUyRxIUDcWajIZQD2uekd8KVnUqxmmFiHDDe7g0UwGDoQ57GtT4K7CwXlmWWvw1v9Gi3EcBfO8oXcKDdK2+omLNA0K3yvBLaqDxPAb7iA1Zx1LuuhBB5bd3HYlOU+2wIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494627093280/0 Denom: 14: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDpD9rIYjtTXm2uWtTsxVfZne9+z8V9v6EDKRxjioKTO7XCUyRxIUDcWajIZQD2uekd8KVnUqxmmFiHDDe7g0UwGDoQ57GtT4K7CwXlmWWvw1v9Gi3EcBfO8oXcKDdK2+omLNA0K3yvBLaqDxPAb7iA1Zx1LuuhBB5bd3HYlOU+2wIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494627095917/1 Denom: 1: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDpD9rIYjtTXm2uWtTsxVfZne9+z8V9v6EDKRxjioKTO7XCUyRxIUDcWajIZQD2uekd8KVnUqxmmFiHDDe7g0UwGDoQ57GtT4K7CwXlmWWvw1v9Gi3EcBfO8oXcKDdK2+omLNA0K3yvBLaqDxPAb7iA1Zx1LuuhBB5bd3HYlOU+2wIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494627180655/1 Denom: 60: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDpD9rIYjtTXm2uWtTsxVfZne9+z8V9v6EDKRxjioKTO7XCUyRxIUDcWajIZQD2uekd8KVnUqxmmFiHDDe7g0UwGDoQ57GtT4K7CwXlmWWvw1v9Gi3EcBfO8oXcKDdK2+omLNA0K3yvBLaqDxPAb7iA1Zx1LuuhBB5bd3HYlOU+2wIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494627182303/0 Denom: 42: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDpD9rIYjtTXm2uWtTsxVfZne9+z8V9v6EDKRxjioKTO7XCUyRxIUDcWajIZQD2uekd8KVnUqxmmFiHDDe7g0UwGDoQ57GtT4K7CwXlmWWvw1v9Gi3EcBfO8oXcKDdK2+omLNA0K3yvBLaqDxPAb7iA1Zx1LuuhBB5bd3HYlOU+2wIDAQAB
+SUSPECTINPUTS Total: 159
+1494627266028: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494627266725: PayCoins
+[    OwnerIn : Id/Seq: 1494627096478/1 Denom: 24: giWrBi7/e9ldmlp+AFagTBa1dVoMtTZ3FmDnh8Tkkx0=
+   OwnerIn : Id/Seq: 1494627178564/0 Denom: 162: giWrBi7/e9ldmlp+AFagTBa1dVoMtTZ3FmDnh8Tkkx0=
+   OwnerIn : Id/Seq: 1494627181189/1 Denom: 3: giWrBi7/e9ldmlp+AFagTBa1dVoMtTZ3FmDnh8Tkkx0=
+OwnerIn  Total: 189
+[    OwnerOut : Id/Seq: 1494627266725/0 Denom: 166: wxMOMbGxGbxY+rzepMvQS8cDZQto4fGPhC8ztjsCRS8=
+   OwnerOut : Id/Seq: 1494627266725/1 Denom: 23: giWrBi7/e9ldmlp+AFagTBa1dVoMtTZ3FmDnh8Tkkx0=
+OwnerOut  Total: 189
+Tsig[:20]:  LArb4mXLTsn6QMtp48Ed
+[    SUSPECTINPUTS: Id/Seq: 1494627096478/1 Denom: 24: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCWYeG/8dspk3s/Fv1BLCP9Ie0v1BzutHmOSOZDq3iJg9cb6SxaJJID2KM3ZE6utKPSKp20B3/PtSytrS6nw8ftvN+BoY7lTQAnh/Bk4qgTOTnEByFL2kK0hoM7chyTTFCR6t01j3OBAWqYnHJ8dU7ccdN1gbzzahHmFtjK0pCoeQIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494627178564/0 Denom: 162: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCWYeG/8dspk3s/Fv1BLCP9Ie0v1BzutHmOSOZDq3iJg9cb6SxaJJID2KM3ZE6utKPSKp20B3/PtSytrS6nw8ftvN+BoY7lTQAnh/Bk4qgTOTnEByFL2kK0hoM7chyTTFCR6t01j3OBAWqYnHJ8dU7ccdN1gbzzahHmFtjK0pCoeQIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494627181189/1 Denom: 3: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCWYeG/8dspk3s/Fv1BLCP9Ie0v1BzutHmOSOZDq3iJg9cb6SxaJJID2KM3ZE6utKPSKp20B3/PtSytrS6nw8ftvN+BoY7lTQAnh/Bk4qgTOTnEByFL2kK0hoM7chyTTFCR6t01j3OBAWqYnHJ8dU7ccdN1gbzzahHmFtjK0pCoeQIDAQAB
+SUSPECTINPUTS Total: 189
+1494627266725: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494627267425: PayCoins
+[    OwnerIn : Id/Seq: 1494627097099/1 Denom: 6: guTo1yR4xVsqhOpLw4GOwEcO3Hiqe+eirHDDUPhcmjo=
+   OwnerIn : Id/Seq: 1494627181189/0 Denom: 19: guTo1yR4xVsqhOpLw4GOwEcO3Hiqe+eirHDDUPhcmjo=
+   OwnerIn : Id/Seq: 1494627181724/1 Denom: 1: guTo1yR4xVsqhOpLw4GOwEcO3Hiqe+eirHDDUPhcmjo=
+OwnerIn  Total: 26
+[    OwnerOut : Id/Seq: 1494627267425/0 Denom: 23: wLCpd1qHSgFP58JxC59PKzBI7RafSfgvEuF4PYy+bs0=
+   OwnerOut : Id/Seq: 1494627267425/1 Denom: 3: guTo1yR4xVsqhOpLw4GOwEcO3Hiqe+eirHDDUPhcmjo=
+OwnerOut  Total: 26
+Tsig[:20]:  qO6Jidwr+XKz3DZYw652
+[    SUSPECTINPUTS: Id/Seq: 1494627097099/1 Denom: 6: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDlNE7zpRS6qAaUG79i97BUM319Dof/L8HbE3twSV7IrzN/60w1FvSOGlJkLhAz6z258ikhO16ZrOUMQirqa+EOPNGPk3D39ZHTDLjtddnLcg16jZjRQ1+UPLlq2ni6bNV1mPHV4rPe0tTsnGocgtOqyHoTc3XPAeSrWfMmItXkEwIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494627181189/0 Denom: 19: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDlNE7zpRS6qAaUG79i97BUM319Dof/L8HbE3twSV7IrzN/60w1FvSOGlJkLhAz6z258ikhO16ZrOUMQirqa+EOPNGPk3D39ZHTDLjtddnLcg16jZjRQ1+UPLlq2ni6bNV1mPHV4rPe0tTsnGocgtOqyHoTc3XPAeSrWfMmItXkEwIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494627181724/1 Denom: 1: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDlNE7zpRS6qAaUG79i97BUM319Dof/L8HbE3twSV7IrzN/60w1FvSOGlJkLhAz6z258ikhO16ZrOUMQirqa+EOPNGPk3D39ZHTDLjtddnLcg16jZjRQ1+UPLlq2ni6bNV1mPHV4rPe0tTsnGocgtOqyHoTc3XPAeSrWfMmItXkEwIDAQAB
+SUSPECTINPUTS Total: 26
+1494627267425: All good coins in the input.
+
+
+NEW TRANSACTION:: 1494627268153: PayCoins
+[    OwnerIn : Id/Seq: 1494627148833/1 Denom: 15: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerIn : Id/Seq: 1494627182303/1 Denom: 2: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerIn : Id/Seq: 1494627230902/0 Denom: 2: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerIn : Id/Seq: 1494627234444/1 Denom: 5: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerIn  Total: 24
+[    OwnerOut : Id/Seq: 1494627268153/0 Denom: 22: giWrBi7/e9ldmlp+AFagTBa1dVoMtTZ3FmDnh8Tkkx0=
+   OwnerOut : Id/Seq: 1494627268153/1 Denom: 2: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerOut  Total: 24
+Tsig[:20]:  RGqlTvjJrJH/BU6QGdA2
+[    SUSPECTINPUTS: Id/Seq: 1494627148833/1 Denom: 15: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChw+/3t6K8N30eKEbYaE0ptaDqOEONobsQZ+blpwl7ADPgqS+qxi6pXt1meR8WybK/I71OZM6fhqgjr5dLK1+GF8fkeaeBbU/YGYVP2ChJ1dp/Ju7ku3KfgEYyL48d2AuwDSAyxkYyffwbGIiJg3Li+SPBvRLUigazPvPxCtlCMwIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494627182303/1 Denom: 2: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChw+/3t6K8N30eKEbYaE0ptaDqOEONobsQZ+blpwl7ADPgqS+qxi6pXt1meR8WybK/I71OZM6fhqgjr5dLK1+GF8fkeaeBbU/YGYVP2ChJ1dp/Ju7ku3KfgEYyL48d2AuwDSAyxkYyffwbGIiJg3Li+SPBvRLUigazPvPxCtlCMwIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494627230902/0 Denom: 2: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChw+/3t6K8N30eKEbYaE0ptaDqOEONobsQZ+blpwl7ADPgqS+qxi6pXt1meR8WybK/I71OZM6fhqgjr5dLK1+GF8fkeaeBbU/YGYVP2ChJ1dp/Ju7ku3KfgEYyL48d2AuwDSAyxkYyffwbGIiJg3Li+SPBvRLUigazPvPxCtlCMwIDAQAB
+   SUSPECTINPUTS: Id/Seq: 1494627234444/1 Denom: 5: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChw+/3t6K8N30eKEbYaE0ptaDqOEONobsQZ+blpwl7ADPgqS+qxi6pXt1meR8WybK/I71OZM6fhqgjr5dLK1+GF8fkeaeBbU/YGYVP2ChJ1dp/Ju7ku3KfgEYyL48d2AuwDSAyxkYyffwbGIiJg3Li+SPBvRLUigazPvPxCtlCMwIDAQAB
+SUSPECTINPUTS Total: 24
+1494627268153: All good coins in the input.
+
+PNTs: 8 Txs In, 8 Good, 0 Bad.
+NEW IN:: 1494627263265: PayCoins
+[    OwnerIn : Id/Seq: 1494627230282/0 Denom: 3: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerIn  Total: 3
+[    OwnerOut : Id/Seq: 1494627263265/0 Denom: 1: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerOut : Id/Seq: 1494627263265/1 Denom: 2: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerOut  Total: 3
+Tsig[:20]:  aV8ygz/fuQRIXztbSlkq
+[0] 108 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494627263996: PayCoins
+[    OwnerIn : Id/Seq: 1494627179573/0 Denom: 303: qA0ne74hbr5Ou4OIas9X2/nBOX0QugSCaoC+AQggF78=
+OwnerIn  Total: 303
+[    OwnerOut : Id/Seq: 1494627263996/0 Denom: 246: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerOut : Id/Seq: 1494627263996/1 Denom: 57: qA0ne74hbr5Ou4OIas9X2/nBOX0QugSCaoC+AQggF78=
+OwnerOut  Total: 303
+Tsig[:20]:  qZG5ji+TRlSgQeQErvMw
+[1] 109 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494627264663: PayCoins
+[    OwnerIn : Id/Seq: 1494627179573/1 Denom: 34: wLCpd1qHSgFP58JxC59PKzBI7RafSfgvEuF4PYy+bs0=
+   OwnerIn : Id/Seq: 1494627180655/0 Denom: 65: wLCpd1qHSgFP58JxC59PKzBI7RafSfgvEuF4PYy+bs0=
+OwnerIn  Total: 99
+[    OwnerOut : Id/Seq: 1494627264663/0 Denom: 74: epyQjmiHR3c6yWt8ZNITXLiXcXyEkGn5IsKBcQv66ak=
+   OwnerOut : Id/Seq: 1494627264663/1 Denom: 25: wLCpd1qHSgFP58JxC59PKzBI7RafSfgvEuF4PYy+bs0=
+OwnerOut  Total: 99
+Tsig[:20]:  J0Si7dEqHABn+dH4l57q
+[2] 110 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494627265351: PayCoins
+[    OwnerIn : Id/Seq: 1494627095353/1 Denom: 45: epyQjmiHR3c6yWt8ZNITXLiXcXyEkGn5IsKBcQv66ak=
+OwnerIn  Total: 45
+[    OwnerOut : Id/Seq: 1494627265351/0 Denom: 16: qA0ne74hbr5Ou4OIas9X2/nBOX0QugSCaoC+AQggF78=
+   OwnerOut : Id/Seq: 1494627265351/1 Denom: 29: epyQjmiHR3c6yWt8ZNITXLiXcXyEkGn5IsKBcQv66ak=
+OwnerOut  Total: 45
+Tsig[:20]:  QfLbrvNuu5Sku3jY1vmx
+[3] 111 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494627266028: PayCoins
+[    OwnerIn : Id/Seq: 1494626924495/0 Denom: 1: wxMOMbGxGbxY+rzepMvQS8cDZQto4fGPhC8ztjsCRS8=
+   OwnerIn : Id/Seq: 1494626925142/1 Denom: 9: wxMOMbGxGbxY+rzepMvQS8cDZQto4fGPhC8ztjsCRS8=
+   OwnerIn : Id/Seq: 1494627010060/1 Denom: 32: wxMOMbGxGbxY+rzepMvQS8cDZQto4fGPhC8ztjsCRS8=
+   OwnerIn : Id/Seq: 1494627093280/0 Denom: 14: wxMOMbGxGbxY+rzepMvQS8cDZQto4fGPhC8ztjsCRS8=
+   OwnerIn : Id/Seq: 1494627095917/1 Denom: 1: wxMOMbGxGbxY+rzepMvQS8cDZQto4fGPhC8ztjsCRS8=
+   OwnerIn : Id/Seq: 1494627180655/1 Denom: 60: wxMOMbGxGbxY+rzepMvQS8cDZQto4fGPhC8ztjsCRS8=
+   OwnerIn : Id/Seq: 1494627182303/0 Denom: 42: wxMOMbGxGbxY+rzepMvQS8cDZQto4fGPhC8ztjsCRS8=
+OwnerIn  Total: 159
+[    OwnerOut : Id/Seq: 1494627266028/0 Denom: 147: guTo1yR4xVsqhOpLw4GOwEcO3Hiqe+eirHDDUPhcmjo=
+   OwnerOut : Id/Seq: 1494627266028/1 Denom: 12: wxMOMbGxGbxY+rzepMvQS8cDZQto4fGPhC8ztjsCRS8=
+OwnerOut  Total: 159
+Tsig[:20]:  sEgvvIU3d+HIg/h7RVUH
+[4] 112 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494627266725: PayCoins
+[    OwnerIn : Id/Seq: 1494627096478/1 Denom: 24: giWrBi7/e9ldmlp+AFagTBa1dVoMtTZ3FmDnh8Tkkx0=
+   OwnerIn : Id/Seq: 1494627178564/0 Denom: 162: giWrBi7/e9ldmlp+AFagTBa1dVoMtTZ3FmDnh8Tkkx0=
+   OwnerIn : Id/Seq: 1494627181189/1 Denom: 3: giWrBi7/e9ldmlp+AFagTBa1dVoMtTZ3FmDnh8Tkkx0=
+OwnerIn  Total: 189
+[    OwnerOut : Id/Seq: 1494627266725/0 Denom: 166: wxMOMbGxGbxY+rzepMvQS8cDZQto4fGPhC8ztjsCRS8=
+   OwnerOut : Id/Seq: 1494627266725/1 Denom: 23: giWrBi7/e9ldmlp+AFagTBa1dVoMtTZ3FmDnh8Tkkx0=
+OwnerOut  Total: 189
+Tsig[:20]:  LArb4mXLTsn6QMtp48Ed
+[5] 113 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494627267425: PayCoins
+[    OwnerIn : Id/Seq: 1494627097099/1 Denom: 6: guTo1yR4xVsqhOpLw4GOwEcO3Hiqe+eirHDDUPhcmjo=
+   OwnerIn : Id/Seq: 1494627181189/0 Denom: 19: guTo1yR4xVsqhOpLw4GOwEcO3Hiqe+eirHDDUPhcmjo=
+   OwnerIn : Id/Seq: 1494627181724/1 Denom: 1: guTo1yR4xVsqhOpLw4GOwEcO3Hiqe+eirHDDUPhcmjo=
+OwnerIn  Total: 26
+[    OwnerOut : Id/Seq: 1494627267425/0 Denom: 23: wLCpd1qHSgFP58JxC59PKzBI7RafSfgvEuF4PYy+bs0=
+   OwnerOut : Id/Seq: 1494627267425/1 Denom: 3: guTo1yR4xVsqhOpLw4GOwEcO3Hiqe+eirHDDUPhcmjo=
+OwnerOut  Total: 26
+Tsig[:20]:  qO6Jidwr+XKz3DZYw652
+[6] 114 Txs in Ledger after PNT, 0 in rejects.
+NEW IN:: 1494627268153: PayCoins
+[    OwnerIn : Id/Seq: 1494627148833/1 Denom: 15: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerIn : Id/Seq: 1494627182303/1 Denom: 2: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerIn : Id/Seq: 1494627230902/0 Denom: 2: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerIn : Id/Seq: 1494627234444/1 Denom: 5: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerIn  Total: 24
+[    OwnerOut : Id/Seq: 1494627268153/0 Denom: 22: giWrBi7/e9ldmlp+AFagTBa1dVoMtTZ3FmDnh8Tkkx0=
+   OwnerOut : Id/Seq: 1494627268153/1 Denom: 2: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerOut  Total: 24
+Tsig[:20]:  RGqlTvjJrJH/BU6QGdA2
+[7] 115 Txs in Ledger after PNT, 0 in rejects.
+Store the Blockchain.
+Store the Rejects.
+Store the UTXOS.
+115 transactions stored.
+0 transactions rejected.
+newtxs file deleted.
+
+Load Blockchain:
+Txs in Ledger after Load:  115
+No New Transactions.
+Store the Blockchain.
+Store the Rejects.
+Store the UTXOS.
+115 transactions stored.
+0 transactions rejected.
+
+Load Blockchain:
+Txs in Ledger after Load:  115
+No New Transactions.
+Store the Blockchain.
+Store the Rejects.
+Store the UTXOS.
+115 transactions stored.
+0 transactions rejected.
+
+Load Blockchain:
+Txs in Ledger after Load:  115
+No New Transactions.
+Store the Blockchain.
+Store the Rejects.
+Store the UTXOS.
+115 transactions stored.
+0 transactions rejected.
+
+Load Blockchain:
+Txs in Ledger after Load:  115
+No New Transactions.
+Store the Blockchain.
+Store the Rejects.
+Store the UTXOS.
+115 transactions stored.
+0 transactions rejected.
+
+Load Blockchain:
+Txs in Ledger after Load:  115
+No New Transactions.
+Store the Blockchain.
+Store the Rejects.
+Store the UTXOS.
+115 transactions stored.
+0 transactions rejected.
+
+Load Blockchain:
+Txs in Ledger after Load:  115
+No New Transactions.
+Store the Blockchain.
+Store the Rejects.
+Store the UTXOS.
+115 transactions stored.
+0 transactions rejected.

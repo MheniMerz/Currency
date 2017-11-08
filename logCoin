@@ -1,0 +1,1655 @@
+Flags in main:
+	 allpay = users
+	 who = users
+	 cmd = Autotest
+	 strexp = OK.
+	 throttle = 8
+	 pairs = users/pairs.json
+8 [0-0] -- Pairs : ----- &{[{helen [alice bob chaz dave ellie fiona gary]} {gary [helen alice bob chaz dave ellie fiona]} {chaz [dave ellie fiona gary helen alice bob]} {alice [bob chaz dave ellie fiona gary helen]} {dave [ellie fiona gary helen alice bob chaz]} {ellie [fiona gary helen alice bob chaz dave]} {fiona [gary helen alice bob chaz dave ellie]} {bob [chaz dave ellie fiona gary helen alice]}]} ----
+Returned Pair : ---- &{helen alice} ----8 [1-0] -- Pairs : ----- &{[{helen [alice bob chaz dave ellie fiona gary]} {gary [helen alice bob chaz dave ellie fiona]} {chaz [dave ellie fiona gary helen alice bob]} {alice [bob chaz dave ellie fiona gary helen]} {dave [ellie fiona gary helen alice bob chaz]} {ellie [fiona gary helen alice bob chaz dave]} {fiona [gary helen alice bob chaz dave ellie]} {bob [chaz dave ellie fiona gary helen alice]}]} ----
+Returned Pair : ---- &{gary helen} ----8 [2-0] -- Pairs : ----- &{[{helen [alice bob chaz dave ellie fiona gary]} {gary [helen alice bob chaz dave ellie fiona]} {chaz [dave ellie fiona gary helen alice bob]} {alice [bob chaz dave ellie fiona gary helen]} {dave [ellie fiona gary helen alice bob chaz]} {ellie [fiona gary helen alice bob chaz dave]} {fiona [gary helen alice bob chaz dave ellie]} {bob [chaz dave ellie fiona gary helen alice]}]} ----
+Returned Pair : ---- &{chaz dave} ----8 [3-0] -- Pairs : ----- &{[{helen [alice bob chaz dave ellie fiona gary]} {gary [helen alice bob chaz dave ellie fiona]} {chaz [dave ellie fiona gary helen alice bob]} {alice [bob chaz dave ellie fiona gary helen]} {dave [ellie fiona gary helen alice bob chaz]} {ellie [fiona gary helen alice bob chaz dave]} {fiona [gary helen alice bob chaz dave ellie]} {bob [chaz dave ellie fiona gary helen alice]}]} ----
+Returned Pair : ---- &{alice bob} ----8 [4-0] -- Pairs : ----- &{[{helen [alice bob chaz dave ellie fiona gary]} {gary [helen alice bob chaz dave ellie fiona]} {chaz [dave ellie fiona gary helen alice bob]} {alice [bob chaz dave ellie fiona gary helen]} {dave [ellie fiona gary helen alice bob chaz]} {ellie [fiona gary helen alice bob chaz dave]} {fiona [gary helen alice bob chaz dave ellie]} {bob [chaz dave ellie fiona gary helen alice]}]} ----
+Returned Pair : ---- &{dave ellie} ----8 [5-0] -- Pairs : ----- &{[{helen [alice bob chaz dave ellie fiona gary]} {gary [helen alice bob chaz dave ellie fiona]} {chaz [dave ellie fiona gary helen alice bob]} {alice [bob chaz dave ellie fiona gary helen]} {dave [ellie fiona gary helen alice bob chaz]} {ellie [fiona gary helen alice bob chaz dave]} {fiona [gary helen alice bob chaz dave ellie]} {bob [chaz dave ellie fiona gary helen alice]}]} ----
+Returned Pair : ---- &{ellie fiona} ----8 [6-0] -- Pairs : ----- &{[{helen [alice bob chaz dave ellie fiona gary]} {gary [helen alice bob chaz dave ellie fiona]} {chaz [dave ellie fiona gary helen alice bob]} {alice [bob chaz dave ellie fiona gary helen]} {dave [ellie fiona gary helen alice bob chaz]} {ellie [fiona gary helen alice bob chaz dave]} {fiona [gary helen alice bob chaz dave ellie]} {bob [chaz dave ellie fiona gary helen alice]}]} ----
+Returned Pair : ---- &{fiona gary} ----8 [7-0] -- Pairs : ----- &{[{helen [alice bob chaz dave ellie fiona gary]} {gary [helen alice bob chaz dave ellie fiona]} {chaz [dave ellie fiona gary helen alice bob]} {alice [bob chaz dave ellie fiona gary helen]} {dave [ellie fiona gary helen alice bob chaz]} {ellie [fiona gary helen alice bob chaz dave]} {fiona [gary helen alice bob chaz dave ellie]} {bob [chaz dave ellie fiona gary helen alice]}]} ----
+Returned Pair : ---- &{bob chaz} ----
+[ Autotest Commands
+	 Utxos conf/ubi.conf
+	 PayCoins users/helen.conf 0 users/alice.pub
+	 PayCoins users/gary.conf 0 users/helen.pub
+	 PayCoins users/chaz.conf 0 users/dave.pub
+	 PayCoins users/alice.conf 0 users/bob.pub
+	 PayCoins users/dave.conf 0 users/ellie.pub
+	 PayCoins users/ellie.conf 0 users/fiona.pub
+	 PayCoins users/fiona.conf 0 users/gary.pub
+	 PayCoins users/bob.conf 0 users/chaz.pub
+]
+[0] Utxos conf/ubi.conf
+Stacked:  {Utxos map[ubiers:users newtxs:blocks/newtxs pubkey:keys/public.key ubiers2:users2 strexp:Update Balances in Listener. utxos:blocks/utxos pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCrtJSkjl+P06RUIACreJe7RTL5kBKUbYR+KNrvCbmjyKhvHbSWtLNAqrIHKyrcL0reeXfFS6IzFSxHsbr00b1t315IFxVuVADfnavZicTezMFyEapCDPDvJLxXeSPoXJ6hyxOB8SgeJ9Ted3HhNss4iUjs1pC1W85KKPuePFK4owIDAQAB ubi:100 originalcmd:Autotest cmd:Utxos verbose:true privkey:keys/private.key pubhash:QSoT0u9VlnrL4wq2pppy+jB4lEbYJ7xeWnE1VKzgVic= timer:0s ledge:blocks/ledger who:conf/ubi.conf] []}
+Sending GetUtxos for conf/ubi.conf
+Utxos Transaction Completed.
+[    OwnerOut: Id/Seq: 0000000000000/0 Denom: 0: QSoT0u9VlnrL4wq2pppy+jB4lEbYJ7xeWnE1VKzgVic=
+OwnerOut Total: 0
+[1] PayCoins users/helen.conf 0 users/alice.pub
+Stacked:  {PayCoins map[pubkey:users/helen.pub privkey:users/helen.priv cmd:PayCoins who:users/helen.conf strexp:OK. payee:users/alice.pub pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCllyPLTZap6VSUG+CRLRvJGY/D06JtbiLGvnS5Z4V7iDHNFw7x2mZbW2igLWqJzIZmAZz8U6U62IZxAcZCEviqKbkpol+U5aUllGIBVrh6GJXJcItXp4CzejOeAUFSr1FWy1hJlXLlIeLsi41VkYFbL/bxCfViZEjq2rqxEE4jowIDAQAB payhash:wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E= pubhash:jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo= amount:0 originalcmd:Autotest] []}
+SAVEDBALANCES
+SAVEDBALANCES: map empty.
+Sending GetBalance for users/helen.conf
+SAVEDBALANCES
+,jlvgV=100
+BuildPay: setting payment to 93 out of 100
+My (users/helen.conf) Balance = 100
+[    BUILDPAYDIAGNOSTIC: Id/Seq: 1494626645488/7 Denom: 100: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+BUILDPAYDIAGNOSTIC Total: 100
+BuildPay: users/helen.conf pays 93 to users/alice.pub
+IN build Pay: 1494626720863: PayCoins
+[    OwnerIn : Id/Seq: 1494626645488/7 Denom: 100: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+OwnerIn  Total: 100
+[    OwnerOut : Id/Seq: 1494626720863/0 Denom: 93: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+   OwnerOut : Id/Seq: 1494626720863/1 Denom: 7: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+OwnerOut  Total: 100
+Tsig[:20]:  N0Czvt4VEdw8IYTWq/B0
+PayCoins Transaction Completed.
+[    OwnerOut: Id/Seq: 1494626720863/0 Denom: 93: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+   OwnerOut: Id/Seq: 1494626720863/1 Denom: 7: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+OwnerOut Total: 100
+[2] PayCoins users/gary.conf 0 users/helen.pub
+Stacked:  {PayCoins map[pubkey:users/gary.pub privkey:users/gary.priv cmd:PayCoins who:users/gary.conf strexp:OK. payee:users/helen.pub pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCh3ulGlfT6DhY7xB7pRaSeDZErGwRXui31TE7cm6zLG8EzQmgDcu6RuA9/XuL412f7+ST0nA1W5GrFWkM8qpDeBneu/wiOqbdNTd6SUi1uNL+jwjCBLHMVpjD6fkWzACyjjo/5irxIYz3q9kP8K8upjwh/WUkM5KPE0GyR+HT9dQIDAQAB payhash:jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo= pubhash:uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0= amount:0 originalcmd:Autotest] []}
+SAVEDBALANCES
+,jlvgV=100
+Sending GetBalance for users/gary.conf
+SAVEDBALANCES
+,uQREk=200,jlvgV=100
+BuildPay: setting payment to 148 out of 200
+My (users/gary.conf) Balance = 200
+[    BUILDPAYDIAGNOSTIC: Id/Seq: 1494626645488/6 Denom: 100: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626645653/1 Denom: 100: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+BUILDPAYDIAGNOSTIC Total: 200
+BuildConsolipay: users/gary.conf consolidates and pays 148 to jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=.
+Consolipay:: 1494626721375: PayCoins
+[    OwnerIn : Id/Seq: 1494626645488/6 Denom: 100: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerIn : Id/Seq: 1494626645653/1 Denom: 100: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerIn  Total: 200
+[    OwnerOut : Id/Seq: 1494626721375/0 Denom: 148: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+   OwnerOut : Id/Seq: 1494626721375/1 Denom: 52: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerOut  Total: 200
+Tsig[:20]:  mZTWkYWUhV+RrWyx2BjA
+PayCoins Transaction Completed.
+[    OwnerOut: Id/Seq: 1494626721375/0 Denom: 148: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+   OwnerOut: Id/Seq: 1494626721375/1 Denom: 52: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerOut Total: 200
+[3] PayCoins users/chaz.conf 0 users/dave.pub
+Stacked:  {PayCoins map[pubkey:users/chaz.pub privkey:users/chaz.priv cmd:PayCoins who:users/chaz.conf strexp:OK. payee:users/dave.pub pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDknJU8f+BCmb9RvZK/ChvFqw4RDtLtUFdyu7FfF/33clJ8liWUNSwQp/D+xfGVYh+7/Q+pmscCcTPWrGS4s6ChVusiYt0BTyCNi48ypEqqissHjgCRNkXHcFhfSsD9kvj7HEa4iZSzNRVmjxhs8Rd/PLWkCkAPW0KW1p9rjOFgDwIDAQAB payhash:/4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U= pubhash:2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk= amount:0 originalcmd:Autotest] []}
+SAVEDBALANCES
+,uQREk=200,jlvgV=100
+Sending GetBalance for users/chaz.conf
+SAVEDBALANCES
+,uQREk=200,jlvgV=100,2MwzA=100
+BuildPay: setting payment to 1 out of 100
+My (users/chaz.conf) Balance = 100
+[    BUILDPAYDIAGNOSTIC: Id/Seq: 1494626645488/2 Denom: 100: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+BUILDPAYDIAGNOSTIC Total: 100
+BuildPay: users/chaz.conf pays 1 to users/dave.pub
+IN build Pay: 1494626722065: PayCoins
+[    OwnerIn : Id/Seq: 1494626645488/2 Denom: 100: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+OwnerIn  Total: 100
+[    OwnerOut : Id/Seq: 1494626722065/0 Denom: 1: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   OwnerOut : Id/Seq: 1494626722065/1 Denom: 99: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+OwnerOut  Total: 100
+Tsig[:20]:  Gitqw7WLEx9rvP5zK5rh
+PayCoins Transaction Completed.
+[    OwnerOut: Id/Seq: 1494626722065/0 Denom: 1: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   OwnerOut: Id/Seq: 1494626722065/1 Denom: 99: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+OwnerOut Total: 100
+[4] PayCoins users/alice.conf 0 users/bob.pub
+Stacked:  {PayCoins map[pubkey:users/alice.pub privkey:users/alice.priv cmd:PayCoins who:users/alice.conf strexp:OK. payee:users/bob.pub pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCyzMq7gawMJB0+bfW7uEMTPXY2AwjfOwoECafWCGiFHa64XMMI7Kq9ignR/TpZ3HZKcTWbHWUA6cgWT5acWkHo7ZPIK3VYfBDkeFLnoq7H+B2LreOKWENDSKtto/KGK5cPf4FhBzY0GIp4Dus+yJJMvAikpQ7mCoV/k8BHjRCddwIDAQAB payhash:XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk= pubhash:wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E= amount:0 originalcmd:Autotest] []}
+SAVEDBALANCES
+,uQREk=200,jlvgV=100,2MwzA=100
+Sending GetBalance for users/alice.conf
+SAVEDBALANCES
+,wVWP7=100,uQREk=200,jlvgV=100,2MwzA=100
+BuildPay: setting payment to 74 out of 100
+My (users/alice.conf) Balance = 100
+[    BUILDPAYDIAGNOSTIC: Id/Seq: 1494626645488/0 Denom: 100: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+BUILDPAYDIAGNOSTIC Total: 100
+BuildPay: users/alice.conf pays 74 to users/bob.pub
+IN build Pay: 1494626722634: PayCoins
+[    OwnerIn : Id/Seq: 1494626645488/0 Denom: 100: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+OwnerIn  Total: 100
+[    OwnerOut : Id/Seq: 1494626722634/0 Denom: 74: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+   OwnerOut : Id/Seq: 1494626722634/1 Denom: 26: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+OwnerOut  Total: 100
+Tsig[:20]:  J/9TXbutFjfdayp6UruH
+PayCoins Transaction Completed.
+[    OwnerOut: Id/Seq: 1494626722634/0 Denom: 74: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+   OwnerOut: Id/Seq: 1494626722634/1 Denom: 26: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+OwnerOut Total: 100
+[5] PayCoins users/dave.conf 0 users/ellie.pub
+Stacked:  {PayCoins map[pubkey:users/dave.pub privkey:users/dave.priv cmd:PayCoins who:users/dave.conf strexp:OK. payee:users/ellie.pub pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDcce9CTqGUu3E4doeY9YP9TiQ3yICbqrivzKwTk4hJjYqyIQYzdrYglwukJIk3duy3EXx87q3NxIMqHtQjWxMtxbKH9AE5XwNFuEpMEH7au7/h8lb86jIHrraEX/XWwV3XeY2BOdWS82HJ+zSH4tXRQCo0r2uq8peSqYAfxdR4XQIDAQAB payhash:tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs= pubhash:/4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U= amount:0 originalcmd:Autotest] []}
+SAVEDBALANCES
+,wVWP7=100,uQREk=200,jlvgV=100,2MwzA=100
+Sending GetBalance for users/dave.conf
+SAVEDBALANCES
+,/4fvU=100,wVWP7=100,uQREk=200,jlvgV=100,2MwzA=100
+BuildPay: setting payment to 67 out of 100
+My (users/dave.conf) Balance = 100
+[    BUILDPAYDIAGNOSTIC: Id/Seq: 1494626645488/3 Denom: 100: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+BUILDPAYDIAGNOSTIC Total: 100
+BuildPay: users/dave.conf pays 67 to users/ellie.pub
+IN build Pay: 1494626723096: PayCoins
+[    OwnerIn : Id/Seq: 1494626645488/3 Denom: 100: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+OwnerIn  Total: 100
+[    OwnerOut : Id/Seq: 1494626723096/0 Denom: 67: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+   OwnerOut : Id/Seq: 1494626723096/1 Denom: 33: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+OwnerOut  Total: 100
+Tsig[:20]:  oLq9AkLEzPwhJDqrYJgt
+PayCoins Transaction Completed.
+[    OwnerOut: Id/Seq: 1494626723096/0 Denom: 67: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+   OwnerOut: Id/Seq: 1494626723096/1 Denom: 33: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+OwnerOut Total: 100
+[6] PayCoins users/ellie.conf 0 users/fiona.pub
+Stacked:  {PayCoins map[pubkey:users/ellie.pub privkey:users/ellie.priv cmd:PayCoins who:users/ellie.conf strexp:OK. payee:users/fiona.pub pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDIZxEO9zixB9BeVjAvmOrd12ImXC03JxNfhGLOHOMtYLhqFLIlKi3Uo2xo0aoqngi0b9KQiVOEWlEESEZmanlKd90ZzA9NhYFrystpi/o7CMd1hX8qrBFEzkVC2dvBxVczhvEHbJkTBR4hGplh+3xxY0cZoCifaWSWYhO9bMWnLQIDAQAB payhash:vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs= pubhash:tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs= amount:0 originalcmd:Autotest] []}
+SAVEDBALANCES
+,/4fvU=100,wVWP7=100,uQREk=200,jlvgV=100,2MwzA=100
+Sending GetBalance for users/ellie.conf
+SAVEDBALANCES
+,wVWP7=100,uQREk=200,jlvgV=100,2MwzA=100,tGjSE=100,/4fvU=100
+BuildPay: setting payment to 84 out of 100
+My (users/ellie.conf) Balance = 100
+[    BUILDPAYDIAGNOSTIC: Id/Seq: 1494626645488/4 Denom: 100: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+BUILDPAYDIAGNOSTIC Total: 100
+BuildPay: users/ellie.conf pays 84 to users/fiona.pub
+IN build Pay: 1494626723554: PayCoins
+[    OwnerIn : Id/Seq: 1494626645488/4 Denom: 100: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+OwnerIn  Total: 100
+[    OwnerOut : Id/Seq: 1494626723554/0 Denom: 84: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerOut : Id/Seq: 1494626723554/1 Denom: 16: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+OwnerOut  Total: 100
+Tsig[:20]:  DC3IQ1zxzTsHt7lXksZC
+PayCoins Transaction Completed.
+[    OwnerOut: Id/Seq: 1494626723554/0 Denom: 84: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerOut: Id/Seq: 1494626723554/1 Denom: 16: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+OwnerOut Total: 100
+[7] PayCoins users/fiona.conf 0 users/gary.pub
+Stacked:  {PayCoins map[pubkey:users/fiona.pub privkey:users/fiona.priv cmd:PayCoins who:users/fiona.conf strexp:OK. payee:users/gary.pub pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChw+/3t6K8N30eKEbYaE0ptaDqOEONobsQZ+blpwl7ADPgqS+qxi6pXt1meR8WybK/I71OZM6fhqgjr5dLK1+GF8fkeaeBbU/YGYVP2ChJ1dp/Ju7ku3KfgEYyL48d2AuwDSAyxkYyffwbGIiJg3Li+SPBvRLUigazPvPxCtlCMwIDAQAB payhash:uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0= pubhash:vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs= amount:0 originalcmd:Autotest] []}
+SAVEDBALANCES
+,wVWP7=100,uQREk=200,jlvgV=100,2MwzA=100,tGjSE=100,/4fvU=100
+Sending GetBalance for users/fiona.conf
+SAVEDBALANCES
+,wVWP7=100,uQREk=200,jlvgV=100,vK1HK=200,2MwzA=100,tGjSE=100,/4fvU=100
+BuildPay: setting payment to 64 out of 200
+My (users/fiona.conf) Balance = 200
+[    BUILDPAYDIAGNOSTIC: Id/Seq: 1494626645488/5 Denom: 100: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626645653/0 Denom: 100: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+BUILDPAYDIAGNOSTIC Total: 200
+BuildPay: users/fiona.conf pays 64 to users/gary.pub
+IN build Pay: 1494626724155: PayCoins
+[    OwnerIn : Id/Seq: 1494626645488/5 Denom: 100: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerIn  Total: 100
+[    OwnerOut : Id/Seq: 1494626724155/0 Denom: 64: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerOut : Id/Seq: 1494626724155/1 Denom: 36: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerOut  Total: 100
+Tsig[:20]:  UoW1SMc/mtukQI2G6g+2
+PayCoins Transaction Completed.
+[    OwnerOut: Id/Seq: 1494626724155/0 Denom: 64: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerOut: Id/Seq: 1494626724155/1 Denom: 36: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerOut Total: 100
+[8] PayCoins users/bob.conf 0 users/chaz.pub
+Stacked:  {PayCoins map[pubkey:users/bob.pub privkey:users/bob.priv cmd:PayCoins who:users/bob.conf strexp:OK. payee:users/chaz.pub pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDMym0hgwRlSG8MbefoMEp31YNYMlwOg5omqfBXpmspAXCF4F8c6H2jLSsyx7NYxmMBsdvMjzGLRJvOL2Hp0x/JQpCuFA++4EpNlgKRv2FZOyGDbdZH7xeqe9Lh9ysWpmTHMEOJaGbcjxewbF1eTlnWHabgwI1rfOFn3wHt3tJYXwIDAQAB payhash:2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk= pubhash:XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk= amount:0 originalcmd:Autotest] []}
+SAVEDBALANCES
+,wVWP7=100,uQREk=200,jlvgV=100,vK1HK=200,2MwzA=100,tGjSE=100,/4fvU=100
+Sending GetBalance for users/bob.conf
+SAVEDBALANCES
+,wVWP7=100,uQREk=200,jlvgV=100,vK1HK=200,2MwzA=100,XLuz8=100,tGjSE=100,/4fvU=100
+BuildPay: setting payment to 51 out of 100
+My (users/bob.conf) Balance = 100
+[    BUILDPAYDIAGNOSTIC: Id/Seq: 1494626645488/1 Denom: 100: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+BUILDPAYDIAGNOSTIC Total: 100
+BuildPay: users/bob.conf pays 51 to users/chaz.pub
+IN build Pay: 1494626724673: PayCoins
+[    OwnerIn : Id/Seq: 1494626645488/1 Denom: 100: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+OwnerIn  Total: 100
+[    OwnerOut : Id/Seq: 1494626724673/0 Denom: 51: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+   OwnerOut : Id/Seq: 1494626724673/1 Denom: 49: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+OwnerOut  Total: 100
+Tsig[:20]:  OXkSparyW6yBukhbsMOT
+PayCoins Transaction Completed.
+[    OwnerOut: Id/Seq: 1494626724673/0 Denom: 51: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+   OwnerOut: Id/Seq: 1494626724673/1 Denom: 49: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+OwnerOut Total: 100
+[0] Wait 70s till Clearing is completed ...   ... Start next round.
+8 [0-1] -- Pairs : ----- &{[{helen [alice bob chaz dave ellie fiona gary]} {gary [helen alice bob chaz dave ellie fiona]} {chaz [dave ellie fiona gary helen alice bob]} {alice [bob chaz dave ellie fiona gary helen]} {dave [ellie fiona gary helen alice bob chaz]} {ellie [fiona gary helen alice bob chaz dave]} {fiona [gary helen alice bob chaz dave ellie]} {bob [chaz dave ellie fiona gary helen alice]}]} ----
+Returned Pair : ---- &{helen bob} ----8 [1-1] -- Pairs : ----- &{[{helen [alice bob chaz dave ellie fiona gary]} {gary [helen alice bob chaz dave ellie fiona]} {chaz [dave ellie fiona gary helen alice bob]} {alice [bob chaz dave ellie fiona gary helen]} {dave [ellie fiona gary helen alice bob chaz]} {ellie [fiona gary helen alice bob chaz dave]} {fiona [gary helen alice bob chaz dave ellie]} {bob [chaz dave ellie fiona gary helen alice]}]} ----
+Returned Pair : ---- &{gary alice} ----8 [2-1] -- Pairs : ----- &{[{helen [alice bob chaz dave ellie fiona gary]} {gary [helen alice bob chaz dave ellie fiona]} {chaz [dave ellie fiona gary helen alice bob]} {alice [bob chaz dave ellie fiona gary helen]} {dave [ellie fiona gary helen alice bob chaz]} {ellie [fiona gary helen alice bob chaz dave]} {fiona [gary helen alice bob chaz dave ellie]} {bob [chaz dave ellie fiona gary helen alice]}]} ----
+Returned Pair : ---- &{chaz ellie} ----8 [3-1] -- Pairs : ----- &{[{helen [alice bob chaz dave ellie fiona gary]} {gary [helen alice bob chaz dave ellie fiona]} {chaz [dave ellie fiona gary helen alice bob]} {alice [bob chaz dave ellie fiona gary helen]} {dave [ellie fiona gary helen alice bob chaz]} {ellie [fiona gary helen alice bob chaz dave]} {fiona [gary helen alice bob chaz dave ellie]} {bob [chaz dave ellie fiona gary helen alice]}]} ----
+Returned Pair : ---- &{alice chaz} ----8 [4-1] -- Pairs : ----- &{[{helen [alice bob chaz dave ellie fiona gary]} {gary [helen alice bob chaz dave ellie fiona]} {chaz [dave ellie fiona gary helen alice bob]} {alice [bob chaz dave ellie fiona gary helen]} {dave [ellie fiona gary helen alice bob chaz]} {ellie [fiona gary helen alice bob chaz dave]} {fiona [gary helen alice bob chaz dave ellie]} {bob [chaz dave ellie fiona gary helen alice]}]} ----
+Returned Pair : ---- &{dave fiona} ----8 [5-1] -- Pairs : ----- &{[{helen [alice bob chaz dave ellie fiona gary]} {gary [helen alice bob chaz dave ellie fiona]} {chaz [dave ellie fiona gary helen alice bob]} {alice [bob chaz dave ellie fiona gary helen]} {dave [ellie fiona gary helen alice bob chaz]} {ellie [fiona gary helen alice bob chaz dave]} {fiona [gary helen alice bob chaz dave ellie]} {bob [chaz dave ellie fiona gary helen alice]}]} ----
+Returned Pair : ---- &{ellie gary} ----8 [6-1] -- Pairs : ----- &{[{helen [alice bob chaz dave ellie fiona gary]} {gary [helen alice bob chaz dave ellie fiona]} {chaz [dave ellie fiona gary helen alice bob]} {alice [bob chaz dave ellie fiona gary helen]} {dave [ellie fiona gary helen alice bob chaz]} {ellie [fiona gary helen alice bob chaz dave]} {fiona [gary helen alice bob chaz dave ellie]} {bob [chaz dave ellie fiona gary helen alice]}]} ----
+Returned Pair : ---- &{fiona helen} ----8 [7-1] -- Pairs : ----- &{[{helen [alice bob chaz dave ellie fiona gary]} {gary [helen alice bob chaz dave ellie fiona]} {chaz [dave ellie fiona gary helen alice bob]} {alice [bob chaz dave ellie fiona gary helen]} {dave [ellie fiona gary helen alice bob chaz]} {ellie [fiona gary helen alice bob chaz dave]} {fiona [gary helen alice bob chaz dave ellie]} {bob [chaz dave ellie fiona gary helen alice]}]} ----
+Returned Pair : ---- &{bob dave} ----
+[ Autotest Commands
+	 Utxos conf/ubi.conf
+	 PayCoins users/helen.conf 0 users/bob.pub
+	 PayCoins users/gary.conf 0 users/alice.pub
+	 PayCoins users/chaz.conf 0 users/ellie.pub
+	 PayCoins users/alice.conf 0 users/chaz.pub
+	 PayCoins users/dave.conf 0 users/fiona.pub
+	 PayCoins users/ellie.conf 0 users/gary.pub
+	 PayCoins users/fiona.conf 0 users/helen.pub
+	 PayCoins users/bob.conf 0 users/dave.pub
+]
+[0] Utxos conf/ubi.conf
+Stacked:  {Utxos map[ubiers:users newtxs:blocks/newtxs pubkey:keys/public.key ubiers2:users2 strexp:Update Balances in Listener. utxos:blocks/utxos pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCrtJSkjl+P06RUIACreJe7RTL5kBKUbYR+KNrvCbmjyKhvHbSWtLNAqrIHKyrcL0reeXfFS6IzFSxHsbr00b1t315IFxVuVADfnavZicTezMFyEapCDPDvJLxXeSPoXJ6hyxOB8SgeJ9Ted3HhNss4iUjs1pC1W85KKPuePFK4owIDAQAB ubi:100 originalcmd:Autotest cmd:Utxos verbose:true privkey:keys/private.key pubhash:QSoT0u9VlnrL4wq2pppy+jB4lEbYJ7xeWnE1VKzgVic= timer:0s ledge:blocks/ledger who:conf/ubi.conf] []}
+Sending GetUtxos for conf/ubi.conf
+Utxos Transaction Completed.
+[    OwnerOut: Id/Seq: 0000000000000/0 Denom: 0: QSoT0u9VlnrL4wq2pppy+jB4lEbYJ7xeWnE1VKzgVic=
+OwnerOut Total: 0
+[1] PayCoins users/helen.conf 0 users/bob.pub
+Stacked:  {PayCoins map[pubkey:users/helen.pub privkey:users/helen.priv cmd:PayCoins who:users/helen.conf strexp:OK. payee:users/bob.pub pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCllyPLTZap6VSUG+CRLRvJGY/D06JtbiLGvnS5Z4V7iDHNFw7x2mZbW2igLWqJzIZmAZz8U6U62IZxAcZCEviqKbkpol+U5aUllGIBVrh6GJXJcItXp4CzejOeAUFSr1FWy1hJlXLlIeLsi41VkYFbL/bxCfViZEjq2rqxEE4jowIDAQAB payhash:XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk= pubhash:jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo= amount:0 originalcmd:Autotest] []}
+SAVEDBALANCES
+,wVWP7=100,uQREk=200,jlvgV=100,vK1HK=200,2MwzA=100,XLuz8=100,tGjSE=100,/4fvU=100
+Sending GetBalance for users/helen.conf
+SAVEDBALANCES
+,wVWP7=100,uQREk=200,jlvgV=255,vK1HK=200,2MwzA=100,XLuz8=100,tGjSE=100,/4fvU=100
+BuildPay: setting payment to 35 out of 255
+My (users/helen.conf) Balance = 255
+[    BUILDPAYDIAGNOSTIC: Id/Seq: 1494626769150/7 Denom: 100: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626720863/1 Denom: 7: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626721375/0 Denom: 148: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+BUILDPAYDIAGNOSTIC Total: 255
+BuildPay: users/helen.conf pays 35 to users/bob.pub
+IN build Pay: 1494626805463: PayCoins
+[    OwnerIn : Id/Seq: 1494626769150/7 Denom: 100: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+OwnerIn  Total: 100
+[    OwnerOut : Id/Seq: 1494626805463/0 Denom: 35: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+   OwnerOut : Id/Seq: 1494626805463/1 Denom: 65: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+OwnerOut  Total: 100
+Tsig[:20]:  Pp/UZl2XtfpghZ0Q+Q3o
+PayCoins Transaction Completed.
+[    OwnerOut: Id/Seq: 1494626805463/0 Denom: 35: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+   OwnerOut: Id/Seq: 1494626805463/1 Denom: 65: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+OwnerOut Total: 100
+[2] PayCoins users/gary.conf 0 users/alice.pub
+Stacked:  {PayCoins map[pubkey:users/gary.pub privkey:users/gary.priv cmd:PayCoins who:users/gary.conf strexp:OK. payee:users/alice.pub pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCh3ulGlfT6DhY7xB7pRaSeDZErGwRXui31TE7cm6zLG8EzQmgDcu6RuA9/XuL412f7+ST0nA1W5GrFWkM8qpDeBneu/wiOqbdNTd6SUi1uNL+jwjCBLHMVpjD6fkWzACyjjo/5irxIYz3q9kP8K8upjwh/WUkM5KPE0GyR+HT9dQIDAQAB payhash:wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E= pubhash:uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0= amount:0 originalcmd:Autotest] []}
+SAVEDBALANCES
+,wVWP7=100,uQREk=200,jlvgV=255,vK1HK=200,2MwzA=100,XLuz8=100,tGjSE=100,/4fvU=100
+Sending GetBalance for users/gary.conf
+SAVEDBALANCES
+,wVWP7=100,uQREk=216,jlvgV=255,vK1HK=200,2MwzA=100,XLuz8=100,tGjSE=100,/4fvU=100
+BuildPay: setting payment to 183 out of 216
+My (users/gary.conf) Balance = 216
+[    BUILDPAYDIAGNOSTIC: Id/Seq: 1494626769150/6 Denom: 100: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626721375/1 Denom: 52: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626724155/0 Denom: 64: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+BUILDPAYDIAGNOSTIC Total: 216
+BuildConsolipay: users/gary.conf consolidates and pays 183 to wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=.
+Consolipay:: 1494626805903: PayCoins
+[    OwnerIn : Id/Seq: 1494626769150/6 Denom: 100: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerIn : Id/Seq: 1494626721375/1 Denom: 52: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerIn : Id/Seq: 1494626724155/0 Denom: 64: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerIn  Total: 216
+[    OwnerOut : Id/Seq: 1494626805903/0 Denom: 183: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+   OwnerOut : Id/Seq: 1494626805903/1 Denom: 33: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerOut  Total: 216
+Tsig[:20]:  PnZ9niO8Q9y1x4mKZdg8
+PayCoins Transaction Completed.
+[    OwnerOut: Id/Seq: 1494626805903/0 Denom: 183: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+   OwnerOut: Id/Seq: 1494626805903/1 Denom: 33: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerOut Total: 216
+[3] PayCoins users/chaz.conf 0 users/ellie.pub
+Stacked:  {PayCoins map[pubkey:users/chaz.pub privkey:users/chaz.priv cmd:PayCoins who:users/chaz.conf strexp:OK. payee:users/ellie.pub pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDknJU8f+BCmb9RvZK/ChvFqw4RDtLtUFdyu7FfF/33clJ8liWUNSwQp/D+xfGVYh+7/Q+pmscCcTPWrGS4s6ChVusiYt0BTyCNi48ypEqqissHjgCRNkXHcFhfSsD9kvj7HEa4iZSzNRVmjxhs8Rd/PLWkCkAPW0KW1p9rjOFgDwIDAQAB payhash:tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs= pubhash:2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk= amount:0 originalcmd:Autotest] []}
+SAVEDBALANCES
+,wVWP7=100,uQREk=216,jlvgV=255,vK1HK=200,2MwzA=100,XLuz8=100,tGjSE=100,/4fvU=100
+Sending GetBalance for users/chaz.conf
+SAVEDBALANCES
+,wVWP7=100,uQREk=216,jlvgV=255,vK1HK=200,2MwzA=250,XLuz8=100,tGjSE=100,/4fvU=100
+BuildPay: setting payment to 222 out of 250
+My (users/chaz.conf) Balance = 250
+[    BUILDPAYDIAGNOSTIC: Id/Seq: 1494626769150/2 Denom: 100: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626722065/1 Denom: 99: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626724673/0 Denom: 51: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+BUILDPAYDIAGNOSTIC Total: 250
+BuildConsolipay: users/chaz.conf consolidates and pays 222 to tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=.
+Consolipay:: 1494626806397: PayCoins
+[    OwnerIn : Id/Seq: 1494626769150/2 Denom: 100: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+   OwnerIn : Id/Seq: 1494626722065/1 Denom: 99: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+   OwnerIn : Id/Seq: 1494626724673/0 Denom: 51: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+OwnerIn  Total: 250
+[    OwnerOut : Id/Seq: 1494626806397/0 Denom: 222: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+   OwnerOut : Id/Seq: 1494626806397/1 Denom: 28: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+OwnerOut  Total: 250
+Tsig[:20]:  BRg86WQFj3qcklptKm0S
+PayCoins Transaction Completed.
+[    OwnerOut: Id/Seq: 1494626806397/0 Denom: 222: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+   OwnerOut: Id/Seq: 1494626806397/1 Denom: 28: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+OwnerOut Total: 250
+[4] PayCoins users/alice.conf 0 users/chaz.pub
+Stacked:  {PayCoins map[pubkey:users/alice.pub privkey:users/alice.priv cmd:PayCoins who:users/alice.conf strexp:OK. payee:users/chaz.pub pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCyzMq7gawMJB0+bfW7uEMTPXY2AwjfOwoECafWCGiFHa64XMMI7Kq9ignR/TpZ3HZKcTWbHWUA6cgWT5acWkHo7ZPIK3VYfBDkeFLnoq7H+B2LreOKWENDSKtto/KGK5cPf4FhBzY0GIp4Dus+yJJMvAikpQ7mCoV/k8BHjRCddwIDAQAB payhash:2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk= pubhash:wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E= amount:0 originalcmd:Autotest] []}
+SAVEDBALANCES
+,wVWP7=100,uQREk=216,jlvgV=255,vK1HK=200,2MwzA=250,XLuz8=100,tGjSE=100,/4fvU=100
+Sending GetBalance for users/alice.conf
+SAVEDBALANCES
+,wVWP7=219,uQREk=216,jlvgV=255,vK1HK=200,2MwzA=250,XLuz8=100,tGjSE=100,/4fvU=100
+BuildPay: setting payment to 146 out of 219
+My (users/alice.conf) Balance = 219
+[    BUILDPAYDIAGNOSTIC: Id/Seq: 1494626769150/0 Denom: 100: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626720863/0 Denom: 93: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626722634/1 Denom: 26: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+BUILDPAYDIAGNOSTIC Total: 219
+BuildConsolipay: users/alice.conf consolidates and pays 146 to 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=.
+Consolipay:: 1494626807079: PayCoins
+[    OwnerIn : Id/Seq: 1494626769150/0 Denom: 100: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+   OwnerIn : Id/Seq: 1494626720863/0 Denom: 93: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+   OwnerIn : Id/Seq: 1494626722634/1 Denom: 26: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+OwnerIn  Total: 219
+[    OwnerOut : Id/Seq: 1494626807079/0 Denom: 146: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+   OwnerOut : Id/Seq: 1494626807079/1 Denom: 73: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+OwnerOut  Total: 219
+Tsig[:20]:  g03Xw8JcLc/b15vkY8pN
+PayCoins Transaction Completed.
+[    OwnerOut: Id/Seq: 1494626807079/0 Denom: 146: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+   OwnerOut: Id/Seq: 1494626807079/1 Denom: 73: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+OwnerOut Total: 219
+[5] PayCoins users/dave.conf 0 users/fiona.pub
+Stacked:  {PayCoins map[pubkey:users/dave.pub privkey:users/dave.priv cmd:PayCoins who:users/dave.conf strexp:OK. payee:users/fiona.pub pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDcce9CTqGUu3E4doeY9YP9TiQ3yICbqrivzKwTk4hJjYqyIQYzdrYglwukJIk3duy3EXx87q3NxIMqHtQjWxMtxbKH9AE5XwNFuEpMEH7au7/h8lb86jIHrraEX/XWwV3XeY2BOdWS82HJ+zSH4tXRQCo0r2uq8peSqYAfxdR4XQIDAQAB payhash:vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs= pubhash:/4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U= amount:0 originalcmd:Autotest] []}
+SAVEDBALANCES
+,wVWP7=219,uQREk=216,jlvgV=255,vK1HK=200,2MwzA=250,XLuz8=100,tGjSE=100,/4fvU=100
+Sending GetBalance for users/dave.conf
+SAVEDBALANCES
+,wVWP7=219,uQREk=216,jlvgV=255,vK1HK=200,2MwzA=250,XLuz8=100,tGjSE=100,/4fvU=134
+BuildPay: setting payment to 75 out of 134
+My (users/dave.conf) Balance = 134
+[    BUILDPAYDIAGNOSTIC: Id/Seq: 1494626769150/3 Denom: 100: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626722065/0 Denom: 1: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626723096/1 Denom: 33: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+BUILDPAYDIAGNOSTIC Total: 134
+BuildPay: users/dave.conf pays 75 to users/fiona.pub
+IN build Pay: 1494626807627: PayCoins
+[    OwnerIn : Id/Seq: 1494626769150/3 Denom: 100: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+OwnerIn  Total: 100
+[    OwnerOut : Id/Seq: 1494626807627/0 Denom: 75: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerOut : Id/Seq: 1494626807627/1 Denom: 25: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+OwnerOut  Total: 100
+Tsig[:20]:  qKmkiKpHJRfdkZfdJinE
+PayCoins Transaction Completed.
+[    OwnerOut: Id/Seq: 1494626807627/0 Denom: 75: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerOut: Id/Seq: 1494626807627/1 Denom: 25: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+OwnerOut Total: 100
+[6] PayCoins users/ellie.conf 0 users/gary.pub
+Stacked:  {PayCoins map[pubkey:users/ellie.pub privkey:users/ellie.priv cmd:PayCoins who:users/ellie.conf strexp:OK. payee:users/gary.pub pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDIZxEO9zixB9BeVjAvmOrd12ImXC03JxNfhGLOHOMtYLhqFLIlKi3Uo2xo0aoqngi0b9KQiVOEWlEESEZmanlKd90ZzA9NhYFrystpi/o7CMd1hX8qrBFEzkVC2dvBxVczhvEHbJkTBR4hGplh+3xxY0cZoCifaWSWYhO9bMWnLQIDAQAB payhash:uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0= pubhash:tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs= amount:0 originalcmd:Autotest] []}
+SAVEDBALANCES
+,wVWP7=219,uQREk=216,jlvgV=255,vK1HK=200,2MwzA=250,XLuz8=100,tGjSE=100,/4fvU=134
+Sending GetBalance for users/ellie.conf
+SAVEDBALANCES
+,wVWP7=219,uQREk=216,jlvgV=255,vK1HK=200,2MwzA=250,XLuz8=100,tGjSE=183,/4fvU=134
+BuildPay: setting payment to 144 out of 183
+My (users/ellie.conf) Balance = 183
+[    BUILDPAYDIAGNOSTIC: Id/Seq: 1494626769150/4 Denom: 100: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626723096/0 Denom: 67: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626723554/1 Denom: 16: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+BUILDPAYDIAGNOSTIC Total: 183
+BuildConsolipay: users/ellie.conf consolidates and pays 144 to uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=.
+Consolipay:: 1494626808289: PayCoins
+[    OwnerIn : Id/Seq: 1494626769150/4 Denom: 100: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+   OwnerIn : Id/Seq: 1494626723096/0 Denom: 67: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+   OwnerIn : Id/Seq: 1494626723554/1 Denom: 16: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+OwnerIn  Total: 183
+[    OwnerOut : Id/Seq: 1494626808289/0 Denom: 144: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerOut : Id/Seq: 1494626808289/1 Denom: 39: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+OwnerOut  Total: 183
+Tsig[:20]:  O8+pLDQKY5bj+jL+6/RY
+PayCoins Transaction Completed.
+[    OwnerOut: Id/Seq: 1494626808289/0 Denom: 144: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerOut: Id/Seq: 1494626808289/1 Denom: 39: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+OwnerOut Total: 183
+[7] PayCoins users/fiona.conf 0 users/helen.pub
+Stacked:  {PayCoins map[pubkey:users/fiona.pub privkey:users/fiona.priv cmd:PayCoins who:users/fiona.conf strexp:OK. payee:users/helen.pub pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChw+/3t6K8N30eKEbYaE0ptaDqOEONobsQZ+blpwl7ADPgqS+qxi6pXt1meR8WybK/I71OZM6fhqgjr5dLK1+GF8fkeaeBbU/YGYVP2ChJ1dp/Ju7ku3KfgEYyL48d2AuwDSAyxkYyffwbGIiJg3Li+SPBvRLUigazPvPxCtlCMwIDAQAB payhash:jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo= pubhash:vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs= amount:0 originalcmd:Autotest] []}
+SAVEDBALANCES
+,wVWP7=219,uQREk=216,jlvgV=255,vK1HK=200,2MwzA=250,XLuz8=100,tGjSE=183,/4fvU=134
+Sending GetBalance for users/fiona.conf
+SAVEDBALANCES
+,wVWP7=219,uQREk=216,jlvgV=255,vK1HK=413,2MwzA=250,XLuz8=100,tGjSE=183,/4fvU=134
+BuildPay: setting payment to 132 out of 413
+My (users/fiona.conf) Balance = 413
+[    BUILDPAYDIAGNOSTIC: Id/Seq: 1494626645653/0 Denom: 100: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626769150/5 Denom: 100: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626723554/0 Denom: 84: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626724155/1 Denom: 36: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626755162/0 Denom: 93: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+BUILDPAYDIAGNOSTIC Total: 413
+BuildConsolipay: users/fiona.conf consolidates and pays 132 to jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=.
+Consolipay:: 1494626808913: PayCoins
+[    OwnerIn : Id/Seq: 1494626645653/0 Denom: 100: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerIn : Id/Seq: 1494626769150/5 Denom: 100: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerIn : Id/Seq: 1494626723554/0 Denom: 84: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerIn : Id/Seq: 1494626724155/1 Denom: 36: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerIn : Id/Seq: 1494626755162/0 Denom: 93: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerIn  Total: 413
+[    OwnerOut : Id/Seq: 1494626808913/0 Denom: 132: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+   OwnerOut : Id/Seq: 1494626808913/1 Denom: 281: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerOut  Total: 413
+Tsig[:20]:  ZxFxt3UpnjU0TjKgQVTa
+PayCoins Transaction Completed.
+[    OwnerOut: Id/Seq: 1494626808913/0 Denom: 132: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+   OwnerOut: Id/Seq: 1494626808913/1 Denom: 281: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerOut Total: 413
+[8] PayCoins users/bob.conf 0 users/dave.pub
+Stacked:  {PayCoins map[pubkey:users/bob.pub privkey:users/bob.priv cmd:PayCoins who:users/bob.conf strexp:OK. payee:users/dave.pub pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDMym0hgwRlSG8MbefoMEp31YNYMlwOg5omqfBXpmspAXCF4F8c6H2jLSsyx7NYxmMBsdvMjzGLRJvOL2Hp0x/JQpCuFA++4EpNlgKRv2FZOyGDbdZH7xeqe9Lh9ysWpmTHMEOJaGbcjxewbF1eTlnWHabgwI1rfOFn3wHt3tJYXwIDAQAB payhash:/4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U= pubhash:XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk= amount:0 originalcmd:Autotest] []}
+SAVEDBALANCES
+,wVWP7=219,uQREk=216,jlvgV=255,vK1HK=413,2MwzA=250,XLuz8=100,tGjSE=183,/4fvU=134
+Sending GetBalance for users/bob.conf
+SAVEDBALANCES
+,wVWP7=219,uQREk=216,jlvgV=255,vK1HK=413,2MwzA=250,XLuz8=223,tGjSE=183,/4fvU=134
+BuildPay: setting payment to 31 out of 223
+My (users/bob.conf) Balance = 223
+[    BUILDPAYDIAGNOSTIC: Id/Seq: 1494626769150/1 Denom: 100: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626722634/0 Denom: 74: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626724673/1 Denom: 49: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+BUILDPAYDIAGNOSTIC Total: 223
+BuildPay: users/bob.conf pays 31 to users/dave.pub
+IN build Pay: 1494626809549: PayCoins
+[    OwnerIn : Id/Seq: 1494626769150/1 Denom: 100: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+OwnerIn  Total: 100
+[    OwnerOut : Id/Seq: 1494626809549/0 Denom: 31: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   OwnerOut : Id/Seq: 1494626809549/1 Denom: 69: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+OwnerOut  Total: 100
+Tsig[:20]:  mgI8EqcIkNSE4fzSN5Ml
+PayCoins Transaction Completed.
+[    OwnerOut: Id/Seq: 1494626809549/0 Denom: 31: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   OwnerOut: Id/Seq: 1494626809549/1 Denom: 69: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+OwnerOut Total: 100
+[1] Wait 70s till Clearing is completed ...   ... Start next round.
+8 [0-2] -- Pairs : ----- &{[{helen [alice bob chaz dave ellie fiona gary]} {gary [helen alice bob chaz dave ellie fiona]} {chaz [dave ellie fiona gary helen alice bob]} {alice [bob chaz dave ellie fiona gary helen]} {dave [ellie fiona gary helen alice bob chaz]} {ellie [fiona gary helen alice bob chaz dave]} {fiona [gary helen alice bob chaz dave ellie]} {bob [chaz dave ellie fiona gary helen alice]}]} ----
+Returned Pair : ---- &{helen chaz} ----8 [1-2] -- Pairs : ----- &{[{helen [alice bob chaz dave ellie fiona gary]} {gary [helen alice bob chaz dave ellie fiona]} {chaz [dave ellie fiona gary helen alice bob]} {alice [bob chaz dave ellie fiona gary helen]} {dave [ellie fiona gary helen alice bob chaz]} {ellie [fiona gary helen alice bob chaz dave]} {fiona [gary helen alice bob chaz dave ellie]} {bob [chaz dave ellie fiona gary helen alice]}]} ----
+Returned Pair : ---- &{gary bob} ----8 [2-2] -- Pairs : ----- &{[{helen [alice bob chaz dave ellie fiona gary]} {gary [helen alice bob chaz dave ellie fiona]} {chaz [dave ellie fiona gary helen alice bob]} {alice [bob chaz dave ellie fiona gary helen]} {dave [ellie fiona gary helen alice bob chaz]} {ellie [fiona gary helen alice bob chaz dave]} {fiona [gary helen alice bob chaz dave ellie]} {bob [chaz dave ellie fiona gary helen alice]}]} ----
+Returned Pair : ---- &{chaz fiona} ----8 [3-2] -- Pairs : ----- &{[{helen [alice bob chaz dave ellie fiona gary]} {gary [helen alice bob chaz dave ellie fiona]} {chaz [dave ellie fiona gary helen alice bob]} {alice [bob chaz dave ellie fiona gary helen]} {dave [ellie fiona gary helen alice bob chaz]} {ellie [fiona gary helen alice bob chaz dave]} {fiona [gary helen alice bob chaz dave ellie]} {bob [chaz dave ellie fiona gary helen alice]}]} ----
+Returned Pair : ---- &{alice dave} ----8 [4-2] -- Pairs : ----- &{[{helen [alice bob chaz dave ellie fiona gary]} {gary [helen alice bob chaz dave ellie fiona]} {chaz [dave ellie fiona gary helen alice bob]} {alice [bob chaz dave ellie fiona gary helen]} {dave [ellie fiona gary helen alice bob chaz]} {ellie [fiona gary helen alice bob chaz dave]} {fiona [gary helen alice bob chaz dave ellie]} {bob [chaz dave ellie fiona gary helen alice]}]} ----
+Returned Pair : ---- &{dave gary} ----8 [5-2] -- Pairs : ----- &{[{helen [alice bob chaz dave ellie fiona gary]} {gary [helen alice bob chaz dave ellie fiona]} {chaz [dave ellie fiona gary helen alice bob]} {alice [bob chaz dave ellie fiona gary helen]} {dave [ellie fiona gary helen alice bob chaz]} {ellie [fiona gary helen alice bob chaz dave]} {fiona [gary helen alice bob chaz dave ellie]} {bob [chaz dave ellie fiona gary helen alice]}]} ----
+Returned Pair : ---- &{ellie helen} ----8 [6-2] -- Pairs : ----- &{[{helen [alice bob chaz dave ellie fiona gary]} {gary [helen alice bob chaz dave ellie fiona]} {chaz [dave ellie fiona gary helen alice bob]} {alice [bob chaz dave ellie fiona gary helen]} {dave [ellie fiona gary helen alice bob chaz]} {ellie [fiona gary helen alice bob chaz dave]} {fiona [gary helen alice bob chaz dave ellie]} {bob [chaz dave ellie fiona gary helen alice]}]} ----
+Returned Pair : ---- &{fiona alice} ----8 [7-2] -- Pairs : ----- &{[{helen [alice bob chaz dave ellie fiona gary]} {gary [helen alice bob chaz dave ellie fiona]} {chaz [dave ellie fiona gary helen alice bob]} {alice [bob chaz dave ellie fiona gary helen]} {dave [ellie fiona gary helen alice bob chaz]} {ellie [fiona gary helen alice bob chaz dave]} {fiona [gary helen alice bob chaz dave ellie]} {bob [chaz dave ellie fiona gary helen alice]}]} ----
+Returned Pair : ---- &{bob ellie} ----
+[ Autotest Commands
+	 Utxos conf/ubi.conf
+	 PayCoins users/helen.conf 0 users/chaz.pub
+	 PayCoins users/gary.conf 0 users/bob.pub
+	 PayCoins users/chaz.conf 0 users/fiona.pub
+	 PayCoins users/alice.conf 0 users/dave.pub
+	 PayCoins users/dave.conf 0 users/gary.pub
+	 PayCoins users/ellie.conf 0 users/helen.pub
+	 PayCoins users/fiona.conf 0 users/alice.pub
+	 PayCoins users/bob.conf 0 users/ellie.pub
+]
+[0] Utxos conf/ubi.conf
+Stacked:  {Utxos map[ubiers:users newtxs:blocks/newtxs pubkey:keys/public.key ubiers2:users2 strexp:Update Balances in Listener. utxos:blocks/utxos pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCrtJSkjl+P06RUIACreJe7RTL5kBKUbYR+KNrvCbmjyKhvHbSWtLNAqrIHKyrcL0reeXfFS6IzFSxHsbr00b1t315IFxVuVADfnavZicTezMFyEapCDPDvJLxXeSPoXJ6hyxOB8SgeJ9Ted3HhNss4iUjs1pC1W85KKPuePFK4owIDAQAB ubi:100 originalcmd:Autotest cmd:Utxos verbose:true privkey:keys/private.key pubhash:QSoT0u9VlnrL4wq2pppy+jB4lEbYJ7xeWnE1VKzgVic= timer:0s ledge:blocks/ledger who:conf/ubi.conf] []}
+Sending GetUtxos for conf/ubi.conf
+Utxos Transaction Completed.
+[    OwnerOut: Id/Seq: 0000000000000/0 Denom: 0: QSoT0u9VlnrL4wq2pppy+jB4lEbYJ7xeWnE1VKzgVic=
+OwnerOut Total: 0
+[1] PayCoins users/helen.conf 0 users/chaz.pub
+Stacked:  {PayCoins map[pubkey:users/helen.pub privkey:users/helen.priv cmd:PayCoins who:users/helen.conf strexp:OK. payee:users/chaz.pub pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCllyPLTZap6VSUG+CRLRvJGY/D06JtbiLGvnS5Z4V7iDHNFw7x2mZbW2igLWqJzIZmAZz8U6U62IZxAcZCEviqKbkpol+U5aUllGIBVrh6GJXJcItXp4CzejOeAUFSr1FWy1hJlXLlIeLsi41VkYFbL/bxCfViZEjq2rqxEE4jowIDAQAB payhash:2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk= pubhash:jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo= amount:0 originalcmd:Autotest] []}
+SAVEDBALANCES
+,wVWP7=219,uQREk=216,jlvgV=255,vK1HK=413,2MwzA=250,XLuz8=223,tGjSE=183,/4fvU=134
+Sending GetBalance for users/helen.conf
+SAVEDBALANCES
+,wVWP7=219,uQREk=216,jlvgV=352,vK1HK=413,2MwzA=250,XLuz8=223,tGjSE=183,/4fvU=134
+BuildPay: setting payment to 144 out of 352
+My (users/helen.conf) Balance = 352
+[    BUILDPAYDIAGNOSTIC: Id/Seq: 1494626720863/1 Denom: 7: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626721375/0 Denom: 148: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626805463/1 Denom: 65: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626808913/0 Denom: 132: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+BUILDPAYDIAGNOSTIC Total: 352
+BuildPay: users/helen.conf pays 144 to users/chaz.pub
+IN build Pay: 1494626890340: PayCoins
+[    OwnerIn : Id/Seq: 1494626721375/0 Denom: 148: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+OwnerIn  Total: 148
+[    OwnerOut : Id/Seq: 1494626890340/0 Denom: 144: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+   OwnerOut : Id/Seq: 1494626890340/1 Denom: 4: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+OwnerOut  Total: 148
+Tsig[:20]:  JfLPjb04twpkRS+Yl7xF
+PayCoins Transaction Completed.
+[    OwnerOut: Id/Seq: 1494626890340/0 Denom: 144: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+   OwnerOut: Id/Seq: 1494626890340/1 Denom: 4: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+OwnerOut Total: 148
+[2] PayCoins users/gary.conf 0 users/bob.pub
+Stacked:  {PayCoins map[pubkey:users/gary.pub privkey:users/gary.priv cmd:PayCoins who:users/gary.conf strexp:OK. payee:users/bob.pub pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCh3ulGlfT6DhY7xB7pRaSeDZErGwRXui31TE7cm6zLG8EzQmgDcu6RuA9/XuL412f7+ST0nA1W5GrFWkM8qpDeBneu/wiOqbdNTd6SUi1uNL+jwjCBLHMVpjD6fkWzACyjjo/5irxIYz3q9kP8K8upjwh/WUkM5KPE0GyR+HT9dQIDAQAB payhash:XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk= pubhash:uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0= amount:0 originalcmd:Autotest] []}
+SAVEDBALANCES
+,wVWP7=219,uQREk=216,jlvgV=352,vK1HK=413,2MwzA=250,XLuz8=223,tGjSE=183,/4fvU=134
+Sending GetBalance for users/gary.conf
+SAVEDBALANCES
+,wVWP7=219,uQREk=142,jlvgV=352,vK1HK=413,2MwzA=250,XLuz8=223,tGjSE=183,/4fvU=134
+BuildPay: setting payment to 133 out of 142
+My (users/gary.conf) Balance = 142
+[    BUILDPAYDIAGNOSTIC: Id/Seq: 1494626805903/1 Denom: 33: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626836846/1 Denom: 38: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626840056/0 Denom: 71: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+BUILDPAYDIAGNOSTIC Total: 142
+BuildConsolipay: users/gary.conf consolidates and pays 133 to XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=.
+Consolipay:: 1494626890890: PayCoins
+[    OwnerIn : Id/Seq: 1494626805903/1 Denom: 33: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerIn : Id/Seq: 1494626836846/1 Denom: 38: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerIn : Id/Seq: 1494626840056/0 Denom: 71: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerIn  Total: 142
+[    OwnerOut : Id/Seq: 1494626890890/0 Denom: 133: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+   OwnerOut : Id/Seq: 1494626890890/1 Denom: 9: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerOut  Total: 142
+Tsig[:20]:  bdSCU8zr6jc60ropvZtE
+PayCoins Transaction Completed.
+[    OwnerOut: Id/Seq: 1494626890890/0 Denom: 133: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+   OwnerOut: Id/Seq: 1494626890890/1 Denom: 9: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerOut Total: 142
+[3] PayCoins users/chaz.conf 0 users/fiona.pub
+Stacked:  {PayCoins map[pubkey:users/chaz.pub privkey:users/chaz.priv cmd:PayCoins who:users/chaz.conf strexp:OK. payee:users/fiona.pub pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDknJU8f+BCmb9RvZK/ChvFqw4RDtLtUFdyu7FfF/33clJ8liWUNSwQp/D+xfGVYh+7/Q+pmscCcTPWrGS4s6ChVusiYt0BTyCNi48ypEqqissHjgCRNkXHcFhfSsD9kvj7HEa4iZSzNRVmjxhs8Rd/PLWkCkAPW0KW1p9rjOFgDwIDAQAB payhash:vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs= pubhash:2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk= amount:0 originalcmd:Autotest] []}
+SAVEDBALANCES
+,wVWP7=219,uQREk=142,jlvgV=352,vK1HK=413,2MwzA=250,XLuz8=223,tGjSE=183,/4fvU=134
+Sending GetBalance for users/chaz.conf
+SAVEDBALANCES
+,wVWP7=219,uQREk=142,jlvgV=352,vK1HK=413,2MwzA=174,XLuz8=223,tGjSE=183,/4fvU=134
+BuildPay: setting payment to 87 out of 174
+My (users/chaz.conf) Balance = 174
+[    BUILDPAYDIAGNOSTIC: Id/Seq: 1494626806397/1 Denom: 28: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626807079/0 Denom: 146: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+BUILDPAYDIAGNOSTIC Total: 174
+BuildPay: users/chaz.conf pays 87 to users/fiona.pub
+IN build Pay: 1494626891444: PayCoins
+[    OwnerIn : Id/Seq: 1494626807079/0 Denom: 146: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+OwnerIn  Total: 146
+[    OwnerOut : Id/Seq: 1494626891444/0 Denom: 87: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerOut : Id/Seq: 1494626891444/1 Denom: 59: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+OwnerOut  Total: 146
+Tsig[:20]:  U31pdHkSqQrYGjM7Dr0k
+PayCoins Transaction Completed.
+[    OwnerOut: Id/Seq: 1494626891444/0 Denom: 87: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerOut: Id/Seq: 1494626891444/1 Denom: 59: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+OwnerOut Total: 146
+[4] PayCoins users/alice.conf 0 users/dave.pub
+Stacked:  {PayCoins map[pubkey:users/alice.pub privkey:users/alice.priv cmd:PayCoins who:users/alice.conf strexp:OK. payee:users/dave.pub pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCyzMq7gawMJB0+bfW7uEMTPXY2AwjfOwoECafWCGiFHa64XMMI7Kq9ignR/TpZ3HZKcTWbHWUA6cgWT5acWkHo7ZPIK3VYfBDkeFLnoq7H+B2LreOKWENDSKtto/KGK5cPf4FhBzY0GIp4Dus+yJJMvAikpQ7mCoV/k8BHjRCddwIDAQAB payhash:/4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U= pubhash:wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E= amount:0 originalcmd:Autotest] []}
+SAVEDBALANCES
+,wVWP7=219,uQREk=142,jlvgV=352,vK1HK=413,2MwzA=174,XLuz8=223,tGjSE=183,/4fvU=134
+Sending GetBalance for users/alice.conf
+SAVEDBALANCES
+,wVWP7=256,uQREk=142,jlvgV=352,vK1HK=413,2MwzA=174,XLuz8=223,tGjSE=183,/4fvU=134
+BuildPay: setting payment to 168 out of 256
+My (users/alice.conf) Balance = 256
+[    BUILDPAYDIAGNOSTIC: Id/Seq: 1494626805903/0 Denom: 183: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626807079/1 Denom: 73: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+BUILDPAYDIAGNOSTIC Total: 256
+BuildPay: users/alice.conf pays 168 to users/dave.pub
+IN build Pay: 1494626891945: PayCoins
+[    OwnerIn : Id/Seq: 1494626805903/0 Denom: 183: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+OwnerIn  Total: 183
+[    OwnerOut : Id/Seq: 1494626891945/0 Denom: 168: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   OwnerOut : Id/Seq: 1494626891945/1 Denom: 15: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+OwnerOut  Total: 183
+Tsig[:20]:  CF/jzKg/t4o3JTKE0edA
+PayCoins Transaction Completed.
+[    OwnerOut: Id/Seq: 1494626891945/0 Denom: 168: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   OwnerOut: Id/Seq: 1494626891945/1 Denom: 15: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+OwnerOut Total: 183
+[5] PayCoins users/dave.conf 0 users/gary.pub
+Stacked:  {PayCoins map[pubkey:users/dave.pub privkey:users/dave.priv cmd:PayCoins who:users/dave.conf strexp:OK. payee:users/gary.pub pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDcce9CTqGUu3E4doeY9YP9TiQ3yICbqrivzKwTk4hJjYqyIQYzdrYglwukJIk3duy3EXx87q3NxIMqHtQjWxMtxbKH9AE5XwNFuEpMEH7au7/h8lb86jIHrraEX/XWwV3XeY2BOdWS82HJ+zSH4tXRQCo0r2uq8peSqYAfxdR4XQIDAQAB payhash:uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0= pubhash:/4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U= amount:0 originalcmd:Autotest] []}
+SAVEDBALANCES
+,wVWP7=256,uQREk=142,jlvgV=352,vK1HK=413,2MwzA=174,XLuz8=223,tGjSE=183,/4fvU=134
+Sending GetBalance for users/dave.conf
+SAVEDBALANCES
+,wVWP7=256,uQREk=142,jlvgV=352,vK1HK=413,2MwzA=174,XLuz8=223,tGjSE=183,/4fvU=90
+BuildPay: setting payment to 1 out of 90
+My (users/dave.conf) Balance = 90
+[    BUILDPAYDIAGNOSTIC: Id/Seq: 1494626722065/0 Denom: 1: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626723096/1 Denom: 33: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626807627/1 Denom: 25: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626809549/0 Denom: 31: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+BUILDPAYDIAGNOSTIC Total: 90
+BuildPay: users/dave.conf pays 1 to users/gary.pub
+IN build Pay: 1494626892419: PayCoins
+[    OwnerIn : Id/Seq: 1494626723096/1 Denom: 33: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+OwnerIn  Total: 33
+[    OwnerOut : Id/Seq: 1494626892419/0 Denom: 1: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerOut : Id/Seq: 1494626892419/1 Denom: 32: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+OwnerOut  Total: 33
+Tsig[:20]:  ZTzk3PGKRn9cIRCHighs
+PayCoins Transaction Completed.
+[    OwnerOut: Id/Seq: 1494626892419/0 Denom: 1: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerOut: Id/Seq: 1494626892419/1 Denom: 32: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+OwnerOut Total: 33
+[6] PayCoins users/ellie.conf 0 users/helen.pub
+Stacked:  {PayCoins map[pubkey:users/ellie.pub privkey:users/ellie.priv cmd:PayCoins who:users/ellie.conf strexp:OK. payee:users/helen.pub pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDIZxEO9zixB9BeVjAvmOrd12ImXC03JxNfhGLOHOMtYLhqFLIlKi3Uo2xo0aoqngi0b9KQiVOEWlEESEZmanlKd90ZzA9NhYFrystpi/o7CMd1hX8qrBFEzkVC2dvBxVczhvEHbJkTBR4hGplh+3xxY0cZoCifaWSWYhO9bMWnLQIDAQAB payhash:jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo= pubhash:tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs= amount:0 originalcmd:Autotest] []}
+SAVEDBALANCES
+,wVWP7=256,uQREk=142,jlvgV=352,vK1HK=413,2MwzA=174,XLuz8=223,tGjSE=183,/4fvU=90
+Sending GetBalance for users/ellie.conf
+SAVEDBALANCES
+,wVWP7=256,uQREk=142,jlvgV=352,vK1HK=413,2MwzA=174,XLuz8=223,tGjSE=261,/4fvU=90
+BuildPay: setting payment to 10 out of 261
+My (users/ellie.conf) Balance = 261
+[    BUILDPAYDIAGNOSTIC: Id/Seq: 1494626806397/0 Denom: 222: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626808289/1 Denom: 39: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+BUILDPAYDIAGNOSTIC Total: 261
+BuildPay: users/ellie.conf pays 10 to users/helen.pub
+IN build Pay: 1494626892908: PayCoins
+[    OwnerIn : Id/Seq: 1494626806397/0 Denom: 222: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+OwnerIn  Total: 222
+[    OwnerOut : Id/Seq: 1494626892908/0 Denom: 10: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+   OwnerOut : Id/Seq: 1494626892908/1 Denom: 212: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+OwnerOut  Total: 222
+Tsig[:20]:  xLnQB6CVt0M62RB1UB6T
+PayCoins Transaction Completed.
+[    OwnerOut: Id/Seq: 1494626892908/0 Denom: 10: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+   OwnerOut: Id/Seq: 1494626892908/1 Denom: 212: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+OwnerOut Total: 222
+[7] PayCoins users/fiona.conf 0 users/alice.pub
+Stacked:  {PayCoins map[pubkey:users/fiona.pub privkey:users/fiona.priv cmd:PayCoins who:users/fiona.conf strexp:OK. payee:users/alice.pub pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChw+/3t6K8N30eKEbYaE0ptaDqOEONobsQZ+blpwl7ADPgqS+qxi6pXt1meR8WybK/I71OZM6fhqgjr5dLK1+GF8fkeaeBbU/YGYVP2ChJ1dp/Ju7ku3KfgEYyL48d2AuwDSAyxkYyffwbGIiJg3Li+SPBvRLUigazPvPxCtlCMwIDAQAB payhash:wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E= pubhash:vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs= amount:0 originalcmd:Autotest] []}
+SAVEDBALANCES
+,wVWP7=256,uQREk=142,jlvgV=352,vK1HK=413,2MwzA=174,XLuz8=223,tGjSE=261,/4fvU=90
+Sending GetBalance for users/fiona.conf
+SAVEDBALANCES
+,wVWP7=256,uQREk=142,jlvgV=352,vK1HK=246,2MwzA=174,XLuz8=223,tGjSE=261,/4fvU=90
+BuildPay: setting payment to 214 out of 246
+My (users/fiona.conf) Balance = 246
+[    BUILDPAYDIAGNOSTIC: Id/Seq: 1494626807627/0 Denom: 75: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626839458/0 Denom: 32: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626841312/1 Denom: 139: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+BUILDPAYDIAGNOSTIC Total: 246
+BuildConsolipay: users/fiona.conf consolidates and pays 214 to wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=.
+Consolipay:: 1494626893407: PayCoins
+[    OwnerIn : Id/Seq: 1494626807627/0 Denom: 75: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerIn : Id/Seq: 1494626839458/0 Denom: 32: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerIn : Id/Seq: 1494626841312/1 Denom: 139: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerIn  Total: 246
+[    OwnerOut : Id/Seq: 1494626893407/0 Denom: 214: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+   OwnerOut : Id/Seq: 1494626893407/1 Denom: 32: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerOut  Total: 246
+Tsig[:20]:  CWp0XskNnTnUbKyDqW3a
+PayCoins Transaction Completed.
+[    OwnerOut: Id/Seq: 1494626893407/0 Denom: 214: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+   OwnerOut: Id/Seq: 1494626893407/1 Denom: 32: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerOut Total: 246
+[8] PayCoins users/bob.conf 0 users/ellie.pub
+Stacked:  {PayCoins map[pubkey:users/bob.pub privkey:users/bob.priv cmd:PayCoins who:users/bob.conf strexp:OK. payee:users/ellie.pub pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDMym0hgwRlSG8MbefoMEp31YNYMlwOg5omqfBXpmspAXCF4F8c6H2jLSsyx7NYxmMBsdvMjzGLRJvOL2Hp0x/JQpCuFA++4EpNlgKRv2FZOyGDbdZH7xeqe9Lh9ysWpmTHMEOJaGbcjxewbF1eTlnWHabgwI1rfOFn3wHt3tJYXwIDAQAB payhash:tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs= pubhash:XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk= amount:0 originalcmd:Autotest] []}
+SAVEDBALANCES
+,wVWP7=256,uQREk=142,jlvgV=352,vK1HK=246,2MwzA=174,XLuz8=223,tGjSE=261,/4fvU=90
+Sending GetBalance for users/bob.conf
+SAVEDBALANCES
+,wVWP7=256,uQREk=142,jlvgV=352,vK1HK=246,2MwzA=174,XLuz8=227,tGjSE=261,/4fvU=90
+BuildPay: setting payment to 63 out of 227
+My (users/bob.conf) Balance = 227
+[    BUILDPAYDIAGNOSTIC: Id/Seq: 1494626722634/0 Denom: 74: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626724673/1 Denom: 49: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626805463/0 Denom: 35: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626809549/1 Denom: 69: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+BUILDPAYDIAGNOSTIC Total: 227
+BuildPay: users/bob.conf pays 63 to users/ellie.pub
+IN build Pay: 1494626893890: PayCoins
+[    OwnerIn : Id/Seq: 1494626722634/0 Denom: 74: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+OwnerIn  Total: 74
+[    OwnerOut : Id/Seq: 1494626893890/0 Denom: 63: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+   OwnerOut : Id/Seq: 1494626893890/1 Denom: 11: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+OwnerOut  Total: 74
+Tsig[:20]:  WDbq+XZKGAKRHou3qzzM
+PayCoins Transaction Completed.
+[    OwnerOut: Id/Seq: 1494626893890/0 Denom: 63: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+   OwnerOut: Id/Seq: 1494626893890/1 Denom: 11: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+OwnerOut Total: 74
+[2] Wait 70s till Clearing is completed ...   ... Start next round.
+8 [0-3] -- Pairs : ----- &{[{helen [alice bob chaz dave ellie fiona gary]} {gary [helen alice bob chaz dave ellie fiona]} {chaz [dave ellie fiona gary helen alice bob]} {alice [bob chaz dave ellie fiona gary helen]} {dave [ellie fiona gary helen alice bob chaz]} {ellie [fiona gary helen alice bob chaz dave]} {fiona [gary helen alice bob chaz dave ellie]} {bob [chaz dave ellie fiona gary helen alice]}]} ----
+Returned Pair : ---- &{helen dave} ----8 [1-3] -- Pairs : ----- &{[{helen [alice bob chaz dave ellie fiona gary]} {gary [helen alice bob chaz dave ellie fiona]} {chaz [dave ellie fiona gary helen alice bob]} {alice [bob chaz dave ellie fiona gary helen]} {dave [ellie fiona gary helen alice bob chaz]} {ellie [fiona gary helen alice bob chaz dave]} {fiona [gary helen alice bob chaz dave ellie]} {bob [chaz dave ellie fiona gary helen alice]}]} ----
+Returned Pair : ---- &{gary chaz} ----8 [2-3] -- Pairs : ----- &{[{helen [alice bob chaz dave ellie fiona gary]} {gary [helen alice bob chaz dave ellie fiona]} {chaz [dave ellie fiona gary helen alice bob]} {alice [bob chaz dave ellie fiona gary helen]} {dave [ellie fiona gary helen alice bob chaz]} {ellie [fiona gary helen alice bob chaz dave]} {fiona [gary helen alice bob chaz dave ellie]} {bob [chaz dave ellie fiona gary helen alice]}]} ----
+Returned Pair : ---- &{chaz gary} ----8 [3-3] -- Pairs : ----- &{[{helen [alice bob chaz dave ellie fiona gary]} {gary [helen alice bob chaz dave ellie fiona]} {chaz [dave ellie fiona gary helen alice bob]} {alice [bob chaz dave ellie fiona gary helen]} {dave [ellie fiona gary helen alice bob chaz]} {ellie [fiona gary helen alice bob chaz dave]} {fiona [gary helen alice bob chaz dave ellie]} {bob [chaz dave ellie fiona gary helen alice]}]} ----
+Returned Pair : ---- &{alice ellie} ----8 [4-3] -- Pairs : ----- &{[{helen [alice bob chaz dave ellie fiona gary]} {gary [helen alice bob chaz dave ellie fiona]} {chaz [dave ellie fiona gary helen alice bob]} {alice [bob chaz dave ellie fiona gary helen]} {dave [ellie fiona gary helen alice bob chaz]} {ellie [fiona gary helen alice bob chaz dave]} {fiona [gary helen alice bob chaz dave ellie]} {bob [chaz dave ellie fiona gary helen alice]}]} ----
+Returned Pair : ---- &{dave helen} ----8 [5-3] -- Pairs : ----- &{[{helen [alice bob chaz dave ellie fiona gary]} {gary [helen alice bob chaz dave ellie fiona]} {chaz [dave ellie fiona gary helen alice bob]} {alice [bob chaz dave ellie fiona gary helen]} {dave [ellie fiona gary helen alice bob chaz]} {ellie [fiona gary helen alice bob chaz dave]} {fiona [gary helen alice bob chaz dave ellie]} {bob [chaz dave ellie fiona gary helen alice]}]} ----
+Returned Pair : ---- &{ellie alice} ----8 [6-3] -- Pairs : ----- &{[{helen [alice bob chaz dave ellie fiona gary]} {gary [helen alice bob chaz dave ellie fiona]} {chaz [dave ellie fiona gary helen alice bob]} {alice [bob chaz dave ellie fiona gary helen]} {dave [ellie fiona gary helen alice bob chaz]} {ellie [fiona gary helen alice bob chaz dave]} {fiona [gary helen alice bob chaz dave ellie]} {bob [chaz dave ellie fiona gary helen alice]}]} ----
+Returned Pair : ---- &{fiona bob} ----8 [7-3] -- Pairs : ----- &{[{helen [alice bob chaz dave ellie fiona gary]} {gary [helen alice bob chaz dave ellie fiona]} {chaz [dave ellie fiona gary helen alice bob]} {alice [bob chaz dave ellie fiona gary helen]} {dave [ellie fiona gary helen alice bob chaz]} {ellie [fiona gary helen alice bob chaz dave]} {fiona [gary helen alice bob chaz dave ellie]} {bob [chaz dave ellie fiona gary helen alice]}]} ----
+Returned Pair : ---- &{bob fiona} ----
+[ Autotest Commands
+	 Utxos conf/ubi.conf
+	 PayCoins users/helen.conf 0 users/dave.pub
+	 PayCoins users/gary.conf 0 users/chaz.pub
+	 PayCoins users/chaz.conf 0 users/gary.pub
+	 PayCoins users/alice.conf 0 users/ellie.pub
+	 PayCoins users/dave.conf 0 users/helen.pub
+	 PayCoins users/ellie.conf 0 users/alice.pub
+	 PayCoins users/fiona.conf 0 users/bob.pub
+	 PayCoins users/bob.conf 0 users/fiona.pub
+]
+[0] Utxos conf/ubi.conf
+Stacked:  {Utxos map[ubiers:users newtxs:blocks/newtxs pubkey:keys/public.key ubiers2:users2 strexp:Update Balances in Listener. utxos:blocks/utxos pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCrtJSkjl+P06RUIACreJe7RTL5kBKUbYR+KNrvCbmjyKhvHbSWtLNAqrIHKyrcL0reeXfFS6IzFSxHsbr00b1t315IFxVuVADfnavZicTezMFyEapCDPDvJLxXeSPoXJ6hyxOB8SgeJ9Ted3HhNss4iUjs1pC1W85KKPuePFK4owIDAQAB ubi:100 originalcmd:Autotest cmd:Utxos verbose:true privkey:keys/private.key pubhash:QSoT0u9VlnrL4wq2pppy+jB4lEbYJ7xeWnE1VKzgVic= timer:0s ledge:blocks/ledger who:conf/ubi.conf] []}
+Sending GetUtxos for conf/ubi.conf
+Utxos Transaction Completed.
+[    OwnerOut: Id/Seq: 0000000000000/0 Denom: 0: QSoT0u9VlnrL4wq2pppy+jB4lEbYJ7xeWnE1VKzgVic=
+OwnerOut Total: 0
+[1] PayCoins users/helen.conf 0 users/dave.pub
+Stacked:  {PayCoins map[pubkey:users/helen.pub privkey:users/helen.priv cmd:PayCoins who:users/helen.conf strexp:OK. payee:users/dave.pub pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCllyPLTZap6VSUG+CRLRvJGY/D06JtbiLGvnS5Z4V7iDHNFw7x2mZbW2igLWqJzIZmAZz8U6U62IZxAcZCEviqKbkpol+U5aUllGIBVrh6GJXJcItXp4CzejOeAUFSr1FWy1hJlXLlIeLsi41VkYFbL/bxCfViZEjq2rqxEE4jowIDAQAB payhash:/4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U= pubhash:jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo= amount:0 originalcmd:Autotest] []}
+SAVEDBALANCES
+,wVWP7=256,uQREk=142,jlvgV=352,vK1HK=246,2MwzA=174,XLuz8=227,tGjSE=261,/4fvU=90
+Sending GetBalance for users/helen.conf
+SAVEDBALANCES
+,wVWP7=256,uQREk=142,jlvgV=218,vK1HK=246,2MwzA=174,XLuz8=227,tGjSE=261,/4fvU=90
+BuildPay: setting payment to 178 out of 218
+My (users/helen.conf) Balance = 218
+[    BUILDPAYDIAGNOSTIC: Id/Seq: 1494626720863/1 Denom: 7: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626805463/1 Denom: 65: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626808913/0 Denom: 132: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626890340/1 Denom: 4: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626892908/0 Denom: 10: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+BUILDPAYDIAGNOSTIC Total: 218
+BuildConsolipay: users/helen.conf consolidates and pays 178 to /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=.
+Consolipay:: 1494626974609: PayCoins
+[    OwnerIn : Id/Seq: 1494626720863/1 Denom: 7: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+   OwnerIn : Id/Seq: 1494626805463/1 Denom: 65: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+   OwnerIn : Id/Seq: 1494626808913/0 Denom: 132: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+   OwnerIn : Id/Seq: 1494626890340/1 Denom: 4: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+   OwnerIn : Id/Seq: 1494626892908/0 Denom: 10: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+OwnerIn  Total: 218
+[    OwnerOut : Id/Seq: 1494626974609/0 Denom: 178: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   OwnerOut : Id/Seq: 1494626974609/1 Denom: 40: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+OwnerOut  Total: 218
+Tsig[:20]:  fYnF5X1onWUxbmDNuPMJ
+PayCoins Transaction Completed.
+[    OwnerOut: Id/Seq: 1494626974609/0 Denom: 178: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   OwnerOut: Id/Seq: 1494626974609/1 Denom: 40: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+OwnerOut Total: 218
+[2] PayCoins users/gary.conf 0 users/chaz.pub
+Stacked:  {PayCoins map[pubkey:users/gary.pub privkey:users/gary.priv cmd:PayCoins who:users/gary.conf strexp:OK. payee:users/chaz.pub pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCh3ulGlfT6DhY7xB7pRaSeDZErGwRXui31TE7cm6zLG8EzQmgDcu6RuA9/XuL412f7+ST0nA1W5GrFWkM8qpDeBneu/wiOqbdNTd6SUi1uNL+jwjCBLHMVpjD6fkWzACyjjo/5irxIYz3q9kP8K8upjwh/WUkM5KPE0GyR+HT9dQIDAQAB payhash:2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk= pubhash:uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0= amount:0 originalcmd:Autotest] []}
+SAVEDBALANCES
+,wVWP7=256,uQREk=142,jlvgV=218,vK1HK=246,2MwzA=174,XLuz8=227,tGjSE=261,/4fvU=90
+Sending GetBalance for users/gary.conf
+SAVEDBALANCES
+,wVWP7=256,uQREk=7,jlvgV=218,vK1HK=246,2MwzA=174,XLuz8=227,tGjSE=261,/4fvU=90
+BuildPay: setting payment to 4 out of 7
+My (users/gary.conf) Balance = 7
+[    BUILDPAYDIAGNOSTIC: Id/Seq: 1494626892419/0 Denom: 1: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626922424/1 Denom: 2: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626925142/0 Denom: 4: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+BUILDPAYDIAGNOSTIC Total: 7
+BuildConsolipay: users/gary.conf consolidates and pays 4 to 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=.
+Consolipay:: 1494626975274: PayCoins
+[    OwnerIn : Id/Seq: 1494626892419/0 Denom: 1: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerIn : Id/Seq: 1494626922424/1 Denom: 2: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerIn : Id/Seq: 1494626925142/0 Denom: 4: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerIn  Total: 7
+[    OwnerOut : Id/Seq: 1494626975274/0 Denom: 4: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+   OwnerOut : Id/Seq: 1494626975274/1 Denom: 3: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerOut  Total: 7
+Tsig[:20]:  b/8iK/gWdibZYAiv+fKD
+PayCoins Transaction Completed.
+[    OwnerOut: Id/Seq: 1494626975274/0 Denom: 4: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+   OwnerOut: Id/Seq: 1494626975274/1 Denom: 3: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerOut Total: 7
+[3] PayCoins users/chaz.conf 0 users/gary.pub
+Stacked:  {PayCoins map[pubkey:users/chaz.pub privkey:users/chaz.priv cmd:PayCoins who:users/chaz.conf strexp:OK. payee:users/gary.pub pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDknJU8f+BCmb9RvZK/ChvFqw4RDtLtUFdyu7FfF/33clJ8liWUNSwQp/D+xfGVYh+7/Q+pmscCcTPWrGS4s6ChVusiYt0BTyCNi48ypEqqissHjgCRNkXHcFhfSsD9kvj7HEa4iZSzNRVmjxhs8Rd/PLWkCkAPW0KW1p9rjOFgDwIDAQAB payhash:uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0= pubhash:2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk= amount:0 originalcmd:Autotest] []}
+SAVEDBALANCES
+,wVWP7=256,uQREk=7,jlvgV=218,vK1HK=246,2MwzA=174,XLuz8=227,tGjSE=261,/4fvU=90
+Sending GetBalance for users/chaz.conf
+SAVEDBALANCES
+,wVWP7=256,uQREk=7,jlvgV=218,vK1HK=246,2MwzA=231,XLuz8=227,tGjSE=261,/4fvU=90
+BuildPay: setting payment to 4 out of 231
+My (users/chaz.conf) Balance = 231
+[    BUILDPAYDIAGNOSTIC: Id/Seq: 1494626806397/1 Denom: 28: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626890340/0 Denom: 144: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626891444/1 Denom: 59: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+BUILDPAYDIAGNOSTIC Total: 231
+BuildPay: users/chaz.conf pays 4 to users/gary.pub
+IN build Pay: 1494626975716: PayCoins
+[    OwnerIn : Id/Seq: 1494626806397/1 Denom: 28: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+OwnerIn  Total: 28
+[    OwnerOut : Id/Seq: 1494626975716/0 Denom: 4: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerOut : Id/Seq: 1494626975716/1 Denom: 24: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+OwnerOut  Total: 28
+Tsig[:20]:  eA7hFBoKjZ0WEBYGxyFZ
+PayCoins Transaction Completed.
+[    OwnerOut: Id/Seq: 1494626975716/0 Denom: 4: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerOut: Id/Seq: 1494626975716/1 Denom: 24: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+OwnerOut Total: 28
+[4] PayCoins users/alice.conf 0 users/ellie.pub
+Stacked:  {PayCoins map[pubkey:users/alice.pub privkey:users/alice.priv cmd:PayCoins who:users/alice.conf strexp:OK. payee:users/ellie.pub pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCyzMq7gawMJB0+bfW7uEMTPXY2AwjfOwoECafWCGiFHa64XMMI7Kq9ignR/TpZ3HZKcTWbHWUA6cgWT5acWkHo7ZPIK3VYfBDkeFLnoq7H+B2LreOKWENDSKtto/KGK5cPf4FhBzY0GIp4Dus+yJJMvAikpQ7mCoV/k8BHjRCddwIDAQAB payhash:tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs= pubhash:wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E= amount:0 originalcmd:Autotest] []}
+SAVEDBALANCES
+,wVWP7=256,uQREk=7,jlvgV=218,vK1HK=246,2MwzA=231,XLuz8=227,tGjSE=261,/4fvU=90
+Sending GetBalance for users/alice.conf
+SAVEDBALANCES
+,wVWP7=302,uQREk=7,jlvgV=218,vK1HK=246,2MwzA=231,XLuz8=227,tGjSE=261,/4fvU=90
+BuildPay: setting payment to 283 out of 302
+My (users/alice.conf) Balance = 302
+[    BUILDPAYDIAGNOSTIC: Id/Seq: 1494626807079/1 Denom: 73: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626891945/1 Denom: 15: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626893407/0 Denom: 214: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+BUILDPAYDIAGNOSTIC Total: 302
+BuildConsolipay: users/alice.conf consolidates and pays 283 to tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=.
+Consolipay:: 1494626976552: PayCoins
+[    OwnerIn : Id/Seq: 1494626807079/1 Denom: 73: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+   OwnerIn : Id/Seq: 1494626891945/1 Denom: 15: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+   OwnerIn : Id/Seq: 1494626893407/0 Denom: 214: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+OwnerIn  Total: 302
+[    OwnerOut : Id/Seq: 1494626976552/0 Denom: 283: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+   OwnerOut : Id/Seq: 1494626976552/1 Denom: 19: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+OwnerOut  Total: 302
+Tsig[:20]:  Q7Yb+3hwyhRK/gP2aHCA
+PayCoins Transaction Completed.
+[    OwnerOut: Id/Seq: 1494626976552/0 Denom: 283: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+   OwnerOut: Id/Seq: 1494626976552/1 Denom: 19: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+OwnerOut Total: 302
+[5] PayCoins users/dave.conf 0 users/helen.pub
+Stacked:  {PayCoins map[pubkey:users/dave.pub privkey:users/dave.priv cmd:PayCoins who:users/dave.conf strexp:OK. payee:users/helen.pub pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDcce9CTqGUu3E4doeY9YP9TiQ3yICbqrivzKwTk4hJjYqyIQYzdrYglwukJIk3duy3EXx87q3NxIMqHtQjWxMtxbKH9AE5XwNFuEpMEH7au7/h8lb86jIHrraEX/XWwV3XeY2BOdWS82HJ+zSH4tXRQCo0r2uq8peSqYAfxdR4XQIDAQAB payhash:jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo= pubhash:/4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U= amount:0 originalcmd:Autotest] []}
+SAVEDBALANCES
+,wVWP7=302,uQREk=7,jlvgV=218,vK1HK=246,2MwzA=231,XLuz8=227,tGjSE=261,/4fvU=90
+Sending GetBalance for users/dave.conf
+SAVEDBALANCES
+,wVWP7=302,uQREk=7,jlvgV=218,vK1HK=246,2MwzA=231,XLuz8=227,tGjSE=261,/4fvU=257
+BuildPay: setting payment to 25 out of 257
+My (users/dave.conf) Balance = 257
+[    BUILDPAYDIAGNOSTIC: Id/Seq: 1494626722065/0 Denom: 1: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626807627/1 Denom: 25: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626809549/0 Denom: 31: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626891945/0 Denom: 168: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626892419/1 Denom: 32: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+BUILDPAYDIAGNOSTIC Total: 257
+BuildPay: users/dave.conf pays 25 to users/helen.pub
+IN build Pay: 1494626977322: PayCoins
+[    OwnerIn : Id/Seq: 1494626809549/0 Denom: 31: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+OwnerIn  Total: 31
+[    OwnerOut : Id/Seq: 1494626977322/0 Denom: 25: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+   OwnerOut : Id/Seq: 1494626977322/1 Denom: 6: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+OwnerOut  Total: 31
+Tsig[:20]:  1Y20TCiInmtL41h8R+J3
+PayCoins Transaction Completed.
+[    OwnerOut: Id/Seq: 1494626977322/0 Denom: 25: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+   OwnerOut: Id/Seq: 1494626977322/1 Denom: 6: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+OwnerOut Total: 31
+[6] PayCoins users/ellie.conf 0 users/alice.pub
+Stacked:  {PayCoins map[pubkey:users/ellie.pub privkey:users/ellie.priv cmd:PayCoins who:users/ellie.conf strexp:OK. payee:users/alice.pub pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDIZxEO9zixB9BeVjAvmOrd12ImXC03JxNfhGLOHOMtYLhqFLIlKi3Uo2xo0aoqngi0b9KQiVOEWlEESEZmanlKd90ZzA9NhYFrystpi/o7CMd1hX8qrBFEzkVC2dvBxVczhvEHbJkTBR4hGplh+3xxY0cZoCifaWSWYhO9bMWnLQIDAQAB payhash:wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E= pubhash:tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs= amount:0 originalcmd:Autotest] []}
+SAVEDBALANCES
+,wVWP7=302,uQREk=7,jlvgV=218,vK1HK=246,2MwzA=231,XLuz8=227,tGjSE=261,/4fvU=257
+Sending GetBalance for users/ellie.conf
+SAVEDBALANCES
+,wVWP7=302,uQREk=7,jlvgV=218,vK1HK=246,2MwzA=231,XLuz8=227,tGjSE=314,/4fvU=257
+BuildPay: setting payment to 235 out of 314
+My (users/ellie.conf) Balance = 314
+[    BUILDPAYDIAGNOSTIC: Id/Seq: 1494626808289/1 Denom: 39: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626892908/1 Denom: 212: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626893890/0 Denom: 63: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+BUILDPAYDIAGNOSTIC Total: 314
+BuildConsolipay: users/ellie.conf consolidates and pays 235 to wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=.
+Consolipay:: 1494626977789: PayCoins
+[    OwnerIn : Id/Seq: 1494626808289/1 Denom: 39: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+   OwnerIn : Id/Seq: 1494626892908/1 Denom: 212: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+   OwnerIn : Id/Seq: 1494626893890/0 Denom: 63: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+OwnerIn  Total: 314
+[    OwnerOut : Id/Seq: 1494626977789/0 Denom: 235: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+   OwnerOut : Id/Seq: 1494626977789/1 Denom: 79: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+OwnerOut  Total: 314
+Tsig[:20]:  hqqUPZ0fOMI9INZXl6ng
+PayCoins Transaction Completed.
+[    OwnerOut: Id/Seq: 1494626977789/0 Denom: 235: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+   OwnerOut: Id/Seq: 1494626977789/1 Denom: 79: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+OwnerOut Total: 314
+[7] PayCoins users/fiona.conf 0 users/bob.pub
+Stacked:  {PayCoins map[pubkey:users/fiona.pub privkey:users/fiona.priv cmd:PayCoins who:users/fiona.conf strexp:OK. payee:users/bob.pub pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChw+/3t6K8N30eKEbYaE0ptaDqOEONobsQZ+blpwl7ADPgqS+qxi6pXt1meR8WybK/I71OZM6fhqgjr5dLK1+GF8fkeaeBbU/YGYVP2ChJ1dp/Ju7ku3KfgEYyL48d2AuwDSAyxkYyffwbGIiJg3Li+SPBvRLUigazPvPxCtlCMwIDAQAB payhash:XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk= pubhash:vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs= amount:0 originalcmd:Autotest] []}
+SAVEDBALANCES
+,wVWP7=302,uQREk=7,jlvgV=218,vK1HK=246,2MwzA=231,XLuz8=227,tGjSE=314,/4fvU=257
+Sending GetBalance for users/fiona.conf
+SAVEDBALANCES
+,wVWP7=302,uQREk=7,jlvgV=218,vK1HK=47,2MwzA=231,XLuz8=227,tGjSE=314,/4fvU=257
+BuildPay: setting payment to 41 out of 47
+My (users/fiona.conf) Balance = 47
+[    BUILDPAYDIAGNOSTIC: Id/Seq: 1494626893407/1 Denom: 32: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626926595/0 Denom: 1: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626927291/1 Denom: 14: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+BUILDPAYDIAGNOSTIC Total: 47
+BuildConsolipay: users/fiona.conf consolidates and pays 41 to XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=.
+Consolipay:: 1494626978361: PayCoins
+[    OwnerIn : Id/Seq: 1494626893407/1 Denom: 32: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerIn : Id/Seq: 1494626926595/0 Denom: 1: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerIn : Id/Seq: 1494626927291/1 Denom: 14: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerIn  Total: 47
+[    OwnerOut : Id/Seq: 1494626978361/0 Denom: 41: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+   OwnerOut : Id/Seq: 1494626978361/1 Denom: 6: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerOut  Total: 47
+Tsig[:20]:  m5RDVLyWuAs97NWHXBGm
+PayCoins Transaction Completed.
+[    OwnerOut: Id/Seq: 1494626978361/0 Denom: 41: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+   OwnerOut: Id/Seq: 1494626978361/1 Denom: 6: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerOut Total: 47
+[8] PayCoins users/bob.conf 0 users/fiona.pub
+Stacked:  {PayCoins map[pubkey:users/bob.pub privkey:users/bob.priv cmd:PayCoins who:users/bob.conf strexp:OK. payee:users/fiona.pub pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDMym0hgwRlSG8MbefoMEp31YNYMlwOg5omqfBXpmspAXCF4F8c6H2jLSsyx7NYxmMBsdvMjzGLRJvOL2Hp0x/JQpCuFA++4EpNlgKRv2FZOyGDbdZH7xeqe9Lh9ysWpmTHMEOJaGbcjxewbF1eTlnWHabgwI1rfOFn3wHt3tJYXwIDAQAB payhash:vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs= pubhash:XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk= amount:0 originalcmd:Autotest] []}
+SAVEDBALANCES
+,wVWP7=302,uQREk=7,jlvgV=218,vK1HK=47,2MwzA=231,XLuz8=227,tGjSE=314,/4fvU=257
+Sending GetBalance for users/bob.conf
+SAVEDBALANCES
+,wVWP7=302,uQREk=7,jlvgV=218,vK1HK=47,2MwzA=231,XLuz8=297,tGjSE=314,/4fvU=257
+BuildPay: setting payment to 166 out of 297
+My (users/bob.conf) Balance = 297
+[    BUILDPAYDIAGNOSTIC: Id/Seq: 1494626724673/1 Denom: 49: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626805463/0 Denom: 35: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626809549/1 Denom: 69: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626890890/0 Denom: 133: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626893890/1 Denom: 11: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+BUILDPAYDIAGNOSTIC Total: 297
+BuildConsolipay: users/bob.conf consolidates and pays 166 to vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=.
+Consolipay:: 1494626979028: PayCoins
+[    OwnerIn : Id/Seq: 1494626724673/1 Denom: 49: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+   OwnerIn : Id/Seq: 1494626805463/0 Denom: 35: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+   OwnerIn : Id/Seq: 1494626809549/1 Denom: 69: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+   OwnerIn : Id/Seq: 1494626890890/0 Denom: 133: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+   OwnerIn : Id/Seq: 1494626893890/1 Denom: 11: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+OwnerIn  Total: 297
+[    OwnerOut : Id/Seq: 1494626979028/0 Denom: 166: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerOut : Id/Seq: 1494626979028/1 Denom: 131: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+OwnerOut  Total: 297
+Tsig[:20]:  NTEIbc7cpBPkaJ03N/IZ
+PayCoins Transaction Completed.
+[    OwnerOut: Id/Seq: 1494626979028/0 Denom: 166: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerOut: Id/Seq: 1494626979028/1 Denom: 131: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+OwnerOut Total: 297
+[3] Wait 70s till Clearing is completed ...   ... Start next round.
+8 [0-4] -- Pairs : ----- &{[{helen [alice bob chaz dave ellie fiona gary]} {gary [helen alice bob chaz dave ellie fiona]} {chaz [dave ellie fiona gary helen alice bob]} {alice [bob chaz dave ellie fiona gary helen]} {dave [ellie fiona gary helen alice bob chaz]} {ellie [fiona gary helen alice bob chaz dave]} {fiona [gary helen alice bob chaz dave ellie]} {bob [chaz dave ellie fiona gary helen alice]}]} ----
+Returned Pair : ---- &{helen ellie} ----8 [1-4] -- Pairs : ----- &{[{helen [alice bob chaz dave ellie fiona gary]} {gary [helen alice bob chaz dave ellie fiona]} {chaz [dave ellie fiona gary helen alice bob]} {alice [bob chaz dave ellie fiona gary helen]} {dave [ellie fiona gary helen alice bob chaz]} {ellie [fiona gary helen alice bob chaz dave]} {fiona [gary helen alice bob chaz dave ellie]} {bob [chaz dave ellie fiona gary helen alice]}]} ----
+Returned Pair : ---- &{gary dave} ----8 [2-4] -- Pairs : ----- &{[{helen [alice bob chaz dave ellie fiona gary]} {gary [helen alice bob chaz dave ellie fiona]} {chaz [dave ellie fiona gary helen alice bob]} {alice [bob chaz dave ellie fiona gary helen]} {dave [ellie fiona gary helen alice bob chaz]} {ellie [fiona gary helen alice bob chaz dave]} {fiona [gary helen alice bob chaz dave ellie]} {bob [chaz dave ellie fiona gary helen alice]}]} ----
+Returned Pair : ---- &{chaz helen} ----8 [3-4] -- Pairs : ----- &{[{helen [alice bob chaz dave ellie fiona gary]} {gary [helen alice bob chaz dave ellie fiona]} {chaz [dave ellie fiona gary helen alice bob]} {alice [bob chaz dave ellie fiona gary helen]} {dave [ellie fiona gary helen alice bob chaz]} {ellie [fiona gary helen alice bob chaz dave]} {fiona [gary helen alice bob chaz dave ellie]} {bob [chaz dave ellie fiona gary helen alice]}]} ----
+Returned Pair : ---- &{alice fiona} ----8 [4-4] -- Pairs : ----- &{[{helen [alice bob chaz dave ellie fiona gary]} {gary [helen alice bob chaz dave ellie fiona]} {chaz [dave ellie fiona gary helen alice bob]} {alice [bob chaz dave ellie fiona gary helen]} {dave [ellie fiona gary helen alice bob chaz]} {ellie [fiona gary helen alice bob chaz dave]} {fiona [gary helen alice bob chaz dave ellie]} {bob [chaz dave ellie fiona gary helen alice]}]} ----
+Returned Pair : ---- &{dave alice} ----8 [5-4] -- Pairs : ----- &{[{helen [alice bob chaz dave ellie fiona gary]} {gary [helen alice bob chaz dave ellie fiona]} {chaz [dave ellie fiona gary helen alice bob]} {alice [bob chaz dave ellie fiona gary helen]} {dave [ellie fiona gary helen alice bob chaz]} {ellie [fiona gary helen alice bob chaz dave]} {fiona [gary helen alice bob chaz dave ellie]} {bob [chaz dave ellie fiona gary helen alice]}]} ----
+Returned Pair : ---- &{ellie bob} ----8 [6-4] -- Pairs : ----- &{[{helen [alice bob chaz dave ellie fiona gary]} {gary [helen alice bob chaz dave ellie fiona]} {chaz [dave ellie fiona gary helen alice bob]} {alice [bob chaz dave ellie fiona gary helen]} {dave [ellie fiona gary helen alice bob chaz]} {ellie [fiona gary helen alice bob chaz dave]} {fiona [gary helen alice bob chaz dave ellie]} {bob [chaz dave ellie fiona gary helen alice]}]} ----
+Returned Pair : ---- &{fiona chaz} ----8 [7-4] -- Pairs : ----- &{[{helen [alice bob chaz dave ellie fiona gary]} {gary [helen alice bob chaz dave ellie fiona]} {chaz [dave ellie fiona gary helen alice bob]} {alice [bob chaz dave ellie fiona gary helen]} {dave [ellie fiona gary helen alice bob chaz]} {ellie [fiona gary helen alice bob chaz dave]} {fiona [gary helen alice bob chaz dave ellie]} {bob [chaz dave ellie fiona gary helen alice]}]} ----
+Returned Pair : ---- &{bob gary} ----
+[ Autotest Commands
+	 Utxos conf/ubi.conf
+	 PayCoins users/helen.conf 0 users/ellie.pub
+	 PayCoins users/gary.conf 0 users/dave.pub
+	 PayCoins users/chaz.conf 0 users/helen.pub
+	 PayCoins users/alice.conf 0 users/fiona.pub
+	 PayCoins users/dave.conf 0 users/alice.pub
+	 PayCoins users/ellie.conf 0 users/bob.pub
+	 PayCoins users/fiona.conf 0 users/chaz.pub
+	 PayCoins users/bob.conf 0 users/gary.pub
+]
+[0] Utxos conf/ubi.conf
+Stacked:  {Utxos map[ubiers:users newtxs:blocks/newtxs pubkey:keys/public.key ubiers2:users2 strexp:Update Balances in Listener. utxos:blocks/utxos pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCrtJSkjl+P06RUIACreJe7RTL5kBKUbYR+KNrvCbmjyKhvHbSWtLNAqrIHKyrcL0reeXfFS6IzFSxHsbr00b1t315IFxVuVADfnavZicTezMFyEapCDPDvJLxXeSPoXJ6hyxOB8SgeJ9Ted3HhNss4iUjs1pC1W85KKPuePFK4owIDAQAB ubi:100 originalcmd:Autotest cmd:Utxos verbose:true privkey:keys/private.key pubhash:QSoT0u9VlnrL4wq2pppy+jB4lEbYJ7xeWnE1VKzgVic= timer:0s ledge:blocks/ledger who:conf/ubi.conf] []}
+Sending GetUtxos for conf/ubi.conf
+Utxos Transaction Completed.
+[    OwnerOut: Id/Seq: 0000000000000/0 Denom: 0: QSoT0u9VlnrL4wq2pppy+jB4lEbYJ7xeWnE1VKzgVic=
+OwnerOut Total: 0
+[1] PayCoins users/helen.conf 0 users/ellie.pub
+Stacked:  {PayCoins map[pubkey:users/helen.pub privkey:users/helen.priv cmd:PayCoins who:users/helen.conf strexp:OK. payee:users/ellie.pub pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCllyPLTZap6VSUG+CRLRvJGY/D06JtbiLGvnS5Z4V7iDHNFw7x2mZbW2igLWqJzIZmAZz8U6U62IZxAcZCEviqKbkpol+U5aUllGIBVrh6GJXJcItXp4CzejOeAUFSr1FWy1hJlXLlIeLsi41VkYFbL/bxCfViZEjq2rqxEE4jowIDAQAB payhash:tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs= pubhash:jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo= amount:0 originalcmd:Autotest] []}
+SAVEDBALANCES
+,wVWP7=302,uQREk=7,jlvgV=218,vK1HK=47,2MwzA=231,XLuz8=297,tGjSE=314,/4fvU=257
+Sending GetBalance for users/helen.conf
+SAVEDBALANCES
+,wVWP7=302,uQREk=7,jlvgV=65,vK1HK=47,2MwzA=231,XLuz8=297,tGjSE=314,/4fvU=257
+BuildPay: setting payment to 6 out of 65
+My (users/helen.conf) Balance = 65
+[    BUILDPAYDIAGNOSTIC: Id/Seq: 1494626974609/1 Denom: 40: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626977322/0 Denom: 25: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+BUILDPAYDIAGNOSTIC Total: 65
+BuildPay: users/helen.conf pays 6 to users/ellie.pub
+IN build Pay: 1494627060018: PayCoins
+[    OwnerIn : Id/Seq: 1494626974609/1 Denom: 40: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+OwnerIn  Total: 40
+[    OwnerOut : Id/Seq: 1494627060018/0 Denom: 6: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+   OwnerOut : Id/Seq: 1494627060018/1 Denom: 34: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+OwnerOut  Total: 40
+Tsig[:20]:  ZSTFDQWJXhr27H9QBsIA
+PayCoins Transaction Completed.
+[    OwnerOut: Id/Seq: 1494627060018/0 Denom: 6: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+   OwnerOut: Id/Seq: 1494627060018/1 Denom: 34: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+OwnerOut Total: 40
+[2] PayCoins users/gary.conf 0 users/dave.pub
+Stacked:  {PayCoins map[pubkey:users/gary.pub privkey:users/gary.priv cmd:PayCoins who:users/gary.conf strexp:OK. payee:users/dave.pub pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCh3ulGlfT6DhY7xB7pRaSeDZErGwRXui31TE7cm6zLG8EzQmgDcu6RuA9/XuL412f7+ST0nA1W5GrFWkM8qpDeBneu/wiOqbdNTd6SUi1uNL+jwjCBLHMVpjD6fkWzACyjjo/5irxIYz3q9kP8K8upjwh/WUkM5KPE0GyR+HT9dQIDAQAB payhash:/4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U= pubhash:uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0= amount:0 originalcmd:Autotest] []}
+SAVEDBALANCES
+,wVWP7=302,uQREk=7,jlvgV=65,vK1HK=47,2MwzA=231,XLuz8=297,tGjSE=314,/4fvU=257
+Sending GetBalance for users/gary.conf
+SAVEDBALANCES
+,wVWP7=302,uQREk=67,jlvgV=65,vK1HK=47,2MwzA=231,XLuz8=297,tGjSE=314,/4fvU=257
+BuildPay: setting payment to 12 out of 67
+My (users/gary.conf) Balance = 67
+[    BUILDPAYDIAGNOSTIC: Id/Seq: 1494626975716/0 Denom: 4: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494627008115/1 Denom: 2: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494627011436/0 Denom: 61: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+BUILDPAYDIAGNOSTIC Total: 67
+BuildPay: users/gary.conf pays 12 to users/dave.pub
+IN build Pay: 1494627060680: PayCoins
+[    OwnerIn : Id/Seq: 1494627011436/0 Denom: 61: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerIn  Total: 61
+[    OwnerOut : Id/Seq: 1494627060680/0 Denom: 12: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   OwnerOut : Id/Seq: 1494627060680/1 Denom: 49: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerOut  Total: 61
+Tsig[:20]:  VRmVv2uFPLY3kTi85rH3
+PayCoins Transaction Completed.
+[    OwnerOut: Id/Seq: 1494627060680/0 Denom: 12: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   OwnerOut: Id/Seq: 1494627060680/1 Denom: 49: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerOut Total: 61
+[3] PayCoins users/chaz.conf 0 users/helen.pub
+Stacked:  {PayCoins map[pubkey:users/chaz.pub privkey:users/chaz.priv cmd:PayCoins who:users/chaz.conf strexp:OK. payee:users/helen.pub pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDknJU8f+BCmb9RvZK/ChvFqw4RDtLtUFdyu7FfF/33clJ8liWUNSwQp/D+xfGVYh+7/Q+pmscCcTPWrGS4s6ChVusiYt0BTyCNi48ypEqqissHjgCRNkXHcFhfSsD9kvj7HEa4iZSzNRVmjxhs8Rd/PLWkCkAPW0KW1p9rjOFgDwIDAQAB payhash:jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo= pubhash:2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk= amount:0 originalcmd:Autotest] []}
+SAVEDBALANCES
+,wVWP7=302,uQREk=67,jlvgV=65,vK1HK=47,2MwzA=231,XLuz8=297,tGjSE=314,/4fvU=257
+Sending GetBalance for users/chaz.conf
+SAVEDBALANCES
+,wVWP7=302,uQREk=67,jlvgV=65,vK1HK=47,2MwzA=231,XLuz8=297,tGjSE=314,/4fvU=257
+BuildPay: setting payment to 221 out of 231
+My (users/chaz.conf) Balance = 231
+[    BUILDPAYDIAGNOSTIC: Id/Seq: 1494626890340/0 Denom: 144: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626891444/1 Denom: 59: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626975274/0 Denom: 4: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626975716/1 Denom: 24: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+BUILDPAYDIAGNOSTIC Total: 231
+BuildConsolipay: users/chaz.conf consolidates and pays 221 to jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=.
+Consolipay:: 1494627061225: PayCoins
+[    OwnerIn : Id/Seq: 1494626890340/0 Denom: 144: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+   OwnerIn : Id/Seq: 1494626891444/1 Denom: 59: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+   OwnerIn : Id/Seq: 1494626975274/0 Denom: 4: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+   OwnerIn : Id/Seq: 1494626975716/1 Denom: 24: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+OwnerIn  Total: 231
+[    OwnerOut : Id/Seq: 1494627061225/0 Denom: 221: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+   OwnerOut : Id/Seq: 1494627061225/1 Denom: 10: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+OwnerOut  Total: 231
+Tsig[:20]:  EGsPYlnIwDZDeSXPyfwq
+PayCoins Transaction Completed.
+[    OwnerOut: Id/Seq: 1494627061225/0 Denom: 221: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+   OwnerOut: Id/Seq: 1494627061225/1 Denom: 10: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+OwnerOut Total: 231
+[4] PayCoins users/alice.conf 0 users/fiona.pub
+Stacked:  {PayCoins map[pubkey:users/alice.pub privkey:users/alice.priv cmd:PayCoins who:users/alice.conf strexp:OK. payee:users/fiona.pub pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCyzMq7gawMJB0+bfW7uEMTPXY2AwjfOwoECafWCGiFHa64XMMI7Kq9ignR/TpZ3HZKcTWbHWUA6cgWT5acWkHo7ZPIK3VYfBDkeFLnoq7H+B2LreOKWENDSKtto/KGK5cPf4FhBzY0GIp4Dus+yJJMvAikpQ7mCoV/k8BHjRCddwIDAQAB payhash:vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs= pubhash:wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E= amount:0 originalcmd:Autotest] []}
+SAVEDBALANCES
+,wVWP7=302,uQREk=67,jlvgV=65,vK1HK=47,2MwzA=231,XLuz8=297,tGjSE=314,/4fvU=257
+Sending GetBalance for users/alice.conf
+SAVEDBALANCES
+,wVWP7=254,uQREk=67,jlvgV=65,vK1HK=47,2MwzA=231,XLuz8=297,tGjSE=314,/4fvU=257
+BuildPay: setting payment to 152 out of 254
+My (users/alice.conf) Balance = 254
+[    BUILDPAYDIAGNOSTIC: Id/Seq: 1494626976552/1 Denom: 19: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626977789/0 Denom: 235: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+BUILDPAYDIAGNOSTIC Total: 254
+BuildPay: users/alice.conf pays 152 to users/fiona.pub
+IN build Pay: 1494627061715: PayCoins
+[    OwnerIn : Id/Seq: 1494626977789/0 Denom: 235: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+OwnerIn  Total: 235
+[    OwnerOut : Id/Seq: 1494627061715/0 Denom: 152: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerOut : Id/Seq: 1494627061715/1 Denom: 83: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+OwnerOut  Total: 235
+Tsig[:20]:  c1JT+0WJtG0D2uB4Sjgk
+PayCoins Transaction Completed.
+[    OwnerOut: Id/Seq: 1494627061715/0 Denom: 152: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerOut: Id/Seq: 1494627061715/1 Denom: 83: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+OwnerOut Total: 235
+[5] PayCoins users/dave.conf 0 users/alice.pub
+Stacked:  {PayCoins map[pubkey:users/dave.pub privkey:users/dave.priv cmd:PayCoins who:users/dave.conf strexp:OK. payee:users/alice.pub pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDcce9CTqGUu3E4doeY9YP9TiQ3yICbqrivzKwTk4hJjYqyIQYzdrYglwukJIk3duy3EXx87q3NxIMqHtQjWxMtxbKH9AE5XwNFuEpMEH7au7/h8lb86jIHrraEX/XWwV3XeY2BOdWS82HJ+zSH4tXRQCo0r2uq8peSqYAfxdR4XQIDAQAB payhash:wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E= pubhash:/4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U= amount:0 originalcmd:Autotest] []}
+SAVEDBALANCES
+,wVWP7=254,uQREk=67,jlvgV=65,vK1HK=47,2MwzA=231,XLuz8=297,tGjSE=314,/4fvU=257
+Sending GetBalance for users/dave.conf
+SAVEDBALANCES
+,wVWP7=254,uQREk=67,jlvgV=65,vK1HK=47,2MwzA=231,XLuz8=297,tGjSE=314,/4fvU=410
+BuildPay: setting payment to 102 out of 410
+My (users/dave.conf) Balance = 410
+[    BUILDPAYDIAGNOSTIC: Id/Seq: 1494626722065/0 Denom: 1: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626807627/1 Denom: 25: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626891945/0 Denom: 168: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626892419/1 Denom: 32: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626974609/0 Denom: 178: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626977322/1 Denom: 6: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+BUILDPAYDIAGNOSTIC Total: 410
+BuildPay: users/dave.conf pays 102 to users/alice.pub
+IN build Pay: 1494627062312: PayCoins
+[    OwnerIn : Id/Seq: 1494626891945/0 Denom: 168: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+OwnerIn  Total: 168
+[    OwnerOut : Id/Seq: 1494627062312/0 Denom: 102: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+   OwnerOut : Id/Seq: 1494627062312/1 Denom: 66: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+OwnerOut  Total: 168
+Tsig[:20]:  tvov5ccc6EsL01gXZnt4
+PayCoins Transaction Completed.
+[    OwnerOut: Id/Seq: 1494627062312/0 Denom: 102: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+   OwnerOut: Id/Seq: 1494627062312/1 Denom: 66: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+OwnerOut Total: 168
+[6] PayCoins users/ellie.conf 0 users/bob.pub
+Stacked:  {PayCoins map[pubkey:users/ellie.pub privkey:users/ellie.priv cmd:PayCoins who:users/ellie.conf strexp:OK. payee:users/bob.pub pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDIZxEO9zixB9BeVjAvmOrd12ImXC03JxNfhGLOHOMtYLhqFLIlKi3Uo2xo0aoqngi0b9KQiVOEWlEESEZmanlKd90ZzA9NhYFrystpi/o7CMd1hX8qrBFEzkVC2dvBxVczhvEHbJkTBR4hGplh+3xxY0cZoCifaWSWYhO9bMWnLQIDAQAB payhash:XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk= pubhash:tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs= amount:0 originalcmd:Autotest] []}
+SAVEDBALANCES
+,wVWP7=254,uQREk=67,jlvgV=65,vK1HK=47,2MwzA=231,XLuz8=297,tGjSE=314,/4fvU=410
+Sending GetBalance for users/ellie.conf
+SAVEDBALANCES
+,wVWP7=254,uQREk=67,jlvgV=65,vK1HK=47,2MwzA=231,XLuz8=297,tGjSE=362,/4fvU=410
+BuildPay: setting payment to 65 out of 362
+My (users/ellie.conf) Balance = 362
+[    BUILDPAYDIAGNOSTIC: Id/Seq: 1494626976552/0 Denom: 283: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626977789/1 Denom: 79: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+BUILDPAYDIAGNOSTIC Total: 362
+BuildPay: users/ellie.conf pays 65 to users/bob.pub
+IN build Pay: 1494627063054: PayCoins
+[    OwnerIn : Id/Seq: 1494626976552/0 Denom: 283: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+OwnerIn  Total: 283
+[    OwnerOut : Id/Seq: 1494627063054/0 Denom: 65: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+   OwnerOut : Id/Seq: 1494627063054/1 Denom: 218: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+OwnerOut  Total: 283
+Tsig[:20]:  moZCl9xzZj9cI/laAQdr
+PayCoins Transaction Completed.
+[    OwnerOut: Id/Seq: 1494627063054/0 Denom: 65: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+   OwnerOut: Id/Seq: 1494627063054/1 Denom: 218: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+OwnerOut Total: 283
+[7] PayCoins users/fiona.conf 0 users/chaz.pub
+Stacked:  {PayCoins map[pubkey:users/fiona.pub privkey:users/fiona.priv cmd:PayCoins who:users/fiona.conf strexp:OK. payee:users/chaz.pub pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChw+/3t6K8N30eKEbYaE0ptaDqOEONobsQZ+blpwl7ADPgqS+qxi6pXt1meR8WybK/I71OZM6fhqgjr5dLK1+GF8fkeaeBbU/YGYVP2ChJ1dp/Ju7ku3KfgEYyL48d2AuwDSAyxkYyffwbGIiJg3Li+SPBvRLUigazPvPxCtlCMwIDAQAB payhash:2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk= pubhash:vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs= amount:0 originalcmd:Autotest] []}
+SAVEDBALANCES
+,wVWP7=254,uQREk=67,jlvgV=65,vK1HK=47,2MwzA=231,XLuz8=297,tGjSE=362,/4fvU=410
+Sending GetBalance for users/fiona.conf
+SAVEDBALANCES
+,wVWP7=254,uQREk=67,jlvgV=65,vK1HK=22,2MwzA=231,XLuz8=297,tGjSE=362,/4fvU=410
+BuildPay: setting payment to 17 out of 22
+My (users/fiona.conf) Balance = 22
+[    BUILDPAYDIAGNOSTIC: Id/Seq: 1494627012101/1 Denom: 22: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+BUILDPAYDIAGNOSTIC Total: 22
+BuildPay: users/fiona.conf pays 17 to users/chaz.pub
+IN build Pay: 1494627063655: PayCoins
+[    OwnerIn : Id/Seq: 1494627012101/1 Denom: 22: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerIn  Total: 22
+[    OwnerOut : Id/Seq: 1494627063655/0 Denom: 17: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+   OwnerOut : Id/Seq: 1494627063655/1 Denom: 5: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerOut  Total: 22
+Tsig[:20]:  WAHZ3Vx96yMTkQKkEsol
+PayCoins Transaction Completed.
+[    OwnerOut: Id/Seq: 1494627063655/0 Denom: 17: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+   OwnerOut: Id/Seq: 1494627063655/1 Denom: 5: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerOut Total: 22
+[8] PayCoins users/bob.conf 0 users/gary.pub
+Stacked:  {PayCoins map[pubkey:users/bob.pub privkey:users/bob.priv cmd:PayCoins who:users/bob.conf strexp:OK. payee:users/gary.pub pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDMym0hgwRlSG8MbefoMEp31YNYMlwOg5omqfBXpmspAXCF4F8c6H2jLSsyx7NYxmMBsdvMjzGLRJvOL2Hp0x/JQpCuFA++4EpNlgKRv2FZOyGDbdZH7xeqe9Lh9ysWpmTHMEOJaGbcjxewbF1eTlnWHabgwI1rfOFn3wHt3tJYXwIDAQAB payhash:uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0= pubhash:XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk= amount:0 originalcmd:Autotest] []}
+SAVEDBALANCES
+,wVWP7=254,uQREk=67,jlvgV=65,vK1HK=22,2MwzA=231,XLuz8=297,tGjSE=362,/4fvU=410
+Sending GetBalance for users/bob.conf
+SAVEDBALANCES
+,wVWP7=254,uQREk=67,jlvgV=65,vK1HK=22,2MwzA=231,XLuz8=172,tGjSE=362,/4fvU=410
+BuildPay: setting payment to 43 out of 172
+My (users/bob.conf) Balance = 172
+[    BUILDPAYDIAGNOSTIC: Id/Seq: 1494626978361/0 Denom: 41: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626979028/1 Denom: 131: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+BUILDPAYDIAGNOSTIC Total: 172
+BuildPay: users/bob.conf pays 43 to users/gary.pub
+IN build Pay: 1494627064295: PayCoins
+[    OwnerIn : Id/Seq: 1494626979028/1 Denom: 131: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+OwnerIn  Total: 131
+[    OwnerOut : Id/Seq: 1494627064295/0 Denom: 43: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerOut : Id/Seq: 1494627064295/1 Denom: 88: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+OwnerOut  Total: 131
+Tsig[:20]:  o8Gb+5Gn6MukePBJZxmC
+PayCoins Transaction Completed.
+[    OwnerOut: Id/Seq: 1494627064295/0 Denom: 43: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerOut: Id/Seq: 1494627064295/1 Denom: 88: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+OwnerOut Total: 131
+[4] Wait 70s till Clearing is completed ...   ... Start next round.
+8 [0-5] -- Pairs : ----- &{[{helen [alice bob chaz dave ellie fiona gary]} {gary [helen alice bob chaz dave ellie fiona]} {chaz [dave ellie fiona gary helen alice bob]} {alice [bob chaz dave ellie fiona gary helen]} {dave [ellie fiona gary helen alice bob chaz]} {ellie [fiona gary helen alice bob chaz dave]} {fiona [gary helen alice bob chaz dave ellie]} {bob [chaz dave ellie fiona gary helen alice]}]} ----
+Returned Pair : ---- &{helen fiona} ----8 [1-5] -- Pairs : ----- &{[{helen [alice bob chaz dave ellie fiona gary]} {gary [helen alice bob chaz dave ellie fiona]} {chaz [dave ellie fiona gary helen alice bob]} {alice [bob chaz dave ellie fiona gary helen]} {dave [ellie fiona gary helen alice bob chaz]} {ellie [fiona gary helen alice bob chaz dave]} {fiona [gary helen alice bob chaz dave ellie]} {bob [chaz dave ellie fiona gary helen alice]}]} ----
+Returned Pair : ---- &{gary ellie} ----8 [2-5] -- Pairs : ----- &{[{helen [alice bob chaz dave ellie fiona gary]} {gary [helen alice bob chaz dave ellie fiona]} {chaz [dave ellie fiona gary helen alice bob]} {alice [bob chaz dave ellie fiona gary helen]} {dave [ellie fiona gary helen alice bob chaz]} {ellie [fiona gary helen alice bob chaz dave]} {fiona [gary helen alice bob chaz dave ellie]} {bob [chaz dave ellie fiona gary helen alice]}]} ----
+Returned Pair : ---- &{chaz alice} ----8 [3-5] -- Pairs : ----- &{[{helen [alice bob chaz dave ellie fiona gary]} {gary [helen alice bob chaz dave ellie fiona]} {chaz [dave ellie fiona gary helen alice bob]} {alice [bob chaz dave ellie fiona gary helen]} {dave [ellie fiona gary helen alice bob chaz]} {ellie [fiona gary helen alice bob chaz dave]} {fiona [gary helen alice bob chaz dave ellie]} {bob [chaz dave ellie fiona gary helen alice]}]} ----
+Returned Pair : ---- &{alice gary} ----8 [4-5] -- Pairs : ----- &{[{helen [alice bob chaz dave ellie fiona gary]} {gary [helen alice bob chaz dave ellie fiona]} {chaz [dave ellie fiona gary helen alice bob]} {alice [bob chaz dave ellie fiona gary helen]} {dave [ellie fiona gary helen alice bob chaz]} {ellie [fiona gary helen alice bob chaz dave]} {fiona [gary helen alice bob chaz dave ellie]} {bob [chaz dave ellie fiona gary helen alice]}]} ----
+Returned Pair : ---- &{dave bob} ----8 [5-5] -- Pairs : ----- &{[{helen [alice bob chaz dave ellie fiona gary]} {gary [helen alice bob chaz dave ellie fiona]} {chaz [dave ellie fiona gary helen alice bob]} {alice [bob chaz dave ellie fiona gary helen]} {dave [ellie fiona gary helen alice bob chaz]} {ellie [fiona gary helen alice bob chaz dave]} {fiona [gary helen alice bob chaz dave ellie]} {bob [chaz dave ellie fiona gary helen alice]}]} ----
+Returned Pair : ---- &{ellie chaz} ----8 [6-5] -- Pairs : ----- &{[{helen [alice bob chaz dave ellie fiona gary]} {gary [helen alice bob chaz dave ellie fiona]} {chaz [dave ellie fiona gary helen alice bob]} {alice [bob chaz dave ellie fiona gary helen]} {dave [ellie fiona gary helen alice bob chaz]} {ellie [fiona gary helen alice bob chaz dave]} {fiona [gary helen alice bob chaz dave ellie]} {bob [chaz dave ellie fiona gary helen alice]}]} ----
+Returned Pair : ---- &{fiona dave} ----8 [7-5] -- Pairs : ----- &{[{helen [alice bob chaz dave ellie fiona gary]} {gary [helen alice bob chaz dave ellie fiona]} {chaz [dave ellie fiona gary helen alice bob]} {alice [bob chaz dave ellie fiona gary helen]} {dave [ellie fiona gary helen alice bob chaz]} {ellie [fiona gary helen alice bob chaz dave]} {fiona [gary helen alice bob chaz dave ellie]} {bob [chaz dave ellie fiona gary helen alice]}]} ----
+Returned Pair : ---- &{bob helen} ----
+[ Autotest Commands
+	 Utxos conf/ubi.conf
+	 PayCoins users/helen.conf 0 users/fiona.pub
+	 PayCoins users/gary.conf 0 users/ellie.pub
+	 PayCoins users/chaz.conf 0 users/alice.pub
+	 PayCoins users/alice.conf 0 users/gary.pub
+	 PayCoins users/dave.conf 0 users/bob.pub
+	 PayCoins users/ellie.conf 0 users/chaz.pub
+	 PayCoins users/fiona.conf 0 users/dave.pub
+	 PayCoins users/bob.conf 0 users/helen.pub
+]
+[0] Utxos conf/ubi.conf
+Stacked:  {Utxos map[ubiers:users newtxs:blocks/newtxs pubkey:keys/public.key ubiers2:users2 strexp:Update Balances in Listener. utxos:blocks/utxos pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCrtJSkjl+P06RUIACreJe7RTL5kBKUbYR+KNrvCbmjyKhvHbSWtLNAqrIHKyrcL0reeXfFS6IzFSxHsbr00b1t315IFxVuVADfnavZicTezMFyEapCDPDvJLxXeSPoXJ6hyxOB8SgeJ9Ted3HhNss4iUjs1pC1W85KKPuePFK4owIDAQAB ubi:100 originalcmd:Autotest cmd:Utxos verbose:true privkey:keys/private.key pubhash:QSoT0u9VlnrL4wq2pppy+jB4lEbYJ7xeWnE1VKzgVic= timer:0s ledge:blocks/ledger who:conf/ubi.conf] []}
+Sending GetUtxos for conf/ubi.conf
+Utxos Transaction Completed.
+[    OwnerOut: Id/Seq: 0000000000000/0 Denom: 0: QSoT0u9VlnrL4wq2pppy+jB4lEbYJ7xeWnE1VKzgVic=
+OwnerOut Total: 0
+[1] PayCoins users/helen.conf 0 users/fiona.pub
+Stacked:  {PayCoins map[pubkey:users/helen.pub privkey:users/helen.priv cmd:PayCoins who:users/helen.conf strexp:OK. payee:users/fiona.pub pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCllyPLTZap6VSUG+CRLRvJGY/D06JtbiLGvnS5Z4V7iDHNFw7x2mZbW2igLWqJzIZmAZz8U6U62IZxAcZCEviqKbkpol+U5aUllGIBVrh6GJXJcItXp4CzejOeAUFSr1FWy1hJlXLlIeLsi41VkYFbL/bxCfViZEjq2rqxEE4jowIDAQAB payhash:vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs= pubhash:jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo= amount:0 originalcmd:Autotest] []}
+SAVEDBALANCES
+,wVWP7=254,uQREk=67,jlvgV=65,vK1HK=22,2MwzA=231,XLuz8=172,tGjSE=362,/4fvU=410
+Sending GetBalance for users/helen.conf
+SAVEDBALANCES
+,wVWP7=254,uQREk=67,jlvgV=280,vK1HK=22,2MwzA=231,XLuz8=172,tGjSE=362,/4fvU=410
+BuildPay: setting payment to 44 out of 280
+My (users/helen.conf) Balance = 280
+[    BUILDPAYDIAGNOSTIC: Id/Seq: 1494626977322/0 Denom: 25: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494627060018/1 Denom: 34: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494627061225/0 Denom: 221: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+BUILDPAYDIAGNOSTIC Total: 280
+BuildPay: users/helen.conf pays 44 to users/fiona.pub
+IN build Pay: 1494627145293: PayCoins
+[    OwnerIn : Id/Seq: 1494627061225/0 Denom: 221: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+OwnerIn  Total: 221
+[    OwnerOut : Id/Seq: 1494627145293/0 Denom: 44: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerOut : Id/Seq: 1494627145293/1 Denom: 177: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+OwnerOut  Total: 221
+Tsig[:20]:  johnf6ABsccWkPg7x1ja
+PayCoins Transaction Completed.
+[    OwnerOut: Id/Seq: 1494627145293/0 Denom: 44: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerOut: Id/Seq: 1494627145293/1 Denom: 177: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+OwnerOut Total: 221
+[2] PayCoins users/gary.conf 0 users/ellie.pub
+Stacked:  {PayCoins map[pubkey:users/gary.pub privkey:users/gary.priv cmd:PayCoins who:users/gary.conf strexp:OK. payee:users/ellie.pub pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCh3ulGlfT6DhY7xB7pRaSeDZErGwRXui31TE7cm6zLG8EzQmgDcu6RuA9/XuL412f7+ST0nA1W5GrFWkM8qpDeBneu/wiOqbdNTd6SUi1uNL+jwjCBLHMVpjD6fkWzACyjjo/5irxIYz3q9kP8K8upjwh/WUkM5KPE0GyR+HT9dQIDAQAB payhash:tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs= pubhash:uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0= amount:0 originalcmd:Autotest] []}
+SAVEDBALANCES
+,wVWP7=254,uQREk=67,jlvgV=280,vK1HK=22,2MwzA=231,XLuz8=172,tGjSE=362,/4fvU=410
+Sending GetBalance for users/gary.conf
+SAVEDBALANCES
+,wVWP7=254,uQREk=109,jlvgV=280,vK1HK=22,2MwzA=231,XLuz8=172,tGjSE=362,/4fvU=410
+BuildPay: setting payment to 75 out of 109
+My (users/gary.conf) Balance = 109
+[    BUILDPAYDIAGNOSTIC: Id/Seq: 1494626975716/0 Denom: 4: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494627008115/1 Denom: 2: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494627064295/0 Denom: 43: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494627093280/1 Denom: 35: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494627094719/0 Denom: 25: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+BUILDPAYDIAGNOSTIC Total: 109
+BuildConsolipay: users/gary.conf consolidates and pays 75 to tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=.
+Consolipay:: 1494627146078: PayCoins
+[    OwnerIn : Id/Seq: 1494626975716/0 Denom: 4: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerIn : Id/Seq: 1494627008115/1 Denom: 2: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerIn : Id/Seq: 1494627064295/0 Denom: 43: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerIn : Id/Seq: 1494627093280/1 Denom: 35: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerIn : Id/Seq: 1494627094719/0 Denom: 25: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerIn  Total: 109
+[    OwnerOut : Id/Seq: 1494627146078/0 Denom: 75: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+   OwnerOut : Id/Seq: 1494627146078/1 Denom: 34: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerOut  Total: 109
+Tsig[:20]:  DHUGP+BlG6uekXFGBrMM
+PayCoins Transaction Completed.
+[    OwnerOut: Id/Seq: 1494627146078/0 Denom: 75: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+   OwnerOut: Id/Seq: 1494627146078/1 Denom: 34: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerOut Total: 109
+[3] PayCoins users/chaz.conf 0 users/alice.pub
+Stacked:  {PayCoins map[pubkey:users/chaz.pub privkey:users/chaz.priv cmd:PayCoins who:users/chaz.conf strexp:OK. payee:users/alice.pub pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDknJU8f+BCmb9RvZK/ChvFqw4RDtLtUFdyu7FfF/33clJ8liWUNSwQp/D+xfGVYh+7/Q+pmscCcTPWrGS4s6ChVusiYt0BTyCNi48ypEqqissHjgCRNkXHcFhfSsD9kvj7HEa4iZSzNRVmjxhs8Rd/PLWkCkAPW0KW1p9rjOFgDwIDAQAB payhash:wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E= pubhash:2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk= amount:0 originalcmd:Autotest] []}
+SAVEDBALANCES
+,wVWP7=254,uQREk=109,jlvgV=280,vK1HK=22,2MwzA=231,XLuz8=172,tGjSE=362,/4fvU=410
+Sending GetBalance for users/chaz.conf
+SAVEDBALANCES
+,wVWP7=254,uQREk=109,jlvgV=280,vK1HK=22,2MwzA=27,XLuz8=172,tGjSE=362,/4fvU=410
+BuildPay: setting payment to 13 out of 27
+My (users/chaz.conf) Balance = 27
+[    BUILDPAYDIAGNOSTIC: Id/Seq: 1494627061225/1 Denom: 10: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494627063655/0 Denom: 17: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+BUILDPAYDIAGNOSTIC Total: 27
+BuildPay: users/chaz.conf pays 13 to users/alice.pub
+IN build Pay: 1494627146667: PayCoins
+[    OwnerIn : Id/Seq: 1494627063655/0 Denom: 17: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+OwnerIn  Total: 17
+[    OwnerOut : Id/Seq: 1494627146667/0 Denom: 13: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+   OwnerOut : Id/Seq: 1494627146667/1 Denom: 4: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+OwnerOut  Total: 17
+Tsig[:20]:  Ot8d8Qr0SA1mpDTSviSD
+PayCoins Transaction Completed.
+[    OwnerOut: Id/Seq: 1494627146667/0 Denom: 13: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+   OwnerOut: Id/Seq: 1494627146667/1 Denom: 4: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+OwnerOut Total: 17
+[4] PayCoins users/alice.conf 0 users/gary.pub
+Stacked:  {PayCoins map[pubkey:users/alice.pub privkey:users/alice.priv cmd:PayCoins who:users/alice.conf strexp:OK. payee:users/gary.pub pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCyzMq7gawMJB0+bfW7uEMTPXY2AwjfOwoECafWCGiFHa64XMMI7Kq9ignR/TpZ3HZKcTWbHWUA6cgWT5acWkHo7ZPIK3VYfBDkeFLnoq7H+B2LreOKWENDSKtto/KGK5cPf4FhBzY0GIp4Dus+yJJMvAikpQ7mCoV/k8BHjRCddwIDAQAB payhash:uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0= pubhash:wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E= amount:0 originalcmd:Autotest] []}
+SAVEDBALANCES
+,wVWP7=254,uQREk=109,jlvgV=280,vK1HK=22,2MwzA=27,XLuz8=172,tGjSE=362,/4fvU=410
+Sending GetBalance for users/alice.conf
+SAVEDBALANCES
+,wVWP7=204,uQREk=109,jlvgV=280,vK1HK=22,2MwzA=27,XLuz8=172,tGjSE=362,/4fvU=410
+BuildPay: setting payment to 134 out of 204
+My (users/alice.conf) Balance = 204
+[    BUILDPAYDIAGNOSTIC: Id/Seq: 1494626976552/1 Denom: 19: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494627061715/1 Denom: 83: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494627062312/0 Denom: 102: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+BUILDPAYDIAGNOSTIC Total: 204
+BuildConsolipay: users/alice.conf consolidates and pays 134 to uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=.
+Consolipay:: 1494627147181: PayCoins
+[    OwnerIn : Id/Seq: 1494626976552/1 Denom: 19: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+   OwnerIn : Id/Seq: 1494627061715/1 Denom: 83: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+   OwnerIn : Id/Seq: 1494627062312/0 Denom: 102: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+OwnerIn  Total: 204
+[    OwnerOut : Id/Seq: 1494627147181/0 Denom: 134: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerOut : Id/Seq: 1494627147181/1 Denom: 70: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+OwnerOut  Total: 204
+Tsig[:20]:  Y1e6+pZqOgGn3CHVJjLZ
+PayCoins Transaction Completed.
+[    OwnerOut: Id/Seq: 1494627147181/0 Denom: 134: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerOut: Id/Seq: 1494627147181/1 Denom: 70: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+OwnerOut Total: 204
+[5] PayCoins users/dave.conf 0 users/bob.pub
+Stacked:  {PayCoins map[pubkey:users/dave.pub privkey:users/dave.priv cmd:PayCoins who:users/dave.conf strexp:OK. payee:users/bob.pub pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDcce9CTqGUu3E4doeY9YP9TiQ3yICbqrivzKwTk4hJjYqyIQYzdrYglwukJIk3duy3EXx87q3NxIMqHtQjWxMtxbKH9AE5XwNFuEpMEH7au7/h8lb86jIHrraEX/XWwV3XeY2BOdWS82HJ+zSH4tXRQCo0r2uq8peSqYAfxdR4XQIDAQAB payhash:XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk= pubhash:/4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U= amount:0 originalcmd:Autotest] []}
+SAVEDBALANCES
+,wVWP7=204,uQREk=109,jlvgV=280,vK1HK=22,2MwzA=27,XLuz8=172,tGjSE=362,/4fvU=410
+Sending GetBalance for users/dave.conf
+SAVEDBALANCES
+,wVWP7=204,uQREk=109,jlvgV=280,vK1HK=22,2MwzA=27,XLuz8=172,tGjSE=362,/4fvU=320
+BuildPay: setting payment to 147 out of 320
+My (users/dave.conf) Balance = 320
+[    BUILDPAYDIAGNOSTIC: Id/Seq: 1494626722065/0 Denom: 1: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626807627/1 Denom: 25: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626892419/1 Denom: 32: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626974609/0 Denom: 178: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626977322/1 Denom: 6: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494627060680/0 Denom: 12: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494627062312/1 Denom: 66: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+BUILDPAYDIAGNOSTIC Total: 320
+BuildPay: users/dave.conf pays 147 to users/bob.pub
+IN build Pay: 1494627147681: PayCoins
+[    OwnerIn : Id/Seq: 1494626974609/0 Denom: 178: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+OwnerIn  Total: 178
+[    OwnerOut : Id/Seq: 1494627147681/0 Denom: 147: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+   OwnerOut : Id/Seq: 1494627147681/1 Denom: 31: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+OwnerOut  Total: 178
+Tsig[:20]:  DMjt5LwP0p1VkLYu4nH0
+PayCoins Transaction Completed.
+[    OwnerOut: Id/Seq: 1494627147681/0 Denom: 147: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+   OwnerOut: Id/Seq: 1494627147681/1 Denom: 31: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+OwnerOut Total: 178
+[6] PayCoins users/ellie.conf 0 users/chaz.pub
+Stacked:  {PayCoins map[pubkey:users/ellie.pub privkey:users/ellie.priv cmd:PayCoins who:users/ellie.conf strexp:OK. payee:users/chaz.pub pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDIZxEO9zixB9BeVjAvmOrd12ImXC03JxNfhGLOHOMtYLhqFLIlKi3Uo2xo0aoqngi0b9KQiVOEWlEESEZmanlKd90ZzA9NhYFrystpi/o7CMd1hX8qrBFEzkVC2dvBxVczhvEHbJkTBR4hGplh+3xxY0cZoCifaWSWYhO9bMWnLQIDAQAB payhash:2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk= pubhash:tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs= amount:0 originalcmd:Autotest] []}
+SAVEDBALANCES
+,wVWP7=204,uQREk=109,jlvgV=280,vK1HK=22,2MwzA=27,XLuz8=172,tGjSE=362,/4fvU=320
+Sending GetBalance for users/ellie.conf
+SAVEDBALANCES
+,wVWP7=204,uQREk=109,jlvgV=280,vK1HK=22,2MwzA=27,XLuz8=172,tGjSE=303,/4fvU=320
+BuildPay: setting payment to 30 out of 303
+My (users/ellie.conf) Balance = 303
+[    BUILDPAYDIAGNOSTIC: Id/Seq: 1494626977789/1 Denom: 79: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494627060018/0 Denom: 6: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494627063054/1 Denom: 218: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+BUILDPAYDIAGNOSTIC Total: 303
+BuildPay: users/ellie.conf pays 30 to users/chaz.pub
+IN build Pay: 1494627148229: PayCoins
+[    OwnerIn : Id/Seq: 1494626977789/1 Denom: 79: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+OwnerIn  Total: 79
+[    OwnerOut : Id/Seq: 1494627148229/0 Denom: 30: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+   OwnerOut : Id/Seq: 1494627148229/1 Denom: 49: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+OwnerOut  Total: 79
+Tsig[:20]:  ukpo2oEJjWZL9EXP+1ah
+PayCoins Transaction Completed.
+[    OwnerOut: Id/Seq: 1494627148229/0 Denom: 30: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+   OwnerOut: Id/Seq: 1494627148229/1 Denom: 49: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+OwnerOut Total: 79
+[7] PayCoins users/fiona.conf 0 users/dave.pub
+Stacked:  {PayCoins map[pubkey:users/fiona.pub privkey:users/fiona.priv cmd:PayCoins who:users/fiona.conf strexp:OK. payee:users/dave.pub pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChw+/3t6K8N30eKEbYaE0ptaDqOEONobsQZ+blpwl7ADPgqS+qxi6pXt1meR8WybK/I71OZM6fhqgjr5dLK1+GF8fkeaeBbU/YGYVP2ChJ1dp/Ju7ku3KfgEYyL48d2AuwDSAyxkYyffwbGIiJg3Li+SPBvRLUigazPvPxCtlCMwIDAQAB payhash:/4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U= pubhash:vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs= amount:0 originalcmd:Autotest] []}
+SAVEDBALANCES
+,wVWP7=204,uQREk=109,jlvgV=280,vK1HK=22,2MwzA=27,XLuz8=172,tGjSE=303,/4fvU=320
+Sending GetBalance for users/fiona.conf
+SAVEDBALANCES
+,wVWP7=204,uQREk=109,jlvgV=280,vK1HK=206,2MwzA=27,XLuz8=172,tGjSE=303,/4fvU=320
+BuildPay: setting payment to 191 out of 206
+My (users/fiona.conf) Balance = 206
+[    BUILDPAYDIAGNOSTIC: Id/Seq: 1494627063655/1 Denom: 5: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494627095353/0 Denom: 69: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494627097691/1 Denom: 132: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+BUILDPAYDIAGNOSTIC Total: 206
+BuildConsolipay: users/fiona.conf consolidates and pays 191 to /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=.
+Consolipay:: 1494627148833: PayCoins
+[    OwnerIn : Id/Seq: 1494627063655/1 Denom: 5: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerIn : Id/Seq: 1494627095353/0 Denom: 69: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerIn : Id/Seq: 1494627097691/1 Denom: 132: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerIn  Total: 206
+[    OwnerOut : Id/Seq: 1494627148833/0 Denom: 191: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   OwnerOut : Id/Seq: 1494627148833/1 Denom: 15: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerOut  Total: 206
+Tsig[:20]:  JxS/12p9TLjlS3lXNz5s
+PayCoins Transaction Completed.
+[    OwnerOut: Id/Seq: 1494627148833/0 Denom: 191: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   OwnerOut: Id/Seq: 1494627148833/1 Denom: 15: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerOut Total: 206
+[8] PayCoins users/bob.conf 0 users/helen.pub
+Stacked:  {PayCoins map[pubkey:users/bob.pub privkey:users/bob.priv cmd:PayCoins who:users/bob.conf strexp:OK. payee:users/helen.pub pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDMym0hgwRlSG8MbefoMEp31YNYMlwOg5omqfBXpmspAXCF4F8c6H2jLSsyx7NYxmMBsdvMjzGLRJvOL2Hp0x/JQpCuFA++4EpNlgKRv2FZOyGDbdZH7xeqe9Lh9ysWpmTHMEOJaGbcjxewbF1eTlnWHabgwI1rfOFn3wHt3tJYXwIDAQAB payhash:jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo= pubhash:XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk= amount:0 originalcmd:Autotest] []}
+SAVEDBALANCES
+,wVWP7=204,uQREk=109,jlvgV=280,vK1HK=206,2MwzA=27,XLuz8=172,tGjSE=303,/4fvU=320
+Sending GetBalance for users/bob.conf
+SAVEDBALANCES
+,wVWP7=204,uQREk=109,jlvgV=280,vK1HK=206,2MwzA=27,XLuz8=194,tGjSE=303,/4fvU=320
+BuildPay: setting payment to 73 out of 194
+My (users/bob.conf) Balance = 194
+[    BUILDPAYDIAGNOSTIC: Id/Seq: 1494626978361/0 Denom: 41: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494627063054/0 Denom: 65: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494627064295/1 Denom: 88: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+BUILDPAYDIAGNOSTIC Total: 194
+BuildPay: users/bob.conf pays 73 to users/helen.pub
+IN build Pay: 1494627149354: PayCoins
+[    OwnerIn : Id/Seq: 1494627064295/1 Denom: 88: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+OwnerIn  Total: 88
+[    OwnerOut : Id/Seq: 1494627149354/0 Denom: 73: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+   OwnerOut : Id/Seq: 1494627149354/1 Denom: 15: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+OwnerOut  Total: 88
+Tsig[:20]:  Jo6pE8DnqaJ4vj2vHX2g
+PayCoins Transaction Completed.
+[    OwnerOut: Id/Seq: 1494627149354/0 Denom: 73: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+   OwnerOut: Id/Seq: 1494627149354/1 Denom: 15: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+OwnerOut Total: 88
+[5] Wait 70s till Clearing is completed ...   ... Start next round.
+8 [0-6] -- Pairs : ----- &{[{helen [alice bob chaz dave ellie fiona gary]} {gary [helen alice bob chaz dave ellie fiona]} {chaz [dave ellie fiona gary helen alice bob]} {alice [bob chaz dave ellie fiona gary helen]} {dave [ellie fiona gary helen alice bob chaz]} {ellie [fiona gary helen alice bob chaz dave]} {fiona [gary helen alice bob chaz dave ellie]} {bob [chaz dave ellie fiona gary helen alice]}]} ----
+Returned Pair : ---- &{helen gary} ----8 [1-6] -- Pairs : ----- &{[{helen [alice bob chaz dave ellie fiona gary]} {gary [helen alice bob chaz dave ellie fiona]} {chaz [dave ellie fiona gary helen alice bob]} {alice [bob chaz dave ellie fiona gary helen]} {dave [ellie fiona gary helen alice bob chaz]} {ellie [fiona gary helen alice bob chaz dave]} {fiona [gary helen alice bob chaz dave ellie]} {bob [chaz dave ellie fiona gary helen alice]}]} ----
+Returned Pair : ---- &{gary fiona} ----8 [2-6] -- Pairs : ----- &{[{helen [alice bob chaz dave ellie fiona gary]} {gary [helen alice bob chaz dave ellie fiona]} {chaz [dave ellie fiona gary helen alice bob]} {alice [bob chaz dave ellie fiona gary helen]} {dave [ellie fiona gary helen alice bob chaz]} {ellie [fiona gary helen alice bob chaz dave]} {fiona [gary helen alice bob chaz dave ellie]} {bob [chaz dave ellie fiona gary helen alice]}]} ----
+Returned Pair : ---- &{chaz bob} ----8 [3-6] -- Pairs : ----- &{[{helen [alice bob chaz dave ellie fiona gary]} {gary [helen alice bob chaz dave ellie fiona]} {chaz [dave ellie fiona gary helen alice bob]} {alice [bob chaz dave ellie fiona gary helen]} {dave [ellie fiona gary helen alice bob chaz]} {ellie [fiona gary helen alice bob chaz dave]} {fiona [gary helen alice bob chaz dave ellie]} {bob [chaz dave ellie fiona gary helen alice]}]} ----
+Returned Pair : ---- &{alice helen} ----8 [4-6] -- Pairs : ----- &{[{helen [alice bob chaz dave ellie fiona gary]} {gary [helen alice bob chaz dave ellie fiona]} {chaz [dave ellie fiona gary helen alice bob]} {alice [bob chaz dave ellie fiona gary helen]} {dave [ellie fiona gary helen alice bob chaz]} {ellie [fiona gary helen alice bob chaz dave]} {fiona [gary helen alice bob chaz dave ellie]} {bob [chaz dave ellie fiona gary helen alice]}]} ----
+Returned Pair : ---- &{dave chaz} ----8 [5-6] -- Pairs : ----- &{[{helen [alice bob chaz dave ellie fiona gary]} {gary [helen alice bob chaz dave ellie fiona]} {chaz [dave ellie fiona gary helen alice bob]} {alice [bob chaz dave ellie fiona gary helen]} {dave [ellie fiona gary helen alice bob chaz]} {ellie [fiona gary helen alice bob chaz dave]} {fiona [gary helen alice bob chaz dave ellie]} {bob [chaz dave ellie fiona gary helen alice]}]} ----
+Returned Pair : ---- &{ellie dave} ----8 [6-6] -- Pairs : ----- &{[{helen [alice bob chaz dave ellie fiona gary]} {gary [helen alice bob chaz dave ellie fiona]} {chaz [dave ellie fiona gary helen alice bob]} {alice [bob chaz dave ellie fiona gary helen]} {dave [ellie fiona gary helen alice bob chaz]} {ellie [fiona gary helen alice bob chaz dave]} {fiona [gary helen alice bob chaz dave ellie]} {bob [chaz dave ellie fiona gary helen alice]}]} ----
+Returned Pair : ---- &{fiona ellie} ----8 [7-6] -- Pairs : ----- &{[{helen [alice bob chaz dave ellie fiona gary]} {gary [helen alice bob chaz dave ellie fiona]} {chaz [dave ellie fiona gary helen alice bob]} {alice [bob chaz dave ellie fiona gary helen]} {dave [ellie fiona gary helen alice bob chaz]} {ellie [fiona gary helen alice bob chaz dave]} {fiona [gary helen alice bob chaz dave ellie]} {bob [chaz dave ellie fiona gary helen alice]}]} ----
+Returned Pair : ---- &{bob alice} ----
+[ Autotest Commands
+	 Utxos conf/ubi.conf
+	 PayCoins users/helen.conf 0 users/gary.pub
+	 PayCoins users/gary.conf 0 users/fiona.pub
+	 PayCoins users/chaz.conf 0 users/bob.pub
+	 PayCoins users/alice.conf 0 users/helen.pub
+	 PayCoins users/dave.conf 0 users/chaz.pub
+	 PayCoins users/ellie.conf 0 users/dave.pub
+	 PayCoins users/fiona.conf 0 users/ellie.pub
+	 PayCoins users/bob.conf 0 users/alice.pub
+]
+[0] Utxos conf/ubi.conf
+Stacked:  {Utxos map[ubiers:users newtxs:blocks/newtxs pubkey:keys/public.key ubiers2:users2 strexp:Update Balances in Listener. utxos:blocks/utxos pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCrtJSkjl+P06RUIACreJe7RTL5kBKUbYR+KNrvCbmjyKhvHbSWtLNAqrIHKyrcL0reeXfFS6IzFSxHsbr00b1t315IFxVuVADfnavZicTezMFyEapCDPDvJLxXeSPoXJ6hyxOB8SgeJ9Ted3HhNss4iUjs1pC1W85KKPuePFK4owIDAQAB ubi:100 originalcmd:Autotest cmd:Utxos verbose:true privkey:keys/private.key pubhash:QSoT0u9VlnrL4wq2pppy+jB4lEbYJ7xeWnE1VKzgVic= timer:0s ledge:blocks/ledger who:conf/ubi.conf] []}
+Sending GetUtxos for conf/ubi.conf
+Utxos Transaction Completed.
+[    OwnerOut: Id/Seq: 0000000000000/0 Denom: 0: QSoT0u9VlnrL4wq2pppy+jB4lEbYJ7xeWnE1VKzgVic=
+OwnerOut Total: 0
+[1] PayCoins users/helen.conf 0 users/gary.pub
+Stacked:  {PayCoins map[pubkey:users/helen.pub privkey:users/helen.priv cmd:PayCoins who:users/helen.conf strexp:OK. payee:users/gary.pub pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCllyPLTZap6VSUG+CRLRvJGY/D06JtbiLGvnS5Z4V7iDHNFw7x2mZbW2igLWqJzIZmAZz8U6U62IZxAcZCEviqKbkpol+U5aUllGIBVrh6GJXJcItXp4CzejOeAUFSr1FWy1hJlXLlIeLsi41VkYFbL/bxCfViZEjq2rqxEE4jowIDAQAB payhash:uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0= pubhash:jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo= amount:0 originalcmd:Autotest] []}
+SAVEDBALANCES
+,wVWP7=204,uQREk=109,jlvgV=280,vK1HK=206,2MwzA=27,XLuz8=194,tGjSE=303,/4fvU=320
+Sending GetBalance for users/helen.conf
+SAVEDBALANCES
+,wVWP7=204,uQREk=109,jlvgV=309,vK1HK=206,2MwzA=27,XLuz8=194,tGjSE=303,/4fvU=320
+BuildPay: setting payment to 3 out of 309
+My (users/helen.conf) Balance = 309
+[    BUILDPAYDIAGNOSTIC: Id/Seq: 1494626977322/0 Denom: 25: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494627060018/1 Denom: 34: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494627145293/1 Denom: 177: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494627149354/0 Denom: 73: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+BUILDPAYDIAGNOSTIC Total: 309
+BuildPay: users/helen.conf pays 3 to users/gary.pub
+IN build Pay: 1494627230282: PayCoins
+[    OwnerIn : Id/Seq: 1494626977322/0 Denom: 25: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+OwnerIn  Total: 25
+[    OwnerOut : Id/Seq: 1494627230282/0 Denom: 3: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerOut : Id/Seq: 1494627230282/1 Denom: 22: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+OwnerOut  Total: 25
+Tsig[:20]:  SX4ZScwNiSyERJ8w/2YR
+PayCoins Transaction Completed.
+[    OwnerOut: Id/Seq: 1494627230282/0 Denom: 3: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   OwnerOut: Id/Seq: 1494627230282/1 Denom: 22: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+OwnerOut Total: 25
+[2] PayCoins users/gary.conf 0 users/fiona.pub
+Stacked:  {PayCoins map[pubkey:users/gary.pub privkey:users/gary.priv cmd:PayCoins who:users/gary.conf strexp:OK. payee:users/fiona.pub pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCh3ulGlfT6DhY7xB7pRaSeDZErGwRXui31TE7cm6zLG8EzQmgDcu6RuA9/XuL412f7+ST0nA1W5GrFWkM8qpDeBneu/wiOqbdNTd6SUi1uNL+jwjCBLHMVpjD6fkWzACyjjo/5irxIYz3q9kP8K8upjwh/WUkM5KPE0GyR+HT9dQIDAQAB payhash:vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs= pubhash:uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0= amount:0 originalcmd:Autotest] []}
+SAVEDBALANCES
+,wVWP7=204,uQREk=109,jlvgV=309,vK1HK=206,2MwzA=27,XLuz8=194,tGjSE=303,/4fvU=320
+Sending GetBalance for users/gary.conf
+SAVEDBALANCES
+,wVWP7=204,uQREk=7,jlvgV=309,vK1HK=206,2MwzA=27,XLuz8=194,tGjSE=303,/4fvU=320
+BuildPay: setting payment to 2 out of 7
+My (users/gary.conf) Balance = 7
+[    BUILDPAYDIAGNOSTIC: Id/Seq: 1494627178564/1 Denom: 6: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494627180072/0 Denom: 1: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+BUILDPAYDIAGNOSTIC Total: 7
+BuildPay: users/gary.conf pays 2 to users/fiona.pub
+IN build Pay: 1494627230902: PayCoins
+[    OwnerIn : Id/Seq: 1494627178564/1 Denom: 6: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerIn  Total: 6
+[    OwnerOut : Id/Seq: 1494627230902/0 Denom: 2: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerOut : Id/Seq: 1494627230902/1 Denom: 4: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerOut  Total: 6
+Tsig[:20]:  X1mW/ngEMr6LZrC6JAZb
+PayCoins Transaction Completed.
+[    OwnerOut: Id/Seq: 1494627230902/0 Denom: 2: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   OwnerOut: Id/Seq: 1494627230902/1 Denom: 4: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+OwnerOut Total: 6
+[3] PayCoins users/chaz.conf 0 users/bob.pub
+Stacked:  {PayCoins map[pubkey:users/chaz.pub privkey:users/chaz.priv cmd:PayCoins who:users/chaz.conf strexp:OK. payee:users/bob.pub pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDknJU8f+BCmb9RvZK/ChvFqw4RDtLtUFdyu7FfF/33clJ8liWUNSwQp/D+xfGVYh+7/Q+pmscCcTPWrGS4s6ChVusiYt0BTyCNi48ypEqqissHjgCRNkXHcFhfSsD9kvj7HEa4iZSzNRVmjxhs8Rd/PLWkCkAPW0KW1p9rjOFgDwIDAQAB payhash:XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk= pubhash:2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk= amount:0 originalcmd:Autotest] []}
+SAVEDBALANCES
+,wVWP7=204,uQREk=7,jlvgV=309,vK1HK=206,2MwzA=27,XLuz8=194,tGjSE=303,/4fvU=320
+Sending GetBalance for users/chaz.conf
+SAVEDBALANCES
+,wVWP7=204,uQREk=7,jlvgV=309,vK1HK=206,2MwzA=44,XLuz8=194,tGjSE=303,/4fvU=320
+BuildPay: setting payment to 12 out of 44
+My (users/chaz.conf) Balance = 44
+[    BUILDPAYDIAGNOSTIC: Id/Seq: 1494627061225/1 Denom: 10: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494627146667/1 Denom: 4: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494627148229/0 Denom: 30: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+BUILDPAYDIAGNOSTIC Total: 44
+BuildPay: users/chaz.conf pays 12 to users/bob.pub
+IN build Pay: 1494627231725: PayCoins
+[    OwnerIn : Id/Seq: 1494627148229/0 Denom: 30: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+OwnerIn  Total: 30
+[    OwnerOut : Id/Seq: 1494627231725/0 Denom: 12: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+   OwnerOut : Id/Seq: 1494627231725/1 Denom: 18: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+OwnerOut  Total: 30
+Tsig[:20]:  TKUkvIcpE+WWIYAq3nXs
+PayCoins Transaction Completed.
+[    OwnerOut: Id/Seq: 1494627231725/0 Denom: 12: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+   OwnerOut: Id/Seq: 1494627231725/1 Denom: 18: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+OwnerOut Total: 30
+[4] PayCoins users/alice.conf 0 users/helen.pub
+Stacked:  {PayCoins map[pubkey:users/alice.pub privkey:users/alice.priv cmd:PayCoins who:users/alice.conf strexp:OK. payee:users/helen.pub pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCyzMq7gawMJB0+bfW7uEMTPXY2AwjfOwoECafWCGiFHa64XMMI7Kq9ignR/TpZ3HZKcTWbHWUA6cgWT5acWkHo7ZPIK3VYfBDkeFLnoq7H+B2LreOKWENDSKtto/KGK5cPf4FhBzY0GIp4Dus+yJJMvAikpQ7mCoV/k8BHjRCddwIDAQAB payhash:jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo= pubhash:wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E= amount:0 originalcmd:Autotest] []}
+SAVEDBALANCES
+,wVWP7=204,uQREk=7,jlvgV=309,vK1HK=206,2MwzA=44,XLuz8=194,tGjSE=303,/4fvU=320
+Sending GetBalance for users/alice.conf
+SAVEDBALANCES
+,wVWP7=83,uQREk=7,jlvgV=309,vK1HK=206,2MwzA=44,XLuz8=194,tGjSE=303,/4fvU=320
+BuildPay: setting payment to 68 out of 83
+My (users/alice.conf) Balance = 83
+[    BUILDPAYDIAGNOSTIC: Id/Seq: 1494627146667/0 Denom: 13: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494627147181/1 Denom: 70: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+BUILDPAYDIAGNOSTIC Total: 83
+BuildPay: users/alice.conf pays 68 to users/helen.pub
+IN build Pay: 1494627232440: PayCoins
+[    OwnerIn : Id/Seq: 1494627147181/1 Denom: 70: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+OwnerIn  Total: 70
+[    OwnerOut : Id/Seq: 1494627232440/0 Denom: 68: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+   OwnerOut : Id/Seq: 1494627232440/1 Denom: 2: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+OwnerOut  Total: 70
+Tsig[:20]:  YwBbhsPHrgjceHEPzm9F
+PayCoins Transaction Completed.
+[    OwnerOut: Id/Seq: 1494627232440/0 Denom: 68: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+   OwnerOut: Id/Seq: 1494627232440/1 Denom: 2: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+OwnerOut Total: 70
+[5] PayCoins users/dave.conf 0 users/chaz.pub
+Stacked:  {PayCoins map[pubkey:users/dave.pub privkey:users/dave.priv cmd:PayCoins who:users/dave.conf strexp:OK. payee:users/chaz.pub pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDcce9CTqGUu3E4doeY9YP9TiQ3yICbqrivzKwTk4hJjYqyIQYzdrYglwukJIk3duy3EXx87q3NxIMqHtQjWxMtxbKH9AE5XwNFuEpMEH7au7/h8lb86jIHrraEX/XWwV3XeY2BOdWS82HJ+zSH4tXRQCo0r2uq8peSqYAfxdR4XQIDAQAB payhash:2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk= pubhash:/4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U= amount:0 originalcmd:Autotest] []}
+SAVEDBALANCES
+,wVWP7=83,uQREk=7,jlvgV=309,vK1HK=206,2MwzA=44,XLuz8=194,tGjSE=303,/4fvU=320
+Sending GetBalance for users/dave.conf
+SAVEDBALANCES
+,wVWP7=83,uQREk=7,jlvgV=309,vK1HK=206,2MwzA=44,XLuz8=194,tGjSE=303,/4fvU=364
+BuildPay: setting payment to 240 out of 364
+My (users/dave.conf) Balance = 364
+[    BUILDPAYDIAGNOSTIC: Id/Seq: 1494626722065/0 Denom: 1: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626807627/1 Denom: 25: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626892419/1 Denom: 32: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494626977322/1 Denom: 6: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494627060680/0 Denom: 12: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494627062312/1 Denom: 66: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494627147681/1 Denom: 31: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494627148833/0 Denom: 191: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+BUILDPAYDIAGNOSTIC Total: 364
+BuildConsolipay: users/dave.conf consolidates and pays 240 to 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=.
+Consolipay:: 1494627233096: PayCoins
+[    OwnerIn : Id/Seq: 1494626722065/0 Denom: 1: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   OwnerIn : Id/Seq: 1494626807627/1 Denom: 25: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   OwnerIn : Id/Seq: 1494626892419/1 Denom: 32: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   OwnerIn : Id/Seq: 1494626977322/1 Denom: 6: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   OwnerIn : Id/Seq: 1494627060680/0 Denom: 12: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   OwnerIn : Id/Seq: 1494627062312/1 Denom: 66: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   OwnerIn : Id/Seq: 1494627147681/1 Denom: 31: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   OwnerIn : Id/Seq: 1494627148833/0 Denom: 191: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+OwnerIn  Total: 364
+[    OwnerOut : Id/Seq: 1494627233096/0 Denom: 240: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+   OwnerOut : Id/Seq: 1494627233096/1 Denom: 124: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+OwnerOut  Total: 364
+Tsig[:20]:  h/xDIG2f+so7h7cILt57
+PayCoins Transaction Completed.
+[    OwnerOut: Id/Seq: 1494627233096/0 Denom: 240: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+   OwnerOut: Id/Seq: 1494627233096/1 Denom: 124: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+OwnerOut Total: 364
+[6] PayCoins users/ellie.conf 0 users/dave.pub
+Stacked:  {PayCoins map[pubkey:users/ellie.pub privkey:users/ellie.priv cmd:PayCoins who:users/ellie.conf strexp:OK. payee:users/dave.pub pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDIZxEO9zixB9BeVjAvmOrd12ImXC03JxNfhGLOHOMtYLhqFLIlKi3Uo2xo0aoqngi0b9KQiVOEWlEESEZmanlKd90ZzA9NhYFrystpi/o7CMd1hX8qrBFEzkVC2dvBxVczhvEHbJkTBR4hGplh+3xxY0cZoCifaWSWYhO9bMWnLQIDAQAB payhash:/4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U= pubhash:tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs= amount:0 originalcmd:Autotest] []}
+SAVEDBALANCES
+,wVWP7=83,uQREk=7,jlvgV=309,vK1HK=206,2MwzA=44,XLuz8=194,tGjSE=303,/4fvU=364
+Sending GetBalance for users/ellie.conf
+SAVEDBALANCES
+,wVWP7=83,uQREk=7,jlvgV=309,vK1HK=206,2MwzA=44,XLuz8=194,tGjSE=348,/4fvU=364
+BuildPay: setting payment to 90 out of 348
+My (users/ellie.conf) Balance = 348
+[    BUILDPAYDIAGNOSTIC: Id/Seq: 1494627060018/0 Denom: 6: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494627063054/1 Denom: 218: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494627146078/0 Denom: 75: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494627148229/1 Denom: 49: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+BUILDPAYDIAGNOSTIC Total: 348
+BuildPay: users/ellie.conf pays 90 to users/dave.pub
+IN build Pay: 1494627233804: PayCoins
+[    OwnerIn : Id/Seq: 1494627063054/1 Denom: 218: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+OwnerIn  Total: 218
+[    OwnerOut : Id/Seq: 1494627233804/0 Denom: 90: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   OwnerOut : Id/Seq: 1494627233804/1 Denom: 128: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+OwnerOut  Total: 218
+Tsig[:20]:  ixATmVjWhca5MWEeTNxE
+PayCoins Transaction Completed.
+[    OwnerOut: Id/Seq: 1494627233804/0 Denom: 90: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+   OwnerOut: Id/Seq: 1494627233804/1 Denom: 128: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+OwnerOut Total: 218
+[7] PayCoins users/fiona.conf 0 users/ellie.pub
+Stacked:  {PayCoins map[pubkey:users/fiona.pub privkey:users/fiona.priv cmd:PayCoins who:users/fiona.conf strexp:OK. payee:users/ellie.pub pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChw+/3t6K8N30eKEbYaE0ptaDqOEONobsQZ+blpwl7ADPgqS+qxi6pXt1meR8WybK/I71OZM6fhqgjr5dLK1+GF8fkeaeBbU/YGYVP2ChJ1dp/Ju7ku3KfgEYyL48d2AuwDSAyxkYyffwbGIiJg3Li+SPBvRLUigazPvPxCtlCMwIDAQAB payhash:tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs= pubhash:vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs= amount:0 originalcmd:Autotest] []}
+SAVEDBALANCES
+,wVWP7=83,uQREk=7,jlvgV=309,vK1HK=206,2MwzA=44,XLuz8=194,tGjSE=348,/4fvU=364
+Sending GetBalance for users/fiona.conf
+SAVEDBALANCES
+,wVWP7=83,uQREk=7,jlvgV=309,vK1HK=47,2MwzA=44,XLuz8=194,tGjSE=348,/4fvU=364
+BuildPay: setting payment to 25 out of 47
+My (users/fiona.conf) Balance = 47
+[    BUILDPAYDIAGNOSTIC: Id/Seq: 1494627148833/1 Denom: 15: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494627179085/0 Denom: 30: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494627182303/1 Denom: 2: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+BUILDPAYDIAGNOSTIC Total: 47
+BuildPay: users/fiona.conf pays 25 to users/ellie.pub
+IN build Pay: 1494627234444: PayCoins
+[    OwnerIn : Id/Seq: 1494627179085/0 Denom: 30: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerIn  Total: 30
+[    OwnerOut : Id/Seq: 1494627234444/0 Denom: 25: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+   OwnerOut : Id/Seq: 1494627234444/1 Denom: 5: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerOut  Total: 30
+Tsig[:20]:  PITr0kWnbEhj36RAxD9M
+PayCoins Transaction Completed.
+[    OwnerOut: Id/Seq: 1494627234444/0 Denom: 25: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+   OwnerOut: Id/Seq: 1494627234444/1 Denom: 5: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+OwnerOut Total: 30
+[8] PayCoins users/bob.conf 0 users/alice.pub
+Stacked:  {PayCoins map[pubkey:users/bob.pub privkey:users/bob.priv cmd:PayCoins who:users/bob.conf strexp:OK. payee:users/alice.pub pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDMym0hgwRlSG8MbefoMEp31YNYMlwOg5omqfBXpmspAXCF4F8c6H2jLSsyx7NYxmMBsdvMjzGLRJvOL2Hp0x/JQpCuFA++4EpNlgKRv2FZOyGDbdZH7xeqe9Lh9ysWpmTHMEOJaGbcjxewbF1eTlnWHabgwI1rfOFn3wHt3tJYXwIDAQAB payhash:wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E= pubhash:XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk= amount:0 originalcmd:Autotest] []}
+SAVEDBALANCES
+,wVWP7=83,uQREk=7,jlvgV=309,vK1HK=47,2MwzA=44,XLuz8=194,tGjSE=348,/4fvU=364
+Sending GetBalance for users/bob.conf
+SAVEDBALANCES
+,wVWP7=83,uQREk=7,jlvgV=309,vK1HK=47,2MwzA=44,XLuz8=268,tGjSE=348,/4fvU=364
+BuildPay: setting payment to 187 out of 268
+My (users/bob.conf) Balance = 268
+[    BUILDPAYDIAGNOSTIC: Id/Seq: 1494626978361/0 Denom: 41: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494627063054/0 Denom: 65: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494627147681/0 Denom: 147: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+   BUILDPAYDIAGNOSTIC: Id/Seq: 1494627149354/1 Denom: 15: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+BUILDPAYDIAGNOSTIC Total: 268
+BuildConsolipay: users/bob.conf consolidates and pays 187 to wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=.
+Consolipay:: 1494627235090: PayCoins
+[    OwnerIn : Id/Seq: 1494626978361/0 Denom: 41: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+   OwnerIn : Id/Seq: 1494627063054/0 Denom: 65: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+   OwnerIn : Id/Seq: 1494627147681/0 Denom: 147: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+   OwnerIn : Id/Seq: 1494627149354/1 Denom: 15: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+OwnerIn  Total: 268
+[    OwnerOut : Id/Seq: 1494627235090/0 Denom: 187: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+   OwnerOut : Id/Seq: 1494627235090/1 Denom: 81: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+OwnerOut  Total: 268
+Tsig[:20]:  BLncImwLcCCHvVa6KjKu
+PayCoins Transaction Completed.
+[    OwnerOut: Id/Seq: 1494627235090/0 Denom: 187: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+   OwnerOut: Id/Seq: 1494627235090/1 Denom: 81: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+OwnerOut Total: 268
+[6] Wait 70s till Clearing is completed ...   ... Start next round.
+8 [0-7] -- Pairs : ----- &{[{helen [alice bob chaz dave ellie fiona gary]} {gary [helen alice bob chaz dave ellie fiona]} {chaz [dave ellie fiona gary helen alice bob]} {alice [bob chaz dave ellie fiona gary helen]} {dave [ellie fiona gary helen alice bob chaz]} {ellie [fiona gary helen alice bob chaz dave]} {fiona [gary helen alice bob chaz dave ellie]} {bob [chaz dave ellie fiona gary helen alice]}]} ----
+Error:  Pairs.GetPair : number of columns too big

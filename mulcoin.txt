@@ -1,0 +1,376 @@
+Flags in main:
+	 who = conf/fiftyround.cli
+	 scriptfile = conf/fiftyround.cli
+	 cmd = Multitest
+	 strexp = OK.
+
+[ Multitest Commands
+	 PayCoins users/alice.conf 51 users/bob.pub
+	 PayCoins users/bob.conf 52 users/chaz.pub
+	 PayCoins users/chaz.conf 53 users/dave.pub
+	 PayCoins users/dave.conf 54 users/ellie.pub
+	 PayCoins users/ellie.conf 55 users/fiona.pub
+	 PayCoins users/fiona.conf 56 users/gary.pub
+	 PayCoins users/gary.conf 57 users/helen.pub
+	 PayCoins users/helen.conf 58 users/alice.pub
+]
+[0] PayCoins users/alice.conf 51 users/bob.pub
+Stacked:  {PayCoins map[pubkey:users/alice.pub privkey:users/alice.priv pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCyzMq7gawMJB0+bfW7uEMTPXY2AwjfOwoECafWCGiFHa64XMMI7Kq9ignR/TpZ3HZKcTWbHWUA6cgWT5acWkHo7ZPIK3VYfBDkeFLnoq7H+B2LreOKWENDSKtto/KGK5cPf4FhBzY0GIp4Dus+yJJMvAikpQ7mCoV/k8BHjRCddwIDAQAB amount:51 payee:users/bob.pub originalcmd:Multitest who:users/alice.conf pubhash:wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E= payhash:XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk= cmd:PayCoins strexp:OK.] []}
+SAVEDBALANCES
+SAVEDBALANCES: map empty.
+Sending GetBalance for users/alice.conf
+FromMasterpay
+    Tid: 0
+    Ttyp: Balance
+
+[ OwnerIn 
+Id/Seq: 0000000000000/0 Denom: 0 OwnerIn : QSoT0u9VlnrL4wq2pppy+jB4lEbYJ7xeWnE1VKzgVic=
+ ]
+
+[ OwnerOut 
+Id/Seq: 1490385169728/0 Denom: 100 OwnerOut : wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+Id/Seq: 1490385169728/0 Denom: 100 OwnerOut : wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+ ]
+    Tsig:  PBTLGaxw2hWOn7v25JlhRCVnlJ5WdExFftLZHX2AHlNSaJjekZS6KjflAj8BP5bknD2d+g100E9JOld4WTuKLIwLf2G0+jSTeHExi5FpGeHlPHV+yOKfzyq8twThMwgxfKplQViZQM1wbasxWNx6089b769jSA9E6VD5uIDSxRo=
+SAVEDBALANCES
+,wVWP7=200
+My (users/alice.conf) Balance = 200
+[ BUILDPAYDIAGNOSTIC
+Id/Seq: 1490385169728/0 Denom: 100 BUILDPAYDIAGNOSTIC: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+Id/Seq: 1490385169728/0 Denom: 100 BUILDPAYDIAGNOSTIC: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+ ]
+BuildPay: users/alice.conf pays 51 to users/bob.pub
+FromMasterpay
+    Tid: 0
+    Ttyp: Error
+
+[ OwnerIn 
+Id/Seq: 0000000000000/0 Denom: 0 OwnerIn : QSoT0u9VlnrL4wq2pppy+jB4lEbYJ7xeWnE1VKzgVic=
+ ]
+
+[ OwnerOut 
+Id/Seq: 1490385581003/0 Denom: 51 OwnerOut : XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+Id/Seq: 1490385581003/1 Denom: 49 OwnerOut : wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+ ]
+    Tsig:  i8hkgpaSG7Vsl7E5fBcWzwx1Btu23t/T0cAsqbS/2QZM34IDJRrc0F25YO1vtHdJorFwPrltBzlwUXMMo+7eigX9yiZ2+qeeQ3YsfC6yQBAaS0syrGK7vuAAoclxu8jNDMJBU4HTiV7A9/9UJwVBY7m0wvo8EEjKGQWuTTlkgp0=
+Error: Transaction Failed.
+PayCoins Transaction Completed.
+[ OwnerOut
+Id/Seq: 1490385581003/0 Denom: 51 OwnerOut: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+Id/Seq: 1490385581003/1 Denom: 49 OwnerOut: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+ ]
+[1] PayCoins users/bob.conf 52 users/chaz.pub
+Stacked:  {PayCoins map[payee:users/chaz.pub privkey:users/bob.priv who:users/bob.conf amount:52 payhash:2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk= cmd:PayCoins strexp:OK. originalcmd:Multitest pubkey:users/bob.pub pubhash:XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk= pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDMym0hgwRlSG8MbefoMEp31YNYMlwOg5omqfBXpmspAXCF4F8c6H2jLSsyx7NYxmMBsdvMjzGLRJvOL2Hp0x/JQpCuFA++4EpNlgKRv2FZOyGDbdZH7xeqe9Lh9ysWpmTHMEOJaGbcjxewbF1eTlnWHabgwI1rfOFn3wHt3tJYXwIDAQAB] []}
+SAVEDBALANCES
+,wVWP7=200
+Sending GetBalance for users/bob.conf
+FromMasterpay
+    Tid: 0
+    Ttyp: Balance
+
+[ OwnerIn 
+Id/Seq: 0000000000000/0 Denom: 0 OwnerIn : QSoT0u9VlnrL4wq2pppy+jB4lEbYJ7xeWnE1VKzgVic=
+ ]
+
+[ OwnerOut 
+Id/Seq: 1490385169728/1 Denom: 100 OwnerOut : XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+Id/Seq: 1490385169728/1 Denom: 100 OwnerOut : XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+ ]
+    Tsig:  johs87/aoX4d2Rf1RBQ8BCpfMoG1WBrqsrjTaBfT3DEC/NrnqOZCeEhF5nw4yrrq2VFpY6VirpThRkqpnAh+/A0qSYGagtI5L8w+VPCUWHQxeou4X5HT6YHSD1xAX5cemhtugze5KLfu3zdaTRfyc/82mYm2E6PD3FDJL5hTnMo=
+SAVEDBALANCES
+,XLuz8=200,wVWP7=200
+My (users/bob.conf) Balance = 200
+[ BUILDPAYDIAGNOSTIC
+Id/Seq: 1490385169728/1 Denom: 100 BUILDPAYDIAGNOSTIC: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+Id/Seq: 1490385169728/1 Denom: 100 BUILDPAYDIAGNOSTIC: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+ ]
+BuildPay: users/bob.conf pays 52 to users/chaz.pub
+FromMasterpay
+    Tid: 0
+    Ttyp: Error
+
+[ OwnerIn 
+Id/Seq: 0000000000000/0 Denom: 0 OwnerIn : QSoT0u9VlnrL4wq2pppy+jB4lEbYJ7xeWnE1VKzgVic=
+ ]
+
+[ OwnerOut 
+Id/Seq: 1490385581032/0 Denom: 52 OwnerOut : 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+Id/Seq: 1490385581032/1 Denom: 48 OwnerOut : XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+ ]
+    Tsig:  k8+E22bfQiJC3sgKkfEpM5pBcLEMPuqqf1WpAaHQnR5eYkKQvZEANIPHR9h2ffD0vZmPiFzk3ZhwuZKW2gmBybYfX3bC2cv4k6I39zjIqeuxFOgWS7cweY1fPiPzgi2C3q5ekkzzdLVHisnDWzrLrvk2N2Tb40/xsOParqZtFo4=
+Error: Transaction Failed.
+PayCoins Transaction Completed.
+[ OwnerOut
+Id/Seq: 1490385581032/0 Denom: 52 OwnerOut: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+Id/Seq: 1490385581032/1 Denom: 48 OwnerOut: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+ ]
+[2] PayCoins users/chaz.conf 53 users/dave.pub
+Stacked:  {PayCoins map[pubhash:2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk= payee:users/dave.pub payhash:/4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U= cmd:PayCoins originalcmd:Multitest pubkey:users/chaz.pub privkey:users/chaz.priv who:users/chaz.conf pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDknJU8f+BCmb9RvZK/ChvFqw4RDtLtUFdyu7FfF/33clJ8liWUNSwQp/D+xfGVYh+7/Q+pmscCcTPWrGS4s6ChVusiYt0BTyCNi48ypEqqissHjgCRNkXHcFhfSsD9kvj7HEa4iZSzNRVmjxhs8Rd/PLWkCkAPW0KW1p9rjOFgDwIDAQAB amount:53 strexp:OK.] []}
+SAVEDBALANCES
+,wVWP7=200,XLuz8=200
+Sending GetBalance for users/chaz.conf
+FromMasterpay
+    Tid: 0
+    Ttyp: Balance
+
+[ OwnerIn 
+Id/Seq: 0000000000000/0 Denom: 0 OwnerIn : QSoT0u9VlnrL4wq2pppy+jB4lEbYJ7xeWnE1VKzgVic=
+ ]
+
+[ OwnerOut 
+Id/Seq: 1490385169728/2 Denom: 100 OwnerOut : 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+Id/Seq: 1490385169728/2 Denom: 100 OwnerOut : 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+ ]
+    Tsig:  D1H0wqFiskbamvD/hCJFLtheF+2AuLII2F+7mCv9x/s2odfBcSfmuPukWMVTjzUDrgdilcPV8ykkWc1fPVUSy+ngqMZMIuLmeu+x/FaRTX9qZmiqvAtzMfpqbwBeIny+761e2aT7F7zLEJj/mC7miWqFvB1gDnOKOtGaM12mcWY=
+SAVEDBALANCES
+,XLuz8=200,2MwzA=200,wVWP7=200
+My (users/chaz.conf) Balance = 200
+[ BUILDPAYDIAGNOSTIC
+Id/Seq: 1490385169728/2 Denom: 100 BUILDPAYDIAGNOSTIC: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+Id/Seq: 1490385169728/2 Denom: 100 BUILDPAYDIAGNOSTIC: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+ ]
+BuildPay: users/chaz.conf pays 53 to users/dave.pub
+FromMasterpay
+    Tid: 0
+    Ttyp: Error
+
+[ OwnerIn 
+Id/Seq: 0000000000000/0 Denom: 0 OwnerIn : QSoT0u9VlnrL4wq2pppy+jB4lEbYJ7xeWnE1VKzgVic=
+ ]
+
+[ OwnerOut 
+Id/Seq: 1490385581063/0 Denom: 53 OwnerOut : /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+Id/Seq: 1490385581063/1 Denom: 47 OwnerOut : 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+ ]
+    Tsig:  GJjH6fv6+XgH8W42Vk/Tq6s+pkvo1HPNpfLP+hAmFz4dGoxNMe8wonOJHTw0xN8SPU8fLnzUWuX4XNIwTADV8dAPCOTRZyR+GNrXL41kfDcfaIzDsQlnakA04dy6Tqey26eCgnkye+2vXgZ1YUNkM/rhzeJuR4qwmNUUlil3nv8=
+Error: Transaction Failed.
+PayCoins Transaction Completed.
+[ OwnerOut
+Id/Seq: 1490385581063/0 Denom: 53 OwnerOut: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+Id/Seq: 1490385581063/1 Denom: 47 OwnerOut: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+ ]
+[3] PayCoins users/dave.conf 54 users/ellie.pub
+Stacked:  {PayCoins map[who:users/dave.conf amount:54 strexp:OK. originalcmd:Multitest pubkey:users/dave.pub pubhash:/4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U= pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDcce9CTqGUu3E4doeY9YP9TiQ3yICbqrivzKwTk4hJjYqyIQYzdrYglwukJIk3duy3EXx87q3NxIMqHtQjWxMtxbKH9AE5XwNFuEpMEH7au7/h8lb86jIHrraEX/XWwV3XeY2BOdWS82HJ+zSH4tXRQCo0r2uq8peSqYAfxdR4XQIDAQAB payee:users/ellie.pub payhash:tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs= cmd:PayCoins privkey:users/dave.priv] []}
+SAVEDBALANCES
+,wVWP7=200,XLuz8=200,2MwzA=200
+Sending GetBalance for users/dave.conf
+FromMasterpay
+    Tid: 0
+    Ttyp: Balance
+
+[ OwnerIn 
+Id/Seq: 0000000000000/0 Denom: 0 OwnerIn : QSoT0u9VlnrL4wq2pppy+jB4lEbYJ7xeWnE1VKzgVic=
+ ]
+
+[ OwnerOut 
+Id/Seq: 1490385169728/3 Denom: 100 OwnerOut : /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+Id/Seq: 1490385169728/3 Denom: 100 OwnerOut : /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+ ]
+    Tsig:  RRh+GV8PRyhgAurpmI6+mPERuZqprfHdW8SnV5wG04Lqrbd/fDMBqXMsVzjr/PISfTBxmMG+IFwQQTzbS5YC/6baYUuW3kwKwrd0ZbzJwu/wx294Ak/XhLHLdTyHQrqp6zEh165EKfc48sK2j/aN/paDsGNHA8VFAR/Qd3i2Ds0=
+SAVEDBALANCES
+,2MwzA=200,/4fvU=200,wVWP7=200,XLuz8=200
+My (users/dave.conf) Balance = 200
+[ BUILDPAYDIAGNOSTIC
+Id/Seq: 1490385169728/3 Denom: 100 BUILDPAYDIAGNOSTIC: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+Id/Seq: 1490385169728/3 Denom: 100 BUILDPAYDIAGNOSTIC: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+ ]
+BuildPay: users/dave.conf pays 54 to users/ellie.pub
+FromMasterpay
+    Tid: 0
+    Ttyp: Error
+
+[ OwnerIn 
+Id/Seq: 0000000000000/0 Denom: 0 OwnerIn : QSoT0u9VlnrL4wq2pppy+jB4lEbYJ7xeWnE1VKzgVic=
+ ]
+
+[ OwnerOut 
+Id/Seq: 1490385581104/0 Denom: 54 OwnerOut : tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+Id/Seq: 1490385581104/1 Denom: 46 OwnerOut : /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+ ]
+    Tsig:  dcAiYIlIoyEnq2YS90PgTNkRwGcdKjWMAv2cE7p7xXFos8hnneSZVeZVmVNCS7O2nbiaZuS9cvQbcOOtF2druvYVxuquKvN44BSYkc0ZNInzeiVtldiRLl9RpazYMygxOubTY/3NDO+9Sey5cCHzh/XHlxn77K3fxzBdHakKseI=
+Error: Transaction Failed.
+PayCoins Transaction Completed.
+[ OwnerOut
+Id/Seq: 1490385581104/0 Denom: 54 OwnerOut: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+Id/Seq: 1490385581104/1 Denom: 46 OwnerOut: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+ ]
+[4] PayCoins users/ellie.conf 55 users/fiona.pub
+Stacked:  {PayCoins map[pubkey:users/ellie.pub who:users/ellie.conf amount:55 payee:users/fiona.pub payhash:vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs= privkey:users/ellie.priv pubhash:tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs= pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDIZxEO9zixB9BeVjAvmOrd12ImXC03JxNfhGLOHOMtYLhqFLIlKi3Uo2xo0aoqngi0b9KQiVOEWlEESEZmanlKd90ZzA9NhYFrystpi/o7CMd1hX8qrBFEzkVC2dvBxVczhvEHbJkTBR4hGplh+3xxY0cZoCifaWSWYhO9bMWnLQIDAQAB cmd:PayCoins strexp:OK. originalcmd:Multitest] []}
+SAVEDBALANCES
+,wVWP7=200,XLuz8=200,2MwzA=200,/4fvU=200
+Sending GetBalance for users/ellie.conf
+FromMasterpay
+    Tid: 0
+    Ttyp: Balance
+
+[ OwnerIn 
+Id/Seq: 0000000000000/0 Denom: 0 OwnerIn : QSoT0u9VlnrL4wq2pppy+jB4lEbYJ7xeWnE1VKzgVic=
+ ]
+
+[ OwnerOut 
+Id/Seq: 1490385169728/4 Denom: 100 OwnerOut : tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+Id/Seq: 1490385169728/4 Denom: 100 OwnerOut : tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+ ]
+    Tsig:  OpsGUn0DFyazrTizz3nvrgB5PVy8uurNJeYb9/eFgypH+vxwESu53k2rOeu90K/nBaApSBNBDNFLyVjE0/qid+3w3jGTigqy+oA6Xz03hLnuwzcIcsEznbs64+OrpcMetttS3IByFeddORIdB720bDVE4DCU0WYa2XW/dJIx3a0=
+SAVEDBALANCES
+,wVWP7=200,XLuz8=200,2MwzA=200,/4fvU=200,tGjSE=200
+My (users/ellie.conf) Balance = 200
+[ BUILDPAYDIAGNOSTIC
+Id/Seq: 1490385169728/4 Denom: 100 BUILDPAYDIAGNOSTIC: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+Id/Seq: 1490385169728/4 Denom: 100 BUILDPAYDIAGNOSTIC: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+ ]
+BuildPay: users/ellie.conf pays 55 to users/fiona.pub
+FromMasterpay
+    Tid: 0
+    Ttyp: Error
+
+[ OwnerIn 
+Id/Seq: 0000000000000/0 Denom: 0 OwnerIn : QSoT0u9VlnrL4wq2pppy+jB4lEbYJ7xeWnE1VKzgVic=
+ ]
+
+[ OwnerOut 
+Id/Seq: 1490385581137/0 Denom: 55 OwnerOut : vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+Id/Seq: 1490385581137/1 Denom: 45 OwnerOut : tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+ ]
+    Tsig:  bFqNsscTrU8H3vH9s3hwKT10UZdnblC6Ye9Os8rtbnMQ+dbB2VKumhj4/T9qhRIXvVErK3HU9PoA0UeCJ4lg8npCgsBwyyZRE+MMylfKOgXvAqLqviHAJ6EYx6EvudxtX9n2SCNj2mvHrri0LY14YWxKq1toF1viN4TIL35og1A=
+Error: Transaction Failed.
+PayCoins Transaction Completed.
+[ OwnerOut
+Id/Seq: 1490385581137/0 Denom: 55 OwnerOut: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+Id/Seq: 1490385581137/1 Denom: 45 OwnerOut: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+ ]
+[5] PayCoins users/fiona.conf 56 users/gary.pub
+Stacked:  {PayCoins map[payhash:uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0= cmd:PayCoins strexp:OK. originalcmd:Multitest pubkey:users/fiona.pub pubhash:vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs= pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChw+/3t6K8N30eKEbYaE0ptaDqOEONobsQZ+blpwl7ADPgqS+qxi6pXt1meR8WybK/I71OZM6fhqgjr5dLK1+GF8fkeaeBbU/YGYVP2ChJ1dp/Ju7ku3KfgEYyL48d2AuwDSAyxkYyffwbGIiJg3Li+SPBvRLUigazPvPxCtlCMwIDAQAB amount:56 payee:users/gary.pub privkey:users/fiona.priv who:users/fiona.conf] []}
+SAVEDBALANCES
+,XLuz8=200,2MwzA=200,/4fvU=200,tGjSE=200,wVWP7=200
+Sending GetBalance for users/fiona.conf
+FromMasterpay
+    Tid: 0
+    Ttyp: Balance
+
+[ OwnerIn 
+Id/Seq: 0000000000000/0 Denom: 0 OwnerIn : QSoT0u9VlnrL4wq2pppy+jB4lEbYJ7xeWnE1VKzgVic=
+ ]
+
+[ OwnerOut 
+Id/Seq: 1490385169728/5 Denom: 100 OwnerOut : vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+Id/Seq: 1490385169728/5 Denom: 100 OwnerOut : vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+ ]
+    Tsig:  G5wVMt6NkIJatvZ1X/cBc0SMERlztMZa2zDULI+Sbt80vBqS86k8DPIisPtLgtVdr4y2tRFG2FZBVZq1lh0MrxxwZOfh5XSoVPQ5eCArHDErz93imnFvbTrOWsBmF480JBfkZntezBx5yMlhwxchCPR0pHEDH83TsRnWwqrm/fU=
+SAVEDBALANCES
+,wVWP7=200,XLuz8=200,2MwzA=200,/4fvU=200,tGjSE=200,vK1HK=200
+My (users/fiona.conf) Balance = 200
+[ BUILDPAYDIAGNOSTIC
+Id/Seq: 1490385169728/5 Denom: 100 BUILDPAYDIAGNOSTIC: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+Id/Seq: 1490385169728/5 Denom: 100 BUILDPAYDIAGNOSTIC: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+ ]
+BuildPay: users/fiona.conf pays 56 to users/gary.pub
+FromMasterpay
+    Tid: 0
+    Ttyp: Error
+
+[ OwnerIn 
+Id/Seq: 0000000000000/0 Denom: 0 OwnerIn : QSoT0u9VlnrL4wq2pppy+jB4lEbYJ7xeWnE1VKzgVic=
+ ]
+
+[ OwnerOut 
+Id/Seq: 1490385581172/0 Denom: 56 OwnerOut : uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+Id/Seq: 1490385581172/1 Denom: 44 OwnerOut : vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+ ]
+    Tsig:  LTYuGVcdIzemI9r81hIDEC9g2w8hnwo4payREWq+jR7XVXhyzGQBWbxta6r1WrELIsjd3YJXdYOBQdxfNKa529f2GsoBztPgSeLJcFtil2be6bCM3QVyS3ybrfTvfr0ETmC9TD6sxy13Qtb4XkOMyYbg0I0lG240CyTjOvcizKk=
+Error: Transaction Failed.
+PayCoins Transaction Completed.
+[ OwnerOut
+Id/Seq: 1490385581172/0 Denom: 56 OwnerOut: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+Id/Seq: 1490385581172/1 Denom: 44 OwnerOut: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+ ]
+[6] PayCoins users/gary.conf 57 users/helen.pub
+Stacked:  {PayCoins map[pubkey:users/gary.pub privkey:users/gary.priv who:users/gary.conf pubhash:uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0= payhash:jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo= cmd:PayCoins pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCh3ulGlfT6DhY7xB7pRaSeDZErGwRXui31TE7cm6zLG8EzQmgDcu6RuA9/XuL412f7+ST0nA1W5GrFWkM8qpDeBneu/wiOqbdNTd6SUi1uNL+jwjCBLHMVpjD6fkWzACyjjo/5irxIYz3q9kP8K8upjwh/WUkM5KPE0GyR+HT9dQIDAQAB amount:57 payee:users/helen.pub strexp:OK. originalcmd:Multitest] []}
+SAVEDBALANCES
+,wVWP7=200,XLuz8=200,2MwzA=200,/4fvU=200,tGjSE=200,vK1HK=200
+Sending GetBalance for users/gary.conf
+FromMasterpay
+    Tid: 0
+    Ttyp: Balance
+
+[ OwnerIn 
+Id/Seq: 0000000000000/0 Denom: 0 OwnerIn : QSoT0u9VlnrL4wq2pppy+jB4lEbYJ7xeWnE1VKzgVic=
+ ]
+
+[ OwnerOut 
+Id/Seq: 1490385169728/6 Denom: 100 OwnerOut : uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+Id/Seq: 1490385169728/6 Denom: 100 OwnerOut : uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+ ]
+    Tsig:  It7XmrPxy38WkaXQ2fY3QxYMxgyNqxwxXttRw/WSjm/N8M7Re4AY75+rbU16PVf6VRPCH0pT57Du1VEx5JNetgH26/6zeQfRrm0frkv+YJIskqX/YejXIBeeI/EsnWnPyJq2zlHsj+/D6wTciAmIAETy3IS+OSQQfXB0Mu7ANG0=
+SAVEDBALANCES
+,uQREk=200,wVWP7=200,XLuz8=200,2MwzA=200,/4fvU=200,tGjSE=200,vK1HK=200
+My (users/gary.conf) Balance = 200
+[ BUILDPAYDIAGNOSTIC
+Id/Seq: 1490385169728/6 Denom: 100 BUILDPAYDIAGNOSTIC: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+Id/Seq: 1490385169728/6 Denom: 100 BUILDPAYDIAGNOSTIC: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+ ]
+BuildPay: users/gary.conf pays 57 to users/helen.pub
+FromMasterpay
+    Tid: 0
+    Ttyp: Error
+
+[ OwnerIn 
+Id/Seq: 0000000000000/0 Denom: 0 OwnerIn : QSoT0u9VlnrL4wq2pppy+jB4lEbYJ7xeWnE1VKzgVic=
+ ]
+
+[ OwnerOut 
+Id/Seq: 1490385581207/0 Denom: 57 OwnerOut : jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+Id/Seq: 1490385581207/1 Denom: 43 OwnerOut : uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+ ]
+    Tsig:  EPkFU19NrOultjAaAdEGsSqUmaoRawss1Ze1XQYg7F+kAojWZHIugGWd5gcSgZt4P0l/KvY5cWWNhRkRG+KbfvkL2eT4f8+0Guio/ShHHpdgRuaCJUP6LxaqHHLV1iWqU9p9Us0LoZH7wnxpu3aKdUyQBpUO9V0UUW2iGXooP9U=
+Error: Transaction Failed.
+PayCoins Transaction Completed.
+[ OwnerOut
+Id/Seq: 1490385581207/0 Denom: 57 OwnerOut: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+Id/Seq: 1490385581207/1 Denom: 43 OwnerOut: uQREkQXPaHBk+WkAnzo7apAtiI/WSnS18Z7+3CcGxh0=
+ ]
+[7] PayCoins users/helen.conf 58 users/alice.pub
+Stacked:  {PayCoins map[strexp:OK. originalcmd:Multitest pubkey:users/helen.pub privkey:users/helen.priv who:users/helen.conf amount:58 payhash:wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E= pubhash:jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo= pubder:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCllyPLTZap6VSUG+CRLRvJGY/D06JtbiLGvnS5Z4V7iDHNFw7x2mZbW2igLWqJzIZmAZz8U6U62IZxAcZCEviqKbkpol+U5aUllGIBVrh6GJXJcItXp4CzejOeAUFSr1FWy1hJlXLlIeLsi41VkYFbL/bxCfViZEjq2rqxEE4jowIDAQAB payee:users/alice.pub cmd:PayCoins] []}
+SAVEDBALANCES
+,/4fvU=200,tGjSE=200,vK1HK=200,uQREk=200,wVWP7=200,XLuz8=200,2MwzA=200
+Sending GetBalance for users/helen.conf
+FromMasterpay
+    Tid: 0
+    Ttyp: Balance
+
+[ OwnerIn 
+Id/Seq: 0000000000000/0 Denom: 0 OwnerIn : QSoT0u9VlnrL4wq2pppy+jB4lEbYJ7xeWnE1VKzgVic=
+ ]
+
+[ OwnerOut 
+Id/Seq: 1490385169728/7 Denom: 100 OwnerOut : jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+Id/Seq: 1490385169728/7 Denom: 100 OwnerOut : jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+ ]
+    Tsig:  A2ie6J1/R8VojrBieqyFWLcuG9eqU1RYFH4cWC9Jk32ns0Vozex7apZPMuB8AiQ8IzO9mgRgcQ+WEf2dnLBOzHWwehnibRw/Vye636zxkgS5eDtrsdamnxHk13k+hjqy/t71bs187a4+RGd6K7NOAp5DlHklS39IOZ5z492R7CU=
+SAVEDBALANCES
+,vK1HK=200,uQREk=200,jlvgV=200,wVWP7=200,XLuz8=200,2MwzA=200,/4fvU=200,tGjSE=200
+My (users/helen.conf) Balance = 200
+[ BUILDPAYDIAGNOSTIC
+Id/Seq: 1490385169728/7 Denom: 100 BUILDPAYDIAGNOSTIC: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+Id/Seq: 1490385169728/7 Denom: 100 BUILDPAYDIAGNOSTIC: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+ ]
+BuildPay: users/helen.conf pays 58 to users/alice.pub
+FromMasterpay
+    Tid: 0
+    Ttyp: Error
+
+[ OwnerIn 
+Id/Seq: 0000000000000/0 Denom: 0 OwnerIn : QSoT0u9VlnrL4wq2pppy+jB4lEbYJ7xeWnE1VKzgVic=
+ ]
+
+[ OwnerOut 
+Id/Seq: 1490385581239/0 Denom: 58 OwnerOut : wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+Id/Seq: 1490385581239/1 Denom: 42 OwnerOut : jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+ ]
+    Tsig:  NfBZ3ooA3VCyVBieuQK4NAyM/ECJ18Sl46dCa9FzPBL+a/VXY3IwVXmuXZ+ZvWW8GIG+9YVFVRmhfrw5suY1q3uessU7sVjTNpLA1oCNd9s71lA6y3W2yrw5fE8/BeZMkJtW3UGgNAOujXr+9h2+WzXCwwlx3dOawP7M1KauFdE=
+Error: Transaction Failed.
+PayCoins Transaction Completed.
+[ OwnerOut
+Id/Seq: 1490385581239/0 Denom: 58 OwnerOut: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+Id/Seq: 1490385581239/1 Denom: 42 OwnerOut: jlvgVrSkB9yT13VAakEb2Z7JUoSihz5KFvG5sG8BVYo=
+ ]

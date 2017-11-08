@@ -1,0 +1,10 @@
+{
+    "alice": ["bob","chaz","dave","ellie","fiona","gary","helen"],
+    "bob": ["chaz","dave","ellie","fiona","gary","helen","alice"],
+    "chaz": ["dave","ellie","fiona","gary","helen","alice","bob"],
+    "dave": ["ellie","fiona","gary","helen","alice","bob","chaz"],
+    "ellie": ["fiona","gary","helen","alice","bob","chaz","dave"],
+    "fiona": ["gary","helen","alice","bob","chaz","dave","ellie"],
+    "gary": ["helen","alice","bob","chaz","dave","ellie","fiona"],
+    "helen": ["alice","bob","chaz","dave","ellie","fiona","gary"]
+}

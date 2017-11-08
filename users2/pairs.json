@@ -1,0 +1,10 @@
+{
+    "fiona": ["gary","ian","james","kyle","leila","mheni","nadia"],
+    "gary": ["ian","james","kyle","leila","mheni","nadia","fiona"],
+    "ian": ["james","kyle","leila","mheni","nadia","fiona","gary"],
+    "james": ["kyle","leila","mheni","nadia","fiona","gary","ian"],
+    "kyle": ["leila","mheni","nadia","fiona","gary","ian","james"],
+    "leila": ["mheni","nadia","fiona","gary","ian","james","kyle"],
+    "mheni": ["nadia","fiona","gary","ian","james","kyle","leila"],
+    "nadia": ["fiona","gary","ian","james","kyle","leila","mheni"]
+}
